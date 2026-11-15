@@ -1,0 +1,34 @@
+{
+  "schema": "atml-pa3-task2-block07-observed-v1",
+  "source_attachment_sha256": "58d740454a90435f269f1ee24b4ef44940cc338711fad4adb4fbc127eebea1c0",
+  "source_attachment_bytes": 8460,
+  "observed_result": {
+    "status": "passed",
+    "block": "07",
+    "dataset_frozen": true,
+    "human_audit_accepts": 246,
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "dataset_dir": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee",
+    "image_jobs": 9260,
+    "training_images": 8733,
+    "evaluation_images": 527,
+    "environment": {
+      "torch": "2.14.1+cpu",
+      "transformers": "5.22.1",
+      "numpy": "2.4.6",
+      "Pillow": "11.3.0",
+      "tokenizers": "0.23.3",
+      "huggingface-hub": "1.33.0"
+    },
+    "content_token_maxima": {
+      "question": 16,
+      "user_text": 22,
+      "answer": 6,
+      "caption": 56
+    },
+    "freeze_receipt_sha256": "fe7c9d4efa5d92d5b809eadb3695adcdd19f2421c6d43a2cb1593a7b86c3245b",
+    "gpu_used": false,
+    "training_started": false
+  },
+  "evidence_scope": "User-supplied complete Colab output. Freeze receipt and pointer readback will be reverified in Block 8."
+}

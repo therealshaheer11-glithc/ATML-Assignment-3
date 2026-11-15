@@ -1,0 +1,33 @@
+{
+  "source_attachment_sha256": "78c010da7641133c9facf2fe7f7cd696a2d6b2710cd22a484ac198adf0298c04",
+  "observed_failure": {
+    "block": "13",
+    "status": "failed",
+    "phase": "initializing the seeded FP32 connector and standard LoRA",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "initialization_package_sha256": "636cee5840e575871b4db51ae158c2eede4dc22f8f1b24637849d0911b9a7fb9",
+    "production_updates_committed": 0,
+    "temporary_validation_updates_completed": 0,
+    "traceback": "Traceback (most recent call last):\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/636cee5840e57587/initialization_worker.py\", line 154, in <module>\n    model=add_standard_lora(base)\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/636cee5840e57587/task2/modeling.py\", line 38, in add_standard_lora\n    model=get_peft_model(base,config,autocast_adapter_dtype=True)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/mapping_func.py\", line 198, in get_peft_model\n    return MODEL_TYPE_TO_PEFT_MODEL_MAPPING[peft_config.task_type](\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        model,\n        ^^^^^^\n    ...<3 lines>...\n        low_cpu_mem_usage=low_cpu_mem_usage,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 2082, in __init__\n    super().__init__(model, peft_config, adapter_name, **kwargs)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 177, in __init__\n    self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)\n                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 344, in __init__\n    self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 978, in inject_adapter\n    self._create_and_replace(\n    ~~~~~~~~~~~~~~~~~~~~~~~~^\n        peft_config, adapter_name, target, target_name, parent, current_key=key\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 389, in _create_and_replace\n    new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 552, in _create_new_module\n    new_module = dispatcher(target, adapter_name, config=lora_config, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/torchao.py\", line 160, in dispatch_torchao\n    if not is_torchao_available():\n           ~~~~~~~~~~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/import_utils.py\", line 162, in is_torchao_available\n    raise ImportError(\n    ...<2 lines>...\n    )\nImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported\n",
+    "elapsed_seconds": 164.419,
+    "gpu_release_requested_by_controller_on_exit": true
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-initialization-controller-v1",
+    "attempt": "20261108_064742_427e70d7",
+    "initialization_package_sha256": "636cee5840e575871b4db51ae158c2eede4dc22f8f1b24637849d0911b9a7fb9",
+    "worker_exit_code": 1,
+    "controller_traceback": "Traceback (most recent call last):\n  File \"block_13.py\", line 95, in <module>\n    raise RuntimeError(f'Initialization worker exited with code {worker_code}. Its traceback is printed above and captured in the console log.')\nRuntimeError: Initialization worker exited with code 1. Its traceback is printed above and captured in the console log.\n",
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_13_console_20261108_064742_427e70d7_beb373a272b4b0dd.log",
+      "sha256": "beb373a272b4b0dd6ec0f7468439eb22bd4311df3d580239a5aba3811cc49c09",
+      "bytes": 7832
+    },
+    "console_save_error": null,
+    "release_request_follows": true
+  },
+  "interpretation": "Second attempt used the original 52876-byte package, not the repaired 13R1 package. Repair has not yet been executed.",
+  "required_package_name": "Task_2_Block_13R1_GPU_Initialization.zip",
+  "required_package_sha256": "0833b78d59608d162fc66e2f321b8b3b4335d99f219be1f157e411ac003a86ed",
+  "required_package_bytes": 54167
+}

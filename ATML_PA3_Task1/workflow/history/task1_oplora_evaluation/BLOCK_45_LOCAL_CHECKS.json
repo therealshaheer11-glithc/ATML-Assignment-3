@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "package_sha256": "28c83df2d38637c1db57e7acf961c5c115badd51cd9d8a74bef6c65882f548c5",
+  "python_modules_parsed": 29,
+  "unchanged_existing_modules": 28,
+  "guard_sources_unchanged": true,
+  "training_core_byte_identical": true,
+  "native_cpu_math_checks": {
+    "token_weighted_gradient": true,
+    "l2_sp_unique_parameters_and_biases": true,
+    "double_projection_and_leakage": true,
+    "factor_dense_and_merge_equivalence": true,
+    "frozen_backbone_and_adapter_gradients": true,
+    "learning_rate_endpoints": true
+  },
+  "adapter_modules_restored": 196,
+  "FP32_adapter_parameters": 10092544,
+  "projection_applied_and_unprotected_components_preserved": true,
+  "corrupt_basis_rejected": true,
+  "OPLoRA_completion_and_wrong_method_rejection": true,
+  "local_torch_version": "2.13.0",
+  "safetensors_deserialization_mocked_for_local_fixture": true,
+  "checkpoint_to_basis_hash_chain_passed": true,
+  "modified_asset_manifest_rejected": true,
+  "GPU_run": false,
+  "real_checkpoint_evaluation_pending": true
+}

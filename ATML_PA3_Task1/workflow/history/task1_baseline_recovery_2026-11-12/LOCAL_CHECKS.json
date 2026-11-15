@@ -1,0 +1,21 @@
+{
+  "syntax_check_passed": true,
+  "raw_record_regressions": {
+    "valid_EOS_at_cap_record_accepted": true,
+    "inconsistent_truncation_rejected": true,
+    "corrupted_raw_checksum_rejected": true,
+    "wrong_model_identity_rejected": true,
+    "unknown_prompt_rejected": true,
+    "escaping_result_path_rejected": true
+  },
+  "actual_user_Drive_read_locally": false,
+  "GPU_work_run": false,
+  "end_to_end_CPU_fixtures": {
+    "partial_results_and_all_split_manifests_checked": true,
+    "missing_prior_stage_artifacts_flagged": true,
+    "missing_terminal_receipt_stays_unknown": true,
+    "saved_pause_receipt_reported": true,
+    "timing_extrapolation_excludes_cached_answers": true,
+    "corrupt_raw_record_requires_review": true
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "source_attachment_sha256": "624042615713d7f014e1cdaab1967bbd9e9f43e88f189aa6710d14af567e8ad6",
+  "observed_result": {
+    "block": "13D",
+    "status": "diagnosed",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "source_failed_attempt": "20261108_070434_052b69df",
+    "source_failed_package_sha256": "0833b78d59608d162fc66e2f321b8b3b4335d99f219be1f157e411ac003a86ed",
+    "candidate_checkpoint": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/e654465523ab9474/checkpoints/initial_candidate_714b48d11514896a.pt",
+      "sha256": "714b48d11514896abad520d79cd09de36e5f6912dc2a8dad23b37cbbce72c1ed",
+      "bytes": 25804785
+    },
+    "calibration": {
+      "initial_connector_sha256": "2b0131ced6b8b2b1aee69f944795758e53d59e128ca6dd94842bb04a8e3c2c01",
+      "scale_fp32": 0.054590579122304916,
+      "text_elements": 3132416,
+      "text_rms": 0.027441728860139847,
+      "visual_elements": 51380224,
+      "visual_rms": 0.5026825070381165
+    },
+    "probes": [
+      {
+        "diagnostic_loss_scale": 65536.0,
+        "stage": 1,
+        "optimizer_steps": 0,
+        "scaler_step_or_update_called": false,
+        "gradient_clipping_applied": false,
+        "micro_losses": [
+          5.81449556350708,
+          5.268009185791016
+        ],
+        "visual_boundary_gradients": [
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1202079,
+            "nan_elements": 403456,
+            "positive_inf_elements": 47,
+            "negative_inf_elements": 50,
+            "nonzero_finite_elements": 1202040,
+            "max_abs_finite": 65312.0,
+            "all_finite": false
+          },
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1203160,
+            "nan_elements": 402432,
+            "positive_inf_elements": 24,
+            "negative_inf_elements": 16,
+            "nonzero_finite_elements": 1203130,
+            "max_abs_finite": 65408.0,
+            "all_finite": false
+          }
+        ],
+        "exception": null,
+        "examples": [
+          {
+            "source_split": "train2014",
+            "image_id": 48742,
+            "question_id": "caption:335454",
+            "caption_id": 335454,
+            "user_text": "Describe this image.",
+            "target": "A busy freeway looping through a city with light traffic."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 38622,
+            "question_id": "caption:804386",
+            "caption_id": 804386,
+            "user_text": "Describe this image.",
+            "target": "A gas stove that is stainless steel and clean. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 445900,
+            "question_id": "caption:635653",
+            "caption_id": 635653,
+            "user_text": "Describe this image.",
+            "target": "A young child holding a Wii remote and nun-chuck in a living room."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 73066,
+            "question_id": "caption:775756",
+            "caption_id": 775756,
+            "user_text": "Describe this image.",
+            "target": "A sign hanging between two pairs of scissors. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421059,
+            "question_id": "caption:798576",
+            "caption_id": 798576,
+            "user_text": "Describe this image.",
+            "target": "An assemblage of white flowers in clear glass vases."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 311370,
+            "question_id": "caption:578675",
+            "caption_id": 578675,
+            "user_text": "Describe this image.",
+            "target": "The bedroom has a lamp on the nightstand beside the bed."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 313983,
+            "question_id": "caption:686293",
+            "caption_id": 686293,
+            "user_text": "Describe this image.",
+            "target": "One brown and one tan horse walking inside a metal corral."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 499829,
+            "question_id": "caption:476440",
+            "caption_id": 476440,
+            "user_text": "Describe this image.",
+            "target": "Several stuffed animals sitting in wooden boxes outside."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 253031,
+            "question_id": "caption:430733",
+            "caption_id": 430733,
+            "user_text": "Describe this image.",
+            "target": "A man is swinging a bat at a baseball game"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 413941,
+            "question_id": "caption:578826",
+            "caption_id": 578826,
+            "user_text": "Describe this image.",
+            "target": "A stand with lots of bananas and nuts on the ground"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421103,
+            "question_id": "caption:205217",
+            "caption_id": 205217,
+            "user_text": "Describe this image.",
+            "target": "A white horse standing next to a brown tree in a field."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 561012,
+            "question_id": "caption:430362",
+            "caption_id": 430362,
+            "user_text": "Describe this image.",
+            "target": "A small white dog is looking at ducks on water."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 579029,
+            "question_id": "caption:719451",
+            "caption_id": 719451,
+            "user_text": "Describe this image.",
+            "target": "A blue truck driving down a street past homes."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 250162,
+            "question_id": "caption:181029",
+            "caption_id": 181029,
+            "user_text": "Describe this image.",
+            "target": "The people are playing Frisbee in the park."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 185577,
+            "question_id": "caption:207470",
+            "caption_id": 207470,
+            "user_text": "Describe this image.",
+            "target": "A hot dog topped with condiments on paper."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 363548,
+            "question_id": "caption:205548",
+            "caption_id": 205548,
+            "user_text": "Describe this image.",
+            "target": "Double decker bus parked on a city street, passengers are entering and exiting the bus."
+          }
+        ],
+        "connector_gradients": {
+          "layers.0.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              768
+            ],
+            "elements": 786432,
+            "finite_elements": 0,
+            "nan_elements": 786432,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 0,
+            "max_abs_finite": null,
+            "all_finite": false
+          },
+          "layers.0.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 0,
+            "nan_elements": 1024,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 0,
+            "max_abs_finite": null,
+            "all_finite": false
+          },
+          "layers.2.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              1024
+            ],
+            "elements": 1048576,
+            "finite_elements": 0,
+            "nan_elements": 1048576,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 0,
+            "max_abs_finite": null,
+            "all_finite": false
+          },
+          "layers.2.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 0,
+            "nan_elements": 1024,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 0,
+            "max_abs_finite": null,
+            "all_finite": false
+          }
+        },
+        "frozen_parameters_with_grad": [],
+        "missing_gradient_parameters": [],
+        "wrong_gradient_dtype_parameters": [],
+        "nonfinite_gradient_parameters": [
+          "layers.0.weight",
+          "layers.0.bias",
+          "layers.2.weight",
+          "layers.2.bias"
+        ],
+        "connector_gradients_finite_FP32": false,
+        "connector_gradient_nonzero": false,
+        "canonical_state_restored_exactly": true
+      },
+      {
+        "diagnostic_loss_scale": 128.0,
+        "stage": 1,
+        "optimizer_steps": 0,
+        "scaler_step_or_update_called": false,
+        "gradient_clipping_applied": false,
+        "micro_losses": [
+          5.81449556350708,
+          5.268009185791016
+        ],
+        "visual_boundary_gradients": [
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1605632,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1605582,
+            "max_abs_finite": 793.5,
+            "all_finite": true
+          },
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1605632,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1605591,
+            "max_abs_finite": 635.5,
+            "all_finite": true
+          }
+        ],
+        "exception": null,
+        "examples": [
+          {
+            "source_split": "train2014",
+            "image_id": 48742,
+            "question_id": "caption:335454",
+            "caption_id": 335454,
+            "user_text": "Describe this image.",
+            "target": "A busy freeway looping through a city with light traffic."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 38622,
+            "question_id": "caption:804386",
+            "caption_id": 804386,
+            "user_text": "Describe this image.",
+            "target": "A gas stove that is stainless steel and clean. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 445900,
+            "question_id": "caption:635653",
+            "caption_id": 635653,
+            "user_text": "Describe this image.",
+            "target": "A young child holding a Wii remote and nun-chuck in a living room."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 73066,
+            "question_id": "caption:775756",
+            "caption_id": 775756,
+            "user_text": "Describe this image.",
+            "target": "A sign hanging between two pairs of scissors. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421059,
+            "question_id": "caption:798576",
+            "caption_id": 798576,
+            "user_text": "Describe this image.",
+            "target": "An assemblage of white flowers in clear glass vases."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 311370,
+            "question_id": "caption:578675",
+            "caption_id": 578675,
+            "user_text": "Describe this image.",
+            "target": "The bedroom has a lamp on the nightstand beside the bed."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 313983,
+            "question_id": "caption:686293",
+            "caption_id": 686293,
+            "user_text": "Describe this image.",
+            "target": "One brown and one tan horse walking inside a metal corral."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 499829,
+            "question_id": "caption:476440",
+            "caption_id": 476440,
+            "user_text": "Describe this image.",
+            "target": "Several stuffed animals sitting in wooden boxes outside."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 253031,
+            "question_id": "caption:430733",
+            "caption_id": 430733,
+            "user_text": "Describe this image.",
+            "target": "A man is swinging a bat at a baseball game"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 413941,
+            "question_id": "caption:578826",
+            "caption_id": 578826,
+            "user_text": "Describe this image.",
+            "target": "A stand with lots of bananas and nuts on the ground"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421103,
+            "question_id": "caption:205217",
+            "caption_id": 205217,
+            "user_text": "Describe this image.",
+            "target": "A white horse standing next to a brown tree in a field."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 561012,
+            "question_id": "caption:430362",
+            "caption_id": 430362,
+            "user_text": "Describe this image.",
+            "target": "A small white dog is looking at ducks on water."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 579029,
+            "question_id": "caption:719451",
+            "caption_id": 719451,
+            "user_text": "Describe this image.",
+            "target": "A blue truck driving down a street past homes."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 250162,
+            "question_id": "caption:181029",
+            "caption_id": 181029,
+            "user_text": "Describe this image.",
+            "target": "The people are playing Frisbee in the park."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 185577,
+            "question_id": "caption:207470",
+            "caption_id": 207470,
+            "user_text": "Describe this image.",
+            "target": "A hot dog topped with condiments on paper."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 363548,
+            "question_id": "caption:205548",
+            "caption_id": 205548,
+            "user_text": "Describe this image.",
+            "target": "Double decker bus parked on a city street, passengers are entering and exiting the bus."
+          }
+        ],
+        "connector_gradients": {
+          "layers.0.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              768
+            ],
+            "elements": 786432,
+            "finite_elements": 786432,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 786432,
+            "max_abs_finite": 6.2659406661987305,
+            "all_finite": true
+          },
+          "layers.0.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 1024,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1024,
+            "max_abs_finite": 0.21938228607177734,
+            "all_finite": true
+          },
+          "layers.2.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              1024
+            ],
+            "elements": 1048576,
+            "finite_elements": 1048576,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1048576,
+            "max_abs_finite": 4.195767879486084,
+            "all_finite": true
+          },
+          "layers.2.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 1024,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1024,
+            "max_abs_finite": 0.9336234331130981,
+            "all_finite": true
+          }
+        },
+        "frozen_parameters_with_grad": [],
+        "missing_gradient_parameters": [],
+        "wrong_gradient_dtype_parameters": [],
+        "nonfinite_gradient_parameters": [],
+        "connector_gradients_finite_FP32": true,
+        "connector_gradient_nonzero": true,
+        "canonical_state_restored_exactly": true
+      },
+      {
+        "diagnostic_loss_scale": 1.0,
+        "stage": 1,
+        "optimizer_steps": 0,
+        "scaler_step_or_update_called": false,
+        "gradient_clipping_applied": false,
+        "micro_losses": [
+          5.81449556350708,
+          5.268009185791016
+        ],
+        "visual_boundary_gradients": [
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1605632,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1605585,
+            "max_abs_finite": 6.16015625,
+            "all_finite": true
+          },
+          {
+            "present": true,
+            "dtype": "torch.float16",
+            "shape": [
+              8,
+              196,
+              1024
+            ],
+            "elements": 1605632,
+            "finite_elements": 1605632,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1605579,
+            "max_abs_finite": 5.328125,
+            "all_finite": true
+          }
+        ],
+        "exception": null,
+        "examples": [
+          {
+            "source_split": "train2014",
+            "image_id": 48742,
+            "question_id": "caption:335454",
+            "caption_id": 335454,
+            "user_text": "Describe this image.",
+            "target": "A busy freeway looping through a city with light traffic."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 38622,
+            "question_id": "caption:804386",
+            "caption_id": 804386,
+            "user_text": "Describe this image.",
+            "target": "A gas stove that is stainless steel and clean. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 445900,
+            "question_id": "caption:635653",
+            "caption_id": 635653,
+            "user_text": "Describe this image.",
+            "target": "A young child holding a Wii remote and nun-chuck in a living room."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 73066,
+            "question_id": "caption:775756",
+            "caption_id": 775756,
+            "user_text": "Describe this image.",
+            "target": "A sign hanging between two pairs of scissors. "
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421059,
+            "question_id": "caption:798576",
+            "caption_id": 798576,
+            "user_text": "Describe this image.",
+            "target": "An assemblage of white flowers in clear glass vases."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 311370,
+            "question_id": "caption:578675",
+            "caption_id": 578675,
+            "user_text": "Describe this image.",
+            "target": "The bedroom has a lamp on the nightstand beside the bed."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 313983,
+            "question_id": "caption:686293",
+            "caption_id": 686293,
+            "user_text": "Describe this image.",
+            "target": "One brown and one tan horse walking inside a metal corral."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 499829,
+            "question_id": "caption:476440",
+            "caption_id": 476440,
+            "user_text": "Describe this image.",
+            "target": "Several stuffed animals sitting in wooden boxes outside."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 253031,
+            "question_id": "caption:430733",
+            "caption_id": 430733,
+            "user_text": "Describe this image.",
+            "target": "A man is swinging a bat at a baseball game"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 413941,
+            "question_id": "caption:578826",
+            "caption_id": 578826,
+            "user_text": "Describe this image.",
+            "target": "A stand with lots of bananas and nuts on the ground"
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 421103,
+            "question_id": "caption:205217",
+            "caption_id": 205217,
+            "user_text": "Describe this image.",
+            "target": "A white horse standing next to a brown tree in a field."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 561012,
+            "question_id": "caption:430362",
+            "caption_id": 430362,
+            "user_text": "Describe this image.",
+            "target": "A small white dog is looking at ducks on water."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 579029,
+            "question_id": "caption:719451",
+            "caption_id": 719451,
+            "user_text": "Describe this image.",
+            "target": "A blue truck driving down a street past homes."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 250162,
+            "question_id": "caption:181029",
+            "caption_id": 181029,
+            "user_text": "Describe this image.",
+            "target": "The people are playing Frisbee in the park."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 185577,
+            "question_id": "caption:207470",
+            "caption_id": 207470,
+            "user_text": "Describe this image.",
+            "target": "A hot dog topped with condiments on paper."
+          },
+          {
+            "source_split": "train2014",
+            "image_id": 363548,
+            "question_id": "caption:205548",
+            "caption_id": 205548,
+            "user_text": "Describe this image.",
+            "target": "Double decker bus parked on a city street, passengers are entering and exiting the bus."
+          }
+        ],
+        "connector_gradients": {
+          "layers.0.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              768
+            ],
+            "elements": 786432,
+            "finite_elements": 786432,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 786432,
+            "max_abs_finite": 6.046470642089844,
+            "all_finite": true
+          },
+          "layers.0.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 1024,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1024,
+            "max_abs_finite": 0.21281832456588745,
+            "all_finite": true
+          },
+          "layers.2.weight": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024,
+              1024
+            ],
+            "elements": 1048576,
+            "finite_elements": 1048576,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1048576,
+            "max_abs_finite": 4.171675682067871,
+            "all_finite": true
+          },
+          "layers.2.bias": {
+            "present": true,
+            "dtype": "torch.float32",
+            "shape": [
+              1024
+            ],
+            "elements": 1024,
+            "finite_elements": 1024,
+            "nan_elements": 0,
+            "positive_inf_elements": 0,
+            "negative_inf_elements": 0,
+            "nonzero_finite_elements": 1024,
+            "max_abs_finite": 0.8714926242828369,
+            "all_finite": true
+          }
+        },
+        "frozen_parameters_with_grad": [],
+        "missing_gradient_parameters": [],
+        "wrong_gradient_dtype_parameters": [],
+        "nonfinite_gradient_parameters": [],
+        "connector_gradients_finite_FP32": true,
+        "connector_gradient_nonzero": true,
+        "canonical_state_restored_exactly": true
+      }
+    ],
+    "same_first_sixteen_examples_and_starting_RNG_each_probe": true,
+    "all_canonical_state_rollbacks_exact": true,
+    "optimizer_steps": 0,
+    "production_updates_committed": 0,
+    "loss_scale_selected_for_training": null,
+    "passed_initialization_pointer_published": false,
+    "gradient_diagnostic_package_sha256": "593c67f036a8aafe784b372cb07ee55c20126d00221c337ec5dbebebd970a7f1",
+    "environment": {
+      "python": "3.13.16",
+      "torch": "2.14.1+cu130",
+      "cuda": "13.0",
+      "cudnn": 92800,
+      "gpu": "Tesla T4",
+      "capability": [
+        7,
+        5
+      ],
+      "gpu_total_memory_bytes": 15637086208,
+      "nvidia_driver": "580.82.07",
+      "transformers": "5.22.1",
+      "huggingface-hub": "1.33.0",
+      "tokenizers": "0.23.3",
+      "safetensors": "0.8.0",
+      "Pillow": "11.3.0",
+      "numpy": "2.4.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "optional_backend_policy": {
+        "backend": "torchao",
+        "installed_version": "0.10.0",
+        "originally_discoverable": true,
+        "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+        "worker_import_disabled": true,
+        "quantized_weights_permitted": false
+      }
+    },
+    "elapsed_seconds": 250.869,
+    "peak_gpu_allocated_bytes": 1617043456,
+    "peak_gpu_reserved_bytes": 1885339648,
+    "scope": "Gradient-only diagnostics. No clipping, optimizer/scaler step, calibration change or training recovery."
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-initialization-controller-v1",
+    "attempt": "20261108_072528_3a7a5bba",
+    "initialization_package_sha256": "593c67f036a8aafe784b372cb07ee55c20126d00221c337ec5dbebebd970a7f1",
+    "worker_exit_code": 0,
+    "controller_traceback": null,
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_13D_console_20261108_072528_3a7a5bba_7fa48e8663118152.log",
+      "sha256": "7fa48e8663118152345fbb95eba03a86ca57721a93b4b0b2a5cd75036f21be94",
+      "bytes": 51371
+    },
+    "console_save_error": null,
+    "release_request_follows": true
+  },
+  "interpretation": {
+    "diagnosis": "Default AMP scale65536 causes nonfinite gradients at the FP16 visual boundary for the exact same first sixteen examples;128 and1 are finite. This establishes scale-sensitive overflow for that initial batch, not full-curriculum feasibility.",
+    "optimizer_steps": 0,
+    "all_rollbacks_exact": true,
+    "proposed_initial_AMP_scale": 128.0,
+    "recovery_approved": false
+  }
+}

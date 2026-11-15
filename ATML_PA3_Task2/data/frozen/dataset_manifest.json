@@ -1,0 +1,153 @@
+{
+  "dataset_frozen": false,
+  "files": [
+    {
+      "bytes": 6254,
+      "path": "configs/calibration_sample_ids.json",
+      "sha256": "88a5f841d6c4feb84f188dcd7a8a2ebb972796316d460eba715d5b8b16162a77"
+    },
+    {
+      "bytes": 10948,
+      "path": "configs/exact_protocol_A005.json",
+      "sha256": "fd7411f8ada3b43870f56cf7f12b48ce3a9067c9a04c8b8ecb3ba4ab7e5e7e4b"
+    },
+    {
+      "bytes": 53464,
+      "path": "configs/grounding_question_bank.json",
+      "sha256": "9a8e41f22b2558bbb3237cf4a285f0cfbae2eb240967298f1c429931ee84db09"
+    },
+    {
+      "bytes": 240,
+      "path": "configs/model_revisions.json",
+      "sha256": "93c696234938f091590770042d45008df937a27a2b2ad01c63a6a55551b5d7ad"
+    },
+    {
+      "bytes": 993,
+      "path": "configs/training_lr_endpoints.json",
+      "sha256": "3eb229ee86081d77f13d373ddb312d97623a4c98644888ee288735e3665554ee"
+    },
+    {
+      "bytes": 20668,
+      "path": "manifests/selected/captions_dev.jsonl",
+      "sha256": "f655f1009accaa9b912bba2dd7499f72854b68995197bd51286e162347caa299"
+    },
+    {
+      "bytes": 3941264,
+      "path": "manifests/selected/captions_train.jsonl",
+      "sha256": "ff42ec66ff47291bd469909aecbcd19ea6629ab99651bec27fb32ec3ea10e11b"
+    },
+    {
+      "bytes": 21087,
+      "path": "manifests/selected/grounding_dev.jsonl",
+      "sha256": "5a012effefd28a9a378d168d32ce00a2bd7dfaa751210e211abe845eb3b8cbf9"
+    },
+    {
+      "bytes": 56842,
+      "path": "manifests/selected/grounding_test.jsonl",
+      "sha256": "29b94dc4a14cae624c53bdf49b9a75c04abb7f4a4fe2c4bfd74aca13a78ccade"
+    },
+    {
+      "bytes": 140508,
+      "path": "manifests/selected/grounding_training_audit.jsonl",
+      "sha256": "8ac0bfa9c3a3da963ad152d867ca60b3ed393ba91625781045967dd318a94bb1"
+    },
+    {
+      "bytes": 11643397,
+      "path": "manifests/selected/grounding_training_pools.json",
+      "sha256": "8b590db3a5e29c8fad74ea1ac1ca0ab9edfa90e24959bf1b1c7a7034fe1e0a61"
+    },
+    {
+      "bytes": 30628,
+      "path": "manifests/selected/natural_dev_formatted.jsonl",
+      "sha256": "14055ccf4934371ff0dbbc4367decd96c9b87063d69dbbc419fea49196edb58c"
+    },
+    {
+      "bytes": 91046,
+      "path": "manifests/selected/natural_test_formatted.jsonl",
+      "sha256": "22871e63a49eeaf0241319c0b12d7ccc34b81104f0d7b4a9684b2f2bcdb77ade"
+    },
+    {
+      "bytes": 1476013,
+      "path": "manifests/selected/natural_train_formatted.jsonl",
+      "sha256": "b35c8d924f6a57ae9982392070af5cbc086f3d1460d822f53b6b588e0171de50"
+    },
+    {
+      "bytes": 499476,
+      "path": "manifests/selected/stage1_caption_epoch_orders.json",
+      "sha256": "4c2f1495fe97eaf05bf6a0975a7cbf6cca1bd91ef609dfac25e6a820bd1f0af8"
+    },
+    {
+      "bytes": 1009,
+      "path": "provenance/annotation_receipt.json",
+      "sha256": "4aa0cd5afbabb49e16d1ffacb1dce25dbe7b1440728e78f097b4d9c082c101f6"
+    },
+    {
+      "bytes": 783,
+      "path": "provenance/approval_A012.json",
+      "sha256": "a02ae47281d34bd1e666ef2aa20d1fdb3d11410fb8d800cb4ebbd86e9b28ee4c"
+    },
+    {
+      "bytes": 1012,
+      "path": "provenance/human_chat_acceptance.json",
+      "sha256": "ebc6c3c6810c6eb07519969a7003f6055d6d74ed821bc2e830da567428712a7e"
+    },
+    {
+      "bytes": 131209,
+      "path": "provenance/human_review_ledger.jsonl",
+      "sha256": "84e12eebefadcd082bb9224e00ce7bc95d35faf87f876e33b0f40db2c575e604"
+    },
+    {
+      "bytes": 442,
+      "path": "provenance/manual_tv_image_receipt.json",
+      "sha256": "170aa9072ddc76c2f57ecd5b55bc6319468302d6a13f6d1a5324b5a533f3355a"
+    },
+    {
+      "bytes": 5839,
+      "path": "provenance/manual_tv_proposal.json",
+      "sha256": "f0255db2937c885a3643df0d7c6d968705b51944a77c696b71ad68239b711685"
+    },
+    {
+      "bytes": 2875,
+      "path": "provenance/source_locks.json",
+      "sha256": "5219f388dfc4932f16c32eae20b19a25d99a7894c3a4733a59e5e47e110de291"
+    }
+  ],
+  "human_audit_complete": true,
+  "normalizer_sha256": "56251cdcddbad50cc5e31cb83744cf1752267390b7d4e315dfe00e9edf905d0d",
+  "original_source_locks": {
+    "audits/reconciliation_batch01_a39f40346d6aa4ba/reconciliation_batch01_20261107_085944_6c3c89.json": "f50b8ad9b306bd08fccf75d5fba267adeb3f97b1e35c7ee10052feb29ad112e9",
+    "configs/calibration_sample_ids.json": "88a5f841d6c4feb84f188dcd7a8a2ebb972796316d460eba715d5b8b16162a77",
+    "configs/exact_protocol_A005.json": "fd7411f8ada3b43870f56cf7f12b48ce3a9067c9a04c8b8ecb3ba4ab7e5e7e4b",
+    "logs/block_05a_20261031_155959_c7d3095c.json": "a84f2436281e657665850dfad2750840b55678b271f4c1dffddc7f8e195973fc",
+    "logs/block_05b_20261031_161050_c9dc05e9.json": "21ccdac5191bebd4caeba690adf481ecb47ef5ae476a7e03127731bb9ca5499a",
+    "logs/block_06a_20261031_163930_3cb996af.json": "44a121f200cfd59ec38771010438328e8aaa35482989c5843ddd54c42ddbf13a",
+    "manifests/selected/additional_exclusions_A004.jsonl": "e9baca03c5e9b0b4916e9be5b1f69783f3df3c5e71b69e43b02dbb03d5b28764",
+    "manifests/selected/captions_dev.jsonl": "f655f1009accaa9b912bba2dd7499f72854b68995197bd51286e162347caa299",
+    "manifests/selected/captions_train.jsonl": "ff42ec66ff47291bd469909aecbcd19ea6629ab99651bec27fb32ec3ea10e11b",
+    "manifests/selected/global_image_allocation.json": "f7562959b948bda4143c3ffd9be975f5110ef7f74907dab9bca1af9eca9afe69",
+    "manifests/selected/grounding_dev.jsonl": "3e986b468b8b9220396f44d6882d3a631e54bedd0285cef4ddf6d70a7e3a1356",
+    "manifests/selected/grounding_dev_pair_metadata.jsonl": "120fc4f85a2be153a04d79b2f005f54bc87fe0c0f3b5515bece37b041f35657a",
+    "manifests/selected/grounding_test.jsonl": "4c5831266684d1199ba12a048f46533685847991b343551a58f84d5da5c90e8e",
+    "manifests/selected/grounding_test_pair_metadata.jsonl": "5fe37c951cc3891f23e7c423d43f7438ce30405e3d9966dd80b9d04bf1670081",
+    "manifests/selected/grounding_training_audit.jsonl": "faa4048b430edffd528e7fe2902c107c39a6820edf1f4dea82110333bbd90b7a",
+    "manifests/selected/grounding_training_pools.json": "2f4cc89596c4e900d4a90a0b3af946ab7167c5adf4daf4901286a854c3d56e39",
+    "manifests/selected/natural_dev.jsonl": "f69e1505d058c1eb51977ced00a234d08ce5c14d5169e1cad46226b93c68786d",
+    "manifests/selected/natural_dev_formatted.jsonl": "14055ccf4934371ff0dbbc4367decd96c9b87063d69dbbc419fea49196edb58c",
+    "manifests/selected/natural_test.jsonl": "474e2eecf97be2940f9b96cf951f4403e78e9b35c672c35389c1c153d10afe88",
+    "manifests/selected/natural_test_formatted.jsonl": "22871e63a49eeaf0241319c0b12d7ccc34b81104f0d7b4a9684b2f2bcdb77ade",
+    "manifests/selected/natural_train.jsonl": "c696ad10902f6745e4b49cfb853c96691612aa63e1e434d93824932068d973c4",
+    "manifests/selected/natural_train_formatted.jsonl": "b35c8d924f6a57ae9982392070af5cbc086f3d1460d822f53b6b588e0171de50",
+    "manifests/selected/stage1_caption_epoch_orders.json": "4c2f1495fe97eaf05bf6a0975a7cbf6cca1bd91ef609dfac25e6a820bd1f0af8",
+    "manifests/selected/training_image_union.json": "54c92dfeffd2e8ccdc3f973a97455edd42979efa732cf765f3a9bfcb23506470"
+  },
+  "review_provenance": {
+    "AI_assistance_disclosed": true,
+    "human_chat_accepts": 1,
+    "human_colab_accepts": 245,
+    "original_review_assistance": "Original human export lacks per-record AI-assistance checkboxes. Prior conversation assistance remains disclosed in historical audit records."
+  },
+  "revision": "A012",
+  "run_id": "run_20261031_150949_1cff148a",
+  "schema": "atml-pa3-task2-final-dataset-v1",
+  "status": "prepared_for_runtime_source_verification"
+}

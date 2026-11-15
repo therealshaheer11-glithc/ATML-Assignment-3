@@ -1,0 +1,756 @@
+{
+  "AMP_scale": 256.0,
+  "active_progress_pointer": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/manifests/active_task2_training.json",
+  "block": "14",
+  "checkpoint": {
+    "bytes": 77397849,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/checkpoints/update_003138_9c88253154e1d13b.pt",
+    "readback_verified": true,
+    "sha256": "9c88253154e1d13bad958cd30b7fe2cca607868fbf95cbeffe780fcc1314ad5d"
+  },
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "dev_updates_completed_this_segment": [
+    3000
+  ],
+  "development_receipts": {
+    "0": {
+      "bytes": 291570,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_000000_ce8dd89cfafd6eb7.json",
+      "readback_verified": true,
+      "sha256": "ce8dd89cfafd6eb7bfd2deb28c6e154c0335561c327e0388b5d64c6b6bbd55b9"
+    },
+    "1000": {
+      "bytes": 291595,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_001000_fc321554fee32285.json",
+      "readback_verified": true,
+      "sha256": "fc321554fee32285ab9d4098e53802c2e25dd97c1243729eb758a92fd4fab256"
+    },
+    "1500": {
+      "bytes": 291571,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_001500_24d7a609f0c12356.json",
+      "readback_verified": true,
+      "sha256": "24d7a609f0c123565bac144ad4408f7f820f481db4fcdb57e5d49d3ee560c29c"
+    },
+    "2000": {
+      "bytes": 291584,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002000_b61c4e6cc86fbc0a.json",
+      "readback_verified": true,
+      "sha256": "b61c4e6cc86fbc0a9b70e6a1c98557abf21df3a4c980fc3bad97f97763bc5315"
+    },
+    "2250": {
+      "bytes": 291580,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002250_6286c6971ddda17c.json",
+      "readback_verified": true,
+      "sha256": "6286c6971ddda17c535e17d140c906745005411032d1f9d12f4d37755d98c02b"
+    },
+    "2500": {
+      "bytes": 291798,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002500_2dafb0d5f58c2da1.json",
+      "readback_verified": true,
+      "sha256": "2dafb0d5f58c2da18d14fb96e0a5e0b7a0d93ec5566bd23b057db7f9254532cd"
+    },
+    "3000": {
+      "bytes": 291803,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_003000_e65ecd7161f31049.json",
+      "readback_verified": true,
+      "sha256": "e65ecd7161f31049480895f84737838800f0ad13d0ece3ff3990efaefc972dbd"
+    },
+    "500": {
+      "bytes": 291545,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_000500_eda269076999eb10.json",
+      "readback_verified": true,
+      "sha256": "eda269076999eb1013c8ea8e455802ecf044c2a5daf3e086669632243c2fc4fc"
+    }
+  },
+  "elapsed_seconds": 774.249,
+  "end_global_update": 3138,
+  "environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "execution_recipe_sha256": "3c691fd16ed3828f97a3a413f8c2fc1ecfb160645e47a9d98523f087ab1d5012",
+  "feature_staging": [
+    {
+      "activity": "staged",
+      "index": 0,
+      "seconds": 5.585
+    },
+    {
+      "activity": "staged",
+      "index": 1,
+      "seconds": 3.919
+    },
+    {
+      "activity": "staged",
+      "index": 2,
+      "seconds": 3.941
+    },
+    {
+      "activity": "staged",
+      "index": 3,
+      "seconds": 3.879
+    },
+    {
+      "activity": "staged",
+      "index": 4,
+      "seconds": 3.672
+    },
+    {
+      "activity": "staged",
+      "index": 5,
+      "seconds": 4.239
+    },
+    {
+      "activity": "staged",
+      "index": 6,
+      "seconds": 4.738
+    },
+    {
+      "activity": "staged",
+      "index": 7,
+      "seconds": 4.688
+    },
+    {
+      "activity": "staged",
+      "index": 8,
+      "seconds": 3.756
+    },
+    {
+      "activity": "staged",
+      "index": 9,
+      "seconds": 4.273
+    },
+    {
+      "activity": "staged",
+      "index": 10,
+      "seconds": 3.556
+    },
+    {
+      "activity": "staged",
+      "index": 11,
+      "seconds": 2.67
+    },
+    {
+      "activity": "staged",
+      "index": 12,
+      "seconds": 3.402
+    },
+    {
+      "activity": "staged",
+      "index": 13,
+      "seconds": 4.363
+    },
+    {
+      "activity": "staged",
+      "index": 14,
+      "seconds": 4.057
+    },
+    {
+      "activity": "staged",
+      "index": 15,
+      "seconds": 4.014
+    },
+    {
+      "activity": "staged",
+      "index": 16,
+      "seconds": 4.163
+    },
+    {
+      "activity": "staged",
+      "index": 17,
+      "seconds": 4.332
+    },
+    {
+      "activity": "staged",
+      "index": 18,
+      "seconds": 3.07
+    },
+    {
+      "activity": "staged",
+      "index": 19,
+      "seconds": 4.78
+    },
+    {
+      "activity": "staged",
+      "index": 20,
+      "seconds": 4.074
+    },
+    {
+      "activity": "staged",
+      "index": 21,
+      "seconds": 4.491
+    },
+    {
+      "activity": "staged",
+      "index": 22,
+      "seconds": 3.38
+    },
+    {
+      "activity": "staged",
+      "index": 23,
+      "seconds": 4.283
+    },
+    {
+      "activity": "staged",
+      "index": 24,
+      "seconds": 4.513
+    },
+    {
+      "activity": "staged",
+      "index": 25,
+      "seconds": 4.27
+    },
+    {
+      "activity": "staged",
+      "index": 26,
+      "seconds": 4.427
+    },
+    {
+      "activity": "staged",
+      "index": 27,
+      "seconds": 4.418
+    },
+    {
+      "activity": "staged",
+      "index": 28,
+      "seconds": 3.741
+    },
+    {
+      "activity": "staged",
+      "index": 29,
+      "seconds": 3.848
+    },
+    {
+      "activity": "staged",
+      "index": 30,
+      "seconds": 3.619
+    },
+    {
+      "activity": "staged",
+      "index": 31,
+      "seconds": 3.951
+    },
+    {
+      "activity": "staged",
+      "index": 32,
+      "seconds": 3.215
+    },
+    {
+      "activity": "staged",
+      "index": 33,
+      "seconds": 4.35
+    },
+    {
+      "activity": "staged",
+      "index": 34,
+      "seconds": 3.831
+    },
+    {
+      "activity": "staged",
+      "index": 35,
+      "seconds": 3.662
+    },
+    {
+      "activity": "staged",
+      "index": 36,
+      "seconds": 1.207
+    }
+  ],
+  "feature_staging_and_verification_seconds": 146.377,
+  "final_test_evaluated": false,
+  "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+  "next_step": "Resume from verified active training progress with the remaining approved curriculum budget.",
+  "package_setup": "Exact existing pinned libraries reused",
+  "parameter_counts": {
+    "connector": 1837056,
+    "frozen_base": 596049920,
+    "lora": 4587520,
+    "trainable": 6424576
+  },
+  "peak_gpu_allocated_bytes": 1714977280,
+  "peak_gpu_reserved_bytes": 2722103296,
+  "qwen_source_staging_and_loading_seconds": 115.707,
+  "realized_examples_this_segment": {
+    "caption": 792,
+    "counting": 850,
+    "presence": 1734
+  },
+  "realized_pairs_this_segment": {
+    "caption": 396,
+    "counting": 425,
+    "presence": 867
+  },
+  "segment_maximum_updates": 250,
+  "stage": 2,
+  "stage_updates": {
+    "1": 2250,
+    "2": 888,
+    "3": 0
+  },
+  "start_global_update": 2927,
+  "status": "checkpointed",
+  "stop_reason": "reserved save window",
+  "successful_updates_this_segment": 211,
+  "total_required_updates": 4500,
+  "training_log_receipts": [
+    {
+      "bytes": 256712,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000001_000050_e084cf0d72f9a9fa.json",
+      "readback_verified": true,
+      "sha256": "e084cf0d72f9a9fa38ebcc2480a5eb4d8e1509b6b22e1088b72b0a42a897c51f"
+    },
+    {
+      "bytes": 256039,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000051_000100_e26da5c66f707fb8.json",
+      "readback_verified": true,
+      "sha256": "e26da5c66f707fb857a3ede3e9fd0f2fd54acd409db057c3ecb9da69e46f6f3f"
+    },
+    {
+      "bytes": 255453,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000101_000150_dd026d74e3edee68.json",
+      "readback_verified": true,
+      "sha256": "dd026d74e3edee688ebd5e84db70affc9e465c71a8c1b4d1aa60a4e7efdad873"
+    },
+    {
+      "bytes": 255801,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000151_000200_da1c3128dcd74bde.json",
+      "readback_verified": true,
+      "sha256": "da1c3128dcd74bde29a11820f5fe1d23f6fe3a366523f873e24ec893ca279a03"
+    },
+    {
+      "bytes": 255940,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000201_000250_bd56117486304a2f.json",
+      "readback_verified": true,
+      "sha256": "bd56117486304a2ff1b95bae5a071bb4861b29d303ab63c9aea4fad55f4ddb4c"
+    },
+    {
+      "bytes": 256748,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000251_000300_4e61af5809e17208.json",
+      "readback_verified": true,
+      "sha256": "4e61af5809e17208b9ed9e80c8eb408593efeed1b2ff6bc293ac4ce13aff931c"
+    },
+    {
+      "bytes": 256281,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000301_000350_778a7934f29ca956.json",
+      "readback_verified": true,
+      "sha256": "778a7934f29ca956dadcd0b90bf6c9dc96073af07f8eea74a1c70ca0c2b6b914"
+    },
+    {
+      "bytes": 256042,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000351_000400_93de6ba759d3caf6.json",
+      "readback_verified": true,
+      "sha256": "93de6ba759d3caf6e334b22dc8db57aaa2ad8a3bf63076084c4a1f0b6d18ae4d"
+    },
+    {
+      "bytes": 256414,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000401_000450_4a41f232f01add4b.json",
+      "readback_verified": true,
+      "sha256": "4a41f232f01add4b66e60a8e89e5dd7a7d5ca5b60530dadc9f9a854691079330"
+    },
+    {
+      "bytes": 256018,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000451_000500_0ef8a5c1c1c46086.json",
+      "readback_verified": true,
+      "sha256": "0ef8a5c1c1c46086b19b1c43ddf29ba6584e1aad867d61b06f7ce03f2d92a815"
+    },
+    {
+      "bytes": 255828,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000501_000550_cdb9eff9b01d39a0.json",
+      "readback_verified": true,
+      "sha256": "cdb9eff9b01d39a080e00c09466c53db5a95acec996e83d7001226145d3c5526"
+    },
+    {
+      "bytes": 256064,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000551_000600_48451d1597c39eb7.json",
+      "readback_verified": true,
+      "sha256": "48451d1597c39eb715de85e7b971af717f4d01c4800a7bf557c0e441dcd1ea51"
+    },
+    {
+      "bytes": 256255,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000601_000650_b4bf9ece0a87668f.json",
+      "readback_verified": true,
+      "sha256": "b4bf9ece0a87668f0b2ed72028543e1e6f7f0c6513927450b7fb6b940ba2ed86"
+    },
+    {
+      "bytes": 256415,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000651_000700_b0def7a293d84778.json",
+      "readback_verified": true,
+      "sha256": "b0def7a293d847788cfb58179b126fc4a585dae9e32c7d69e0a89b070dac28ed"
+    },
+    {
+      "bytes": 256916,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000701_000750_df0e68ada6ad710e.json",
+      "readback_verified": true,
+      "sha256": "df0e68ada6ad710e9e748093175365c73c52d5fb7e90df3bc2b72c6604b097d6"
+    },
+    {
+      "bytes": 255956,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000751_000800_912e405ba82be634.json",
+      "readback_verified": true,
+      "sha256": "912e405ba82be63464dc8934362db2e9fc35c5f70c829d17e179d46d39414529"
+    },
+    {
+      "bytes": 256493,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000801_000850_2e47e0437b9dcf33.json",
+      "readback_verified": true,
+      "sha256": "2e47e0437b9dcf33af32f0fc1e4aed541a73df8b5de3873d8160d2e95a13979a"
+    },
+    {
+      "bytes": 256356,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000851_000900_df34c111087c083c.json",
+      "readback_verified": true,
+      "sha256": "df34c111087c083c820314400172715308bcdc6396192fa00df740e917c532be"
+    },
+    {
+      "bytes": 255714,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000901_000950_85ce34659b2b14bd.json",
+      "readback_verified": true,
+      "sha256": "85ce34659b2b14bdf41345aed46e636e40e44606c2d894c347aa0f24c74f13c9"
+    },
+    {
+      "bytes": 256767,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000951_001000_41d56db597d22f79.json",
+      "readback_verified": true,
+      "sha256": "41d56db597d22f79d825bb9d2abfdac8f0a6972435811431e74ba51f2a8f1413"
+    },
+    {
+      "bytes": 256249,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001001_001050_e1e9a0f54fdb6c4e.json",
+      "readback_verified": true,
+      "sha256": "e1e9a0f54fdb6c4ecef5fee6d2f59e99221ee31f8bd22bb7bf3c990dacde8835"
+    },
+    {
+      "bytes": 256478,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001051_001100_37a358d71c44b524.json",
+      "readback_verified": true,
+      "sha256": "37a358d71c44b524bf0877fad7544d2ea7a21bb6b781472a1af0ccfeb6d7760c"
+    },
+    {
+      "bytes": 220683,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001101_001143_4ee66281431f4119.json",
+      "readback_verified": true,
+      "sha256": "4ee66281431f41196cce2c7748787593d91ac146e536c343c4c7bace24b59b46"
+    },
+    {
+      "bytes": 36068,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001144_001150_2e160d93709df319.json",
+      "readback_verified": true,
+      "sha256": "2e160d93709df319ec753fc985af2968723ad335098ce652944939f5b2f39f78"
+    },
+    {
+      "bytes": 256447,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001151_001200_77a065468bb6ac72.json",
+      "readback_verified": true,
+      "sha256": "77a065468bb6ac7259394729d74d8aa5c10d286557ccc1ddab59fd3c19bc8d22"
+    },
+    {
+      "bytes": 256292,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001201_001250_3ab8538717efb2e8.json",
+      "readback_verified": true,
+      "sha256": "3ab8538717efb2e819e4d8f73e09871c4a2ea29b1052bc828a09a0671b9619c4"
+    },
+    {
+      "bytes": 256802,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001251_001300_b22aa38ee3ae7434.json",
+      "readback_verified": true,
+      "sha256": "b22aa38ee3ae743429ae4e4c01ae228d7f4e30e2b860aa200268e94df8b979b4"
+    },
+    {
+      "bytes": 256311,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001301_001350_cd3f13f8e003eea3.json",
+      "readback_verified": true,
+      "sha256": "cd3f13f8e003eea30d389006e5f414e306359b78e5d714caf920b0e8c4fb7f13"
+    },
+    {
+      "bytes": 220131,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001351_001393_93ee26fe9128908e.json",
+      "readback_verified": true,
+      "sha256": "93ee26fe9128908e58bb1a6b8d24e8b86bdbba6b7b0d600ce7e2bafef55f8a03"
+    },
+    {
+      "bytes": 36008,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001394_001400_055598d44c36f50a.json",
+      "readback_verified": true,
+      "sha256": "055598d44c36f50aed36603d40627d643b4c1e0576619834064ffec6d19065a2"
+    },
+    {
+      "bytes": 256880,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001401_001450_aca893d93b4e82dc.json",
+      "readback_verified": true,
+      "sha256": "aca893d93b4e82dc4ea87f2db4e705a897500402293197a4d4eeeb0f45e0a0a6"
+    },
+    {
+      "bytes": 256648,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001451_001500_38ed8e76572cdfaf.json",
+      "readback_verified": true,
+      "sha256": "38ed8e76572cdfaf3c9bc6119f46afe5ba8296a95730e91b700917fedbc141b5"
+    },
+    {
+      "bytes": 256448,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001501_001550_0ded4bda313693e1.json",
+      "readback_verified": true,
+      "sha256": "0ded4bda313693e184006436b14b19f64772b5352f115301eb19ad88b95993ea"
+    },
+    {
+      "bytes": 256191,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001551_001600_46bd74d7a400e061.json",
+      "readback_verified": true,
+      "sha256": "46bd74d7a400e06162731415fec71b928c51d673e87a0c000ef6fe3b46508b96"
+    },
+    {
+      "bytes": 220613,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001601_001643_0534b388a15a5a5d.json",
+      "readback_verified": true,
+      "sha256": "0534b388a15a5a5d312a4941b21ff30f982b0f10b2db7aa5b9ea3e4770aa837e"
+    },
+    {
+      "bytes": 35698,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001644_001650_6810cd008ba87374.json",
+      "readback_verified": true,
+      "sha256": "6810cd008ba87374b7d56586a28c32c0c1d94b207deefbcb593f14e13947ee18"
+    },
+    {
+      "bytes": 256667,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001651_001700_b8dda7e8fc3354c1.json",
+      "readback_verified": true,
+      "sha256": "b8dda7e8fc3354c19652fccce4df25bd7556e8ab919c8b5fcbcca719762dd7c9"
+    },
+    {
+      "bytes": 256426,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001701_001750_390f6aea04e04c78.json",
+      "readback_verified": true,
+      "sha256": "390f6aea04e04c786dbaa49d80059a7a02faeafdd38f405456327be7bb5bd94b"
+    },
+    {
+      "bytes": 256494,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001751_001800_110e641c934057eb.json",
+      "readback_verified": true,
+      "sha256": "110e641c934057eb8ed0f1241b8d580a3302592ad25efaba679e0f94c18a2fea"
+    },
+    {
+      "bytes": 256527,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001801_001850_ec4efe2abd045be4.json",
+      "readback_verified": true,
+      "sha256": "ec4efe2abd045be4434a18ecaf8993043e42a1148dad2cb0ea779afe2260b2b8"
+    },
+    {
+      "bytes": 219814,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001851_001893_4c319f01a59d4593.json",
+      "readback_verified": true,
+      "sha256": "4c319f01a59d45936ebf9a79b7995c8f8aaa45c549f7c32b359affb708d854d3"
+    },
+    {
+      "bytes": 35626,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001894_001900_fe4b81bc03a2cd67.json",
+      "readback_verified": true,
+      "sha256": "fe4b81bc03a2cd6787964562f90463f1e625a62e4c4feb322ff7a89ff283914c"
+    },
+    {
+      "bytes": 255795,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001901_001950_b4136232775a7772.json",
+      "readback_verified": true,
+      "sha256": "b4136232775a77722b562416d591cde7becc785d7828f5b3846270220fc2728d"
+    },
+    {
+      "bytes": 256514,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001951_002000_79e0fc23af762879.json",
+      "readback_verified": true,
+      "sha256": "79e0fc23af762879f3e941486f65d9f7debd4d39170197b93d325da3f6359d85"
+    },
+    {
+      "bytes": 257051,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002001_002050_43dead345ecd6570.json",
+      "readback_verified": true,
+      "sha256": "43dead345ecd6570799ae98279c11ee4807e20ee9fbd0caf6062240a2ef0f180"
+    },
+    {
+      "bytes": 256177,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002051_002100_60bdfb50faca819c.json",
+      "readback_verified": true,
+      "sha256": "60bdfb50faca819cdf982e3db1c33defac71de467dc22a9d17e992b11c644c62"
+    },
+    {
+      "bytes": 219975,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002101_002143_630271ab013c1f5b.json",
+      "readback_verified": true,
+      "sha256": "630271ab013c1f5be03833bd0fd33c73e3af110fa240017cfdb11e7159d012e0"
+    },
+    {
+      "bytes": 35935,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002144_002150_35c4d6fa6ed44dbb.json",
+      "readback_verified": true,
+      "sha256": "35c4d6fa6ed44dbbf59e0b81968a9c93282efd540fa73e4ef0f054214e443d92"
+    },
+    {
+      "bytes": 256544,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002151_002200_45b75f9e4d8cebe8.json",
+      "readback_verified": true,
+      "sha256": "45b75f9e4d8cebe8a74d6dc0dee54d675cf9ce71add275c32a4c012e41cd4c88"
+    },
+    {
+      "bytes": 256174,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002201_002250_9bcff9a1a8144094.json",
+      "readback_verified": true,
+      "sha256": "9bcff9a1a81440943b5ef1aff9ba466077886f96301d23f65a2541bb10088714"
+    },
+    {
+      "bytes": 266879,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002251_002300_a247fb4a00d9fb18.json",
+      "readback_verified": true,
+      "sha256": "a247fb4a00d9fb183b056ab5f286be080c4d264091a745db8aeeb8c1cad33238"
+    },
+    {
+      "bytes": 267365,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002301_002350_e826ba28a8f069dc.json",
+      "readback_verified": true,
+      "sha256": "e826ba28a8f069dceec1e62f5718932bce48918c18461d43617ed7f6dcf67196"
+    },
+    {
+      "bytes": 213682,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002351_002390_5011a05d87f77bb3.json",
+      "readback_verified": true,
+      "sha256": "5011a05d87f77bb3233fa456614d9cfd4a1ac7d9d90f9d1a1c11623c1db9a39a"
+    },
+    {
+      "bytes": 53194,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002391_002400_01585d48a48988bf.json",
+      "readback_verified": true,
+      "sha256": "01585d48a48988bf00842de80aa2dde4bdb6aac3aacdac588fa683a705cd09e4"
+    },
+    {
+      "bytes": 266784,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002401_002450_3b57b4cfbb045a97.json",
+      "readback_verified": true,
+      "sha256": "3b57b4cfbb045a975bca4e73532eb1b0f3078e86876aea272624e3b3561a5472"
+    },
+    {
+      "bytes": 261343,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002451_002499_c144851e0b6c3ef9.json",
+      "readback_verified": true,
+      "sha256": "c144851e0b6c3ef9e1aa84b110ddb3c5c3b8b1d815b3011a3abf02350272cbee"
+    },
+    {
+      "bytes": 5359,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002500_002500_e42388636dad0077.json",
+      "readback_verified": true,
+      "sha256": "e42388636dad00779e56d19a27a74dd45fe558d5535d1702c48826c060d18bd8"
+    },
+    {
+      "bytes": 266979,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002501_002550_b3f8148e8a73803c.json",
+      "readback_verified": true,
+      "sha256": "b3f8148e8a73803cf32ad17dbb8ed48b75463e21cd502dc6bc3a3f4a9a9d696d"
+    },
+    {
+      "bytes": 267396,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002551_002600_eb3e2676f0723711.json",
+      "readback_verified": true,
+      "sha256": "eb3e2676f07237116133da29f4f8d18ab2d3e9b210dd02e970688035be6b03c1"
+    },
+    {
+      "bytes": 266991,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002601_002650_2ca288133022ff09.json",
+      "readback_verified": true,
+      "sha256": "2ca288133022ff0979ef372375e454e46e42eeccfcc834e4b87e37bbfdf04782"
+    },
+    {
+      "bytes": 256029,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002651_002698_855b9d94acb25203.json",
+      "readback_verified": true,
+      "sha256": "855b9d94acb25203d1a6c0876758dfcce0fb81f9d55f1aabf1cd0abceeb606bb"
+    },
+    {
+      "bytes": 10650,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002699_002700_5f3d3de555bcbde8.json",
+      "readback_verified": true,
+      "sha256": "5f3d3de555bcbde8d75e3da0b5fae8679da41a5891d1dfb26941e0c940fbc175"
+    },
+    {
+      "bytes": 267592,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002701_002750_cd0b4c681c47137d.json",
+      "readback_verified": true,
+      "sha256": "cd0b4c681c47137d3de33c1faea7ff132e34b7d4643bb023ee677e97b900ad18"
+    },
+    {
+      "bytes": 267423,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002751_002800_77b74882aa218ab1.json",
+      "readback_verified": true,
+      "sha256": "77b74882aa218ab1a63db0ed2fc8f0248ab5707e2303a4f2b3580b1a878fff16"
+    },
+    {
+      "bytes": 267377,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002801_002850_60be379a561bf521.json",
+      "readback_verified": true,
+      "sha256": "60be379a561bf521d3ca25fa566ac0d75a25dbf09ce9443531de6423e20cd9a6"
+    },
+    {
+      "bytes": 267047,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002851_002900_a00956fc91038525.json",
+      "readback_verified": true,
+      "sha256": "a00956fc910385256c487a6894b2d7c077c21a25b44d632426148387d9a7fb30"
+    },
+    {
+      "bytes": 144322,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002901_002927_e6dfe046eeff827b.json",
+      "readback_verified": true,
+      "sha256": "e6dfe046eeff827bbdf23ed527c5f7ca3946f89dea691ff212ba953377fd11ba"
+    },
+    {
+      "bytes": 122979,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002928_002950_a570ff6303a7ebe3.json",
+      "readback_verified": true,
+      "sha256": "a570ff6303a7ebe3d2cd40440bb827c65a3c71f791fe072c1c229cda35ae96ce"
+    },
+    {
+      "bytes": 267366,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002951_003000_24c231933dbaebf0.json",
+      "readback_verified": true,
+      "sha256": "24c231933dbaebf06358093a8b62f9d618156d0d1309a114e291351c3a64c31e"
+    },
+    {
+      "bytes": 267590,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003001_003050_72ae92d40f4e75e5.json",
+      "readback_verified": true,
+      "sha256": "72ae92d40f4e75e53bdcc5c9fbb09bce376d1b3b5bea68d45b481f5c4e1d78a9"
+    },
+    {
+      "bytes": 267384,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003051_003100_75f67a35e36cfee4.json",
+      "readback_verified": true,
+      "sha256": "75f67a35e36cfee4f41807a787dda183bfb1b12acba29174353c7d802c1908d5"
+    },
+    {
+      "bytes": 203156,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003101_003138_1553169c8a03661d.json",
+      "readback_verified": true,
+      "sha256": "1553169c8a03661dbf847ca92aa2be0b27d39e7a22a33a9397475fc615a1d773"
+    }
+  ],
+  "training_package_sha256": "144fd153c443dc57e30d1cf4e7236ef3b91995c610d90a583dd09c62530165ed",
+  "training_update_wall_seconds": 400.3093067110009
+}

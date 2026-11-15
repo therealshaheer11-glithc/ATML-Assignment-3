@@ -1,0 +1,8 @@
+{
+  "training_launcher_filename_prefix_verified": true,
+  "only_package_change": "Protocol lookup prefix TRAINING_PROTOCOL_ -> L4_protocol_",
+  "hash_checks_unchanged": true,
+  "generation_scoring_guards_unchanged": true,
+  "failed_run_before_model_loading": true,
+  "actual_Colab_R1_pending": true
+}

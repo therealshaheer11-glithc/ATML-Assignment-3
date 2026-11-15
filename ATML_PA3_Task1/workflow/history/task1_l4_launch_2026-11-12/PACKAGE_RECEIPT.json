@@ -1,0 +1,8 @@
+{
+  "package_sha256": "646b584da81dd4d357a0b9e7f576ac93f77a7f90818bc57c4599c6cdcd79f019",
+  "guardian_sha256": "0de74d1150c7ffedf43edfc0994cd00330e4beaba29b17b4b4ac4d57a02039be",
+  "launcher_sha256": "e98325a41a6e5143d045dd7ed38ae67f877634cf6d2a5e93ff5a8f3214f9ecda",
+  "bootstrap_sha256": "5761169fab3b6fc082d76eb36ffab83199c8376add1cf109826ec371723be613",
+  "kit_id": "20e10b447813341eed5b79026e35a28a1508e48bb1980b09b815e1298cbd97cd",
+  "scope": "Ready for first live L4 scratch execution. No GPU result or release success has been observed."
+}

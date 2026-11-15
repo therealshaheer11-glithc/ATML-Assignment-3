@@ -1,0 +1,7 @@
+{
+  "full_1319_synthetic_GSM_replay_coverage_checked": true,
+  "changed_score_and_filtered_answer_rejected": true,
+  "incomplete_split_rejected": true,
+  "export_all_members_hash_readback_passed": true,
+  "scope": "Synthetic CPU control tests; actual pinned stock replay will run in Colab"
+}

@@ -1,0 +1,3 @@
+attempt,computed_images_this_run,elapsed_seconds,compute_seconds_cuda_events,preprocessing_and_transfer_seconds,input_archive_staging_seconds,save_and_verification_seconds,peak_gpu_allocated_bytes,peak_gpu_reserved_bytes,source_sha256
+20261108_051510_c27683ff,9260,461.668,29.919,67.267,127.34,110.752,413032960,492830720,79b686436944987412b6f4119b117eb96e459f50752708aa281519477049b62a
+20261108_052450_89ec9954,0,269.207,0.0,0.0,0.0,0.0,240979968,253755392,261e1d01aade601b4d9bd7257f879c710a87ef1e60e5e02c0e9666fe1da12913

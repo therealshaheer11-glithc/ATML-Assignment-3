@@ -1,0 +1,11 @@
+{
+  "numerical_capacity_status": "passed_reported_scratch_checks",
+  "wrapper_status": "failed_after_successful_result_print",
+  "release_status": "unconfirmed",
+  "rate_units_per_hour": 2.02,
+  "balance_before_job": 78.09,
+  "worker_result_path": "logs/task1_l4_d12659f4ab3c4149954744514eae36d7_result.json",
+  "issue": "Guardian treats worker_complete as immediate termination/release, racing process exit and parent finalization. Actual kernel signal/guardian event unavailable.",
+  "determinism": "FlashAttention warning: warn_only=True did not enforce strict deterministic backward. Must address before official training.",
+  "official_training_updates": 0
+}

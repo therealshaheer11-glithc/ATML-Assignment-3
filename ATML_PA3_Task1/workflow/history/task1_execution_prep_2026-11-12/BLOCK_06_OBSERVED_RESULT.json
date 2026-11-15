@@ -1,0 +1,25 @@
+{
+  "status": "TASK1_BLOCK06_OK",
+  "cpu_model_contract": {
+    "original_unique_parameters": 596049920,
+    "fp32_master_state_sha256": "43f910d3e84e52f5214474dca7c74748e1701aec10440d8660ec1332a1ee1a3f",
+    "original_embeddings_tied": true,
+    "target_shapes_checked": 196,
+    "rank4_initializer_checked": true,
+    "rank16_initializer_checked": true,
+    "actual_oplora_trainable_parameters": 10092544,
+    "actual_oplora_trainable_tensors": 392,
+    "frozen_backbone_fp16": true,
+    "adapters_and_protected_bases_fp32": true,
+    "native_non_thinking_prefix_verified": true,
+    "gpu_or_forward_capacity_tested": false
+  },
+  "portable_archive_GiB": 3.51,
+  "runtime_entries": 48644,
+  "every_archived_file_hash_verified": true,
+  "elapsed_seconds": 1099.9,
+  "gpu_work_run": false,
+  "official_training_started": false,
+  "qualitative_yaml_present": false,
+  "evidence_source": "User supplied full Colab output"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "atml-pa3-task2-block09-observed-v1",
+  "source_attachment_sha256": "8772ef17405743148c496cd4fec49ce550292a35c825831cec9c6b3abde92eff",
+  "source_attachment_bytes": 8409,
+  "observed_result": {
+    "block": "09",
+    "status": "passed",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "image_count": 9260,
+    "shard_count": 37,
+    "images_per_shard": 256,
+    "run_activities": {
+      "packed": 37
+    },
+    "recipe_sha256": "e5683db7637de6712b8fc790f99ae71497c3c1e89ed5af4dcdd0d9b5b552b09a",
+    "input_shards_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/inputs/image_shards/e5683db7637de671/input_shards_complete.json",
+    "input_shards_manifest_sha256": "d3642cd07bf0f1ccd82cf6bd8c5e947d619237b8cd5860499d6f9972bbff3ad7",
+    "archive_bytes": 1483796480,
+    "elapsed_seconds": 833.974,
+    "gpu_used": false,
+    "feature_cache_created": false,
+    "training_started": false
+  },
+  "evidence_scope": "Complete user-supplied Colab output. Next block reverifies actual Drive manifests."
+}

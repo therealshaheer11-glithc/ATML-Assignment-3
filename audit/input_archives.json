@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "ATML_PA3_Task2_GitHub_Upload.zip",
+    "sha256": "3fbf83e65127449c300e278a2c60916bdf8a2e5e3313152cdac8c2808f1b39eb",
+    "bytes": 9581196,
+    "members": 621,
+    "extracted_files_unchanged": true
+  },
+  {
+    "archive": "Task_3_GitHub_Upload.zip",
+    "sha256": "6b6faac675cfa02cdf85eef08a7cab4b8819c29de4768ec07987fce4f99319ba",
+    "bytes": 6608366,
+    "members": 151,
+    "extracted_files_unchanged": true
+  }
+]

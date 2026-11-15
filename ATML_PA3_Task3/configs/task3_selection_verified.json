@@ -1,0 +1,28 @@
+{
+  "implementation_id": "task3_selection_v1",
+  "selection_sha256": "2804a349286323ec35512882ab7178bc04db3880a5337c9487c913e82dd2abe0",
+  "scorer_sha256": "437651bcd06f4892469eea1aa6b2ddc0c8abdc3f8323f7693b59d0f9918bb0d1",
+  "checks_sha256": "a06666bbfc362c1c5d77a37bc2bc6fd6f05d331aa438c64b4a367a9d8dfb0859",
+  "numpy_version": "2.4.6",
+  "checks_passed": 52,
+  "scores": "Raw per-rollout mean logp/KL; eligible-mass normalized vision; pooled prefix token KL Q05/Q95 linear calibration; Z=mean(V)*mean(C), Ztoken=mean(V*C). No future calibration.",
+  "votes": "Exact score ties get descending average ranks; RWC=(N-r)/(N-1), N1 sole candidate. Common integer rescaling of rank weights used for stable identical margins/winners. Final vote ties use earliest current supporting rollout.",
+  "cost": "FirstAns only first retained length; other selectors all consumed retained lengths; no filtering missing/capped records.",
+  "stopping": "4,8,16,otherwise32; unique nonmissing SC leader >=tau; quality-aware adds same SC/RWC winner and margin >=gamma; returns SC. Lazy state stream never advances after stop.",
+  "development_selection": "Per family/dataset: exact integer correct/token totals over200 questions x10 orders; include always32; require (fixed32_correct-policy_correct)*100<=2000. Min tokens, then max correct, smaller tau/gamma.",
+  "tau_grid": [
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "gamma_grid": [
+    0.0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "real_development_thresholds_selected": false,
+  "held_out_scores_inspected": false
+}

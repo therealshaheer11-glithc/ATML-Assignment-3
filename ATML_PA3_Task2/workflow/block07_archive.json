@@ -1,0 +1,566 @@
+{
+  "original_sha256": "d5d2ad21658d452673d6a549f725e2f78949b97b3890ee9d93e170d6eb50ec95",
+  "members": [
+    {
+      "name": "block_07.py",
+      "sha256": "7bc799b420e2e0290da306a894cd512208972d976306eca827b5f54e8473b309",
+      "bytes": 14534,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/block_07.py"
+    },
+    {
+      "name": "dataset/configs/calibration_sample_ids.json",
+      "sha256": "88a5f841d6c4feb84f188dcd7a8a2ebb972796316d460eba715d5b8b16162a77",
+      "bytes": 6254,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/configs/calibration_sample_ids.json"
+    },
+    {
+      "name": "dataset/configs/exact_protocol_A005.json",
+      "sha256": "fd7411f8ada3b43870f56cf7f12b48ce3a9067c9a04c8b8ecb3ba4ab7e5e7e4b",
+      "bytes": 10948,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/configs/exact_protocol_A005.json"
+    },
+    {
+      "name": "dataset/configs/grounding_question_bank.json",
+      "sha256": "9a8e41f22b2558bbb3237cf4a285f0cfbae2eb240967298f1c429931ee84db09",
+      "bytes": 53464,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/configs/grounding_question_bank.json"
+    },
+    {
+      "name": "dataset/configs/model_revisions.json",
+      "sha256": "93c696234938f091590770042d45008df937a27a2b2ad01c63a6a55551b5d7ad",
+      "bytes": 240,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/configs/model_revisions.json"
+    },
+    {
+      "name": "dataset/configs/training_lr_endpoints.json",
+      "sha256": "3eb229ee86081d77f13d373ddb312d97623a4c98644888ee288735e3665554ee",
+      "bytes": 993,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/configs/training_lr_endpoints.json"
+    },
+    {
+      "name": "dataset/dataset_manifest.json",
+      "sha256": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+      "bytes": 7431,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/dataset_manifest.json"
+    },
+    {
+      "name": "dataset/manifests/selected/captions_dev.jsonl",
+      "sha256": "f655f1009accaa9b912bba2dd7499f72854b68995197bd51286e162347caa299",
+      "bytes": 20668,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/captions_dev.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/captions_train.jsonl",
+      "sha256": "ff42ec66ff47291bd469909aecbcd19ea6629ab99651bec27fb32ec3ea10e11b",
+      "bytes": 3941264,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/captions_train.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/grounding_dev.jsonl",
+      "sha256": "5a012effefd28a9a378d168d32ce00a2bd7dfaa751210e211abe845eb3b8cbf9",
+      "bytes": 21087,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/grounding_dev.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/grounding_test.jsonl",
+      "sha256": "29b94dc4a14cae624c53bdf49b9a75c04abb7f4a4fe2c4bfd74aca13a78ccade",
+      "bytes": 56842,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/grounding_test.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/grounding_training_audit.jsonl",
+      "sha256": "8ac0bfa9c3a3da963ad152d867ca60b3ed393ba91625781045967dd318a94bb1",
+      "bytes": 140508,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/grounding_training_audit.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/grounding_training_pools.json",
+      "sha256": "8b590db3a5e29c8fad74ea1ac1ca0ab9edfa90e24959bf1b1c7a7034fe1e0a61",
+      "bytes": 11643397,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/grounding_training_pools.json"
+    },
+    {
+      "name": "dataset/manifests/selected/natural_dev_formatted.jsonl",
+      "sha256": "14055ccf4934371ff0dbbc4367decd96c9b87063d69dbbc419fea49196edb58c",
+      "bytes": 30628,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/natural_dev_formatted.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/natural_test_formatted.jsonl",
+      "sha256": "22871e63a49eeaf0241319c0b12d7ccc34b81104f0d7b4a9684b2f2bcdb77ade",
+      "bytes": 91046,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/natural_test_formatted.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/natural_train_formatted.jsonl",
+      "sha256": "b35c8d924f6a57ae9982392070af5cbc086f3d1460d822f53b6b588e0171de50",
+      "bytes": 1476013,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/natural_train_formatted.jsonl"
+    },
+    {
+      "name": "dataset/manifests/selected/stage1_caption_epoch_orders.json",
+      "sha256": "4c2f1495fe97eaf05bf6a0975a7cbf6cca1bd91ef609dfac25e6a820bd1f0af8",
+      "bytes": 499476,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/manifests/selected/stage1_caption_epoch_orders.json"
+    },
+    {
+      "name": "dataset/provenance/annotation_receipt.json",
+      "sha256": "4aa0cd5afbabb49e16d1ffacb1dce25dbe7b1440728e78f097b4d9c082c101f6",
+      "bytes": 1009,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/annotation_receipt.json"
+    },
+    {
+      "name": "dataset/provenance/approval_A012.json",
+      "sha256": "a02ae47281d34bd1e666ef2aa20d1fdb3d11410fb8d800cb4ebbd86e9b28ee4c",
+      "bytes": 783,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/approval_A012.json"
+    },
+    {
+      "name": "dataset/provenance/human_chat_acceptance.json",
+      "sha256": "ebc6c3c6810c6eb07519969a7003f6055d6d74ed821bc2e830da567428712a7e",
+      "bytes": 1012,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/human_chat_acceptance.json"
+    },
+    {
+      "name": "dataset/provenance/human_review_ledger.jsonl",
+      "sha256": "84e12eebefadcd082bb9224e00ce7bc95d35faf87f876e33b0f40db2c575e604",
+      "bytes": 131209,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/human_review_ledger.jsonl"
+    },
+    {
+      "name": "dataset/provenance/manual_tv_image_receipt.json",
+      "sha256": "170aa9072ddc76c2f57ecd5b55bc6319468302d6a13f6d1a5324b5a533f3355a",
+      "bytes": 442,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/manual_tv_image_receipt.json"
+    },
+    {
+      "name": "dataset/provenance/manual_tv_proposal.json",
+      "sha256": "f0255db2937c885a3643df0d7c6d968705b51944a77c696b71ad68239b711685",
+      "bytes": 5839,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/manual_tv_proposal.json"
+    },
+    {
+      "name": "dataset/provenance/source_locks.json",
+      "sha256": "5219f388dfc4932f16c32eae20b19a25d99a7894c3a4733a59e5e47e110de291",
+      "bytes": 2875,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "data/frozen/provenance/source_locks.json"
+    },
+    {
+      "name": "manual_tv_source.jpg",
+      "sha256": "27a62e8a78196e041d935f592b8c6aff9b577ff99fd9316dca51b49bc49d286a",
+      "bytes": 118882,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "external_image": true
+    },
+    {
+      "name": "package_manifest.json",
+      "sha256": "9baa443ac918149eb73670e726288f7406cfe2570594da49698d638c8804a11b",
+      "bytes": 5612,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/block07_sources/package_manifest.json"
+    },
+    {
+      "name": "task2/__init__.py",
+      "sha256": "cbf8befff8a0ed861ec58a4c25a2075f70e95c728a17da40a87719e3c221aa2d",
+      "bytes": 70,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/__init__.py"
+    },
+    {
+      "name": "task2/checks.py",
+      "sha256": "8048824c9765d6cebe955dc7c458e048400f7af5695fd546609158f1b74c9732",
+      "bytes": 6099,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/checks.py"
+    },
+    {
+      "name": "task2/dataset.py",
+      "sha256": "d0cf8faffb3e49e192ac1c5368fa86ab84f13541fb5633a3b2743beff4b58b3a",
+      "bytes": 8508,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/dataset.py"
+    },
+    {
+      "name": "task2/protocol.py",
+      "sha256": "792ca991f2dd019abd85a800981b56693c414709b9a11b3b60fd8f0b3a0d1a15",
+      "bytes": 1659,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/protocol.py"
+    },
+    {
+      "name": "task2/sampler.py",
+      "sha256": "719d6522037a7d2f0e151cf593211146e5d78c3273e3b947b855403c294e1ca6",
+      "bytes": 6010,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/sampler.py"
+    },
+    {
+      "name": "task2/scoring.py",
+      "sha256": "c05768166e7909e4aa4feac2adc1c8f0bc7ebb3cdfdf5604140db8aa453fc995",
+      "bytes": 2487,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/scoring.py"
+    },
+    {
+      "name": "task2/sourcecheck.py",
+      "sha256": "dd4b8eaadd26804100aad280422a189bba9e920384375d2726fda023f06811bc",
+      "bytes": 2771,
+      "date_time": [
+        2026,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "compress_type": 8,
+      "external_attr": 25165824,
+      "create_system": 3,
+      "source": "workflow/source/Task_2_Block_07_CPU_Preflight/task2/sourcecheck.py"
+    }
+  ]
+}

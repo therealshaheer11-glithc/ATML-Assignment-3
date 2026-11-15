@@ -1,0 +1,5 @@
+dataset,statistic,mean,low,high,valid_questions,undefined_questions,valid_rollouts,total_rollouts
+MathVista,mean_within_rollout_calibrated_pearson,-0.20934390585517282,-0.22208139017592915,-0.19700546159870583,800,0,25600,25600
+MathVista,mean_within_rollout_raw_pearson,-0.2087599807251329,-0.2212361287268544,-0.19648669457931114,800,0,25600,25600
+MathVista,within_question_K_versus_V,-0.3538510902275225,-0.3796159655158474,-0.3282176626766777,795,5,,
+MathVista,within_question_C_versus_V,-0.3501863380181856,-0.3759664619489655,-0.3237848928970764,795,5,,

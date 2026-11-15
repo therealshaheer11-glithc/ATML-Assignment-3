@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "checks": {
+    "package_and_task1": {
+      "status": "PASS",
+      "task2_original_manifest_files": 620,
+      "task3_original_manifest_files": 150,
+      "task1_conditions": 7,
+      "task1_primary_rows": 28,
+      "task1_training_receipt_update_coverage": {
+        "full": 1250,
+        "l2sp": 1250,
+        "lora4": 1250,
+        "lora16": 1250,
+        "oplora": 1250
+      },
+      "nested_archives_checked": 58,
+      "scope": "Package integrity, receipt arithmetic and session coverage only; no Task1 per-example rescore or live Drive audit.",
+      "GPU_used": false
+    },
+    "task2": {
+      "status": "passed",
+      "package_files": 620,
+      "training_updates": 4500,
+      "replayed_training_examples": 72000,
+      "development_points": 12,
+      "answers": 1280,
+      "statistics_match": true,
+      "training_evaluation_overlap": 0,
+      "implementation_checks": 9,
+      "official_normalizer_checked": true,
+      "tables_match_byte_for_byte": 10,
+      "resource_measurements_match": true
+    },
+    "task3": {
+      "status": "PASS",
+      "manifest_files": 150,
+      "offline_method_rows_reproduced": 124,
+      "offline_paired_intervals_reproduced": 198,
+      "live_questions": 50,
+      "live_calls": 250,
+      "live_contrasts_reproduced": 12,
+      "shared_cost_identities": "passed",
+      "raw_output_extractions_replayed": 250,
+      "numpy_used": "2.4.6",
+      "GPU_used": false,
+      "fresh_symbolic_regrading": false
+    }
+  },
+  "GPU_used": false,
+  "release_date": "2026-11-15",
+  "verification_stage": "Before final manifest and archive creation; extracted-archive check is delivered in adjacent FINAL_ARCHIVE_VERIFICATION.json.",
+  "source_task_files_preserved_byte_for_byte": {
+    "ATML_PA3_Task1": 342,
+    "ATML_PA3_Task2": 621,
+    "ATML_PA3_Task3": 151
+  },
+  "final_report_preserved_byte_for_byte": true,
+  "pdf_pages_rendered": 19,
+  "pdf_contact_sheets_inspected": true,
+  "new_experiments_run": false,
+  "publication_pattern_scan": {
+    "counters": {
+      "files": 1131,
+      "nested_members": 1226
+    },
+    "hits": [],
+    "scope": "Common token/private-key and local-home patterns, not a guarantee of absence of secrets."
+  }
+}

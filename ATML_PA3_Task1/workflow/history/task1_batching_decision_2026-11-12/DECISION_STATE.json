@@ -1,0 +1,9 @@
+{
+  "proposal_sha256": "aa251f073c0d994ad1f5364978bb4b65c6c67f8ecf8377d73a3e8f91470ed8b6",
+  "status": "APPROVED_PILOT_AND_CONDITIONAL_ADOPTION",
+  "proposal_only_no_batching_code_implemented": true,
+  "CPU_trace_reader_syntax_valid": true,
+  "original_GPU_package_unchanged": true,
+  "new_GPU_work_run": false,
+  "approval_id": "T1-A003"
+}

@@ -1,0 +1,43 @@
+{
+  "checkpoint": {
+    "bytes": 25806065,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/5014ffeb68f754bb/checkpoints/initial_candidate_9681a4d31740e42b.pt",
+    "readback_verified": true,
+    "sha256": "9681a4d31740e42bc261cba425b09d79a7b3b77385232f0ed0e43650e7328c00"
+  },
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "initial_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/5014ffeb68f754bb/initial_state_c84707b6ba6db676.json",
+  "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+  "recipe_sha256": "5014ffeb68f754bb2b8c6992303050b401eb2972542cb0eec0519e2d79cc10ee",
+  "schema": "atml-pa3-task2-initial-reference-v1",
+  "source_package_sha256": "8fc0a3270bb36adec661872d34a5af5703b403b32c95896851e8339f04827db3"
+}

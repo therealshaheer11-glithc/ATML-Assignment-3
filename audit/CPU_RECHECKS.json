@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-15",
+  "python": "3.12.10",
+  "unchanged_input_archives": [
+    {
+      "archive": "ATML_PA3_Task2_GitHub_Upload.zip",
+      "sha256": "3fbf83e65127449c300e278a2c60916bdf8a2e5e3313152cdac8c2808f1b39eb",
+      "members": 621,
+      "all_extracted_member_bytes_unchanged": true
+    },
+    {
+      "archive": "Task_3_GitHub_Upload.zip",
+      "sha256": "6b6faac675cfa02cdf85eef08a7cab4b8819c29de4768ec07987fce4f99319ba",
+      "members": 151,
+      "all_extracted_member_bytes_unchanged": true
+    }
+  ],
+  "task2": {
+    "command": "python3 reproduce.py --verify-only",
+    "exit_code": 0,
+    "status": "passed",
+    "package_files": 620,
+    "training_updates": 4500,
+    "replayed_training_examples": 72000,
+    "development_points": 12,
+    "answers": 1280,
+    "statistics_match": true,
+    "training_evaluation_overlap": 0,
+    "implementation_checks": 9,
+    "official_normalizer_checked": true,
+    "tables_match_byte_for_byte": 10,
+    "resource_measurements_match": true
+  },
+  "task3": {
+    "command": "python3 verify_results.py",
+    "exit_code": 0,
+    "status": "PASS",
+    "manifest_files": 150,
+    "offline_method_rows_reproduced": 124,
+    "offline_paired_intervals_reproduced": 198,
+    "live_questions": 50,
+    "live_calls": 250,
+    "live_contrasts_reproduced": 12,
+    "shared_cost_identities": "passed",
+    "raw_output_extractions_replayed": 250,
+    "numpy_used": "2.4.6",
+    "GPU_used": false,
+    "fresh_symbolic_regrading": false
+  },
+  "task1": {
+    "evidence_scope": "All seven completion receipts and 14 training-segment receipts recovered; table arithmetic and continuous 0\u20131250 coverage checked. No fresh per-example scoring, model inference, trained weight diagnostics, qualitative annotation or Drive read.",
+    "benchmark_figure": "Created from included primary_metrics.csv; visually checked.",
+    "strict_gsm8k_secondary_zero_preserved": true,
+    "interrupted_backup_completion_claimed": false
+  },
+  "publication": "Local package only; no remote upload or LMS submission."
+}

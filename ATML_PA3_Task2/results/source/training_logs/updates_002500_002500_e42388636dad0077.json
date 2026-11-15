@@ -1,0 +1,173 @@
+[
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 2,
+      "presence": 10
+    },
+    "examples": [
+      {
+        "canonical": "1",
+        "image_id": 467246,
+        "question_id": "training:counting:43:467246:24706:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many tennis rackets can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 24706,
+        "question_id": "training:counting:43:467246:24706:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many tennis rackets can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 524180,
+        "question_id": "training:presence:76:524180:368044:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a keyboard?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 368044,
+        "question_id": "training:presence:76:524180:368044:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a keyboard?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 273808,
+        "question_id": "training:presence:47:273808:156904:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cup?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 156904,
+        "question_id": "training:presence:47:273808:156904:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cup?"
+      },
+      {
+        "caption_id": 807283,
+        "image_id": 326454,
+        "question_id": "caption:807283",
+        "source_split": "train2014",
+        "target": "some onions carrots tomatoes and lettuce and dressing",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 782882,
+        "image_id": 323585,
+        "question_id": "caption:782882",
+        "source_split": "train2014",
+        "target": "A group of horses inside of an enclosure. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 147839,
+        "question_id": "training:presence:3:147839:4385:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a car?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 4385,
+        "question_id": "training:presence:3:147839:4385:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a car?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 201192,
+        "question_id": "training:presence:84:201192:542745:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a book?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 542745,
+        "question_id": "training:presence:84:201192:542745:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a book?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 305746,
+        "question_id": "training:presence:10:305746:96154:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a traffic light?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 96154,
+        "question_id": "training:presence:10:305746:96154:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a traffic light?"
+      },
+      {
+        "caption_id": 676701,
+        "image_id": 444340,
+        "question_id": "caption:676701",
+        "source_split": "train2014",
+        "target": "A yellow fire hydrant covered in snow near a stair case.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 118009,
+        "image_id": 537560,
+        "question_id": "caption:118009",
+        "source_split": "train2014",
+        "target": "A picture of a train going on the train tracks.",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 2500,
+    "learning_rates": [
+      9.669223302466608e-05,
+      1.9338446604933218e-05
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.6734888553619385,
+    "micro_losses": [
+      0.8876205682754517,
+      0.4593571424484253
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 1,
+      "presence": 5
+    },
+    "pair_kinds": [
+      "counting",
+      "presence",
+      "presence",
+      "caption",
+      "presence",
+      "presence",
+      "presence",
+      "caption"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 250,
+    "unclipped_gradient_norm": 3.290144443511963,
+    "wall_seconds": 3.934411
+  }
+]

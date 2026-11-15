@@ -1,0 +1,21 @@
+{
+  "status": "TASK1_BASELINE_V2_PARTIAL_SAVED",
+  "run_id": "task1_baseline_batch8_V2_fcfbcfdb65b04d5f8b4ddaf780197501",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 0,
+    "hellaswag": 8500,
+    "boolq": 0,
+    "arc_easy": 0
+  },
+  "qualitative_responses_reused": 24,
+  "FP32_probe_files_reused": 64,
+  "stop_reason": "Saved-work boundary reached before hellaswag fixed chunk 86",
+  "resume": "Use the exact same V2 package; saved physical groups and scored examples are reused.",
+  "elapsed_worker_seconds": 4984.578142656001,
+  "GPU_memory": {
+    "peak_allocated_bytes": 1192114688,
+    "peak_reserved_bytes": 1216348160,
+    "total_gpu_bytes": 23659151360
+  }
+}

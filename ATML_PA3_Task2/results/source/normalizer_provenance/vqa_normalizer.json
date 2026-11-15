@@ -1,0 +1,20 @@
+{
+  "upstream": {
+    "url": "https://raw.githubusercontent.com/GT-Vision-Lab/VQA/master/PythonEvaluationTools/vqaEvaluation/vqaEval.py",
+    "sha256": "f08edfcad5be0112500993e245c706b6cb928eadebe203f89f838e5e0d04bec8",
+    "attribution": "GT-Vision-Lab/VQA; original author aagrawal; original source retained"
+  },
+  "module_sha256": "56251cdcddbad50cc5e31cb83744cf1752267390b7d4e315dfe00e9edf905d0d",
+  "methods_reused": [
+    "__init__",
+    "processPunctuation",
+    "processDigitArticle"
+  ],
+  "normalization_smoke_tests": 6,
+  "normalization_policy": "Always apply the official punctuation and digit/article helpers to each answer",
+  "legacy_evaluate_not_used": true,
+  "syntax_warnings": [
+    "invalid escape sequence '\\d'",
+    "invalid escape sequence '\\d'"
+  ]
+}

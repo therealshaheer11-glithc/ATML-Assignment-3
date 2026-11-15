@@ -1,0 +1,1 @@
+Stopping counts over8000 question-order observations per dataset. Policies may check after4,8,16; otherwise32. MATH agreement tau=.625; quality tau=.5,gamma=0. MathVista agreement tau=.625; quality tau=.625,gamma=0. Chosen using development data only. Both output current self-consistency. Orders within a question are dependent; uncertainty elsewhere resamples questions.

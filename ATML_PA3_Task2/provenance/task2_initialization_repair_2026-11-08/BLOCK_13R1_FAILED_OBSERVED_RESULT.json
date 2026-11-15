@@ -1,0 +1,75 @@
+{
+  "source_attachment_sha256": "69a3ec4ab66fd49198e572611fbd4a6655a7fdff830fd094fb5a07e6b8e5c111",
+  "observed_failure": {
+    "block": "13",
+    "status": "failed",
+    "phase": "temporary Stage 1 effective-batch-16 precision/gradient update",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "initialization_package_sha256": "0833b78d59608d162fc66e2f321b8b3b4335d99f219be1f157e411ac003a86ed",
+    "production_updates_committed": 0,
+    "temporary_validation_updates_completed": 0,
+    "traceback": "Traceback (most recent call last):\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/0833b78d59608d16/initialization_worker.py\", line 248, in <module>\n    stage1=session.update();torch.cuda.synchronize();validation_steps+=1\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/0833b78d59608d16/task2/training_state.py\", line 181, in update\n    raise FloatingPointError('Missing, non-FP32 or nonfinite gradient: '+name)\nFloatingPointError: Missing, non-FP32 or nonfinite gradient: connector.layers.0.weight\n",
+    "elapsed_seconds": 318.551,
+    "gpu_release_requested_by_controller_on_exit": true
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-initialization-controller-v1",
+    "attempt": "20261108_070434_052b69df",
+    "initialization_package_sha256": "0833b78d59608d162fc66e2f321b8b3b4335d99f219be1f157e411ac003a86ed",
+    "worker_exit_code": 1,
+    "controller_traceback": "Traceback (most recent call last):\n  File \"block_13.py\", line 95, in <module>\n    raise RuntimeError(f'Initialization worker exited with code {worker_code}. Its traceback is printed above and captured in the console log.')\nRuntimeError: Initialization worker exited with code 1. Its traceback is printed above and captured in the console log.\n",
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_13_console_20261108_070434_052b69df_869acf252302149a.log",
+      "sha256": "869acf252302149ae19f743256c77658c9871b2e4fc1bd21993c33f56fb0a463",
+      "bytes": 7002
+    },
+    "console_save_error": null,
+    "release_request_follows": true
+  },
+  "observed_calibration": {
+    "initial_connector_sha256": "2b0131ced6b8b2b1aee69f944795758e53d59e128ca6dd94842bb04a8e3c2c01",
+    "scale_fp32": 0.054590579122304916,
+    "text_elements": 3132416,
+    "text_rms": 0.027441728860139847,
+    "visual_elements": 51380224,
+    "visual_rms": 0.5026825070381165
+  },
+  "observed_environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "interpretation": {
+    "torchao_repair_passed": true,
+    "calibration_computed": true,
+    "untrained_candidate_saved_with_readback": true,
+    "precision_preflight_passed": false,
+    "gradient_failure_subtype_not_reported": true,
+    "optimizer_steps": 0,
+    "passed_initialization_pointer_published": false
+  }
+}

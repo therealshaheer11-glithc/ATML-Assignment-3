@@ -1,0 +1,106 @@
+{
+  "NLL_seconds_this_run": 31.355745809000553,
+  "block": "15",
+  "elapsed_seconds": 258.638,
+  "environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "feature_staging": [
+    {
+      "activity": "staged",
+      "index": 34,
+      "seconds": 4.689
+    },
+    {
+      "activity": "staged",
+      "index": 35,
+      "seconds": 3.409
+    },
+    {
+      "activity": "staged",
+      "index": 36,
+      "seconds": 1.267
+    }
+  ],
+  "generation_seconds_this_run": 51.124477343999615,
+  "manifest": {
+    "bytes": 59693,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/progress/answers_1280_5e12c5b55da7e44e.json",
+    "readback_verified": true,
+    "sha256": "5e12c5b55da7e44ea4a9e7361634716fa70424e7a7df1f270d1d9896512aa1be"
+  },
+  "new_answers_this_run": 1280,
+  "next_step": "CPU scoring and plots",
+  "package_sha256": "e5f2890a6fac6dd70162d5e04e3b53157b3a8c612d4ae94436090f3831a2c5ac",
+  "parameter_counts": {
+    "connector": 1837056,
+    "frozen_base": 596049920,
+    "lora": 4587520,
+    "trainable": 6424576
+  },
+  "peak_gpu_allocated_bytes": 1561144832,
+  "peak_gpu_reserved_bytes": 1671430144,
+  "plan": {
+    "bytes": 267160,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/plan.json",
+    "readback_verified": true,
+    "sha256": "2e8cca2b6c7a597d67d1e124469e35f0c4c2a259bda8b625d38986124a8238c6"
+  },
+  "qwen_source_staging_and_loading_seconds": 97.30158067600001,
+  "recipe": {
+    "bytes": 3384,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/recipe.json",
+    "readback_verified": true,
+    "sha256": "189cf39a6a32b244b350a9039c9d0b7c3276b1d96bc1e9481606a5afca2e7a73"
+  },
+  "source_reference": {
+    "checkpoint": {
+      "bytes": 77397849,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/checkpoints/update_004500_0aaafc7b02763e23.pt",
+      "readback_verified": true,
+      "sha256": "0aaafc7b02763e239590356320367fbe6ca7f5f4fae981c1d9d0feaedb5f2f19"
+    },
+    "completion_attempt": "20261108_184710_4cf0ab50",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "execution_recipe_sha256": "3c691fd16ed3828f97a3a413f8c2fc1ecfb160645e47a9d98523f087ab1d5012",
+    "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+    "progress": {
+      "bytes": 43353,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/progress/update_004500_b291d75f0f7c1a84.json",
+      "readback_verified": true,
+      "sha256": "b291d75f0f7c1a84ec2f54b0973f75fa987ef985e2a57f12d8ab7bfef1274028"
+    }
+  },
+  "source_verified_answers": 0,
+  "status": "passed",
+  "total_answers": 1280,
+  "training_performed": false,
+  "training_state_modified": false,
+  "verified_answers": 1280
+}

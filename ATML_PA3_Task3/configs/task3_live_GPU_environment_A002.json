@@ -1,0 +1,375 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "accelerate": "1.15.0",
+    "huggingface-hub": "1.33.0",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0"
+  },
+  "source_fingerprints": {
+    "torch": {
+      "version": "2.14.1+cu130",
+      "python_source_files": 2437,
+      "source_sha256": "f993526180c2cd03976d7bed09625db4c185455efb199353c168c58b1a82ff2d",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": "86bad1aa31351afc840c225024f16a76b6821c354ed618df523d4554f26d16e0",
+      "torch_variant_rule": "Exact inspected2.14.1+cu130 build; A002 covers one exact initializer hash only",
+      "accepted_source_exceptions": [
+        {
+          "approval_id": "A002",
+          "file": "torch/__init__.py",
+          "actual_sha256": "e0a86783ebcd2e6eb5e573591520bc77ca9aa69c3af36a7a9eab2cad00539219",
+          "original_RECORD_sha256": "bd4a10ff16357ed78f45aaf4b46ce5b771fdc0e8549402206e324d0eb792c672",
+          "difference": "Within _get_cuda_dep_paths, prefer nvidia/cu13/lib before nvidia/<library>/lib. Candidate set unchanged; only priority changes. Entire rest of initializer AST identical."
+        }
+      ]
+    },
+    "transformers": {
+      "version": "5.22.1",
+      "python_source_files": 2809,
+      "source_sha256": "791c3dc546f551da8141c796004bf4da09c773c50af9c8d0844f027eaf5df389",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "accelerate": {
+      "version": "1.15.0",
+      "python_source_files": 84,
+      "source_sha256": "11f560a6acb38d26df783cf88dbd2187cc2998f0cc6694a152a9e2057a1b0631",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "huggingface-hub": {
+      "version": "1.33.0",
+      "python_source_files": 185,
+      "source_sha256": "7cd24adc7c2adf5c266c46748804b56ff923fbf86de40b2fbfe7726bfe0f8be1",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "tokenizers": {
+      "version": "0.23.3",
+      "python_source_files": 16,
+      "source_sha256": "7634984a010d0e7ca1ab6f3d9f497e5fb6cfd369c1a767bb59fea0cca1d117f8",
+      "compiled_assets": [
+        "tokenizers/tokenizers.abi3.so:4b1458a379296762a034d3bc89299c0c35b4eefb0577acca922f481b262c65a1"
+      ],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "safetensors": {
+      "version": "0.8.0",
+      "python_source_files": 7,
+      "source_sha256": "ed71b100290094aaee4ebda1ccc57afde3cf65f33bc4daddeb5526522a632590",
+      "compiled_assets": [
+        "safetensors/_safetensors_rust.abi3.so:e6f17a9e9846bc2bc4ad94cc5431746b59785de3d2681ef2666e8890ae192dfb"
+      ],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "numpy": {
+      "version": "2.4.6",
+      "python_source_files": 407,
+      "source_sha256": "06df70ce387086c32681e376e4333510b223b6bbb58c8040d4808e05d8553c5f",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "jinja2": {
+      "version": "3.1.6",
+      "python_source_files": 25,
+      "source_sha256": "373dcf981c89f4c29de0f0f47a5987faebc4998941fc3aa46b943fa6956a87a2",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "packaging": {
+      "version": "26.3",
+      "python_source_files": 22,
+      "source_sha256": "433bbf02d4b5484dc2a13a9c0ade21a62115fddb3716796d83e6fbc96cb840e5",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "regex": {
+      "version": "2025.11.3",
+      "python_source_files": 4,
+      "source_sha256": "a5b95cc732d0825dc2b93dd9ec2e16579a3360385866673075e2c641894f5aa1",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    },
+    "requests": {
+      "version": "2.32.4",
+      "python_source_files": 18,
+      "source_sha256": "894cb6e6544f78899778e39aea0f1846186efc76fee92c43c9ca4955cd8ad80d",
+      "compiled_assets": [],
+      "torch_build_version_file_sha256": null,
+      "torch_variant_rule": null
+    }
+  },
+  "torch_wheel_RECORD_sha256": "ca2edc073c70d49bf156c96c68dc805ed1bf8147ad1bd43fec66de6de36fefa7",
+  "torch_C_extension_sha256": "6d212fff1f3f8e1fe73dc8957155db639e72be252950669cb70e59d788fe7e1a",
+  "CUDA_version": "13.0",
+  "cuDNN_version": 92800,
+  "driver_version": "580.82.07",
+  "GPU_family": "T4",
+  "compute_capability": [
+    7,
+    5
+  ],
+  "attention": "sdpa",
+  "weight_dtype": "float16",
+  "batch_size": 1,
+  "quantization": false,
+  "TF32": false,
+  "compile": false,
+  "cache": "dynamic",
+  "binary_hash_scope": "Torch wheel RECORD and loaded _C facade hashed; large CUDA libraries not separately rehashed",
+  "approved_integrity_policy": "A002",
+  "CUDA_dependencies": {
+    "installed_NVIDIA_distributions": [
+      {
+        "name": "nvidia-cublas",
+        "version": "13.1.1.3",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cublas-13.1.1.3.dist-info",
+        "RECORD_sha256": "8fb8fffbf0fd793322e430dcab71c2e102dbf040729fc5963a1f2c66727ceb63"
+      },
+      {
+        "name": "nvidia-cublas-cu12",
+        "version": "12.9.3.13",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cublas_cu12-12.9.3.13.dist-info",
+        "RECORD_sha256": "ef9654869f3c96078dd9758c85b296f3e1f59ec1da2c143e298061a09e53a24a"
+      },
+      {
+        "name": "nvidia-cuda-cccl",
+        "version": "13.0.85",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_cccl-13.0.85.dist-info",
+        "RECORD_sha256": "ee17f5e534c5da3366579fa272cc06050ea139fc39e1d1279dcd18d1fcd35884"
+      },
+      {
+        "name": "nvidia-cuda-crt",
+        "version": "13.0.88",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_crt-13.0.88.dist-info",
+        "RECORD_sha256": "e63a0c4154dfc3c90844f52efd96ed91fa0ad75a433dcbd970fed13a9d4099a4"
+      },
+      {
+        "name": "nvidia-cuda-cupti",
+        "version": "13.0.85",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_cupti-13.0.85.dist-info",
+        "RECORD_sha256": "b3cdeb9a61552fed4bc24af8b022059ed48d9b04acd78f075c62337f3b396e01"
+      },
+      {
+        "name": "nvidia-cuda-cupti-cu12",
+        "version": "12.9.79",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_cupti_cu12-12.9.79.dist-info",
+        "RECORD_sha256": "d4e5028d9b45eeb14b39d3e44a7f1c6d649d889a1b38d47a15f6bd1ad3689cfa"
+      },
+      {
+        "name": "nvidia-cuda-nvcc",
+        "version": "13.0.88",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_nvcc-13.0.88.dist-info",
+        "RECORD_sha256": "00e523b031c41d71415ca4bff3b7e960a1229acd7db0e6c993d705d9c2be5375"
+      },
+      {
+        "name": "nvidia-cuda-nvcc-cu12",
+        "version": "12.9.86",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_nvcc_cu12-12.9.86.dist-info",
+        "RECORD_sha256": "6b7c9302f87e66cac233d7da4db7e9ce9ba065546902effdbf511dff5b9723ba"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc",
+        "version": "13.0.88",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_nvrtc-13.0.88.dist-info",
+        "RECORD_sha256": "d2fa7b89e3681cffdca31f9902d018e980590f759cc315b29ddcd0f9a086efa8"
+      },
+      {
+        "name": "nvidia-cuda-nvrtc-cu12",
+        "version": "12.9.86",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_nvrtc_cu12-12.9.86.dist-info",
+        "RECORD_sha256": "5f0f55db846b51d7cd220725afc049c05823cd4e4668f56ba6b807d7e1798ecc"
+      },
+      {
+        "name": "nvidia-cuda-runtime",
+        "version": "13.0.96",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_runtime-13.0.96.dist-info",
+        "RECORD_sha256": "954adee49384fa63bfda8cb4bcfa810e2576613198a259b7b9074ff10f1d5b0a"
+      },
+      {
+        "name": "nvidia-cuda-runtime-cu12",
+        "version": "12.9.79",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cuda_runtime_cu12-12.9.79.dist-info",
+        "RECORD_sha256": "02233c722c04360ad7115d236647f8bde21c4ae04ba32eea557ccf91166897b5"
+      },
+      {
+        "name": "nvidia-cudnn-cu12",
+        "version": "9.28.0.42",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cudnn_cu12-9.28.0.42.dist-info",
+        "RECORD_sha256": "76f14e02330c77ba4bc18f2252a12274701e2ca4b778becaad3bda165c677f8f"
+      },
+      {
+        "name": "nvidia-cudnn-cu13",
+        "version": "9.24.0.43",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cudnn_cu13-9.24.0.43.dist-info",
+        "RECORD_sha256": "4570c14773a54a0ff93dfc68a0689830fa7c440e1ff13bdf0a861f4a786bbec4"
+      },
+      {
+        "name": "nvidia-cufft",
+        "version": "12.0.0.61",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cufft-12.0.0.61.dist-info",
+        "RECORD_sha256": "b139fb320750b965deb0d94d6c6c3da127a7db4274ba031b4df85af5fe8e52f8"
+      },
+      {
+        "name": "nvidia-cufft-cu12",
+        "version": "11.4.1.4",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cufft_cu12-11.4.1.4.dist-info",
+        "RECORD_sha256": "3c539e4e2d64d4293164fb7623fe42f645a2f541793691f19625bb64e5a2d232"
+      },
+      {
+        "name": "nvidia-cufile",
+        "version": "1.15.1.6",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cufile-1.15.1.6.dist-info",
+        "RECORD_sha256": "4244829a1a2aecb622fd3a51d081162474bc91aea65d5acc966de282165b7b65"
+      },
+      {
+        "name": "nvidia-curand",
+        "version": "10.4.0.35",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_curand-10.4.0.35.dist-info",
+        "RECORD_sha256": "3b055bec6723746d2ab8cfdd0bb52c8fb97542fc5dec2ff7530be01e0d5446f9"
+      },
+      {
+        "name": "nvidia-curand-cu12",
+        "version": "10.3.10.19",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_curand_cu12-10.3.10.19.dist-info",
+        "RECORD_sha256": "64dcf6e22cbeff9de338285f350576071ed65d99f3de04d231774390bad5fdf4"
+      },
+      {
+        "name": "nvidia-cusolver",
+        "version": "12.0.4.66",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cusolver-12.0.4.66.dist-info",
+        "RECORD_sha256": "1b580be9eec17eab2d892c1e09def3b70b78437838267ce531582ddd17ae5c8f"
+      },
+      {
+        "name": "nvidia-cusolver-cu12",
+        "version": "11.7.5.82",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cusolver_cu12-11.7.5.82.dist-info",
+        "RECORD_sha256": "3c2cacced4d8bd5e663ba2489aabae8c7f9e6d26002c4168732c414c94351dc1"
+      },
+      {
+        "name": "nvidia-cusparse",
+        "version": "12.6.3.3",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cusparse-12.6.3.3.dist-info",
+        "RECORD_sha256": "1724b697aef30bc09867aac4a37ba5804f1d0a3689c219e90791227add7d6eaa"
+      },
+      {
+        "name": "nvidia-cusparse-cu12",
+        "version": "12.5.10.65",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cusparse_cu12-12.5.10.65.dist-info",
+        "RECORD_sha256": "798dd0b2fc94b065e1581fc16d2b072b45d34ed5b6558d3b8b0816c79c5da286"
+      },
+      {
+        "name": "nvidia-cusparselt-cu13",
+        "version": "0.8.1",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_cusparselt_cu13-0.8.1.dist-info",
+        "RECORD_sha256": "480e3b603f50baf809cc15509bd6e13283e6bd78836f43342c76a94da82aecf4"
+      },
+      {
+        "name": "nvidia-libnvcomp-cu13",
+        "version": "5.2.0.13",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_libnvcomp_cu13-5.2.0.13.dist-info",
+        "RECORD_sha256": "43ddacc0222132148775b685c416a2ddcfb4ccbce0acf751118f5df080400086"
+      },
+      {
+        "name": "nvidia-ml-py",
+        "version": "13.615.71",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_ml_py-13.615.71.dist-info",
+        "RECORD_sha256": "23fc4a1ec29adeb28a2a0d20d4b2d534af4862e888df8e5977e00445b72c09e8"
+      },
+      {
+        "name": "nvidia-nccl-cu12",
+        "version": "2.32.3",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nccl_cu12-2.32.3.dist-info",
+        "RECORD_sha256": "d1500cfce00829279b9b6f016b27dcd26d88a96456a2418106eb26fcabcccdf3"
+      },
+      {
+        "name": "nvidia-nccl-cu13",
+        "version": "2.30.7",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nccl_cu13-2.30.7.dist-info",
+        "RECORD_sha256": "8e1b92ca69680e436e51b9ff92c68aae5c0ff6c30a68fb8b35ab8bf122894881"
+      },
+      {
+        "name": "nvidia-nvimgcodec-cu13",
+        "version": "0.8.0.22",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvimgcodec_cu13-0.8.0.22.dist-info",
+        "RECORD_sha256": "694bc70916964c4347d42122901192bec4bc9f2fd7eee350b0b5a0536177671d"
+      },
+      {
+        "name": "nvidia-nvjitlink",
+        "version": "13.4.92",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvjitlink-13.4.92.dist-info",
+        "RECORD_sha256": "a66d6c0d2885944fc4ef5952c0a00c7e975ea45eb20e5a4b54624b90de213b63"
+      },
+      {
+        "name": "nvidia-nvjitlink-cu12",
+        "version": "12.9.86",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvjitlink_cu12-12.9.86.dist-info",
+        "RECORD_sha256": "e449586fe4b5ac3edd418ecb49375dd9fd83135b9d33ad7fd398fd1a64ff473d"
+      },
+      {
+        "name": "nvidia-nvshmem-cu13",
+        "version": "3.4.5",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvshmem_cu13-3.4.5.dist-info",
+        "RECORD_sha256": "705796134389c62bd3ae5751752144d7e6d6b16fe44e23bdcc2ee5559cedf489"
+      },
+      {
+        "name": "nvidia-nvtx",
+        "version": "13.0.85",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvtx-13.0.85.dist-info",
+        "RECORD_sha256": "f65e2623206c80596fdf93cd491924a325ae6e29a769d45fe8162176bf2d6039"
+      },
+      {
+        "name": "nvidia-nvvm",
+        "version": "13.0.88",
+        "metadata_location": "/usr/local/lib/python3.13/dist-packages/nvidia_nvvm-13.0.88.dist-info",
+        "RECORD_sha256": "5f09089debdb2f4e93ec188124a3a95540f1f39a638fb3febc75a2a5a1fd01f1"
+      }
+    ],
+    "loaded_library_paths_at_setup": [
+      "/usr/lib64-nvidia/libcuda.so.580.82.07",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcublas.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcublasLt.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcudart.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcufft.so.12",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcufile.so.0",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcupti.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcurand.so.10",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcusolver.so.12",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libcusparse.so.12",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libnvJitLink.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libnvrtc-builtins.so.13.0",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cu13/lib/libnvrtc.so.13",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cudnn/lib/libcudnn.so.9",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cudnn/lib/libcudnn_graph.so.9",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/cusparselt/lib/libcusparseLt.so.0",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/nccl/lib/libnccl.so.2",
+      "/usr/local/lib/python3.13/dist-packages/nvidia/nvshmem/lib/libnvshmem_host.so.3",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libc10.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libc10_cuda.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libgomp.so.1",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libshm.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch_cpu.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch_cuda.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch_global_deps.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch_nvshmem.so",
+      "/usr/local/lib/python3.13/dist-packages/torch/lib/libtorch_python.so"
+    ],
+    "process_maps_available": true,
+    "large_library_bytes_rehashed": false,
+    "scope": "Manifest identities and paths at setup; additional libraries may load lazily during inference."
+  }
+}

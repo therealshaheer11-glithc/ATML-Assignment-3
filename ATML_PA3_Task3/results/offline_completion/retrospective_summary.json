@@ -1,0 +1,36 @@
+{
+  "outcomes_changed": false,
+  "policies_changed": false,
+  "scoring_executed": false,
+  "summaries": [
+    {
+      "dataset": "MATH",
+      "family": "agreement",
+      "question_order_observations": 8000,
+      "incorrect_early_stops": 657,
+      "fixed32_recoverable_early_errors": 55
+    },
+    {
+      "dataset": "MATH",
+      "family": "quality",
+      "question_order_observations": 8000,
+      "incorrect_early_stops": 1169,
+      "fixed32_recoverable_early_errors": 137
+    },
+    {
+      "dataset": "MathVista",
+      "family": "agreement",
+      "question_order_observations": 8000,
+      "incorrect_early_stops": 1003,
+      "fixed32_recoverable_early_errors": 118
+    },
+    {
+      "dataset": "MathVista",
+      "family": "quality",
+      "question_order_observations": 8000,
+      "incorrect_early_stops": 989,
+      "fixed32_recoverable_early_errors": 112
+    }
+  ],
+  "observations": 32000
+}

@@ -1,0 +1,255 @@
+{
+  "source_attachment_sha256": "a706b70ccabc1208d6886c6483825b15ae3c1f6f2a4d800dde6173d62277d1f4",
+  "observed_result": {
+    "block": "13",
+    "status": "passed",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "initial_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/5014ffeb68f754bb/initial_state_c84707b6ba6db676.json",
+    "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+    "recipe_sha256": "5014ffeb68f754bb2b8c6992303050b401eb2972542cb0eec0519e2d79cc10ee",
+    "calibration": {
+      "text_rms": 0.027441728860139847,
+      "visual_rms": 0.5026825070381165,
+      "scale_fp32": 0.054590579122304916,
+      "text_elements": 3132416,
+      "visual_elements": 51380224,
+      "initial_connector_sha256": "2b0131ced6b8b2b1aee69f944795758e53d59e128ca6dd94842bb04a8e3c2c01"
+    },
+    "initial_checkpoint": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/5014ffeb68f754bb/checkpoints/initial_candidate_9681a4d31740e42b.pt",
+      "sha256": "9681a4d31740e42bc261cba425b09d79a7b3b77385232f0ed0e43650e7328c00",
+      "bytes": 25806065,
+      "readback_verified": true
+    },
+    "preflight": {
+      "status": "passed",
+      "full_original_Qwen_loaded": true,
+      "exact_source_loading": true,
+      "tied_embeddings": true,
+      "FP16_frozen_base_FP32_trainables_and_moments": true,
+      "effective16_complete_pair_gradients_verified": true,
+      "gradient_checkpointing": true,
+      "LoRA_A_and_B_nonzero_gradients_after_initial_B_update": true,
+      "full_state_disk_save_and_bit_exact_next_update_resume": true,
+      "resume_checks": [
+        "connector",
+        "adapters",
+        "optimizer moments and groups",
+        "scaler",
+        "sampler and next complete pairs",
+        "Python/NumPy/Torch CPU/CUDA RNGs",
+        "dropout",
+        "LRs",
+        "losses",
+        "stage and successful counters"
+      ],
+      "stage2_to3_moments_and_scaler_preserved": true,
+      "canonical_state_restored_exactly": true,
+      "production_updates_committed": 0,
+      "temporary_validation_updates": 4,
+      "temporary_example_presentations": 64,
+      "stage1_validation_update_seconds": 57.483,
+      "stage2_validation_update_seconds": 23.373,
+      "validation_checkpoint": {
+        "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/5014ffeb68f754bb/validation/20261108_075738_cf7a6adb/after_stage2_update1_848774cea10e0309.pt",
+        "sha256": "848774cea10e03095b05eb45133a7479882b9236cee13bb7f8e576f02857929e",
+        "bytes": 77397785,
+        "readback_verified": true
+      },
+      "stage1_loss": 5.541252374649048,
+      "stage2_reference_loss": 6.821042537689209,
+      "stage1_gradient_norm": 188.9755859375,
+      "stage2_gradient_norm": 1416.1005859375,
+      "AMP_scale": 128.0,
+      "AMP_initial_scale": 128.0,
+      "original_candidate": {
+        "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/initialization/e654465523ab9474/checkpoints/initial_candidate_714b48d11514896a.pt",
+        "sha256": "714b48d11514896abad520d79cd09de36e5f6912dc2a8dad23b37cbbce72c1ed",
+        "bytes": 25804785
+      },
+      "peak_gpu_allocated_bytes": 1697537536,
+      "peak_gpu_reserved_bytes": 1881145344
+    },
+    "parameter_counts": {
+      "frozen_base": 596049920,
+      "lora": 4587520,
+      "connector": 1837056,
+      "trainable": 1837056
+    },
+    "feature_staging": [
+      {
+        "index": 2,
+        "activity": "staged",
+        "seconds": 4.111
+      },
+      {
+        "index": 26,
+        "activity": "staged",
+        "seconds": 6.075
+      },
+      {
+        "index": 4,
+        "activity": "staged",
+        "seconds": 4.894
+      },
+      {
+        "index": 24,
+        "activity": "staged",
+        "seconds": 4.93
+      },
+      {
+        "index": 18,
+        "activity": "staged",
+        "seconds": 4.402
+      },
+      {
+        "index": 29,
+        "activity": "staged",
+        "seconds": 4.275
+      },
+      {
+        "index": 14,
+        "activity": "staged",
+        "seconds": 6.337
+      },
+      {
+        "index": 32,
+        "activity": "staged",
+        "seconds": 5.014
+      },
+      {
+        "index": 33,
+        "activity": "staged",
+        "seconds": 6.066
+      },
+      {
+        "index": 10,
+        "activity": "staged",
+        "seconds": 4.805
+      },
+      {
+        "index": 21,
+        "activity": "staged",
+        "seconds": 3.172
+      },
+      {
+        "index": 6,
+        "activity": "staged",
+        "seconds": 3.37
+      },
+      {
+        "index": 12,
+        "activity": "staged",
+        "seconds": 5.21
+      },
+      {
+        "index": 23,
+        "activity": "staged",
+        "seconds": 3.847
+      },
+      {
+        "index": 20,
+        "activity": "staged",
+        "seconds": 2.844
+      },
+      {
+        "index": 27,
+        "activity": "staged",
+        "seconds": 2.229
+      },
+      {
+        "index": 0,
+        "activity": "staged",
+        "seconds": 4.792
+      },
+      {
+        "index": 17,
+        "activity": "staged",
+        "seconds": 3.439
+      },
+      {
+        "index": 1,
+        "activity": "staged",
+        "seconds": 4.584
+      },
+      {
+        "index": 25,
+        "activity": "staged",
+        "seconds": 3.853
+      },
+      {
+        "index": 16,
+        "activity": "staged",
+        "seconds": 3.94
+      },
+      {
+        "index": 30,
+        "activity": "staged",
+        "seconds": 4.437
+      },
+      {
+        "index": 28,
+        "activity": "staged",
+        "seconds": 5.059
+      },
+      {
+        "index": 8,
+        "activity": "staged",
+        "seconds": 3.14
+      },
+      {
+        "index": 7,
+        "activity": "staged",
+        "seconds": 4.79
+      }
+    ],
+    "initialization_package_sha256": "8fc0a3270bb36adec661872d34a5af5703b403b32c95896851e8339f04827db3",
+    "package_setup": "Exact existing pinned libraries reused",
+    "environment": {
+      "python": "3.13.16",
+      "torch": "2.14.1+cu130",
+      "cuda": "13.0",
+      "cudnn": 92800,
+      "gpu": "Tesla T4",
+      "capability": [
+        7,
+        5
+      ],
+      "gpu_total_memory_bytes": 15637086208,
+      "nvidia_driver": "580.82.07",
+      "transformers": "5.22.1",
+      "huggingface-hub": "1.33.0",
+      "tokenizers": "0.23.3",
+      "safetensors": "0.8.0",
+      "Pillow": "11.3.0",
+      "numpy": "2.4.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "optional_backend_policy": {
+        "backend": "torchao",
+        "installed_version": "0.10.0",
+        "originally_discoverable": true,
+        "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+        "worker_import_disabled": true,
+        "quantized_weights_permitted": false
+      }
+    },
+    "elapsed_seconds": 260.73,
+    "production_training_started": false,
+    "next_step": "Dev update-zero baseline, then the first bounded training segment"
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-initialization-controller-v1",
+    "attempt": "20261108_075738_cf7a6adb",
+    "initialization_package_sha256": "8fc0a3270bb36adec661872d34a5af5703b403b32c95896851e8339f04827db3",
+    "worker_exit_code": 0,
+    "controller_traceback": null,
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_13_console_20261108_075738_cf7a6adb_3328f0e5a9f8af55.log",
+      "sha256": "3328f0e5a9f8af551c1abfed0529ccf6884940ae8e4aaaa81a68816fa0ae74da",
+      "bytes": 11414
+    },
+    "console_save_error": null,
+    "release_request_follows": true
+  }
+}

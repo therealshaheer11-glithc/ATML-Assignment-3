@@ -1,0 +1,16 @@
+{
+  "original_filename": "ATML_PA3_Task3.ipynb",
+  "original_sha256": "1db092bf60342fdf9d9bbea3ee7aa5229e259b669480253b97a7288e2067625a",
+  "original_cells": 20,
+  "public_changes": [
+    "cleared outputs",
+    "cleared execution counts",
+    "cleared metadata",
+    "added historical-use note"
+  ],
+  "block15_AST_equivalent_after_variable_renames": {
+    "z": "archive",
+    "n": "name",
+    "b": "content"
+  }
+}

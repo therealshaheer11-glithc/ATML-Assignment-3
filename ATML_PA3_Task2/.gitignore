@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+reproduced/
+reconstructed/
+.env
+.env.*
+*.pem
+*.pt
+*.pth
+*.safetensors
+raw_images/
+raw_annotation_archives/

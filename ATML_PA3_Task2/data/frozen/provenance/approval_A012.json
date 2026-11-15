@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-07",
+  "decision_id": "A012",
+  "proposal_document_sha256": "01dbaa3b95cd661da8d218e6461ae579e7bb1a83af416d482fc7d8597efa3d04",
+  "proposal_sha256": "f0255db2937c885a3643df0d7c6d968705b51944a77c696b71ad68239b711685",
+  "scope": "Use manually screened COCO train2014 image 153620 as count-two B, preserve count-one A 572443, and add image/category (96497,72) to every grounding exclusion role, 110 total.",
+  "subsequent_direction_interpretation": "Accept the final 1/2 television pair through this chat and proceed with final dataset verification and implementation.",
+  "subsequent_user_direction": "No need to prepare i think it's clear what the decison should be let's finally move on and get to work and finsih this up",
+  "user_response": "sure approved"
+}

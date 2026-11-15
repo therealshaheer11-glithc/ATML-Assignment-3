@@ -1,0 +1,25 @@
+{
+  "syntax_files": [
+    "evaluation_records.py",
+    "stock_evaluation.py",
+    "evaluation_engine.py",
+    "prepare_baseline_cpu.py",
+    "archive_io.py",
+    "restore_baseline_cpu.py"
+  ],
+  "record_checks": {
+    "empty_completed_answer_retained": true,
+    "completed_record_reused": true,
+    "different_prompt_rejected": true,
+    "different_model_rejected": true,
+    "different_protocol_rejected": true,
+    "conflicting_answer_preserved": true,
+    "nonfinite_score_rejected": true,
+    "incomplete_denominator_rejected": true,
+    "conditions_do_not_share_answers": true
+  },
+  "restoration_functions_preserved": true,
+  "actual_torch_and_harness_execution_locally": false,
+  "Colab_CPU_integration_pending": true,
+  "GPU_inference_and_training_run": false
+}

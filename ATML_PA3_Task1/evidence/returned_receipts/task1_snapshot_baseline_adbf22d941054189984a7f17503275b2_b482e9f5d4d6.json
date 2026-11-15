@@ -1,0 +1,81 @@
+{
+  "status": "TASK1_BASELINE_V2_COMPLETE_SAVED",
+  "run_id": "task1_snapshot_baseline_adbf22d941054189984a7f17503275b2",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "qualitative_responses_reused": 24,
+  "FP32_probe_files_reused": 64,
+  "baseline_summary": {
+    "status": "TASK1_ORIGINAL_BASELINE_V2_COMPLETE",
+    "audit": {
+      "condition": "original",
+      "model_identity": "3dea08bb53e5930454dbaf1f73c5b9b8b40e90a260bff03924851659a281f6db",
+      "protocol_identity": "b0cdaa6bab77b1221a581c5f14f02acdd754b2208035d42b9fd5abda8825acf3",
+      "gpu_implementation_identity": "75d7cc8f78c938313aba6703b0095cafbb7c83adf4b57519eff83ff6800dbc09"
+    },
+    "benchmark_counts": {
+      "gsm8k_cot": 1319,
+      "hellaswag": 10042,
+      "boolq": 3270,
+      "arc_easy": 2376
+    },
+    "metrics": {
+      "hellaswag": {
+        "acc,none": 0.37562238597888864,
+        "acc_norm,none": 0.47301334395538736
+      },
+      "boolq": {
+        "acc,none": 0.6437308868501529
+      },
+      "arc_easy": {
+        "acc,none": 0.6077441077441077,
+        "acc_norm,none": 0.5597643097643098
+      },
+      "gsm8k_cot": {
+        "exact_match,flexible-extract": 0.43214556482183475,
+        "exact_match,strict-match": 0.0
+      }
+    },
+    "references": {
+      "human_qualitative_annotation_pending": true,
+      "model_identity": "3dea08bb53e5930454dbaf1f73c5b9b8b40e90a260bff03924851659a281f6db",
+      "previous_GSM_answers_reused_for_main_V2_metrics": false,
+      "probe_count": 64,
+      "probe_manifest": "results/original/ACTIVATION_PROBES_COMPLETE.json",
+      "probe_manifest_sha256": "7a373f5749c135922b90a872d52c6df7e0282d74cab8185bc06bb98cc598b203",
+      "qualitative_count": 24,
+      "qualitative_manifest": "results/original/QUALITATIVE_COMPLETE.json",
+      "qualitative_manifest_sha256": "927a079ded157a693291b6a8c21d8a6dbc25c9cb31bcda46b7163ae2d90194b0",
+      "scope": "Unchanged original-baseline qualitative responses; original FP32 probes are shared for all methods",
+      "source_protocol_identity": "2b0cdf3ca8dd889e6e63996af55aba94672110f5e0d79e7ca1e843434d7cf297"
+    },
+    "qualitative_responses": 24,
+    "FP32_activation_probes": 64,
+    "human_qualitative_annotation_pending": true,
+    "official_training_updates": 0,
+    "preliminary_batch_one_GSM_outputs_used_in_main_metrics": false
+  },
+  "elapsed_worker_seconds": 1741.5088615569998,
+  "GPU_memory": {
+    "peak_allocated_bytes": 2452906496,
+    "peak_reserved_bytes": 3409969152,
+    "total_gpu_bytes": 23659151360
+  },
+  "packed_resume_transport": {
+    "run_id": "task1_snapshot_baseline_adbf22d941054189984a7f17503275b2",
+    "snapshot_identity": "3f3902149ce3cfb9c84ae62814e26bc366a5b7f7588826fc44268a8876225411",
+    "transport_implementation_identity": "95bf5a287777410642a66255beda45bebc81e6af0ad66cf1ccbd14c9b5b69797",
+    "unchanged_numerical_implementation_identity": "75d7cc8f78c938313aba6703b0095cafbb7c83adf4b57519eff83ff6800dbc09",
+    "record_IO": {
+      "snapshot_record_reads": 16538,
+      "remote_record_checks_for_unindexed_IDs": 938,
+      "new_records_saved_with_original_Drive_readback": 469
+    },
+    "experiment_settings_changed": false
+  }
+}

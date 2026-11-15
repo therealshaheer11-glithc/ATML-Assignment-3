@@ -1,0 +1,13 @@
+{
+  "checkpoint": {
+    "bytes": 40506137,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/checkpoints/update_000500_8819051c3067a416.pt",
+    "readback_verified": true,
+    "sha256": "8819051c3067a416b3510d791f22098b870934b5559be5c08f2e7ae05642d0f4"
+  },
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "execution_recipe_sha256": "3c691fd16ed3828f97a3a413f8c2fc1ecfb160645e47a9d98523f087ab1d5012",
+  "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+  "latest_observed_global_update": 500,
+  "superseded_package_sha256": "bbd8f6986d4fbd8da50cd2e0c384075f5bc5cb709712ebbae9db40f8df24fcf1"
+}

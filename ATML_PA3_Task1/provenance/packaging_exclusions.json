@@ -1,0 +1,87 @@
+[
+  {
+    "source": "outputs/task1_baseline_kit_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "a1a2fe373d9391f24ee8197c90013940772ef3ee5409a3d323d9419baeaf6593"
+  },
+  {
+    "source": "outputs/task1_baseline_kit_R1_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "4e0f917bf2d69a60cc3f57e6a2d8033a377b5aa45670d850be8f1093aa756f14"
+  },
+  {
+    "source": "outputs/task1_baseline_l4_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "903def00c78fdaabe990668c97860f0a52401341c53b9037ebc207d901133c68"
+  },
+  {
+    "source": "outputs/task1_baseline_recovery_2026-11-12/DELIVERY_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "bc5c95fb19b58ba0f8f597a7ed12ab5819e43e4dfcb26e673ecc2074f9dcdfb2"
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "724525cb7769289b44090a47b5368835f4bd3c789458d558df3d60c6d92d264e"
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "68bb004d4927eb99508891d3f9bea6dd567860c6cbbe9be66159f8f7c145e78d"
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "598e4a2d36c69e7fa37d28a283ad43276b3953895f27fccde9c470e4226f26ba"
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "c63e7fa6019aa4d6c2248dbb7e9092e75d2dc1c3526b6b82eb2bf61dd499d4f4"
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_31_A100_Cell.py",
+    "reason": "Historical source does not parse; excluded from usable source inventory.",
+    "sha256": "3dc3762ef94d043b78cf5fe991e4f351221469c830f01f85ab27f584642a8bd3"
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_32_CPU_final_weights.py",
+    "reason": "Local package builder or known-corrupt retired Block32 exporter; not a result."
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/build_45.py",
+    "reason": "Local package builder or known-corrupt retired Block32 exporter; not a result."
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/build_46.py",
+    "reason": "Local package builder or known-corrupt retired Block32 exporter; not a result."
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/fix_r2.py",
+    "reason": "Local package builder or known-corrupt retired Block32 exporter; not a result."
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/build_45.py",
+    "reason": "Local package builder or known-corrupt retired Block32 exporter; not a result."
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "4d71ebc48bfab3cf7b66e46d4749360cd4a6c2217027bcb7f26ab9b14b5a8d63"
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/PACKAGE_RECEIPT.json",
+    "reason": "Administrative local-host path; relevant execution receipts and package hashes retained separately.",
+    "sha256": "b4c5ee492748beaa186b2a83d2c8d4dfebd3622a4bc4320c225b3bcfda55073c"
+  },
+  {
+    "source": "outputs/task1_data_2026-11-12/Task_1_Block_04_CPU_Data.zip",
+    "sha256": "8a37ed9f5d101ee39164dca7bcf761de00c03cd629caa3c0b91179a18df9a642",
+    "reason": "Archived proposal.md contains local host paths; code/config members preserved unchanged as source_snapshots, original upload ZIP omitted from public package."
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/Task_1_Block_04_R1_CPU_Data.zip",
+    "sha256": "e9c790754c2cf0141c6e8f4b8e0077247fc795365a0c80502f7a791f834312e5",
+    "reason": "Archived proposal.md contains local host paths; code/config members preserved unchanged as source_snapshots, original upload ZIP omitted from public package."
+  }
+]

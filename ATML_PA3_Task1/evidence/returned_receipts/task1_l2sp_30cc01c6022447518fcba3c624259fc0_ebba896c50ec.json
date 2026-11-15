@@ -1,0 +1,41 @@
+{
+  "status": "TASK1_L2SP_BOUNDARY_SAVED",
+  "run_id": "task1_l2sp_30cc01c6022447518fcba3c624259fc0",
+  "method": "l2sp",
+  "training_contract_identity": "77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba",
+  "numerical_implementation_identity": "654543e33f45ac0ef7eaa46f5d51ffc87bbd773d5174730b815f103a9ef89e26",
+  "job_target_update": 312,
+  "start_update": 0,
+  "model_load_and_resume_seconds": 9.417112724999924,
+  "training_outcome": {
+    "status": "TRAINING_MANDATORY_SAVED",
+    "successful_updates": 312,
+    "checkpoint": "checkpoints/l2sp/77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba/mandatory_000312_d9277e9c1ccc",
+    "timings": {
+      "training_seconds": 2384.0154290300043,
+      "checkpoint_seconds": 1087.311075899
+    },
+    "FullFT_midpoint_evaluation_due": false
+  },
+  "official_training_updates": 312,
+  "examples_seen": 9984,
+  "updates_this_job": 312,
+  "checkpoint": {
+    "path": "checkpoints/l2sp/77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba/mandatory_000312_d9277e9c1ccc",
+    "marker_sha256": "becee720786ea4814c6952cfa547c6e5ff614546d79a326731bd40cd1167c292",
+    "manifest_identity": "58043df3986983ff3b235de0fcfcb587644a12b32436b353bb367387c47b22af",
+    "archive_sha256": "e489e0d431ca5d477d07cd82e6356933eb33c0f3c53cf0c72a9954029500e7cf",
+    "archive_bytes": 7153530880,
+    "successful_updates": 312,
+    "examples_seen": 9984,
+    "kind": "mandatory",
+    "created_wall": 1794593732.1021852,
+    "worker_verified_tensor_readback": true
+  },
+  "GPU_memory": {
+    "peak_allocated_bytes": 16560899584,
+    "peak_reserved_bytes": 17205035008,
+    "total_gpu_bytes": 23659151360
+  },
+  "elapsed_worker_seconds": 3499.9412347589996
+}

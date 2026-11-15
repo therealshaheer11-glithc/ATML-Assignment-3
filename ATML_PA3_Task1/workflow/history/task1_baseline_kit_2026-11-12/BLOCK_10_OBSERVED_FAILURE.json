@@ -1,0 +1,11 @@
+{
+  "status": "TASK1_BLOCK10_FAILED_BEFORE_REQUEST_PREPARATION",
+  "exception": "KeyError: 'tokenizer.json'",
+  "cause": "Tokenizer hash looked up in model-only manifest instead of TOKENIZER_FILES.json",
+  "software_inventory_verification_reported_passed": true,
+  "observed_preparation_phase": "1/5 frozen harness/tokenizer verification",
+  "actual_model_evaluation_started": false,
+  "GPU_work_started": false,
+  "evidence": "BLOCK_10_OBSERVED_FAILURE.txt",
+  "evidence_sha256": "891a8fc200cbea01bbb53f577ac4635f120ff015fa195fd7e7d5632b3601097f"
+}

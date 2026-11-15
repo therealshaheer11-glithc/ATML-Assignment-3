@@ -1,0 +1,353 @@
+[
+  {
+    "attachment_id": "0c66bffe-3688-4a27-9d8b-e649101c775f",
+    "attachment_sha256": "6163d915940c7b730b0362904dda3945d6eca5e04e588b4335342188cd3634be",
+    "character_start": 7988,
+    "character_end": 8596,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK04_R1_OK_0da6dffa1b3f.json",
+    "receipt_sha256": "1cd5ebb90efdef5211ed473793b2286e0f44ce4862496a06faa016bfb88d6c78",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "12e879d6-bcd1-4581-8213-0195043e2ef2",
+    "attachment_sha256": "494e4775ac0b724d23dff4a785993fe7ce2b8393aaa4e4f18cb9416e236f426b",
+    "character_start": 6346,
+    "character_end": 7211,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK06_OK_7c5962990e26.json",
+    "receipt_sha256": "a44f75d0745155ac4a756c0d5e84f10ca0733d1ef0edf129416ce819729850b3",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "14491e07-a28a-4812-baec-97e5d1dc4980",
+    "attachment_sha256": "ca178d0a76d5a94518fdde85be43cc4ad16e8b38385436cd9f33bd4a21781d8a",
+    "character_start": 6306,
+    "character_end": 7741,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_final_eval_498b91ca68544c18b337795950e17119_a5ef2f06628d.json",
+    "receipt_sha256": "413738b8ad130e26c20f94ef7639ed2bd4492c88dddfe072b2a1cec166308d00",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "18477842-4ae0-4fc0-abe5-77330aea125a",
+    "attachment_sha256": "a25fd77875ab32f2fca04c9898ef08f45f81cec033956273bce19608c5304c12",
+    "character_start": 17150,
+    "character_end": 19402,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_8d9a00c87afd47e68562a407253004ff_97465c9d1c48.json",
+    "receipt_sha256": "ac77acbed2c0e091e6505f4dc0115c1bbbd69864f414f59f6c962d86cf08542a",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "18d8bfb7-f213-433b-9d59-718777c26fde",
+    "attachment_sha256": "1e0852d9fc9006c1cf7ba7f52d5234727192251e5660a7402e661543374797c5",
+    "character_start": 6578,
+    "character_end": 13071,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK19_TRAINING_CPU_READY_94cc483162a8.json",
+    "receipt_sha256": "4a9013a0000471cada4bcb38c9ba7103c7beafec6f460d064031802ad07bf9c4",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "1cd65977-2da6-4fd2-9133-91493aa918b4",
+    "attachment_sha256": "dbd8ea0b02efe2b930ff8ea5a50b0471704bf5ea8b95018776d8ce4cd4459ab6",
+    "character_start": 16555,
+    "character_end": 18525,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_final_eval_e921fcbc369148b7936d80bcfd548bc0_e07ad756ef61.json",
+    "receipt_sha256": "df030aa5e662a686109f8c937c00b2f05ee79f162fbf18b1781bf75f6162bf72",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "1fcfcca6-ac15-4346-8bf9-3f00a90af095",
+    "attachment_sha256": "8b5db7422ce6e6dcb790274533e3ed82004d9ff046ed3723d332c8f601bcd520",
+    "character_start": 16474,
+    "character_end": 18303,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_final_eval_8077b55deb664f64927ebfae3ba5a351_a54b950209e3.json",
+    "receipt_sha256": "ee965ee9120967ad52840945c9b7d3ea5f66fe8335e42da659b192e9bfbf867f",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "298fd027-0714-4486-bfe1-156279b0a9a8",
+    "attachment_sha256": "ba1645af8561aea8f54d8da3e1627baed7b1b90720de7bcb6c88bb79ee03b323",
+    "character_start": 20388,
+    "character_end": 22109,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_30cc01c6022447518fcba3c624259fc0_ebba896c50ec.json",
+    "receipt_sha256": "d066bb532c30653c0e51da8359d57de604fd2720cb284910c7cb802c9b53a25c",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "2a73bd8e-a8c7-4cf5-a100-494aab3ffa9d",
+    "attachment_sha256": "254d7ffd4f74eb9541d391598b563d4d119b36dff2e8bd257ce02082ca7bddfb",
+    "character_start": 6152,
+    "character_end": 6860,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK07_OK_dc7a60d6820c.json",
+    "receipt_sha256": "5d780689573147429c6b08aab46564ea6c0d6ca452c9cffb2bff2cf3d1943057",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "2f4ff96b-c22e-48ac-9584-5354ac1272aa",
+    "attachment_sha256": "1bdcc69bbd3e3df6ef90bc800211bce08b5ce500b7e3e758a698c7d11ea9cf8b",
+    "character_start": 19399,
+    "character_end": 21628,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_4e800eab25474a27af4f75c23016deb0_dd6d081d4cb1.json",
+    "receipt_sha256": "f75ef4fb4894f0362e4eb07dc5b559d177842466d87279d1e60917924fdce2cc",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "2fe7e686-f58f-4647-ade5-03641ea346ab",
+    "attachment_sha256": "dbd8ea0b02efe2b930ff8ea5a50b0471704bf5ea8b95018776d8ce4cd4459ab6",
+    "character_start": 16555,
+    "character_end": 18525,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_final_eval_e921fcbc369148b7936d80bcfd548bc0_e07ad756ef61.json",
+    "receipt_sha256": "df030aa5e662a686109f8c937c00b2f05ee79f162fbf18b1781bf75f6162bf72",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "305c2c72-f683-4f6b-8141-bdb2ee5055bc",
+    "attachment_sha256": "b0a7863346b630f57327840229ae6af78e1e355ea676535cd6a59166b9751dab",
+    "character_start": 19309,
+    "character_end": 21544,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_1e361e850b7840f4b688e3180606517e_5b8039907b24.json",
+    "receipt_sha256": "5eb07157bb65627ba7d731c36b941b9b91cf91a5b998432b45bc54f1700e0ab6",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "34aae720-6bb3-4a21-8eea-623cdfbc235e",
+    "attachment_sha256": "195aca835217f5acf3f31a08407f5e1c5392d44b4989bf6455d2f512f767cf4e",
+    "character_start": 20834,
+    "character_end": 22567,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_2978b055661c482088ac9799efaba94b_208ec9144597.json",
+    "receipt_sha256": "44d9d8afc40071dd2329aa2f390d3517cf0375909274c7d861624635ee46ae79",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "35d9335a-b00c-449a-b535-b7edd5dadcb3",
+    "attachment_sha256": "8f08b20c4582dd63659ebc9cc8935cf4158b9144f56fe685e33dd53f831a9eab",
+    "character_start": 60606,
+    "character_end": 62890,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora16_32425c2a96c447a692fbc4204e4cd4f6_7dcce47dac7d.json",
+    "receipt_sha256": "4c25a73d2df7e84954699e3b34f9b47942863aa7c5947290b5e02541e416cc57",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "53ba3441-cbc9-473f-89fe-17c4209f8741",
+    "attachment_sha256": "a5f136e4d720d08184502798f3049f55a5d854993d3f9fc0fd49b28ddf7bb77a",
+    "character_start": 15837,
+    "character_end": 16551,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_baseline_batch8_V2_f6b8daf1b5a245bfb0eee562fecca690_420140628e46.json",
+    "receipt_sha256": "4cd2b8296177cffdfa7315419766a64d931eed11833786e90cf4bddee07688a3",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "59ebf817-19cc-4b07-9371-a18dd3195d65",
+    "attachment_sha256": "bab278586119e63217ceff61e77f1a1eb05eee6981fca7d4ced71904042f6374",
+    "character_start": 16120,
+    "character_end": 16820,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_mid_eval_97a06c7def994cfaa08e45de1f91e23d_3917ed1710d2.json",
+    "receipt_sha256": "6420297f2141de7ffd6be0847400e8c8513df297b6e7abfe6d5fd5ca8d34d061",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "5dcbdfc6-13de-4008-90b9-c5c298e29951",
+    "attachment_sha256": "3d2e7aa81ff602f37a9675a96bf5914f521860d9c4a8c0370969362f421b4252",
+    "character_start": 4550,
+    "character_end": 5315,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_ORIGINAL_BASELINE_STOCK_REPLAY_OK_3d35f61df04d.json",
+    "receipt_sha256": "d710064421182f8d38dbadf532f0bb99e0527f6d06302d47f4d42703029f7a4e",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "5dcbdfc6-13de-4008-90b9-c5c298e29951",
+    "attachment_sha256": "3d2e7aa81ff602f37a9675a96bf5914f521860d9c4a8c0370969362f421b4252",
+    "character_start": 5414,
+    "character_end": 6956,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK18_BASELINE_AUDIT_EXPORT_OK_b3bc7d5be850.json",
+    "receipt_sha256": "2b80b29c77d8507fda1a373964e81f1bcb179e47e490d8b5f5aea1e23d1c3d5d",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "60905cb3-cb45-48b8-9fbc-6b13c57b340a",
+    "attachment_sha256": "6f67e2f4ebdc4fd373b4e9c07ca729e14d69411a5a3f85655a71bd96bd48d831",
+    "character_start": 9625,
+    "character_end": 13215,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_L4_PREFLIGHT_OK_145e27f4a837.json",
+    "receipt_sha256": "ef475be2901a9f6031e2637b2f296c73fce7e16fff74dee4531b088c26ddd966",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "6ee2459f-19f7-4cf0-96d0-d6644dc2239b",
+    "attachment_sha256": "cd8e4367851d46efb927cc9fceb272d32de3b90ab671d503a5e984263a8c2268",
+    "character_start": 18102,
+    "character_end": 20387,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_e583a37bba8a4c7084e0afb910abe0a7_d6fd8be52ac1.json",
+    "receipt_sha256": "1fac308b774c193211665996991efc0e88ba1f6368642e607c9518b37886ea09",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "6f30451b-422b-4270-a058-e6c08a91d20c",
+    "attachment_sha256": "4ca71870ef5118381d2a0ae076a9634c863e10ba31c6162bdd123286ee0cffec",
+    "character_start": 20672,
+    "character_end": 22408,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_28e6c841efa74bc1870e1e5c1267f5a1_e32148d3783c.json",
+    "receipt_sha256": "b2652ee512b3d4ffb1c6863d6f106678b1cc86d4eab827f0ed7950c83ae5b424",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "74530efb-4516-4ba9-81a6-960099bba394",
+    "attachment_sha256": "9df680f8faf2bf903ca0f72f841ed998e4435604dc25e47f7be1a4843e746e4e",
+    "character_start": 16461,
+    "character_end": 18295,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora16_final_eval_e1bed1f92f954e50baef4a94f5e244e5_5fc48523ffbd.json",
+    "receipt_sha256": "912a1b17a97a28445c4b8f8f97450c0118e8dc8a976a7972d6d4b4fd986e3275",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "8370265b-bb9d-4074-bb67-4dd87e3c29db",
+    "attachment_sha256": "ce3e44a9751240099a6de3d95627acd6a6d6dfc5a47b3d2aed1d006d1784ed6f",
+    "character_start": 2243,
+    "character_end": 5073,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK13_CPU_BATCH8_OK_3ca519aecfc2.json",
+    "receipt_sha256": "c50055a7d294d5a21a77ead06719284b9614bd750b71cf05930cbff9ecce27e5",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "87daa0cc-d777-4214-ae8a-bce0c6115e78",
+    "attachment_sha256": "ebfca3e79c59b94033fad9dca5c242a8969fd2e1c4292fa88f4c5cc11e095912",
+    "character_start": 6792,
+    "character_end": 8372,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_batch8_pilot_df8cf72da3c149b9ae6e99d5abf04942_2d2361f15a4a.json",
+    "receipt_sha256": "6816676fefa9b7e626bd49133707fc2ef21233053e259926af3dd96735cf4166",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "90a9a301-76f2-483e-9a57-4809044d7186",
+    "attachment_sha256": "e845120b4ffc28231955b93bebe897d05a846733b4cdec9c52281eda09825ebb",
+    "character_start": 11358,
+    "character_end": 12058,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_baseline_batch8_V2_fcfbcfdb65b04d5f8b4ddaf780197501_1c1aa0323ad6.json",
+    "receipt_sha256": "975137910849f6ef140ed88dfd10a0dbbb0545f65f8ce3f84bed55995ce7a061",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "90e2d229-ea8c-4de7-9faf-e9273f46f904",
+    "attachment_sha256": "997a2889dfcd6b5c16b765c30c11afe7320e9c740a0b923b5fd59d2d9a259486",
+    "character_start": 6276,
+    "character_end": 7705,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_final_eval_7850bd0a442747c69aaadb6140175251_e2d9961fe2b9.json",
+    "receipt_sha256": "94578581654c2a75b98cd47affbee217f9a3137f1b339a6726330614dbed9813",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "97e4aa72-659a-4e91-96c8-0248de278b38",
+    "attachment_sha256": "cbdb4c7702f1b80a13dcf7d356a0738e759172d304c0c136ace6a6abdd3bba9f",
+    "character_start": 7212,
+    "character_end": 9145,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK09_CPU_REVIEW_OK_5d2b4781364e.json",
+    "receipt_sha256": "ce0e9137ceeeaaced1bef1d2352ea5634e2776ad49d02351e6b855843fcfd0dc",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "9fee513d-6c17-46b2-8872-af0c87e79976",
+    "attachment_sha256": "1d16854e5a149e2d3f8d56f15efaba4ff6526f186d51533344788c7a718887db",
+    "character_start": 20976,
+    "character_end": 22711,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_d9f8fd53300440febab1b2eab9073480_e82f6d9ca1a1.json",
+    "receipt_sha256": "1f4f58a000ee892368a39e76896081469dffbf2d485f9b95d4b30a7fa67940c1",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "a62c458d-8322-4eba-9969-10c9920e67c7",
+    "attachment_sha256": "9e9ba1ce4c1cde79364ff9a43fe06df2c1fa16bf44f276a542b39a62dda46954",
+    "character_start": 67915,
+    "character_end": 70205,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_6e964902a35f448c919c3d926e28f15f_ae3f08188fef.json",
+    "receipt_sha256": "00686bbab6f5069f90b2d2cb2db290d4c3572d818a94258f8ba5cee1c47cf72b",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "a809e936-0bff-45a8-901c-2f3828d2b25d",
+    "attachment_sha256": "3dc3762ef94d043b78cf5fe991e4f351221469c830f01f85ab27f584642a8bd3",
+    "character_start": 17452,
+    "character_end": 19705,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_eead790bbf1c4f80940868d916cb0fce_6ac9682423d5.json",
+    "receipt_sha256": "9e9079a7a4ab2d274051912c24194e9aa0d1ad42e316ca23cc70bba233b2b38f",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "bd36ec35-d18e-4c95-ac7e-b5f545451610",
+    "attachment_sha256": "bcb0f643400f3cf63d7c42eb2d52d4deaefe9f457eb0f07d8e7abcca8051a2a8",
+    "character_start": 16447,
+    "character_end": 18269,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_final_eval_06ef1d28e8114cf28504b213b1b3a25f_5c620cd409bb.json",
+    "receipt_sha256": "483fc661fa57b6f71ad84cf0fb86575bd94f94e405945ae2b3e2da352492cf0f",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "c413a0e8-0482-4057-9aff-94d0d6a0102a",
+    "attachment_sha256": "af44e36ae0516029fd047c8dffd95f4ebb1e4fbd2b238170dd8a858dcb289048",
+    "character_start": 24076,
+    "character_end": 24764,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK05_OK_1b064d5c580c.json",
+    "receipt_sha256": "1785bc262391cc0ab55b9a2915746843893c9412f26801fa83612b2069aeff01",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "c9d0a6f3-c4bf-4a25-a07a-852a10d9492a",
+    "attachment_sha256": "87caf2cd86200b9c4c103949d4241e0a65f9ffb15301ca7ce433fe3ae84ecdcc",
+    "character_start": 42844,
+    "character_end": 45355,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_01fc3a71d0d24ba88dbda80b60780a9b_05a6e6a9af66.json",
+    "receipt_sha256": "8a196c0d0a6e94f337ad2eb5ccbc01009015ffe6eb1679152cfeab05f9d34c5d",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "cde88735-386b-4ce6-9c49-051e31232b44",
+    "attachment_sha256": "1c769bdf47849536fee1c5f649f67781655ca5804a04bd03f441686e2e687f04",
+    "character_start": 16799,
+    "character_end": 20067,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_snapshot_baseline_adbf22d941054189984a7f17503275b2_b482e9f5d4d6.json",
+    "receipt_sha256": "1c2357b1c00838e4d97788ccce75830fa0728128697fb8687dbded66cc70595c",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "e81740e7-655e-4312-beed-50dabd4f837a",
+    "attachment_sha256": "c8b96b34d5e789aa3b1679a119b11f8bfa1a5840ff4cacfccf99f59dfb4b3cd0",
+    "character_start": 16555,
+    "character_end": 18371,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_mid_eval_b75eeffb271a4ca597cc1b2b9538ea02_1de4704f5001.json",
+    "receipt_sha256": "2200fe6e161c89ae65bca511ec025464758331dd1d364946d8c3051fffea664f",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "ee683f3a-50ed-4091-b71a-90f9d2c55331",
+    "attachment_sha256": "470cb95d83856a41c55dc8c97b4406044f3e14b5dfe95239e22c01cd1e4c82ce",
+    "character_start": 20305,
+    "character_end": 22032,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_32cdd95c1c214e158015b40fab07ae65_b3c12c18fc7e.json",
+    "receipt_sha256": "e8dbc8f8d1d198ac47dcf06115f8d7feec6a686650eb306c58341d62e000e451",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "efb2a96a-bc60-4f3d-baf2-adfaf42194e9",
+    "attachment_sha256": "fdb89fa6d14f38672f1e762a9510274620d8780250d2ee6665ca679dd1ed3167",
+    "character_start": 16475,
+    "character_end": 18299,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_final_eval_7eb01cb00b454faf9f5a755644a35941_0e382b012b4b.json",
+    "receipt_sha256": "df5142cb8b77025e000aaa3eab9dae7bde1e34bd2228575b017053999f650c85",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "f5516b6a-7225-416a-8fa9-920013d4eba4",
+    "attachment_sha256": "2846f07f3581c3f003c145e7466fd3551fa6ee1af3c199f7838dc735a9551ca2",
+    "character_start": 10193,
+    "character_end": 14907,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/TASK1_BLOCK10_CPU_BASELINE_KIT_OK_9cc6393a479b.json",
+    "receipt_sha256": "2a8978808b1eb5344caf7aaf061fe8368c73dc92ce83ef76713b711f128d97b9",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  },
+  {
+    "attachment_id": "f69f2ba4-036d-4791-be3d-4cd0b8a62fa5",
+    "attachment_sha256": "2e26a98cfc804c2eb1257fd906bb394a56750be0ecc384501dc8b698e7044489",
+    "character_start": 18380,
+    "character_end": 20632,
+    "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_0579a830ba4b45229494fd06c00c330a_1fb6a13f446a.json",
+    "receipt_sha256": "4f0873961d790a3461fe1ab33008d6a0e90538dd01334f6954157cd0c629b9b5",
+    "scope": "Exact JSON substring from user-returned text; no direct Drive read in this packaging pass."
+  }
+]

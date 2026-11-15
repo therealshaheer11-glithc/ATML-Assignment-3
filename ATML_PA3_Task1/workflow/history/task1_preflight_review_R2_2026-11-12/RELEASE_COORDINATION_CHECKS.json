@@ -1,0 +1,6 @@
+{
+  "primary_success_avoids_duplicate_release": true,
+  "primary_failure_uses_fallback": true,
+  "release_error_preserves_numerical_completion": true,
+  "stuck_fallback_is_bounded": true
+}

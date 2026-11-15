@@ -1,0 +1,118 @@
+{
+  "status": "TASK1_L4_PREFLIGHT_OK",
+  "results": [
+    {
+      "variant": "full",
+      "scratch_successful_updates": 2,
+      "microbatch": 2,
+      "accumulation": 16,
+      "sequence_length": 2048,
+      "response_head_chunk_tokens": 128,
+      "trainable_parameters": 596049920,
+      "loading_seconds": 2.6339592990000256,
+      "steps": [
+        {
+          "update": 1,
+          "seconds": 27.216672936000123,
+          "sft_loss": 13.537713050842285,
+          "omega": 0.0,
+          "gradient_norm_before_clip": 59.81294631958008,
+          "scale": 65536.0
+        },
+        {
+          "update": 2,
+          "seconds": 27.020617639999955,
+          "sft_loss": 13.520703315734863,
+          "omega": 0.0,
+          "gradient_norm_before_clip": 58.99898910522461,
+          "scale": 65536.0
+        }
+      ],
+      "overflow_attempts": [],
+      "peak_allocated_bytes": 11492170240,
+      "peak_reserved_bytes": 12861833216,
+      "total_gpu_bytes": 23659151360,
+      "headroom_fraction_using_peak_reserved": 0.45636962965014816,
+      "optimizer_states_fp32": true,
+      "deterministic_algorithms_enabled": true,
+      "deterministic_warn_only": true
+    },
+    {
+      "variant": "l2sp",
+      "scratch_successful_updates": 2,
+      "microbatch": 2,
+      "accumulation": 16,
+      "sequence_length": 2048,
+      "response_head_chunk_tokens": 128,
+      "trainable_parameters": 596049920,
+      "loading_seconds": 2.1357810810000046,
+      "steps": [
+        {
+          "update": 1,
+          "seconds": 27.304128127000013,
+          "sft_loss": 13.537713050842285,
+          "omega": 0.0,
+          "gradient_norm_before_clip": 59.81275177001953,
+          "scale": 65536.0
+        },
+        {
+          "update": 2,
+          "seconds": 27.335570837999967,
+          "sft_loss": 13.520594596862793,
+          "omega": 7.032633584458381e-05,
+          "gradient_norm_before_clip": 58.999305725097656,
+          "scale": 65536.0
+        }
+      ],
+      "overflow_attempts": [],
+      "peak_allocated_bytes": 16765854208,
+      "peak_reserved_bytes": 17179869184,
+      "total_gpu_bytes": 23659151360,
+      "headroom_fraction_using_peak_reserved": 0.2738594498767347,
+      "optimizer_states_fp32": true,
+      "deterministic_algorithms_enabled": true,
+      "deterministic_warn_only": true
+    },
+    {
+      "variant": "oplora",
+      "scratch_successful_updates": 2,
+      "microbatch": 2,
+      "accumulation": 16,
+      "sequence_length": 2048,
+      "response_head_chunk_tokens": 128,
+      "trainable_parameters": 10092544,
+      "loading_seconds": 1.767741419999993,
+      "steps": [
+        {
+          "update": 1,
+          "seconds": 20.781125366000197,
+          "sft_loss": 13.537452697753906,
+          "omega": 0.0,
+          "gradient_norm_before_clip": 6.731510639190674,
+          "scale": 65536.0
+        },
+        {
+          "update": 2,
+          "seconds": 21.096892802999946,
+          "sft_loss": 13.526301145553589,
+          "omega": 0.0,
+          "gradient_norm_before_clip": 6.653815269470215,
+          "scale": 65536.0
+        }
+      ],
+      "overflow_attempts": [],
+      "peak_allocated_bytes": 2410646528,
+      "peak_reserved_bytes": 2466250752,
+      "total_gpu_bytes": 23659151360,
+      "headroom_fraction_using_peak_reserved": 0.8957591202459766,
+      "optimizer_states_fp32": true,
+      "deterministic_algorithms_enabled": true,
+      "deterministic_warn_only": true
+    }
+  ],
+  "elapsed_seconds": 170.33968617300002,
+  "gpu_name": "NVIDIA L4",
+  "official_training_updates": 0,
+  "scratch_weights_discarded": true,
+  "evidence_source": "Complete user-supplied output; saved Drive result not yet independently reread"
+}

@@ -1,0 +1,2901 @@
+[
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 2,
+      "counting": 6,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 154379,
+        "question_id": "training:presence:31:154379:267880:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a handbag?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 267880,
+        "question_id": "training:presence:31:154379:267880:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a handbag?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 424503,
+        "question_id": "training:presence:67:424503:277134:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dining table?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 277134,
+        "question_id": "training:presence:67:424503:277134:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dining table?"
+      },
+      {
+        "caption_id": 788403,
+        "image_id": 82228,
+        "question_id": "caption:788403",
+        "source_split": "train2014",
+        "target": "A man posing for a picture, with a glass in his hand.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 158570,
+        "image_id": 511814,
+        "question_id": "caption:158570",
+        "source_split": "train2014",
+        "target": "Multiple people on bicycles on a busy street",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "1",
+        "image_id": 173228,
+        "question_id": "training:counting:78:173228:206685:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many microwaves can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 206685,
+        "question_id": "training:counting:78:173228:206685:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many microwaves can you see?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 215436,
+        "question_id": "training:counting:11:215436:577213:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many fire hydrants can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 577213,
+        "question_id": "training:counting:11:215436:577213:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many fire hydrants can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 530479,
+        "question_id": "training:presence:25:530479:236218:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a giraffe?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 236218,
+        "question_id": "training:presence:25:530479:236218:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a giraffe?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 394697,
+        "question_id": "training:presence:57:394697:65753:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a carrot?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 65753,
+        "question_id": "training:presence:57:394697:65753:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a carrot?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 297312,
+        "question_id": "training:counting:9:297312:65894:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many boats can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 65894,
+        "question_id": "training:counting:9:297312:65894:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many boats can you see?"
+      }
+    ],
+    "global_update": 3384,
+    "learning_rates": [
+      2.3871463036950283e-05,
+      4.774292607390057e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.5090284049510956,
+    "micro_losses": [
+      0.8609040379524231,
+      0.15715277194976807
+    ],
+    "pair_counts": {
+      "caption": 1,
+      "counting": 3,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "presence",
+      "presence",
+      "caption",
+      "counting",
+      "counting",
+      "presence",
+      "presence",
+      "counting"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1134,
+    "unclipped_gradient_norm": 3.9022037982940674,
+    "wall_seconds": 2.952379
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "presence": 12
+    },
+    "examples": [
+      {
+        "caption_id": 207360,
+        "image_id": 41272,
+        "question_id": "caption:207360",
+        "source_split": "train2014",
+        "target": "People at and around a table with wine glasses.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 75535,
+        "image_id": 361928,
+        "question_id": "caption:75535",
+        "source_split": "train2014",
+        "target": "A tall case of flowers on an elaborate dining area sit alongside two wine glasses and a dish.\n",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 460578,
+        "question_id": "training:presence:48:460578:555143:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a fork?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 555143,
+        "question_id": "training:presence:48:460578:555143:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a fork?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 517878,
+        "question_id": "training:presence:72:517878:130778:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a TV?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 130778,
+        "question_id": "training:presence:72:517878:130778:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a TV?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 233439,
+        "question_id": "training:presence:87:233439:543275:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain scissors?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 543275,
+        "question_id": "training:presence:87:233439:543275:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain scissors?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 177476,
+        "question_id": "training:presence:27:177476:399837:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 399837,
+        "question_id": "training:presence:27:177476:399837:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "caption_id": 140204,
+        "image_id": 452905,
+        "question_id": "caption:140204",
+        "source_split": "train2014",
+        "target": "PERSON RIDING IN CROSS COUNTRY GEAR, DRINKING WHILE RIDING",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 170922,
+        "image_id": 423046,
+        "question_id": "caption:170922",
+        "source_split": "train2014",
+        "target": "A man riding a skateboard while flying through the air.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 134430,
+        "question_id": "training:presence:90:134430:504769:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toothbrush?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 504769,
+        "question_id": "training:presence:90:134430:504769:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toothbrush?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 206377,
+        "question_id": "training:presence:23:206377:530284:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bear?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 530284,
+        "question_id": "training:presence:23:206377:530284:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bear?"
+      }
+    ],
+    "global_update": 3385,
+    "learning_rates": [
+      2.379989638302062e-05,
+      4.759979276604124e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.733861118555069,
+    "micro_losses": [
+      0.7458323240280151,
+      0.7218899130821228
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "presence": 6
+    },
+    "pair_kinds": [
+      "caption",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "caption",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1135,
+    "unclipped_gradient_norm": 2.150665760040283,
+    "wall_seconds": 1.795288
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 2,
+      "presence": 10
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 237515,
+        "question_id": "training:presence:17:237515:82600:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cat?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 82600,
+        "question_id": "training:presence:17:237515:82600:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cat?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 153394,
+        "question_id": "training:counting:40:153394:322755:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many baseball gloves can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 322755,
+        "question_id": "training:counting:40:153394:322755:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many baseball gloves can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 524471,
+        "question_id": "training:presence:78:524471:414284:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a microwave?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 414284,
+        "question_id": "training:presence:78:524471:414284:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a microwave?"
+      },
+      {
+        "caption_id": 54385,
+        "image_id": 134294,
+        "question_id": "caption:54385",
+        "source_split": "train2014",
+        "target": "The corner of a stark room with a chest, microwave, and air conditioner is depicted.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 225974,
+        "image_id": 464766,
+        "question_id": "caption:225974",
+        "source_split": "train2014",
+        "target": "A sleeping woman holding two young boys in bed.  ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 573589,
+        "image_id": 530386,
+        "question_id": "caption:573589",
+        "source_split": "train2014",
+        "target": "A wooden table topped with boxes of fruit.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 634014,
+        "image_id": 393607,
+        "question_id": "caption:634014",
+        "source_split": "train2014",
+        "target": "Night time photo of small urban park with slides.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 250103,
+        "question_id": "training:presence:1:250103:42972:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a person?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 42972,
+        "question_id": "training:presence:1:250103:42972:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a person?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 165847,
+        "question_id": "training:presence:38:165847:213117:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a kite?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 213117,
+        "question_id": "training:presence:38:165847:213117:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a kite?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 497440,
+        "question_id": "training:presence:58:497440:405088:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hot dog?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 405088,
+        "question_id": "training:presence:58:497440:405088:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hot dog?"
+      }
+    ],
+    "global_update": 3386,
+    "learning_rates": [
+      2.3728481373316357e-05,
+      4.745696274663272e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.8908883035182953,
+    "micro_losses": [
+      0.9373555183410645,
+      0.8444210886955261
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 1,
+      "presence": 5
+    },
+    "pair_kinds": [
+      "presence",
+      "counting",
+      "presence",
+      "caption",
+      "caption",
+      "presence",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1136,
+    "unclipped_gradient_norm": 3.8898470401763916,
+    "wall_seconds": 1.848742
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 2,
+      "presence": 14
+    },
+    "examples": [
+      {
+        "caption_id": 123093,
+        "image_id": 165426,
+        "question_id": "caption:123093",
+        "source_split": "train2014",
+        "target": "A plate of food with bacon, pancakes and eggs.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 344032,
+        "image_id": 210139,
+        "question_id": "caption:344032",
+        "source_split": "train2014",
+        "target": "A slice of half eaten pizza and pan of potatoes on a kitchen counter.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 489140,
+        "question_id": "training:presence:56:489140:376907:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain broccoli?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 376907,
+        "question_id": "training:presence:56:489140:376907:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain broccoli?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 243938,
+        "question_id": "training:presence:48:243938:251210:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a fork?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 251210,
+        "question_id": "training:presence:48:243938:251210:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a fork?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 104543,
+        "question_id": "training:presence:90:104543:534564:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toothbrush?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 534564,
+        "question_id": "training:presence:90:104543:534564:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toothbrush?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 494039,
+        "question_id": "training:presence:24:494039:518659:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a zebra?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 518659,
+        "question_id": "training:presence:24:494039:518659:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a zebra?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 77981,
+        "question_id": "training:presence:35:77981:430654:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain skis?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 430654,
+        "question_id": "training:presence:35:77981:430654:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain skis?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 223369,
+        "question_id": "training:presence:53:223369:293799:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an apple?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 293799,
+        "question_id": "training:presence:53:223369:293799:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an apple?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 141441,
+        "question_id": "training:presence:33:141441:213274:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a suitcase?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 213274,
+        "question_id": "training:presence:33:141441:213274:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a suitcase?"
+      }
+    ],
+    "global_update": 3387,
+    "learning_rates": [
+      2.3657218354941303e-05,
+      4.731443670988261e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.29879085533320904,
+    "micro_losses": [
+      0.5755767822265625,
+      0.022004928439855576
+    ],
+    "pair_counts": {
+      "caption": 1,
+      "presence": 7
+    },
+    "pair_kinds": [
+      "caption",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1137,
+    "unclipped_gradient_norm": 1.4117558002471924,
+    "wall_seconds": 1.783123
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 2,
+      "counting": 4,
+      "presence": 10
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 281910,
+        "question_id": "training:presence:13:281910:529802:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a stop sign?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 529802,
+        "question_id": "training:presence:13:281910:529802:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a stop sign?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 305564,
+        "question_id": "training:presence:18:305564:349870:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dog?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 349870,
+        "question_id": "training:presence:18:305564:349870:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dog?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 276575,
+        "question_id": "training:presence:22:276575:478785:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an elephant?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 478785,
+        "question_id": "training:presence:22:276575:478785:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an elephant?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 464494,
+        "question_id": "training:presence:73:464494:444353:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a laptop?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 444353,
+        "question_id": "training:presence:73:464494:444353:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a laptop?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 441229,
+        "question_id": "training:counting:35:441229:226594:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many skis can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 226594,
+        "question_id": "training:counting:35:441229:226594:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many skis can you see?"
+      },
+      {
+        "caption_id": 371335,
+        "image_id": 508488,
+        "question_id": "caption:371335",
+        "source_split": "train2014",
+        "target": "A parking lot near a church in an urban area covered in snow.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 579152,
+        "image_id": 125266,
+        "question_id": "caption:579152",
+        "source_split": "train2014",
+        "target": "A street view with cars and buildings in the background with a truck stopped at a stop sign.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "3",
+        "image_id": 513855,
+        "question_id": "training:counting:52:513855:101330:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many bananas can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 101330,
+        "question_id": "training:counting:52:513855:101330:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many bananas can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 219735,
+        "question_id": "training:presence:58:219735:95999:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hot dog?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 95999,
+        "question_id": "training:presence:58:219735:95999:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hot dog?"
+      }
+    ],
+    "global_update": 3388,
+    "learning_rates": [
+      2.3586107674260503e-05,
+      4.717221534852101e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.39064287580549717,
+    "micro_losses": [
+      0.02318643406033516,
+      0.7580993175506592
+    ],
+    "pair_counts": {
+      "caption": 1,
+      "counting": 2,
+      "presence": 5
+    },
+    "pair_kinds": [
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "counting",
+      "caption",
+      "counting",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1138,
+    "unclipped_gradient_norm": 2.211698293685913,
+    "wall_seconds": 1.742046
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 2,
+      "counting": 8,
+      "presence": 6
+    },
+    "examples": [
+      {
+        "caption_id": 519295,
+        "image_id": 503647,
+        "question_id": "caption:519295",
+        "source_split": "train2014",
+        "target": "A small, young zebra lies on the ground near two standing adults.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 300497,
+        "image_id": 330516,
+        "question_id": "caption:300497",
+        "source_split": "train2014",
+        "target": "A small brown horse and a small black horse have their noses to the grass parked cars.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "1",
+        "image_id": 168758,
+        "question_id": "training:counting:10:168758:214165:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many traffic lights can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 214165,
+        "question_id": "training:counting:10:168758:214165:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many traffic lights can you see?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 277167,
+        "question_id": "training:counting:70:277167:459018:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many toilets can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 459018,
+        "question_id": "training:counting:70:277167:459018:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many toilets can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 50601,
+        "question_id": "training:presence:23:50601:438671:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bear?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 438671,
+        "question_id": "training:presence:23:50601:438671:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bear?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 362936,
+        "question_id": "training:counting:3:362936:392111:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many cars can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 392111,
+        "question_id": "training:counting:3:362936:392111:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many cars can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 544127,
+        "question_id": "training:counting:33:544127:6355:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many suitcases can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 6355,
+        "question_id": "training:counting:33:544127:6355:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many suitcases can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 247247,
+        "question_id": "training:presence:52:247247:146162:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a banana?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 146162,
+        "question_id": "training:presence:52:247247:146162:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a banana?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 510613,
+        "question_id": "training:presence:89:510613:156701:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hair drier?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 156701,
+        "question_id": "training:presence:89:510613:156701:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a hair drier?"
+      }
+    ],
+    "global_update": 3389,
+    "learning_rates": [
+      2.3515149676898555e-05,
+      4.703029935379711e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.7126093208789825,
+    "micro_losses": [
+      1.145795226097107,
+      0.27942341566085815
+    ],
+    "pair_counts": {
+      "caption": 1,
+      "counting": 4,
+      "presence": 3
+    },
+    "pair_kinds": [
+      "caption",
+      "counting",
+      "counting",
+      "presence",
+      "counting",
+      "counting",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1139,
+    "unclipped_gradient_norm": 5.429393291473389,
+    "wall_seconds": 2.123048
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 4,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 228876,
+        "question_id": "training:presence:27:228876:237453:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 237453,
+        "question_id": "training:presence:27:228876:237453:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 38232,
+        "question_id": "training:counting:34:38232:91759:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many frisbees can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 91759,
+        "question_id": "training:counting:34:38232:91759:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many frisbees can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 471348,
+        "question_id": "training:presence:54:471348:293589:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sandwich?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 293589,
+        "question_id": "training:presence:54:471348:293589:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sandwich?"
+      },
+      {
+        "caption_id": 42793,
+        "image_id": 33417,
+        "question_id": "caption:42793",
+        "source_split": "train2014",
+        "target": "A loaf of bread next to a red spread in a bowl.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 598569,
+        "image_id": 437948,
+        "question_id": "caption:598569",
+        "source_split": "train2014",
+        "target": "A large pizza sits on the pan on top of the oven.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 271043,
+        "question_id": "training:presence:77:271043:146439:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cell phone?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 146439,
+        "question_id": "training:presence:77:271043:146439:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cell phone?"
+      },
+      {
+        "caption_id": 470380,
+        "image_id": 352553,
+        "question_id": "caption:470380",
+        "source_split": "train2014",
+        "target": "A full view of a bathroom and a toilet with its top opened. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 616237,
+        "image_id": 418113,
+        "question_id": "caption:616237",
+        "source_split": "train2014",
+        "target": "A stop sign board is seen on the road.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 536312,
+        "question_id": "training:presence:39:536312:484948:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a baseball bat?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 484948,
+        "question_id": "training:presence:39:536312:484948:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a baseball bat?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 190413,
+        "question_id": "training:counting:72:190413:207090:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many TVs can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 207090,
+        "question_id": "training:counting:72:190413:207090:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many TVs can you see?"
+      }
+    ],
+    "global_update": 3390,
+    "learning_rates": [
+      2.3444344707738015e-05,
+      4.688868941547603e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.6703027486801147,
+    "micro_losses": [
+      0.6197572350502014,
+      0.7208482623100281
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 2,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "presence",
+      "counting",
+      "presence",
+      "caption",
+      "presence",
+      "caption",
+      "presence",
+      "counting"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1140,
+    "unclipped_gradient_norm": 2.655298948287964,
+    "wall_seconds": 1.762941
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 2,
+      "counting": 6,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 428309,
+        "question_id": "training:presence:88:428309:400571:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 400571,
+        "question_id": "training:presence:88:428309:400571:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      },
+      {
+        "caption_id": 214376,
+        "image_id": 421103,
+        "question_id": "caption:214376",
+        "source_split": "train2014",
+        "target": "Horses linger near the fence of their paddock",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 574613,
+        "image_id": 77750,
+        "question_id": "caption:574613",
+        "source_split": "train2014",
+        "target": "A plate mate with a sandwich, pretzels, a banana and a cup on it. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "1",
+        "image_id": 505657,
+        "question_id": "training:counting:52:505657:439817:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many bananas can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 439817,
+        "question_id": "training:counting:52:505657:439817:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many bananas can you see?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 580385,
+        "question_id": "training:counting:7:580385:228398:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many trains can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 228398,
+        "question_id": "training:counting:7:580385:228398:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many trains can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 348019,
+        "question_id": "training:presence:13:348019:323737:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a stop sign?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 323737,
+        "question_id": "training:presence:13:348019:323737:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a stop sign?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 492566,
+        "question_id": "training:counting:33:492566:17975:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many suitcases can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 17975,
+        "question_id": "training:counting:33:492566:17975:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many suitcases can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 304038,
+        "question_id": "training:presence:16:304038:452186:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bird?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 452186,
+        "question_id": "training:presence:16:304038:452186:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bird?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 37800,
+        "question_id": "training:presence:49:37800:370505:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a knife?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 370505,
+        "question_id": "training:presence:49:37800:370505:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a knife?"
+      }
+    ],
+    "global_update": 3391,
+    "learning_rates": [
+      2.3373693110917627e-05,
+      4.674738622183526e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.6222019791603088,
+    "micro_losses": [
+      0.9798758029937744,
+      0.26452815532684326
+    ],
+    "pair_counts": {
+      "caption": 1,
+      "counting": 3,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "presence",
+      "caption",
+      "counting",
+      "counting",
+      "presence",
+      "counting",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1141,
+    "unclipped_gradient_norm": 3.836064338684082,
+    "wall_seconds": 1.793955
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 6,
+      "counting": 6,
+      "presence": 4
+    },
+    "examples": [
+      {
+        "caption_id": 214878,
+        "image_id": 4308,
+        "question_id": "caption:214878",
+        "source_split": "train2014",
+        "target": "A street sign with several icicles hanging down.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 748183,
+        "image_id": 30288,
+        "question_id": "caption:748183",
+        "source_split": "train2014",
+        "target": "Two men playing a video game in a living room decorated for a party.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "3",
+        "image_id": 286930,
+        "question_id": "training:counting:40:286930:322755:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many baseball gloves can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 322755,
+        "question_id": "training:counting:40:286930:322755:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many baseball gloves can you see?"
+      },
+      {
+        "caption_id": 437993,
+        "image_id": 153019,
+        "question_id": "caption:437993",
+        "source_split": "train2014",
+        "target": "A man standing holding tennis racket and wine glass beside another man holding camera.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 333266,
+        "image_id": 98732,
+        "question_id": "caption:333266",
+        "source_split": "train2014",
+        "target": "A hot dog popcorn and drink on a counter",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 463792,
+        "question_id": "training:presence:43:463792:454867:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a tennis racket?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 454867,
+        "question_id": "training:presence:43:463792:454867:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a tennis racket?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 140365,
+        "question_id": "training:counting:59:140365:43664:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many pizzas can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 43664,
+        "question_id": "training:counting:59:140365:43664:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many pizzas can you see?"
+      },
+      {
+        "caption_id": 787825,
+        "image_id": 259658,
+        "question_id": "caption:787825",
+        "source_split": "train2014",
+        "target": "a beautiful bird hanging upside down on barb wire",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 432096,
+        "image_id": 227617,
+        "question_id": "caption:432096",
+        "source_split": "train2014",
+        "target": "Two girls are standing at a party or festival with teddy bears.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "3",
+        "image_id": 505700,
+        "question_id": "training:counting:49:505700:497211:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many knives can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 497211,
+        "question_id": "training:counting:49:505700:497211:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many knives can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 403739,
+        "question_id": "training:presence:21:403739:189645:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cow?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 189645,
+        "question_id": "training:presence:21:403739:189645:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cow?"
+      }
+    ],
+    "global_update": 3392,
+    "learning_rates": [
+      2.3303195229830668e-05,
+      4.660639045966134e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 1.0266780257225037,
+    "micro_losses": [
+      1.0862281322479248,
+      0.9671279191970825
+    ],
+    "pair_counts": {
+      "caption": 3,
+      "counting": 3,
+      "presence": 2
+    },
+    "pair_kinds": [
+      "caption",
+      "counting",
+      "caption",
+      "presence",
+      "counting",
+      "caption",
+      "counting",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1142,
+    "unclipped_gradient_norm": 4.7081298828125,
+    "wall_seconds": 1.792219
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 6,
+      "counting": 2,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 192655,
+        "question_id": "training:presence:77:192655:306878:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cell phone?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 306878,
+        "question_id": "training:presence:77:192655:306878:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cell phone?"
+      },
+      {
+        "caption_id": 807283,
+        "image_id": 326454,
+        "question_id": "caption:807283",
+        "source_split": "train2014",
+        "target": "some onions carrots tomatoes and lettuce and dressing",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 395931,
+        "image_id": 541531,
+        "question_id": "caption:395931",
+        "source_split": "train2014",
+        "target": "The young person practices snowboarding on the ground.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 464951,
+        "question_id": "training:presence:24:464951:396116:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a zebra?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 396116,
+        "question_id": "training:presence:24:464951:396116:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a zebra?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 215600,
+        "question_id": "training:counting:14:215600:235034:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many parking meters can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 235034,
+        "question_id": "training:counting:14:215600:235034:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many parking meters can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 382662,
+        "question_id": "training:presence:43:382662:141413:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a tennis racket?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 141413,
+        "question_id": "training:presence:43:382662:141413:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a tennis racket?"
+      },
+      {
+        "caption_id": 106047,
+        "image_id": 364139,
+        "question_id": "caption:106047",
+        "source_split": "train2014",
+        "target": "A woman preparing a meal with broccoli on a kitchen island.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 696177,
+        "image_id": 434372,
+        "question_id": "caption:696177",
+        "source_split": "train2014",
+        "target": "Two empty chairs and a table in a shop \n",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 195081,
+        "question_id": "training:presence:25:195081:129085:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a giraffe?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 129085,
+        "question_id": "training:presence:25:195081:129085:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a giraffe?"
+      },
+      {
+        "caption_id": 82243,
+        "image_id": 103510,
+        "question_id": "caption:82243",
+        "source_split": "train2014",
+        "target": "a bowl filled with assorted veggies with a smaller bowl of dip in the middle",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 724068,
+        "image_id": 5684,
+        "question_id": "caption:724068",
+        "source_split": "train2014",
+        "target": "A bus traveling down the street near a bunch of buildings",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 3393,
+    "learning_rates": [
+      2.3232851407123366e-05,
+      4.646570281424673e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 1.0029149055480957,
+    "micro_losses": [
+      0.7708580493927002,
+      1.2349717617034912
+    ],
+    "pair_counts": {
+      "caption": 3,
+      "counting": 1,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "presence",
+      "caption",
+      "presence",
+      "counting",
+      "presence",
+      "caption",
+      "presence",
+      "caption"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1143,
+    "unclipped_gradient_norm": 2.5869925022125244,
+    "wall_seconds": 1.749289
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "counting": 4,
+      "presence": 12
+    },
+    "examples": [
+      {
+        "canonical": "2",
+        "image_id": 169988,
+        "question_id": "training:counting:70:169988:215191:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many toilets can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 215191,
+        "question_id": "training:counting:70:169988:215191:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many toilets can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 446036,
+        "question_id": "training:presence:67:446036:68401:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dining table?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 68401,
+        "question_id": "training:presence:67:446036:68401:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a dining table?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 455737,
+        "question_id": "training:presence:70:455737:480376:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toilet?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 480376,
+        "question_id": "training:presence:70:455737:480376:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toilet?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 137238,
+        "question_id": "training:presence:3:137238:429092:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a car?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 429092,
+        "question_id": "training:presence:3:137238:429092:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a car?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 18466,
+        "question_id": "training:presence:15:18466:398767:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bench?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 398767,
+        "question_id": "training:presence:15:18466:398767:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bench?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 337602,
+        "question_id": "training:presence:5:337602:577710:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an airplane?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 577710,
+        "question_id": "training:presence:5:337602:577710:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an airplane?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 276507,
+        "question_id": "training:counting:17:276507:267777:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many cats can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 267777,
+        "question_id": "training:counting:17:276507:267777:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many cats can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 432932,
+        "question_id": "training:presence:6:432932:554335:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bus?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 554335,
+        "question_id": "training:presence:6:432932:554335:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bus?"
+      }
+    ],
+    "global_update": 3394,
+    "learning_rates": [
+      2.3162661984693092e-05,
+      4.632532396938618e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.05988035909831524,
+    "micro_losses": [
+      0.03706008568406105,
+      0.08270063251256943
+    ],
+    "pair_counts": {
+      "counting": 2,
+      "presence": 6
+    },
+    "pair_kinds": [
+      "counting",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "presence",
+      "counting",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1144,
+    "unclipped_gradient_norm": 2.7995994091033936,
+    "wall_seconds": 1.805972
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "presence": 12
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 378905,
+        "question_id": "training:presence:80:378905:152729:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toaster?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 152729,
+        "question_id": "training:presence:80:378905:152729:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a toaster?"
+      },
+      {
+        "caption_id": 85696,
+        "image_id": 4219,
+        "question_id": "caption:85696",
+        "source_split": "train2014",
+        "target": "Man and dog sitting on a park bench together. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 413866,
+        "image_id": 477636,
+        "question_id": "caption:413866",
+        "source_split": "train2014",
+        "target": "A biplane on the beach, parked on the shoreline of the beach, with water coming up on it and another plane next to it.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 438196,
+        "question_id": "training:presence:22:438196:366290:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an elephant?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 366290,
+        "question_id": "training:presence:22:438196:366290:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an elephant?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 357984,
+        "question_id": "training:presence:4:357984:133580:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a motorcycle?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 133580,
+        "question_id": "training:presence:4:357984:133580:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a motorcycle?"
+      },
+      {
+        "caption_id": 212753,
+        "image_id": 333134,
+        "question_id": "caption:212753",
+        "source_split": "train2014",
+        "target": "A woman sitting at a table with a cake.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 47595,
+        "image_id": 255425,
+        "question_id": "caption:47595",
+        "source_split": "train2014",
+        "target": "A line of motorcycles parked next to a small street.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 534000,
+        "question_id": "training:presence:86:534000:409143:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a vase?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 409143,
+        "question_id": "training:presence:86:534000:409143:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a vase?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 254327,
+        "question_id": "training:presence:39:254327:410933:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a baseball bat?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 410933,
+        "question_id": "training:presence:39:254327:410933:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a baseball bat?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 73187,
+        "question_id": "training:presence:20:73187:89838:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sheep?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 89838,
+        "question_id": "training:presence:20:73187:89838:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sheep?"
+      }
+    ],
+    "global_update": 3395,
+    "learning_rates": [
+      2.3092627303686825e-05,
+      4.618525460737365e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.446969673037529,
+    "micro_losses": [
+      0.49826112389564514,
+      0.39567822217941284
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "presence": 6
+    },
+    "pair_kinds": [
+      "presence",
+      "caption",
+      "presence",
+      "presence",
+      "caption",
+      "presence",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1145,
+    "unclipped_gradient_norm": 1.7170908451080322,
+    "wall_seconds": 1.922339
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 6,
+      "presence": 6
+    },
+    "examples": [
+      {
+        "canonical": "1",
+        "image_id": 75305,
+        "question_id": "training:counting:46:75305:197663:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many wine glasses can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 197663,
+        "question_id": "training:counting:46:75305:197663:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many wine glasses can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 564825,
+        "question_id": "training:presence:47:564825:71784:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cup?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 71784,
+        "question_id": "training:presence:47:564825:71784:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cup?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 404050,
+        "question_id": "training:counting:2:404050:241458:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many bicycles can you see?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 241458,
+        "question_id": "training:counting:2:404050:241458:1",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many bicycles can you see?"
+      },
+      {
+        "caption_id": 741617,
+        "image_id": 447302,
+        "question_id": "caption:741617",
+        "source_split": "train2014",
+        "target": "A living room filled with furniture and a TV.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 766908,
+        "image_id": 396696,
+        "question_id": "caption:766908",
+        "source_split": "train2014",
+        "target": "Someone is camping in a tent in a snowy field",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 472462,
+        "question_id": "training:presence:53:472462:30100:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an apple?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 30100,
+        "question_id": "training:presence:53:472462:30100:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain an apple?"
+      },
+      {
+        "caption_id": 435588,
+        "image_id": 265207,
+        "question_id": "caption:435588",
+        "source_split": "train2014",
+        "target": "a street pole with a sign sitting on top",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 810361,
+        "image_id": 526571,
+        "question_id": "caption:810361",
+        "source_split": "train2014",
+        "target": "Several people in the water carrying surfboards under their arms.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 429241,
+        "question_id": "training:presence:27:429241:70133:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 70133,
+        "question_id": "training:presence:27:429241:70133:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 189789,
+        "question_id": "training:counting:88:189789:227617:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many teddy bears can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 227617,
+        "question_id": "training:counting:88:189789:227617:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many teddy bears can you see?"
+      }
+    ],
+    "global_update": 3396,
+    "learning_rates": [
+      2.3022747704499438e-05,
+      4.604549540899888e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.8875574171543121,
+    "micro_losses": [
+      1.089941143989563,
+      0.6851736903190613
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 3,
+      "presence": 3
+    },
+    "pair_kinds": [
+      "counting",
+      "presence",
+      "counting",
+      "caption",
+      "presence",
+      "caption",
+      "presence",
+      "counting"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1146,
+    "unclipped_gradient_norm": 6.020846843719482,
+    "wall_seconds": 1.793497
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 6,
+      "counting": 2,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "yes",
+        "image_id": 530848,
+        "question_id": "training:presence:88:530848:94444:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 94444,
+        "question_id": "training:presence:88:530848:94444:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      },
+      {
+        "canonical": "1",
+        "image_id": 12612,
+        "question_id": "training:counting:54:12612:139865:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many sandwiches can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 139865,
+        "question_id": "training:counting:54:12612:139865:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many sandwiches can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 399556,
+        "question_id": "training:presence:64:399556:288848:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a potted plant?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 288848,
+        "question_id": "training:presence:64:399556:288848:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a potted plant?"
+      },
+      {
+        "caption_id": 124220,
+        "image_id": 314725,
+        "question_id": "caption:124220",
+        "source_split": "train2014",
+        "target": "Two zebras standing together in a field outside",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 599940,
+        "image_id": 437948,
+        "question_id": "caption:599940",
+        "source_split": "train2014",
+        "target": "The pizza just came out of the oven.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 564186,
+        "question_id": "training:presence:6:564186:139049:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bus?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 139049,
+        "question_id": "training:presence:6:564186:139049:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bus?"
+      },
+      {
+        "caption_id": 279828,
+        "image_id": 50389,
+        "question_id": "caption:279828",
+        "source_split": "train2014",
+        "target": "A person riding a bicycle on a sidewalk, in the rain, carrying an umbrella.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 54824,
+        "image_id": 269229,
+        "question_id": "caption:54824",
+        "source_split": "train2014",
+        "target": "A baseball runner sliding into 3rd base before the ball.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 406659,
+        "question_id": "training:presence:37:406659:526057:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sports ball?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 526057,
+        "question_id": "training:presence:37:406659:526057:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sports ball?"
+      },
+      {
+        "caption_id": 220400,
+        "image_id": 78466,
+        "question_id": "caption:220400",
+        "source_split": "train2014",
+        "target": "A woman is getting ready to serve a tennis ball on a tennis court.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 463037,
+        "image_id": 203160,
+        "question_id": "caption:463037",
+        "source_split": "train2014",
+        "target": "A tv laounge with sitting are and windows open",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 3397,
+    "learning_rates": [
+      2.2953023526772017e-05,
+      4.590604705354404e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.9621439278125763,
+    "micro_losses": [
+      0.5526841282844543,
+      1.3716037273406982
+    ],
+    "pair_counts": {
+      "caption": 3,
+      "counting": 1,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "presence",
+      "counting",
+      "presence",
+      "caption",
+      "presence",
+      "caption",
+      "presence",
+      "caption"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1147,
+    "unclipped_gradient_norm": 2.5223100185394287,
+    "wall_seconds": 1.808663
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 8,
+      "counting": 2,
+      "presence": 6
+    },
+    "examples": [
+      {
+        "caption_id": 800140,
+        "image_id": 510225,
+        "question_id": "caption:800140",
+        "source_split": "train2014",
+        "target": "a white bathroom with a big mirror on the wall",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 734803,
+        "image_id": 350720,
+        "question_id": "caption:734803",
+        "source_split": "train2014",
+        "target": "A man riding on the back of a brown horse.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 83580,
+        "question_id": "training:presence:2:83580:151499:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bicycle?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 151499,
+        "question_id": "training:presence:2:83580:151499:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bicycle?"
+      },
+      {
+        "caption_id": 261832,
+        "image_id": 426642,
+        "question_id": "caption:261832",
+        "source_split": "train2014",
+        "target": "A group of skiers in the snow near a lift.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 520224,
+        "image_id": 493507,
+        "question_id": "caption:520224",
+        "source_split": "train2014",
+        "target": "Several kites sail in front of clouds and an obelisk.  ",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 575601,
+        "question_id": "training:presence:41:575601:434221:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a skateboard?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 434221,
+        "question_id": "training:presence:41:575601:434221:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a skateboard?"
+      },
+      {
+        "caption_id": 630071,
+        "image_id": 24026,
+        "question_id": "caption:630071",
+        "source_split": "train2014",
+        "target": "Three boys take a picture of the pizza they're about to eat.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 649014,
+        "image_id": 481036,
+        "question_id": "caption:649014",
+        "source_split": "train2014",
+        "target": "Several children riding a small train with people watching.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 552569,
+        "question_id": "training:presence:86:552569:140627:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a vase?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 140627,
+        "question_id": "training:presence:86:552569:140627:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a vase?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 257451,
+        "question_id": "training:counting:24:257451:321737:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many zebras can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 321737,
+        "question_id": "training:counting:24:257451:321737:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many zebras can you see?"
+      },
+      {
+        "caption_id": 439922,
+        "image_id": 381892,
+        "question_id": "caption:439922",
+        "source_split": "train2014",
+        "target": "A man in blue jacket skiing down hill in forest.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 409083,
+        "image_id": 129586,
+        "question_id": "caption:409083",
+        "source_split": "train2014",
+        "target": "The tip of a yellow boat is seen on the beach near the water.",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 3398,
+    "learning_rates": [
+      2.2883455109390282e-05,
+      4.576691021878057e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 1.0814780294895172,
+    "micro_losses": [
+      0.9984185099601746,
+      1.1645375490188599
+    ],
+    "pair_counts": {
+      "caption": 4,
+      "counting": 1,
+      "presence": 3
+    },
+    "pair_kinds": [
+      "caption",
+      "presence",
+      "caption",
+      "presence",
+      "caption",
+      "presence",
+      "counting",
+      "caption"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1148,
+    "unclipped_gradient_norm": 4.1517744064331055,
+    "wall_seconds": 1.783009
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 2,
+      "presence": 10
+    },
+    "examples": [
+      {
+        "caption_id": 432133,
+        "image_id": 546517,
+        "question_id": "caption:432133",
+        "source_split": "train2014",
+        "target": "Laptops are being used on top of a microwav and other objects.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 271214,
+        "image_id": 68987,
+        "question_id": "caption:271214",
+        "source_split": "train2014",
+        "target": "People standing by a pair of parked trains.",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 379360,
+        "question_id": "training:presence:62:379360:74523:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a chair?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 74523,
+        "question_id": "training:presence:62:379360:74523:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a chair?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 170308,
+        "question_id": "training:presence:31:170308:524386:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a handbag?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 524386,
+        "question_id": "training:presence:31:170308:524386:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a handbag?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 149230,
+        "question_id": "training:presence:15:149230:190087:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bench?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 190087,
+        "question_id": "training:presence:15:149230:190087:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a bench?"
+      },
+      {
+        "caption_id": 247044,
+        "image_id": 380661,
+        "question_id": "caption:247044",
+        "source_split": "train2014",
+        "target": "A group of people sitting around a table posing for a picture.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 492974,
+        "image_id": 553297,
+        "question_id": "caption:492974",
+        "source_split": "train2014",
+        "target": "A woman wearing a white tennis dress with a tennis racket in her hand. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 118642,
+        "question_id": "training:presence:54:118642:6522:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sandwich?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 6522,
+        "question_id": "training:presence:54:118642:6522:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a sandwich?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 360126,
+        "question_id": "training:presence:50:360126:393097:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a spoon?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 393097,
+        "question_id": "training:presence:50:360126:393097:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a spoon?"
+      },
+      {
+        "canonical": "2",
+        "image_id": 16735,
+        "question_id": "training:counting:25:16735:548357:0",
+        "source_split": "train2014",
+        "target": "2",
+        "user_text": "Answer with a short phrase.\nHow many giraffes can you see?"
+      },
+      {
+        "canonical": "3",
+        "image_id": 548357,
+        "question_id": "training:counting:25:16735:548357:1",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many giraffes can you see?"
+      }
+    ],
+    "global_update": 3399,
+    "learning_rates": [
+      2.2814042790482863e-05,
+      4.562808558096573e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.6211453974246979,
+    "micro_losses": [
+      0.9064939022064209,
+      0.33579689264297485
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 1,
+      "presence": 5
+    },
+    "pair_kinds": [
+      "caption",
+      "presence",
+      "presence",
+      "presence",
+      "caption",
+      "presence",
+      "presence",
+      "counting"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1149,
+    "unclipped_gradient_norm": 3.419105291366577,
+    "wall_seconds": 1.875787
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 4,
+      "counting": 4,
+      "presence": 8
+    },
+    "examples": [
+      {
+        "canonical": "3",
+        "image_id": 568884,
+        "question_id": "training:counting:10:568884:285963:0",
+        "source_split": "train2014",
+        "target": "3",
+        "user_text": "Answer with a short phrase.\nHow many traffic lights can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 285963,
+        "question_id": "training:counting:10:568884:285963:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many traffic lights can you see?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 176174,
+        "question_id": "training:presence:52:176174:516596:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a banana?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 516596,
+        "question_id": "training:presence:52:176174:516596:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a banana?"
+      },
+      {
+        "caption_id": 259265,
+        "image_id": 187134,
+        "question_id": "caption:259265",
+        "source_split": "train2014",
+        "target": "a man climbing a mountain with his skis",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 156903,
+        "image_id": 83691,
+        "question_id": "caption:156903",
+        "source_split": "train2014",
+        "target": "an image of a motorcoach bus parked in a parking lot",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "1",
+        "image_id": 398037,
+        "question_id": "training:counting:65:398037:379129:0",
+        "source_split": "train2014",
+        "target": "1",
+        "user_text": "Answer with a short phrase.\nHow many beds can you see?"
+      },
+      {
+        "canonical": "4",
+        "image_id": 379129,
+        "question_id": "training:counting:65:398037:379129:1",
+        "source_split": "train2014",
+        "target": "4",
+        "user_text": "Answer with a short phrase.\nHow many beds can you see?"
+      },
+      {
+        "caption_id": 800184,
+        "image_id": 160967,
+        "question_id": "caption:800184",
+        "source_split": "train2014",
+        "target": "Many cabanas near the beach on the ocean with boat",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 665477,
+        "image_id": 186962,
+        "question_id": "caption:665477",
+        "source_split": "train2014",
+        "target": "a woman in glasses sits in front of a laptop ",
+        "user_text": "Describe this image."
+      },
+      {
+        "canonical": "yes",
+        "image_id": 563342,
+        "question_id": "training:presence:17:563342:229874:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cat?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 229874,
+        "question_id": "training:presence:17:563342:229874:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a cat?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 473631,
+        "question_id": "training:presence:85:473631:530132:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a clock?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 530132,
+        "question_id": "training:presence:85:473631:530132:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a clock?"
+      },
+      {
+        "canonical": "yes",
+        "image_id": 457214,
+        "question_id": "training:presence:88:457214:247086:0",
+        "source_split": "train2014",
+        "target": "yes",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      },
+      {
+        "canonical": "no",
+        "image_id": 247086,
+        "question_id": "training:presence:88:457214:247086:1",
+        "source_split": "train2014",
+        "target": "no",
+        "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?"
+      }
+    ],
+    "global_update": 3400,
+    "learning_rates": [
+      2.2744786907419703e-05,
+      4.548957381483941e-06
+    ],
+    "lora_A_gradient_nonzero": true,
+    "lora_B_gradient_nonzero": true,
+    "loss": 0.9136236906051636,
+    "micro_losses": [
+      1.0103766918182373,
+      0.8168706893920898
+    ],
+    "pair_counts": {
+      "caption": 2,
+      "counting": 2,
+      "presence": 4
+    },
+    "pair_kinds": [
+      "counting",
+      "presence",
+      "caption",
+      "counting",
+      "caption",
+      "presence",
+      "presence",
+      "presence"
+    ],
+    "scale_after": 256.0,
+    "scale_before": 256.0,
+    "stage": 2,
+    "stage_update": 1150,
+    "unclipped_gradient_norm": 4.444371223449707,
+    "wall_seconds": 1.855793
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "pattern_hits": [],
+  "python3_files_parsed": 401,
+  "historical_python2_reference": [
+    {
+      "file": "ATML_PA3_Task2/results/source/normalizer_provenance/external/vqaEval_upstream.py",
+      "line": 84
+    }
+  ],
+  "qualification": "The unchanged upstream Python2 VQA reference is provenance only; the used Python3 normalizer and Task2 CPU verifier passed. Pattern scan is not a guarantee about all possible secrets.",
+  "largest_file_bytes": 11643397
+}

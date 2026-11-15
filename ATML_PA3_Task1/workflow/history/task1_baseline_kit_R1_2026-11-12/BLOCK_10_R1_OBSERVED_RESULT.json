@@ -1,0 +1,125 @@
+{
+  "status": "TASK1_BLOCK10_CPU_BASELINE_KIT_OK",
+  "implementation_revision": "R1",
+  "model_tokenizer_asset_checks": {
+    "sources/original_model/config.json": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd",
+    "sources/original_model/generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "sources/tokenizer/config.json": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd",
+    "sources/tokenizer/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "sources/original_model/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "sources/tokenizer/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "sources/original_model/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "asset_manifest_regressions": {
+    "tokenizer_absent_from_model_manifest_is_valid": true,
+    "canonical_and_copied_tokenizer_bytes_checked": true,
+    "reject_changed_sources_tokenizer_tokenizer.json": true,
+    "reject_changed_sources_original_model_tokenizer.json": true,
+    "reject_changed_sources_original_model_config.json": true,
+    "reject_changed_sources_original_model_generation_config.json": true,
+    "missing_frozen_hash_rejected": true,
+    "source_revision_mismatch_rejected": true
+  },
+  "protocol_identity": "2b0cdf3ca8dd889e6e63996af55aba94672110f5e0d79e7ca1e843434d7cf297",
+  "benchmarks": {
+    "gsm8k_cot": {
+      "count": 1319,
+      "min_prompt_tokens": 39,
+      "max_prompt_tokens": 204,
+      "total_prompt_tokens": 101604,
+      "chat_template": true,
+      "num_fewshot": 0,
+      "context_truncation_required": false
+    },
+    "hellaswag": {
+      "count": 10042,
+      "min_prompt_tokens": 12,
+      "max_prompt_tokens": 104,
+      "total_prompt_tokens": 495957,
+      "chat_template": false,
+      "num_fewshot": 0,
+      "context_truncation_required": false
+    },
+    "boolq": {
+      "count": 3270,
+      "min_prompt_tokens": 33,
+      "max_prompt_tokens": 1270,
+      "total_prompt_tokens": 477754,
+      "chat_template": false,
+      "num_fewshot": 0,
+      "context_truncation_required": false
+    },
+    "arc_easy": {
+      "count": 2376,
+      "min_prompt_tokens": 8,
+      "max_prompt_tokens": 164,
+      "total_prompt_tokens": 63687,
+      "chat_template": false,
+      "num_fewshot": 0,
+      "context_truncation_required": false
+    }
+  },
+  "total_benchmark_questions_per_condition": 17007,
+  "qualitative_prompts": 24,
+  "activation_probes": 64,
+  "stock_scoring_checks": {
+    "gsm8k_cot": {
+      "stock_correct_answer_scores_one": true,
+      "empty_answer_scores_zero": true,
+      "stock_flexible_filter_uses_final_number": true
+    },
+    "hellaswag": {
+      "stock_correct_choice_scores_one": true,
+      "stock_wrong_choice_scores_zero": true,
+      "stock_character_length_normalization_retained": true
+    },
+    "boolq": {
+      "stock_correct_choice_scores_one": true,
+      "stock_wrong_choice_scores_zero": true
+    },
+    "arc_easy": {
+      "stock_correct_choice_scores_one": true,
+      "stock_wrong_choice_scores_zero": true,
+      "stock_character_length_normalization_retained": true
+    }
+  },
+  "resume_engine_checks": {
+    "gsm8k_cot": {
+      "resume_only_infers_missing_example": true,
+      "repeat_chunk_makes_no_new_inference_calls": true,
+      "native_request_roundtrip_preserved": true
+    },
+    "hellaswag": {
+      "resume_only_infers_missing_example": true,
+      "repeat_chunk_makes_no_new_inference_calls": true,
+      "native_request_roundtrip_preserved": true
+    },
+    "boolq": {
+      "resume_only_infers_missing_example": true,
+      "repeat_chunk_makes_no_new_inference_calls": true,
+      "native_request_roundtrip_preserved": true
+    },
+    "arc_easy": {
+      "resume_only_infers_missing_example": true,
+      "repeat_chunk_makes_no_new_inference_calls": true,
+      "native_request_roundtrip_preserved": true
+    }
+  },
+  "record_checks": {
+    "empty_completed_answer_retained": true,
+    "completed_record_reused": true,
+    "different_prompt_rejected": true,
+    "different_model_rejected": true,
+    "different_protocol_rejected": true,
+    "conflicting_answer_preserved": true,
+    "nonfinite_score_rejected": true,
+    "incomplete_denominator_rejected": true,
+    "conditions_do_not_share_answers": true
+  },
+  "strict_deterministic_GPU_check_pending": true,
+  "actual_model_evaluation_run": false,
+  "training_started": false,
+  "GPU_work_run": false,
+  "elapsed_seconds": 102.1,
+  "next_stage": "Integrate repaired supervisor and strict GPU gate; then run unchanged-model baseline."
+}

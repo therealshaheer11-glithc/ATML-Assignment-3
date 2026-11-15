@@ -1,0 +1,88 @@
+{
+  "failed_attempt": "20261108_070434_052b69df",
+  "failed_package_receipt": {
+    "actual_gpu_used_locally": false,
+    "calibration_computed": false,
+    "code_sha256": "5148e43452c0cfc55edc698980cd4be3b6c46860c46a22aed81a6029bc4ad02b",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "full_original_Qwen_GPU_execution": "pending user Colab output",
+    "local_check_counts": {
+      "LOCAL_CONTROLLER_CHECKS.json": 3,
+      "LOCAL_OPTIONAL_BACKEND_CHECKS.json": 5,
+      "LOCAL_SOURCE_CONTRACT_CHECKS.json": 3,
+      "LOCAL_TRAINING_CHECKS.json": 11
+    },
+    "modules": {
+      "task2/__init__.py": "cbf8befff8a0ed861ec58a4c25a2075f70e95c728a17da40a87719e3c221aa2d",
+      "task2/checks.py": "8048824c9765d6cebe955dc7c458e048400f7af5695fd546609158f1b74c9732",
+      "task2/dataset.py": "d0cf8faffb3e49e192ac1c5368fa86ab84f13541fb5633a3b2743beff4b58b3a",
+      "task2/features.py": "a98a447d0bd43a374b64d7d7e318b278ced26692061f4fb12c0bb518c025c595",
+      "task2/gpu_lifecycle.py": "7357c147dbc3e1886e479aaa10b7bf2ae4492aa8c030fd2a9cf2528ccc9bb29d",
+      "task2/images.py": "53c5c89191439a7833844fd5cfdc6daeeeefa025f8ab77066d7b0213804611fa",
+      "task2/interface_checks.py": "5f475bfd75d87307942ea6d32b39d7eae44cd89a38f3569dad168f4e7479237d",
+      "task2/model_assets.py": "304830bb0323c29be95e86ab6e6911c2a6027d0723467b4a6afc4a6595c8cd12",
+      "task2/modeling.py": "af073d1b0e84ccc03017a7a40952fd219c6871f2c8a08c06a3cfe4d096cad0f0",
+      "task2/protocol.py": "792ca991f2dd019abd85a800981b56693c414709b9a11b3b60fd8f0b3a0d1a15",
+      "task2/runtime_policy.py": "e362e74b6e2844e8b7244210bb66e8eb20e2ef83952d99bab909688181afbb33",
+      "task2/sampler.py": "719d6522037a7d2f0e151cf593211146e5d78c3273e3b947b855403c294e1ca6",
+      "task2/scoring.py": "c05768166e7909e4aa4feac2adc1c8f0bc7ebb3cdfdf5604140db8aa453fc995",
+      "task2/session_io.py": "4499f73a21e2614b5b8481518be33845f514e8a1f723de866131f6a40d2025d3",
+      "task2/sourcecheck.py": "dd4b8eaadd26804100aad280422a189bba9e920384375d2726fda023f06811bc",
+      "task2/staging.py": "16e9423bfe8f64cc7d4f2ebb443c5b531f9dfab5a543b2d3283cc4ea555fa806",
+      "task2/text.py": "748e1d44429ab26d32eae54d9a5d791f15e172d66cb296a98ad3b1f85dd7fb7a",
+      "task2/text_data.py": "901d5e62a1ea17fa31a585621ee2421589bf75d001b253429e28f97edf55ec16",
+      "task2/training_state.py": "968615e8e7d99f5e2eb71c2a2e7bd6fddd78db58ec011dbb49fb515b3c1dedd2",
+      "task2/vision_checks.py": "34cbd37581f2d01cbbe69ee7b8d5060842b050ce5b0c60a9ec3156c711c0ccd7",
+      "task2/worker_console.py": "807b0afa6d4514c7deea7cf5ef1d56bdc8bade20847769eb51498ea7a657c621"
+    },
+    "package_bytes": 54167,
+    "package_name": "Task_2_Block_13R1_GPU_Initialization.zip",
+    "package_sha256": "0833b78d59608d162fc66e2f321b8b3b4335d99f219be1f157e411ac003a86ed",
+    "production_training_started": false,
+    "production_updates_in_this_block": 0,
+    "repair": "Process-local exclusion of unused torchao before framework imports, explicit ordinary dense-weight/adapter checks; numerical modules and controller unchanged",
+    "schema": "atml-pa3-task2-initialization-package-receipt-v1",
+    "supersedes_failed_package_sha256": "636cee5840e575871b4db51ae158c2eede4dc22f8f1b24637849d0911b9a7fb9",
+    "temporary_validation_updates_on_GPU": 4,
+    "text_manifest_sha256": "8d10d1daea771af72d58441615a99e9b4fcd155fa36adde8b08cfcc7cacb2490",
+    "worker_sha256": "2fe1a60e16914305c9db7d922f52645c9b41b40ae2f389624eb37598c09e654d"
+  },
+  "observed_calibration": {
+    "initial_connector_sha256": "2b0131ced6b8b2b1aee69f944795758e53d59e128ca6dd94842bb04a8e3c2c01",
+    "scale_fp32": 0.054590579122304916,
+    "text_elements": 3132416,
+    "text_rms": 0.027441728860139847,
+    "visual_elements": 51380224,
+    "visual_rms": 0.5026825070381165
+  },
+  "observed_environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "schema": "atml-pa3-task2-gradient-diagnostic-reference-v1"
+}

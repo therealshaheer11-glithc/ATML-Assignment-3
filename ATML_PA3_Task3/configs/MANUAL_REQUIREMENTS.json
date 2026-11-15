@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "task": "ATML PA3 Task 3",
+  "manual_sha256": "ce74ac092dbdb83b44afe75c3f5a22e1ef3f2f2bb6048f8175e21d63e76659c9",
+  "manual_pages": [1, 10, 11, 12, 13, 14, 15],
+  "source_folder": "https://drive.google.com/drive/folders/1utX-Gfi9vvaoi1mi0pzNpDGL1o1fAh23",
+  "analysis_seed": 6304,
+  "datasets": {
+    "MATH": {"model": "Qwen/Qwen2.5-3B-Instruct", "questions": 1000, "rollouts_per_question": 32, "development": 200, "evaluation": 800},
+    "MathVista": {"model": "Qwen/Qwen2.5-VL-3B-Instruct", "questions": 1000, "rollouts_per_question": 32, "development": 200, "evaluation": 800}
+  },
+  "split_rule": "Independently per dataset: lexicographically sort string IDs; permute with numpy.default_rng(6304); first200 development and remaining800 evaluation. First50 MATH evaluation IDs in that permutation are live subset.",
+  "candidate_budgets": [1, 2, 4, 8, 16, 32],
+  "random_orders_per_question": 10,
+  "orders_rule": "Ten seeded permutations of32 rollout IDs; nested prefixes; same saved orders across methods/controllers; average within question then across questions.",
+  "join_keys": ["dataset", "sample_id", "rollout_id"],
+  "missing_answer_group": "NO_ANSWER",
+  "missing_answer_rule": "Always incorrect; retained in voting, costs and accuracy denominators.",
+  "score_rules": {
+    "L": "mean retained raw-model sampled-token logp",
+    "K": "mean retained raw-model kl_u_p = D_KL(U||p)",
+    "v": "image/(image+prompt_text+generated_text) per token",
+    "V": "mean v",
+    "calibration": "Pool token KL from currently revealed candidates only; Q05/Q95 with linear interpolation; c=clip((k-Q05)/max(Q95-Q05,1e-8),0,1). Recompute per prefix.",
+    "C": "mean c",
+    "VisConf": "V*C",
+    "token_fusion": "mean(c*v); difference from V*C equals population covariance(c,v)",
+    "RWC": "N>1: descending average ranks r, weight=(N-r)/(N-1); answer weights sum; N1 returns sole candidate.",
+    "ties": "Earliest supporting rollout in current order; average ranks for tied quality scores."
+  },
+  "required_methods_both": ["FirstAns", "self_consistency", "max_L", "max_K", "K_RWC"],
+  "required_additional_MathVista": ["max_V", "V_RWC", "max_VisConf", "VisConf_RWC", "max_token_fusion", "token_fusion_RWC"],
+  "additional_controls": ["shortest_rollout"],
+  "offline_cost": "Sum retained token counts of consumed candidates; FirstAns consumes only first candidate. Excludes prefill/scoring/attention-collection overhead.",
+  "bootstrap": {"draws": 1000, "confidence": 0.95, "unit": "question", "paired": true, "after_averaging_orders": true},
+  "adaptive": {
+    "checks": [4, 8, 16], "otherwise_stop": 32,
+    "tau": [0.5, 0.625, 0.75, 0.875, 1.0], "gamma": [0, 0.1, 0.25, 0.5],
+    "agreement": "Unique non-NO_ANSWER leading group with count/n >= tau.",
+    "quality_aware": "Agreement plus SC winner equals RWC winner and normalized vote margin >= gamma; K for MATH and VisConf for MathVista.",
+    "margin": "(largest-second_largest answer vote)/total weight; absent runner-up vote=0.",
+    "selection": "Per dataset/family: include always32 fallback; lowest mean retained-token cost with dev accuracy >= fixed32SC minus0.01 averaged across ten orders. Ties: higher accuracy, smaller tau, smaller gamma.",
+    "output": "Current self-consistency answer for both controllers.",
+    "freeze_before_evaluation": true
+  },
+  "live": {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "math_source": "DigitalLearningGmbH/MATH-lighteval",
+    "math_source_revision": "0530c78699ea5e8eb5530600900e1f328b48acad",
+    "questions": 50, "batch_size": 1, "weight_dtype": "float16", "quantization": false, "training": false,
+    "temperature": 0.7, "top_p": 0.8, "top_k": 20, "repetition_penalty": 1.0,
+    "system": "You are a helpful assistant.",
+    "problem_suffix": "\n\nThink step by step inside <think> </think> tags, then give your final answer inside \\boxed{}.",
+    "revision_instruction": "Review the solution above. Identify and correct any errors; if it is correct, retain its answer. Give your final answer inside \\boxed{}.",
+    "long_cap": 3072, "parallel_caps": [1024, 1024, 1024], "revision_cap": 2048,
+    "reuse_parallel_first_as_initial": true,
+    "extractor": "Find last literal \\boxed{; scan balanced braces; trim contents. Absent, empty or unclosed last box => null. No numeric fallback.",
+    "save": ["prompts", "responses", "input_ids", "output_ids", "seeds", "lengths", "truncation_flags", "input_tokens", "output_tokens", "runtime", "peak_GPU_memory"],
+    "shared_initial_cost_charged_to_both": true,
+    "return_revision_even_if_initial_was_correct": true
+  },
+  "readme_reference_totals_unverified_against_files": {
+    "MATH": {"retained_tokens": 20742094, "capped_rollouts": 523, "null_extracted_answers": 521},
+    "MathVista": {"retained_tokens": 8961703, "capped_rollouts": 487, "null_extracted_answers": 3032}
+  },
+  "leakage_rule": "Gold/future candidates only for retrospective analysis. Never selector/controller/grouping/calibration inputs.",
+  "submission": "Public repository with code/configs/IDs/environment/results/README and attribution; no raw datasets or unnecessary large weights. One eight-page NeurIPS main report for all3 tasks, references/optional appendix outside limit; repo link at end of abstract. Report prose/publication deferred in current scope."
+}

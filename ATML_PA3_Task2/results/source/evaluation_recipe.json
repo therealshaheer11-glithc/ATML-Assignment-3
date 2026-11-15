@@ -1,0 +1,72 @@
+{
+  "artifact_code_sha256": "accc837d68f331019aad9e93ba60929243819b5f1412799109d718d005467b2d",
+  "development_NLL_code_sha256": "557ac90b6c4052cb847c8215f47689624a227f1b6f7cf04ef47dfd101b67fb9e",
+  "environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "optional_backend_policy": {
+      "backend": "torchao",
+      "installed_version": "0.10.0",
+      "originally_discoverable": true,
+      "quantized_weights_permitted": false,
+      "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+      "worker_import_disabled": true
+    },
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "evaluation_code_sha256": "7063c5bf3436e111f87583e29456b6dd208c413f2f4f9a9897e9e4fe3f232778",
+  "feature_manifest_sha256": "1a015e4a07f2406937d63832dae1d648148a243a7931b39358d68e2a2ad8bea6",
+  "generation": {
+    "batch_size": 8,
+    "do_sample": false,
+    "enable_thinking": false,
+    "eos_token_id": 151645,
+    "max_new_tokens": 16,
+    "num_beams": 1,
+    "pad_token_id": 151643,
+    "use_cache": true
+  },
+  "generation_timing": "Synchronized wall time for connector, prompt construction and batched greedy generation; excludes feature staging, model loading, teacher-forced NLL, decoding strings and saving; divided by batch answers; no warmup excluded.",
+  "modeling_code_sha256": "af073d1b0e84ccc03017a7a40952fd219c6871f2c8a08c06a3cfe4d096cad0f0",
+  "plan_sha256": "2e8cca2b6c7a597d67d1e124469e35f0c4c2a259bda8b625d38986124a8238c6",
+  "reference_NLL": "Original answer content tokens only, EOT excluded; equal example weighting",
+  "schema": "atml-pa3-task2-final-evaluation-recipe-v1",
+  "source_reference": {
+    "checkpoint": {
+      "bytes": 77397849,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/checkpoints/update_004500_0aaafc7b02763e23.pt",
+      "readback_verified": true,
+      "sha256": "0aaafc7b02763e239590356320367fbe6ca7f5f4fae981c1d9d0feaedb5f2f19"
+    },
+    "completion_attempt": "20261108_184710_4cf0ab50",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "execution_recipe_sha256": "3c691fd16ed3828f97a3a413f8c2fc1ecfb160645e47a9d98523f087ab1d5012",
+    "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+    "progress": {
+      "bytes": 43353,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/progress/update_004500_b291d75f0f7c1a84.json",
+      "readback_verified": true,
+      "sha256": "b291d75f0f7c1a84ec2f54b0973f75fa987ef985e2a57f12d8ab7bfef1274028"
+    }
+  },
+  "text_code_sha256": "748e1d44429ab26d32eae54d9a5d791f15e172d66cb296a98ad3b1f85dd7fb7a",
+  "text_manifest_sha256": "8d10d1daea771af72d58441615a99e9b4fcd155fa36adde8b08cfcc7cacb2490",
+  "training_performed": false,
+  "worker_sha256": "c82b176ee19effda392cd3cc4aa09455575b3a0e2633198a52172f513ecfd19d"
+}

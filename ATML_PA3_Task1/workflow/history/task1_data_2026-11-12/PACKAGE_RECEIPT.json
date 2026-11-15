@@ -1,0 +1,20 @@
+{
+  "package_sha256": "8a37ed9f5d101ee39164dca7bcf761de00c03cd629caa3c0b91179a18df9a642",
+  "files": {
+    "prepare_data.py": "5b4ffc8d67c52fcd3fd749e1e3240a5663d17e2bd7a4088b9707cdede76fb5e0",
+    "APPROVED_PLAN.json": "a5dbacd38d306e0c7ba8ddbb724d5a091b68349d664bd20618e0b2d0cec877ea",
+    "proposal.md": "d13f6172406705a258d7319d20c38ebed78309a997c87ed065e84388fe0bf0a4"
+  },
+  "local_checks": {
+    "syntax": true,
+    "normalization_preserves_math": true,
+    "verbatim_response": true,
+    "exact_2048_boundary": true,
+    "overlength_rejected_without_truncation": true,
+    "either_question_field_decontamination": true,
+    "empty_question_rejected": true,
+    "immutable_publish": true,
+    "proposal_fingerprint": true
+  },
+  "limits": "Synthetic helper checks only. Live pinned-source retrieval, real tokenizer behavior and data audit await Colab execution."
+}

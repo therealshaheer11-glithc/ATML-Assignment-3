@@ -1,0 +1,19 @@
+{
+  "affected_sides": "neither",
+  "ai_assisted": true,
+  "approval_id": "A012",
+  "approval_sha256": "a02ae47281d34bd1e666ef2aa20d1fdb3d11410fb8d800cb4ebbd86e9b28ee4c",
+  "label_status": "accept",
+  "notes": "User approved the displayed COCO image containing two television sets, retained the previously accepted one-TV partner, and explicitly directed the assistant to record the clear decision and proceed.",
+  "pair_id": "grounding:proposed_manual05:train_audit:counting:72:153620:572443",
+  "proposal_sha256": "f0255db2937c885a3643df0d7c6d968705b51944a77c696b71ad68239b711685",
+  "review_origin": "human_chat",
+  "reviewed_at": "2026-11-07T17:25:59+00:00",
+  "reviewer": "Shaheer Ahmad Masood",
+  "schema": "atml-pa3-task2-human-chat-decision-v1",
+  "source_messages": [
+    "sure approved",
+    "No need to prepare i think it's clear what the decison should be let's finally move on and get to work and finsih this up"
+  ],
+  "timestamp_basis": "UTC time the explicit chat decision was recorded locally"
+}

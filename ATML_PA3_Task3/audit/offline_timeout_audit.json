@@ -1,0 +1,12 @@
+{
+  "comparison_timeout_messages": 78,
+  "question_intervals": [
+    {
+      "dataset": "MATH",
+      "sample_id": "test:4928",
+      "comparison_timeout_messages": 78
+    }
+  ],
+  "unattributed_messages": 0,
+  "interpretation": "Intervals identify the question being processed, not individual comparison pairs. The frozen library returned unverified comparisons under its five-second limit. Primary saved scores are unchanged."
+}

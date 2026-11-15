@@ -1,0 +1,57 @@
+{
+  "status": "TASK1_LORA4_BOUNDARY_SAVED",
+  "run_id": "task1_lora4_1e361e850b7840f4b688e3180606517e",
+  "method": "lora4",
+  "training_contract_identity": "36d2f7930a9498bd9061e9d5837a1cd052747b2468d2965446fd311ad6d0f4b9",
+  "numerical_implementation_identity": "7f759a49cdede199d7db095f86e7d7d3f46f15b7548ed3cc21b0f6a76f0a4ad0",
+  "job_target_update": 625,
+  "start_update": 312,
+  "A100_scratch_check": {
+    "kind": "lora4",
+    "microbatch": 2,
+    "accumulation": 16,
+    "sequence_length": 2048,
+    "strict_deterministic_backward_passed": true,
+    "FP32_Adam_moments_reserved": true,
+    "FP32_L2_reference_reserved": false,
+    "optimizer_updates": 0,
+    "official_training_updates": 0,
+    "overflow_retries": [],
+    "peak_reserved_bytes": 2126512128,
+    "total_gpu_bytes": 42405855232,
+    "headroom_fraction": 0.949853337083618,
+    "elapsed_seconds": 13.614494836999995
+  },
+  "model_load_and_resume_seconds": 12.615928915999973,
+  "training_outcome": {
+    "status": "TRAINING_MANDATORY_SAVED",
+    "successful_updates": 625,
+    "checkpoint": "checkpoints/lora4/36d2f7930a9498bd9061e9d5837a1cd052747b2468d2965446fd311ad6d0f4b9/mandatory_000625_846fff9417ac",
+    "timings": {
+      "training_seconds": 3283.816766522998,
+      "checkpoint_seconds": 5.052097244000379
+    },
+    "FullFT_midpoint_evaluation_due": false
+  },
+  "official_training_updates": 625,
+  "examples_seen": 20000,
+  "updates_this_job": 313,
+  "checkpoint": {
+    "path": "checkpoints/lora4/36d2f7930a9498bd9061e9d5837a1cd052747b2468d2965446fd311ad6d0f4b9/mandatory_000625_846fff9417ac",
+    "marker_sha256": "e5ddaaebbf3ed4047759da1052c4bdd7cbd3b68b28c009d265e782d6d163a050",
+    "manifest_identity": "465d7d69c1897cb1ed029ee994eb9369fb0feeb86a3aadfa366422ac9442bca2",
+    "archive_sha256": "76ea3981efeb0b86420143639d6d425471230402cc7197933dbc5149b45e07ef",
+    "archive_bytes": 31447040,
+    "successful_updates": 625,
+    "examples_seen": 20000,
+    "kind": "mandatory",
+    "created_wall": 1794639328.0655818,
+    "worker_verified_tensor_readback": true
+  },
+  "GPU_memory": {
+    "peak_allocated_bytes": 1939393024,
+    "peak_reserved_bytes": 2126512128,
+    "total_gpu_bytes": 42405855232
+  },
+  "elapsed_worker_seconds": 3332.140972266
+}

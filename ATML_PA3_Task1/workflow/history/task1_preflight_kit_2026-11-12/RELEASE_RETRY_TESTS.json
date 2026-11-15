@@ -1,0 +1,6 @@
+{
+  "mock_http_retry_then_success": true,
+  "mock_http_three_failures_reported": true,
+  "no_real_unassignment_request_sent": true,
+  "notes": "All HTTP calls were mocked. Physical Colab deallocation is not proved."
+}

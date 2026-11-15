@@ -1,0 +1,11 @@
+{
+  "user_answer": "400-67.15 gb",
+  "total_GB": 400.0,
+  "used_GB": 67.15,
+  "free_GB": 332.85,
+  "free_GiB": 309.990718960762,
+  "source": "User-reported Google Drive storage; not an API quota measurement",
+  "reported_date": "2026-11-13",
+  "timezone": "Asia/Karachi",
+  "minimum_planned_remaining_checkpoint_GiB": 83.71931152325124
+}

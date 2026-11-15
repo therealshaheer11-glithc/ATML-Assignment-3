@@ -1,0 +1,19 @@
+{
+  "protocol_and_reference_checks": {
+    "actual_new_protocol_and_reference_publications_executed": true,
+    "repeat_preparation_is_idempotent": true,
+    "old_preliminary_GSM_evidence_preserved": true,
+    "all_24_qualitative_and_64_probe_reference_hashes_checked": true,
+    "changed_reference_rejected": true,
+    "required_counts_caps_precision_policy_preserved": true
+  },
+  "parent_controller_cases": {
+    "complete": true,
+    "partial": true,
+    "false_complete": true,
+    "save_error": true,
+    "missing": true,
+    "worker_error": true
+  },
+  "scope": "CPU synthetic control-flow/provenance tests; no original-model numerical execution"
+}

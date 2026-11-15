@@ -1,0 +1,7 @@
+{
+  "actual_readiness_path_expression_executed": true,
+  "readiness_JSON_write_and_readback_passed": true,
+  "same_receipt_is_idempotent": true,
+  "source_syntax_valid": true,
+  "GPU_pilot_executed": false
+}

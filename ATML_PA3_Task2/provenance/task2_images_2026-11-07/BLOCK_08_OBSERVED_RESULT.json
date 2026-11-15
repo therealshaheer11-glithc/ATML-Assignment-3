@@ -1,0 +1,32 @@
+{
+  "schema": "atml-pa3-task2-block08-observed-v1",
+  "source_attachment_sha256": "54696df11758ad46dbb48690e7d9326214cb5d36405ad6fd7aa6c149d962b62a",
+  "source_attachment_bytes": 13695,
+  "observed_result": {
+    "block": "08",
+    "status": "passed",
+    "original_images_complete": true,
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "images_verified": 9260,
+    "run_activities": {
+      "downloaded": 8669,
+      "reused": 591
+    },
+    "original_image_bytes": 1476459756,
+    "decoded_modes": {
+      "L": 21,
+      "RGB": 9239
+    },
+    "exif_orientations": {
+      "1": 9260
+    },
+    "elapsed_seconds": 1020.505,
+    "image_index_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/inputs/original_images_55aaabf72e8635aa.jsonl",
+    "image_index_sha256": "55aaabf72e8635aa3897cf54f06e69c024e13a2cff33aac8d7fb47c48a6d8cdd",
+    "completion_sha256": "076a35e8cd6e3e47346059fa6899af803a919b95f7c98bb4f5da0e097cb30697",
+    "gpu_used": false,
+    "feature_cache_created": false,
+    "training_started": false
+  },
+  "evidence_scope": "Complete user-supplied Colab output. Next block reverifies source-bound completion and image-index checksums on Drive."
+}

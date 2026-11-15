@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": {
+    "syntax": true,
+    "wrong_workspace_refused_before_subprocess_or_environment_writes": true,
+    "unrecognized_local_folder_preserved_before_installation": true
+  },
+  "scope": "Local syntax and preservation checks only. Python download, uv execution, and actual Colab isolation remain unverified until user returns output.",
+  "block_sha256": "d2ffb89a47d4b3602d89259bde589cfeb1553d13346ef3c2815381a2ebeb6356"
+}

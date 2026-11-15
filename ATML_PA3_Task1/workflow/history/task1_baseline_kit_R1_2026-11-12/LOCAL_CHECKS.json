@@ -1,0 +1,35 @@
+{
+  "syntax_files": [
+    "evaluation_records.py",
+    "stock_evaluation.py",
+    "evaluation_engine.py",
+    "prepare_baseline_cpu.py",
+    "archive_io.py",
+    "restore_baseline_cpu.py",
+    "baseline_asset_checks.py"
+  ],
+  "asset_manifest_regressions": {
+    "tokenizer_absent_from_model_manifest_is_valid": true,
+    "canonical_and_copied_tokenizer_bytes_checked": true,
+    "reject_changed_sources_tokenizer_tokenizer.json": true,
+    "reject_changed_sources_original_model_tokenizer.json": true,
+    "reject_changed_sources_original_model_config.json": true,
+    "reject_changed_sources_original_model_generation_config.json": true,
+    "missing_frozen_hash_rejected": true,
+    "source_revision_mismatch_rejected": true
+  },
+  "record_checks": {
+    "empty_completed_answer_retained": true,
+    "completed_record_reused": true,
+    "different_prompt_rejected": true,
+    "different_model_rejected": true,
+    "different_protocol_rejected": true,
+    "conflicting_answer_preserved": true,
+    "nonfinite_score_rejected": true,
+    "incomplete_denominator_rejected": true,
+    "conditions_do_not_share_answers": true
+  },
+  "actual_torch_and_harness_execution_locally": false,
+  "Colab_CPU_integration_pending": true,
+  "GPU_inference_and_training_run": false
+}

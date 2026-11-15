@@ -1,0 +1,52 @@
+[
+  {
+    "stage": 1,
+    "component": "connector",
+    "updates": 2250,
+    "warmup": 113,
+    "peak": 0.001,
+    "first": 8.849557522123894e-06,
+    "warmup_end": 0.001,
+    "last": 0.0001
+  },
+  {
+    "stage": 2,
+    "component": "connector",
+    "updates": 1500,
+    "warmup": 75,
+    "peak": 0.0001,
+    "first": 1.3333333333333334e-06,
+    "warmup_end": 0.0001,
+    "last": 1e-05
+  },
+  {
+    "stage": 2,
+    "component": "lora",
+    "updates": 1500,
+    "warmup": 75,
+    "peak": 2e-05,
+    "first": 2.6666666666666667e-07,
+    "warmup_end": 2e-05,
+    "last": 2.0000000000000003e-06
+  },
+  {
+    "stage": 3,
+    "component": "connector",
+    "updates": 750,
+    "warmup": 38,
+    "peak": 5e-05,
+    "first": 1.3157894736842106e-06,
+    "warmup_end": 5e-05,
+    "last": 5e-06
+  },
+  {
+    "stage": 3,
+    "component": "lora",
+    "updates": 750,
+    "warmup": 38,
+    "peak": 1e-05,
+    "first": 2.6315789473684213e-07,
+    "warmup_end": 1e-05,
+    "last": 1.0000000000000002e-06
+  }
+]

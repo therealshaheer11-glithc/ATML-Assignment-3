@@ -1,0 +1,523 @@
+{
+  "scope": "Observed session boundaries and costs only. Not the full per-update loss logs; do not assume every interval/session is present or sum resumed jobs without interval audit.",
+  "sessions": [
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_8d9a00c87afd47e68562a407253004ff_97465c9d1c48.json",
+      "run_id": "task1_l2sp_8d9a00c87afd47e68562a407253004ff",
+      "status": "TASK1_L2SP_BOUNDARY_SAVED",
+      "method": "l2sp",
+      "start_update": 312,
+      "target_update": 625,
+      "updates_this_job": 313,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 625,
+        "checkpoint": "checkpoints/l2sp/84d546878dc1eb8e427212cecbf6767887354d4cdcb6f9beb4668853fa6aa047/mandatory_000625_989bbea84891",
+        "timings": {
+          "training_seconds": 1928.726057605001,
+          "checkpoint_seconds": 612.9339283260001
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/l2sp/84d546878dc1eb8e427212cecbf6767887354d4cdcb6f9beb4668853fa6aa047/mandatory_000625_989bbea84891",
+        "marker_sha256": "ff0a1069d19bf308c759305c8279392320e998e1cc3660b710e49209a0f2b4d2",
+        "manifest_identity": "d35a1fb14823c16d98ddc2a3b0c327650a6c94f80aa6f1fc874704ba4dde4813",
+        "archive_sha256": "46a45046a55be0368618f75d6ab9bb0aa1027d768602d857b40e206c697c40a6",
+        "archive_bytes": 7153715200,
+        "successful_updates": 625,
+        "examples_seen": 20000,
+        "kind": "mandatory",
+        "created_wall": 1794598109.1943347,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 16765853184,
+        "peak_reserved_bytes": 17196646400,
+        "total_gpu_bytes": 42405855232
+      },
+      "elapsed_worker_seconds": 2734.303668504
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_30cc01c6022447518fcba3c624259fc0_ebba896c50ec.json",
+      "run_id": "task1_l2sp_30cc01c6022447518fcba3c624259fc0",
+      "status": "TASK1_L2SP_BOUNDARY_SAVED",
+      "method": "l2sp",
+      "start_update": 0,
+      "target_update": 312,
+      "updates_this_job": 312,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 312,
+        "checkpoint": "checkpoints/l2sp/77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba/mandatory_000312_d9277e9c1ccc",
+        "timings": {
+          "training_seconds": 2384.0154290300043,
+          "checkpoint_seconds": 1087.311075899
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/l2sp/77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba/mandatory_000312_d9277e9c1ccc",
+        "marker_sha256": "becee720786ea4814c6952cfa547c6e5ff614546d79a326731bd40cd1167c292",
+        "manifest_identity": "58043df3986983ff3b235de0fcfcb587644a12b32436b353bb367387c47b22af",
+        "archive_sha256": "e489e0d431ca5d477d07cd82e6356933eb33c0f3c53cf0c72a9954029500e7cf",
+        "archive_bytes": 7153530880,
+        "successful_updates": 312,
+        "examples_seen": 9984,
+        "kind": "mandatory",
+        "created_wall": 1794593732.1021852,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 16560899584,
+        "peak_reserved_bytes": 17205035008,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3499.9412347589996
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_4e800eab25474a27af4f75c23016deb0_dd6d081d4cb1.json",
+      "run_id": "task1_lora4_4e800eab25474a27af4f75c23016deb0",
+      "status": "TASK1_LORA4_BOUNDARY_SAVED",
+      "method": "lora4",
+      "start_update": 0,
+      "target_update": 312,
+      "updates_this_job": 312,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 312,
+        "checkpoint": "checkpoints/lora4/93f010758b4cd0881d3c2b1837f14bce0d580f56cbb3ee51fbf93b99a4f7f8a8/mandatory_000312_cf920ca495bb",
+        "timings": {
+          "training_seconds": 3326.0297634099966,
+          "checkpoint_seconds": 5.217768807999846
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/lora4/93f010758b4cd0881d3c2b1837f14bce0d580f56cbb3ee51fbf93b99a4f7f8a8/mandatory_000312_cf920ca495bb",
+        "marker_sha256": "092a4d0e65e4d295cbc65b3beb026083d45ab636729c256061aeff6a3f1c5106",
+        "manifest_identity": "39a2f98f4217e9afb917b389413c1c72a005eadc37daacd21d1cc12208a91345",
+        "archive_sha256": "08d6f0951b7458acf5830059aa3e536f62e424210769abe19f867cb922ede5c2",
+        "archive_bytes": 31262720,
+        "successful_updates": 312,
+        "examples_seen": 9984,
+        "kind": "mandatory",
+        "created_wall": 1794634902.4739652,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 1945991168,
+        "peak_reserved_bytes": 2078277632,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3380.69294849
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_1e361e850b7840f4b688e3180606517e_5b8039907b24.json",
+      "run_id": "task1_lora4_1e361e850b7840f4b688e3180606517e",
+      "status": "TASK1_LORA4_BOUNDARY_SAVED",
+      "method": "lora4",
+      "start_update": 312,
+      "target_update": 625,
+      "updates_this_job": 313,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 625,
+        "checkpoint": "checkpoints/lora4/36d2f7930a9498bd9061e9d5837a1cd052747b2468d2965446fd311ad6d0f4b9/mandatory_000625_846fff9417ac",
+        "timings": {
+          "training_seconds": 3283.816766522998,
+          "checkpoint_seconds": 5.052097244000379
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/lora4/36d2f7930a9498bd9061e9d5837a1cd052747b2468d2965446fd311ad6d0f4b9/mandatory_000625_846fff9417ac",
+        "marker_sha256": "e5ddaaebbf3ed4047759da1052c4bdd7cbd3b68b28c009d265e782d6d163a050",
+        "manifest_identity": "465d7d69c1897cb1ed029ee994eb9369fb0feeb86a3aadfa366422ac9442bca2",
+        "archive_sha256": "76ea3981efeb0b86420143639d6d425471230402cc7197933dbc5149b45e07ef",
+        "archive_bytes": 31447040,
+        "successful_updates": 625,
+        "examples_seen": 20000,
+        "kind": "mandatory",
+        "created_wall": 1794639328.0655818,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 1939393024,
+        "peak_reserved_bytes": 2126512128,
+        "total_gpu_bytes": 42405855232
+      },
+      "elapsed_worker_seconds": 3332.140972266
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_2978b055661c482088ac9799efaba94b_208ec9144597.json",
+      "run_id": "task1_full_ft_2978b055661c482088ac9799efaba94b",
+      "status": "TASK1_FULL_FT_BOUNDARY_SAVED",
+      "method": "full",
+      "start_update": 312,
+      "target_update": 625,
+      "updates_this_job": 313,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 625,
+        "checkpoint": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000625_b4ee3aa2f19b",
+        "timings": {
+          "training_seconds": 2381.082269827995,
+          "checkpoint_seconds": 1090.5328234929996
+        },
+        "FullFT_midpoint_evaluation_due": true
+      },
+      "checkpoint": {
+        "path": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000625_b4ee3aa2f19b",
+        "marker_sha256": "64c48635d333b7510eb5da985481d9e4f74a60d03f8c1d2758b73521dfdc2d96",
+        "manifest_identity": "f61d709442f8ba736a17e69f841e5200ff011ebc1d3bb74118708335cf188035",
+        "archive_sha256": "e1b62bfcd438ca057c3f60028f6bf6c42bbc46538a88262a8795739bbac33119",
+        "archive_bytes": 7153704960,
+        "successful_updates": 625,
+        "examples_seen": 20000,
+        "kind": "mandatory",
+        "created_wall": 1794543858.6121764,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 11467837952,
+        "peak_reserved_bytes": 12742295552,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3588.7642141320002
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora16_32425c2a96c447a692fbc4204e4cd4f6_7dcce47dac7d.json",
+      "run_id": "task1_lora16_32425c2a96c447a692fbc4204e4cd4f6",
+      "status": "TASK1_LORA16_BOUNDARY_SAVED",
+      "method": "lora16",
+      "start_update": 0,
+      "target_update": 1250,
+      "updates_this_job": 1250,
+      "outcome": {
+        "status": "TRAINING_FINAL_SAVED",
+        "successful_updates": 1250,
+        "checkpoint": "checkpoints/lora16/f1f0938c4dbc4061d8966a7af8f3914807e4929623c8bfe610568852f54cda3e/mandatory_001250_7662c8ae22ec",
+        "timings": {
+          "training_seconds": 13834.631246022991,
+          "checkpoint_seconds": 52.299360669998805
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/lora16/f1f0938c4dbc4061d8966a7af8f3914807e4929623c8bfe610568852f54cda3e/mandatory_001250_7662c8ae22ec",
+        "marker_sha256": "a2892287357ae66663770a1bd187a2655ffbc5cba862e3d3018b55c570d2aa93",
+        "manifest_identity": "970d571ca854a28c2668c5f18c0e8acf9e48478d5223993ea6359866251be477",
+        "archive_sha256": "49cce6ae34cf4672c37949fa3d5d59d68d4d30de84b374e2082a14b94b2c6fd6",
+        "archive_bytes": 122654720,
+        "successful_updates": 1250,
+        "examples_seen": 40000,
+        "kind": "mandatory",
+        "created_wall": 1794672876.669578,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 2068294656,
+        "peak_reserved_bytes": 2195718144,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 13940.660938683
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_e583a37bba8a4c7084e0afb910abe0a7_d6fd8be52ac1.json",
+      "run_id": "task1_oplora_e583a37bba8a4c7084e0afb910abe0a7",
+      "status": "TASK1_OPLORA_BOUNDARY_SAVED",
+      "method": "oplora",
+      "start_update": 1072,
+      "target_update": 1250,
+      "updates_this_job": 178,
+      "outcome": {
+        "status": "TRAINING_FINAL_SAVED",
+        "successful_updates": 1250,
+        "checkpoint": "checkpoints/oplora/8cafd5243fcac8c1e3cd615a0497dfb2812b73e4ce46a997b161e85f504165a8/mandatory_001250_3575a06121f0",
+        "timings": {
+          "training_seconds": 3176.7843746300023,
+          "checkpoint_seconds": 9.87880799300001
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/oplora/8cafd5243fcac8c1e3cd615a0497dfb2812b73e4ce46a997b161e85f504165a8/mandatory_001250_3575a06121f0",
+        "marker_sha256": "24612f33ef613a066b2e9ba539e36e129c27fe4335ce06147b84bfba5f508a50",
+        "manifest_identity": "c51b64f04a6e9ebb37c9626b4159da4806eba054255b146cd16a253730168606",
+        "archive_sha256": "69862cbaad0e36fef5f8ffe87028c0b8bb3b5f7b768d9e9cdd662cf8434682b9",
+        "archive_bytes": 122654720,
+        "successful_updates": 1250,
+        "examples_seen": 40000,
+        "kind": "mandatory",
+        "created_wall": 1794681001.0571218,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 2410646016,
+        "peak_reserved_bytes": 2457862144,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3247.681366261
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_28e6c841efa74bc1870e1e5c1267f5a1_e32148d3783c.json",
+      "run_id": "task1_full_ft_28e6c841efa74bc1870e1e5c1267f5a1",
+      "status": "TASK1_FULL_FT_BOUNDARY_SAVED",
+      "method": "full",
+      "start_update": 625,
+      "target_update": 937,
+      "updates_this_job": 312,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 937,
+        "checkpoint": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000937_54d34c25df51",
+        "timings": {
+          "training_seconds": 2335.2311131280003,
+          "checkpoint_seconds": 1071.0055053519995
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000937_54d34c25df51",
+        "marker_sha256": "e9864fc0ce175666ec73e6722abf452b9fa3b0d507000d2bd6677a4533540862",
+        "manifest_identity": "5095cb40684e4a1833bc37121d0f103918dfc06e4c6fe5d5af4e93a47689f503",
+        "archive_sha256": "6df78e05bbbdf44b6d783823f533f963f9cd085e0a4731f512d99ea2186dbd69",
+        "archive_bytes": 7153889280,
+        "successful_updates": 937,
+        "examples_seen": 29984,
+        "kind": "mandatory",
+        "created_wall": 1794571561.4087255,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 11458722304,
+        "peak_reserved_bytes": 12406751232,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3528.9738899530003
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_d9f8fd53300440febab1b2eab9073480_e82f6d9ca1a1.json",
+      "run_id": "task1_full_ft_d9f8fd53300440febab1b2eab9073480",
+      "status": "TASK1_FULL_FT_BOUNDARY_SAVED",
+      "method": "full",
+      "start_update": 937,
+      "target_update": 1250,
+      "updates_this_job": 313,
+      "outcome": {
+        "status": "TRAINING_FINAL_SAVED",
+        "successful_updates": 1250,
+        "checkpoint": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_001250_79cd0b56a7c3",
+        "timings": {
+          "training_seconds": 2349.024787861001,
+          "checkpoint_seconds": 1085.6288180039996
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_001250_79cd0b56a7c3",
+        "marker_sha256": "476e4ee5b5c6ecadc9a61da818f3775957de3f1873e78169ce43a5ef74f07976",
+        "manifest_identity": "d526cde6b584213a3e02fe15fc7c97af11578421b4991e4245d0c8434c8f8d05",
+        "archive_sha256": "82f55b331a57ff23daf3dd35a21867839c64e5fc4a6bfc9391516edc94432bf2",
+        "archive_bytes": 7154073600,
+        "successful_updates": 1250,
+        "examples_seen": 40000,
+        "kind": "mandatory",
+        "created_wall": 1794583635.9468749,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 11464137216,
+        "peak_reserved_bytes": 12532580352,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3583.0371554070002
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_6e964902a35f448c919c3d926e28f15f_ae3f08188fef.json",
+      "run_id": "task1_oplora_6e964902a35f448c919c3d926e28f15f",
+      "status": "TASK1_OPLORA_PARTIAL_SAVED",
+      "method": "oplora",
+      "start_update": 0,
+      "target_update": 1250,
+      "updates_this_job": 1072,
+      "outcome": {
+        "status": "TRAINING_PARTIAL_SAVED",
+        "successful_updates": 1072,
+        "checkpoint": "checkpoints/oplora/8cafd5243fcac8c1e3cd615a0497dfb2812b73e4ce46a997b161e85f504165a8/rolling_001072_71cbde69b2f5",
+        "timings": {
+          "training_seconds": 17638.540838496076,
+          "checkpoint_seconds": 43.051218237000285
+        },
+        "stop_reason": "soft_limit_at_complete_update"
+      },
+      "checkpoint": {
+        "path": "checkpoints/oplora/8cafd5243fcac8c1e3cd615a0497dfb2812b73e4ce46a997b161e85f504165a8/rolling_001072_71cbde69b2f5",
+        "marker_sha256": "8bca422c053ce2811f801b13633656397d31a9d10e67979aa4cb19af7a7e931f",
+        "manifest_identity": "63b8b3c0cbaa3a32dc437b7c284ce6bb6d34be503183efc0703928de898bdfc3",
+        "archive_sha256": "14a9e32a2a2ffff4c5f32f12ff89351e843018d5fa819fe34ec475c03d7fcea5",
+        "archive_bytes": 122542080,
+        "successful_updates": 1072,
+        "examples_seen": 34304,
+        "kind": "rolling",
+        "created_wall": 1794677202.1801682,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 2418196480,
+        "peak_reserved_bytes": 2529165312,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 17737.940198971002
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_eead790bbf1c4f80940868d916cb0fce_6ac9682423d5.json",
+      "run_id": "task1_l2sp_eead790bbf1c4f80940868d916cb0fce",
+      "status": "TASK1_L2SP_BOUNDARY_SAVED",
+      "method": "l2sp",
+      "start_update": 937,
+      "target_update": 1250,
+      "updates_this_job": 313,
+      "outcome": {
+        "status": "TRAINING_FINAL_SAVED",
+        "successful_updates": 1250,
+        "checkpoint": "checkpoints/l2sp/84d546878dc1eb8e427212cecbf6767887354d4cdcb6f9beb4668853fa6aa047/mandatory_001250_6bb76334c724",
+        "timings": {
+          "training_seconds": 1975.1704271260014,
+          "checkpoint_seconds": 600.7708826040001
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/l2sp/84d546878dc1eb8e427212cecbf6767887354d4cdcb6f9beb4668853fa6aa047/mandatory_001250_6bb76334c724",
+        "marker_sha256": "df6d5a1008e693c288b8eed4a42c56f1d5c8812be7d40b6fc2d9c0588718d1f2",
+        "manifest_identity": "ab843cfdd75ec4c49bd0228dd4af4bbd6df29910a06e172244f7f776b07be961",
+        "archive_sha256": "19cc22c0199672c41bd36a75dc95a0be2e58bc0ee6b50ffc78e554bc8b7bc84b",
+        "archive_bytes": 7154094080,
+        "successful_updates": 1250,
+        "examples_seen": 40000,
+        "kind": "mandatory",
+        "created_wall": 1794617473.6994543,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 16765853184,
+        "peak_reserved_bytes": 17251172352,
+        "total_gpu_bytes": 42405855232
+      },
+      "elapsed_worker_seconds": 2765.929743014
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_01fc3a71d0d24ba88dbda80b60780a9b_05a6e6a9af66.json",
+      "run_id": "task1_lora4_01fc3a71d0d24ba88dbda80b60780a9b",
+      "status": "TASK1_LORA4_BOUNDARY_SAVED",
+      "method": "lora4",
+      "start_update": 625,
+      "target_update": 1250,
+      "updates_this_job": 625,
+      "outcome": {
+        "status": "TRAINING_FINAL_SAVED",
+        "successful_updates": 1250,
+        "checkpoint": "checkpoints/lora4/ced45f74576bb11f7ac13d63f1c01d257c379538d549418177d120aafc2a36d5/mandatory_001250_46e463d5af37",
+        "timings": {
+          "training_seconds": 7559.616442636998,
+          "checkpoint_seconds": 11.790026812000178
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/lora4/ced45f74576bb11f7ac13d63f1c01d257c379538d549418177d120aafc2a36d5/mandatory_001250_46e463d5af37",
+        "marker_sha256": "2b131b7705479ea85373eafe8e15b4ec74a17417b257b36c1a29275446b85256",
+        "manifest_identity": "e648a4427decc94a76dc8edf4ef87cb812d555051c297c70e0d344f0e75579dd",
+        "archive_sha256": "07c2138cf1da4cea365f52d8217bffe6f3727e72e557bd6e68a229bcf8aeef80",
+        "archive_bytes": 31815680,
+        "successful_updates": 1250,
+        "examples_seen": 40000,
+        "kind": "mandatory",
+        "created_wall": 1794647813.1552477,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 1939393024,
+        "peak_reserved_bytes": 2126512128,
+        "total_gpu_bytes": 42405855232
+      },
+      "elapsed_worker_seconds": 7848.517601161
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_32cdd95c1c214e158015b40fab07ae65_b3c12c18fc7e.json",
+      "run_id": "task1_full_ft_32cdd95c1c214e158015b40fab07ae65",
+      "status": "TASK1_FULL_FT_BOUNDARY_SAVED",
+      "method": "full",
+      "start_update": 0,
+      "target_update": 312,
+      "updates_this_job": 312,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 312,
+        "checkpoint": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000312_d3340708ba06",
+        "timings": {
+          "training_seconds": 2318.9636320890027,
+          "checkpoint_seconds": 1073.9629933919987
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000312_d3340708ba06",
+        "marker_sha256": "ab63cd04ec5be760eeb8ffd39d039e8d46f532e83dc3fcc038e470853b7c05b3",
+        "manifest_identity": "80f761e5a139fd24baf72eafd1fa66739fc3956136b18fba00cf4b89ea474815",
+        "archive_sha256": "f4ad922180422c2d8dc80f541840818fa586c743cd4298686e9fb6173d0ae012",
+        "archive_bytes": 7153520640,
+        "successful_updates": 312,
+        "examples_seen": 9984,
+        "kind": "mandatory",
+        "created_wall": 1794529071.4168544,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 11473340416,
+        "peak_reserved_bytes": 12643729408,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3421.106241276
+    },
+    {
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_0579a830ba4b45229494fd06c00c330a_1fb6a13f446a.json",
+      "run_id": "task1_l2sp_0579a830ba4b45229494fd06c00c330a",
+      "status": "TASK1_L2SP_BOUNDARY_SAVED",
+      "method": "l2sp",
+      "start_update": 625,
+      "target_update": 937,
+      "updates_this_job": 312,
+      "outcome": {
+        "status": "TRAINING_MANDATORY_SAVED",
+        "successful_updates": 937,
+        "checkpoint": "checkpoints/l2sp/d46f0a920f907c5c0fdab0d036c32dcce0c2e0a9bb65b152b7ddd6a8177f2435/mandatory_000937_44dfa9407356",
+        "timings": {
+          "training_seconds": 2375.69479708699,
+          "checkpoint_seconds": 590.3448665360006
+        },
+        "FullFT_midpoint_evaluation_due": false
+      },
+      "checkpoint": {
+        "path": "checkpoints/l2sp/d46f0a920f907c5c0fdab0d036c32dcce0c2e0a9bb65b152b7ddd6a8177f2435/mandatory_000937_44dfa9407356",
+        "marker_sha256": "22f713d5f48fced17ba395e1c0284e01d94060f2a2e5c99aa22cc7c2d97e6c23",
+        "manifest_identity": "397ae530d6ab5bcd75b5351338cff0b891c4662ea0eed6949eaa04fe5402201c",
+        "archive_sha256": "287de9d16e49fb0fc20ace0e796c4002d7667dcc4da0e31c973ecf121403e6aa",
+        "archive_bytes": 7153909760,
+        "successful_updates": 937,
+        "examples_seen": 29984,
+        "kind": "mandatory",
+        "created_wall": 1794611811.2280743,
+        "worker_verified_tensor_readback": true
+      },
+      "gpu_memory": {
+        "peak_allocated_bytes": 16765853184,
+        "peak_reserved_bytes": 17223909376,
+        "total_gpu_bytes": 23659151360
+      },
+      "elapsed_worker_seconds": 3179.2343556949995
+    }
+  ]
+}

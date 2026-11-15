@@ -1,0 +1,66 @@
+{
+  "packages": [
+    {
+      "file": "workflow/packages/Task_2_Block_07_CPU_Preflight.zip",
+      "sha256": "d5d2ad21658d452673d6a549f725e2f78949b97b3890ee9d93e170d6eb50ec95",
+      "source_folder": "task2_final_2026-11-07",
+      "distribution": "rebuild with workflow/prepare_block07.py"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_08_Image_Preparation.zip",
+      "sha256": "3882b1174fe015da1dc4b9de7d97abc07038a120ec49d8d21053c865bb109160",
+      "source_folder": "task2_images_2026-11-07",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_09_Cache_Input_Packing.zip",
+      "sha256": "571c75773e78e3cec1e3a0c32ff8f8e7a30a3cd3dd63dbb745e56bd667155027",
+      "source_folder": "task2_cache_inputs_2026-11-07",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_10_Model_Preparation.zip",
+      "sha256": "41ceb7a820130a0d886d8391b46bdb7ddef1e537ca05256ae28b0793127d5288",
+      "source_folder": "task2_models_2026-11-08",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_11R1_GPU_Feature_Cache.zip",
+      "sha256": "fca343eded123a3003a63cfeca60dbb090e6ba29a0cba5a82a769f92529ef536",
+      "source_folder": "task2_features_repair_2026-11-08",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_12_CPU_Text_Preparation.zip",
+      "sha256": "fe3b827e8ad6367c661a5846711eef84eb31dea472484bec4dd3d0e717da463b",
+      "source_folder": "task2_text_2026-11-08",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_13R2_GPU_Initialization.zip",
+      "sha256": "8fc0a3270bb36adec661872d34a5af5703b403b32c95896851e8339f04827db3",
+      "source_folder": "task2_initialization_amp128_2026-11-08",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_14R1_GPU_Training.zip",
+      "sha256": "144fd153c443dc57e30d1cf4e7236ef3b91995c610d90a583dd09c62530165ed",
+      "source_folder": "task2_training_status_2026-11-08",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_15_GPU_Final_Evaluation.zip",
+      "sha256": "e5f2890a6fac6dd70162d5e04e3b53157b3a8c612d4ae94436090f3831a2c5ac",
+      "source_folder": "task2_evaluation_2026-11-09",
+      "distribution": "included unchanged"
+    },
+    {
+      "file": "workflow/packages/Task_2_Block_16_CPU_Results_and_Plots.zip",
+      "sha256": "5378a536e1aca6a982f57e8ddeeb7a25d8f35d8a0546e7f640f1d44439c971bd",
+      "source_folder": "task2_results_2026-11-10",
+      "distribution": "included unchanged"
+    }
+  ],
+  "original_notebook_sha256": "270cb18b22b2246c9210531269b94454ac9fd3c9a140841bfd508fe88c894263",
+  "original_results_zip_sha256": "6c225c36b540740c2cbee3035f6756f477741d8409be0bcdc0cb6ddc21262e02"
+}

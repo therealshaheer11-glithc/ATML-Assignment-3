@@ -1,0 +1,29 @@
+{
+  "evidence_source": "Complete output supplied by user",
+  "status": "TASK1_BLOCK03_OK",
+  "versions": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.1",
+    "lm_eval": "0.4.9.2",
+    "datasets": "4.3.0",
+    "accelerate": "1.11.0",
+    "tokenizers": "0.22.1",
+    "safetensors": "0.6.2",
+    "huggingface-hub": "0.36.0",
+    "numpy": "2.2.6",
+    "peft": "0.17.1",
+    "evaluate": "0.4.6"
+  },
+  "lock_sha256": "54ad919ba1a099e6327014d51b7f441ceee5df7c93330278e4f85ad82e43cc06",
+  "cpu_forward_backward_passed": true,
+  "stock_tasks_found": [
+    "gsm8k_cot",
+    "hellaswag",
+    "boolq",
+    "arc_easy"
+  ],
+  "elapsed_seconds": 156.6,
+  "runtime_disk_free_GiB": 101.14,
+  "models_or_datasets_downloaded": false,
+  "gpu_work_run": false
+}

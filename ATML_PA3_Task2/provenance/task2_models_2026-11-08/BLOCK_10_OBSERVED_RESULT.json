@@ -1,0 +1,93 @@
+{
+  "schema": "atml-pa3-task2-block10-observed-v1",
+  "source_attachment_sha256": "6d569f726a663762ddd54cc0414deadadecf2e7576c113ef3aa0348586986908",
+  "source_attachment_bytes": 10476,
+  "observed_result": {
+    "block": "10",
+    "status": "passed",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "models_prepared": [
+      "siglip",
+      "qwen"
+    ],
+    "model_revisions": {
+      "siglip": {
+        "repo_id": "google/siglip-base-patch16-224",
+        "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed"
+      },
+      "qwen": {
+        "repo_id": "Qwen/Qwen3-0.6B",
+        "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+      }
+    },
+    "run_activities": {
+      "siglip": {
+        "files": {
+          "downloaded": 4
+        },
+        "archive": "packed"
+      },
+      "qwen": {
+        "files": {
+          "downloaded": 9
+        },
+        "archive": "packed"
+      }
+    },
+    "model_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/inputs/model_assets/models_complete_66f14f21d911fb57.json",
+    "model_manifest_sha256": "66f14f21d911fb57ae379df700ed3161cf348a997922235d8ab8b56491604f7f",
+    "original_model_file_bytes": 2331884909,
+    "models": {
+      "siglip": {
+        "archive_sha256": "15f00ccd1f3da1ee91408e0581419d82ca36f3def6a06bc74a58dd32de9270f2",
+        "archive_bytes": 812687360,
+        "file_count": 4,
+        "structure": {
+          "model_type": "siglip",
+          "tensor_count": 408,
+          "tensor_elements": 203155970,
+          "tensor_dtype_counts": {
+            "F32": 408
+          },
+          "weight_files": [
+            "model.safetensors"
+          ],
+          "weights_instantiated": false
+        }
+      },
+      "qwen": {
+        "archive_sha256": "a3c43cd415968956b078c4463b4e112866344c0c20235a2a9049db15f0d0d0e9",
+        "archive_bytes": 1519216640,
+        "file_count": 9,
+        "structure": {
+          "model_type": "qwen3",
+          "tensor_count": 311,
+          "tensor_elements": 751632384,
+          "tensor_dtype_counts": {
+            "BF16": 311
+          },
+          "weight_files": [
+            "model.safetensors"
+          ],
+          "weights_instantiated": false
+        }
+      }
+    },
+    "elapsed_seconds": 413.625,
+    "environment": {
+      "python": "3.13.18",
+      "huggingface-hub": "1.33.0",
+      "transformers": "5.22.1",
+      "torch": "2.14.1+cpu",
+      "Pillow": "11.3.0",
+      "numpy": "2.4.6",
+      "safetensors": "0.8.0"
+    },
+    "gpu_used": false,
+    "model_weights_downloaded": true,
+    "model_weights_loaded": false,
+    "feature_cache_created": false,
+    "training_started": false
+  },
+  "evidence_scope": "Full user-supplied Colab output. Actual saved manifests will be reverified before GPU use."
+}

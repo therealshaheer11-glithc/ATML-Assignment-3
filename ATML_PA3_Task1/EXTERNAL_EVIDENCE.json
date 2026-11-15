@@ -1,0 +1,41 @@
+{
+  "drive_root": "MyDrive/ATML-PA-3/Task1",
+  "status": "Not read live or fetched during this packaging task.",
+  "required_paths": [
+    {
+      "path": "results_batch8_V2/<condition>/",
+      "purpose": "EVALUATION_COMPLETE.json, CONTRACT.json, per-question task JSON, scored_chunks, raw_generation_batches, raw_likelihood_chunks, qualitative manifests/outputs. Conditions: original, full_mid, full_final, l2sp_final, lora4_final, lora16_final, oplora_final."
+    },
+    {
+      "path": "results/original/ACTIVATION_PROBES_COMPLETE.json",
+      "purpose": "Original probe manifest and the 64 referenced FP32 tensor files."
+    },
+    {
+      "path": "checkpoints/<method>/<contract>/",
+      "purpose": "Final checkpoints for all methods and FullFT midpoint; model/adapters, optimizer, scaler/RNG and checkpoint manifests. See receipt exact paths/hashes."
+    },
+    {
+      "path": "logs/",
+      "purpose": "Per-update histories, session receipts, per-stage timing/memory and complete CPU/GPU console evidence."
+    },
+    {
+      "path": "configs/ and execution/",
+      "purpose": "Frozen configurations, prompts/IDs, data and source manifests, immutable runtime implementation copies, and original U/V basis references."
+    },
+    {
+      "path": "evaluation_inputs/",
+      "purpose": "FullFT/L2SP evaluation weights and adapter export ZIPs identified by receipt/hash."
+    }
+  ],
+  "known_original_baseline_export": {
+    "path": "exports/Task_1_Original_Baseline_V2_2062ae3a93f76b5f.zip",
+    "sha256": "51802b3cb2d6ce20306b68cccb61fa8c452c07354073de8528204e5c085024a2",
+    "bytes": 35263727,
+    "local_payload_included": false
+  },
+  "interrupted_adapter_backup": {
+    "pattern": "exports/Task1_LoRA16_OPLoRA_Evaluations_<hash-prefix>.zip",
+    "completion_confirmed": false
+  },
+  "retrieval_policy": "Existing files may be downloaded later if the user requests it. Do not regenerate missing evidence or rerun experiments automatically."
+}

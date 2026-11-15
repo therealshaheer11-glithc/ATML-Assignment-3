@@ -1,0 +1,44 @@
+{
+  "strict_checks": [
+    {
+      "kind": "full_with_l2_reference",
+      "microbatch": 2,
+      "accumulation": 16,
+      "sequence_length": 2048,
+      "strict_deterministic_backward_passed": true,
+      "FP32_Adam_moments_reserved": true,
+      "FP32_L2_reference_reserved": true,
+      "optimizer_updates": 0,
+      "official_training_updates": 0,
+      "overflow_retries": [],
+      "peak_reserved_bytes": 17158897664,
+      "total_gpu_bytes": 23659151360,
+      "headroom_fraction": 0.2747458519154594,
+      "elapsed_seconds": 31.689069957000356
+    },
+    {
+      "kind": "oplora",
+      "microbatch": 2,
+      "accumulation": 16,
+      "sequence_length": 2048,
+      "strict_deterministic_backward_passed": true,
+      "FP32_Adam_moments_reserved": true,
+      "FP32_L2_reference_reserved": false,
+      "optimizer_updates": 0,
+      "official_training_updates": 0,
+      "overflow_retries": [],
+      "peak_reserved_bytes": 2466250752,
+      "total_gpu_bytes": 23659151360,
+      "headroom_fraction": 0.8957591202459766,
+      "elapsed_seconds": 24.030277440999726
+    }
+  ],
+  "last_console_scored_GSM_count": 325,
+  "GSM_required": 1319,
+  "entered_balance": 77.72,
+  "entered_rate": 1.94,
+  "normal_final_receipt_in_provided_console": false,
+  "screenshot_UI": "Reconnect L4; does not prove physical deallocation",
+  "stop_reason": "not established",
+  "actual_Drive_bytes_not_yet_independently_read_here": true
+}

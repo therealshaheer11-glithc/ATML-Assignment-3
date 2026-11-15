@@ -1,0 +1,16 @@
+{
+  "package_sha256": "f80f5a67679543a0c386ae38d6b91c25ab96efe9a7ea4111b2b23bc62558e016",
+  "files": {
+    "prepare_execution.py": "4fcefec67e251e286f0beab640b4d29293112c8c054a562c516e6880181af691",
+    "training_core.py": "368eb518e31629e37d6e646522e5009f9ac48e207be16ab8a58d3bc22679b939"
+  },
+  "local_checks": {
+    "syntax": true,
+    "private_software_inventory_and_hashes": true,
+    "internal_symlinks_preserved": true,
+    "outside_symlinks_rejected": true,
+    "bytecode_excluded": true,
+    "frozen_records_preserved": true
+  },
+  "limits": "Real model loading/dtype checks and multi-GB archive verification run in Colab; not locally executed."
+}

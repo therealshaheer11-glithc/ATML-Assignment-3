@@ -1,0 +1,7 @@
+{
+  "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "numpy": "2.4.6",
+  "matplotlib": "3.10.9",
+  "Pillow": "12.2.0"
+}

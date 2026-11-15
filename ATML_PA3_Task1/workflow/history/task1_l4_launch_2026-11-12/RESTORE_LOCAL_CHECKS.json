@@ -1,0 +1,10 @@
+{
+  "restore_regular_files_and_modes": true,
+  "internal_relative_symlinks": true,
+  "safe_repeat": true,
+  "changed_existing_files_preserved_and_rejected": true,
+  "external_symlinks_rejected": true,
+  "unsafe_paths_rejected": true,
+  "bad_hash_rejected": true,
+  "scope": "Synthetic archives only; no real GPU or Colab service accessed."
+}

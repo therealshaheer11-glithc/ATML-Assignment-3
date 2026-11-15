@@ -1,0 +1,7 @@
+{
+  "status": "OPLORA_FINAL_EVALUATION_WEIGHTS_READY",
+  "path": "evaluation_inputs/oplora_final_1250_b39053eb70727fa6ad0b9b50a824f186e33249d5f0c281b4d46bcaeac23d31b9.zip",
+  "sha256": "b39053eb70727fa6ad0b9b50a824f186e33249d5f0c281b4d46bcaeac23d31b9",
+  "unique_parameter_count": 10092544,
+  "checkpoint_update": 1250
+}

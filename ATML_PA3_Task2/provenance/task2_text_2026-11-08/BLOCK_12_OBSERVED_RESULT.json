@@ -1,0 +1,175 @@
+{
+  "schema": "atml-pa3-task2-block12-observed-v1",
+  "source_attachment_sha256": "d7e215ce01b28cc32b1d2d6ebe3a27fa9b4a4bea06c603e9ed0deba93d9463cd",
+  "source_attachment_bytes": 12968,
+  "observed_result": {
+    "block": "12",
+    "status": "passed",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "feature_manifest_sha256": "1a015e4a07f2406937d63832dae1d648148a243a7931b39358d68e2a2ad8bea6",
+    "text_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/inputs/text_e14ef6fd5200cb4d/text_complete.json",
+    "text_manifest_sha256": "8d10d1daea771af72d58441615a99e9b4fcd155fa36adde8b08cfcc7cacb2490",
+    "text_recipe_sha256": "e14ef6fd5200cb4d58ad0b61ca5b4669b0ffb5af6cde9384f7fa225f1147bc6c",
+    "summary": {
+      "examples": 22396,
+      "selected_examples": 21916,
+      "template_only_grounding_examples": 480,
+      "unique_text_layouts": 21564,
+      "example_counts": {
+        "caption/train": 18000,
+        "caption/dev": 96,
+        "natural/train": 3072,
+        "natural/dev": 64,
+        "natural/test": 192,
+        "grounding/training_audit": 316,
+        "grounding/dev": 48,
+        "grounding/test": 128,
+        "ground_bank/template_only": 480
+      },
+      "token_maxima": {
+        "caption_target": 56,
+        "answer_target": 6,
+        "native_prompt": 34,
+        "training_sequence_with_visuals": 269
+      },
+      "caption_targets_with_leading_newline": 2,
+      "caption_targets_with_trailing_newline": 66,
+      "native_user_prefix_lengths": [
+        3
+      ]
+    },
+    "feature_lookup_images": 9260,
+    "interface_checks": {
+      "status": "passed",
+      "checks": [
+        "Native thinking-disabled prompt boundaries and verbatim newline-bearing targets round-trip exactly",
+        "All 196 continuous tokens sit inside the user message before its text, while only original target tokens and EOT carry training labels",
+        "A real checkpointed Qwen3 model with frozen parameters passes finite nonzero gradients into continuous visual inputs without parameter gradients",
+        "No-image inputs retain exactly the same text and target labels while removing the 196 visual positions",
+        "Generation uses left padding and correct position/attention masks, with last-prompt states unaffected by masked padding values",
+        "Unequal-length examples contribute equal weights through per-example token means, with valid CE gradients",
+        "Causal shifting is correct, training CE includes EOT, and the separate content-only NLL mask excludes EOT",
+        "Reserved control tokens and over-cap original content cause failure without truncation"
+      ],
+      "model": "Real Qwen3 class with one synthetic 32-wide layer on CPU",
+      "full_original_Qwen_weights_loaded": false,
+      "gpu_used": false,
+      "training_updates": 0
+    },
+    "cache_sessions_found": 2,
+    "cache_creation_sessions_found": 1,
+    "cache_creation_metrics_available": true,
+    "cache_sessions": [
+      {
+        "file_name": "block_11_20261108_051510_c27683ff.json",
+        "source_sha256": "79b686436944987412b6f4119b117eb96e459f50752708aa281519477049b62a",
+        "status": "passed",
+        "images_verified": 9260,
+        "shards_verified": 37,
+        "computed_images_this_run": 9260,
+        "run_activities": {
+          "computed": 37
+        },
+        "elapsed_seconds": 461.668,
+        "compute_seconds_cuda_events": 29.919,
+        "preprocessing_and_transfer_seconds": 67.267,
+        "input_archive_staging_seconds": 127.34,
+        "save_and_verification_seconds": 110.752,
+        "peak_gpu_allocated_bytes": 413032960,
+        "peak_gpu_reserved_bytes": 492830720,
+        "cache_package_sha256": "fca343eded123a3003a63cfeca60dbb090e6ba29a0cba5a82a769f92529ef536",
+        "environment": {
+          "Pillow": "11.3.0",
+          "capability": [
+            7,
+            5
+          ],
+          "cuda": "13.0",
+          "cudnn": 92800,
+          "gpu": "Tesla T4",
+          "gpu_total_memory_bytes": 15637086208,
+          "huggingface-hub": "1.33.0",
+          "numpy": "2.4.6",
+          "nvidia_driver": "580.82.07",
+          "python": "3.13.16",
+          "safetensors": "0.8.0",
+          "tokenizers": "0.23.3",
+          "torch": "2.14.1+cu130",
+          "transformers": "5.22.1"
+        }
+      },
+      {
+        "file_name": "block_11_20261108_052450_89ec9954.json",
+        "source_sha256": "261e1d01aade601b4d9bd7257f879c710a87ef1e60e5e02c0e9666fe1da12913",
+        "status": "passed",
+        "images_verified": 9260,
+        "shards_verified": 37,
+        "computed_images_this_run": 0,
+        "run_activities": {
+          "reused": 37
+        },
+        "elapsed_seconds": 269.207,
+        "compute_seconds_cuda_events": 0.0,
+        "preprocessing_and_transfer_seconds": 0.0,
+        "input_archive_staging_seconds": 0.0,
+        "save_and_verification_seconds": 0.0,
+        "peak_gpu_allocated_bytes": 240979968,
+        "peak_gpu_reserved_bytes": 253755392,
+        "cache_package_sha256": "fca343eded123a3003a63cfeca60dbb090e6ba29a0cba5a82a769f92529ef536",
+        "environment": {
+          "Pillow": "11.3.0",
+          "capability": [
+            7,
+            5
+          ],
+          "cuda": "13.0",
+          "cudnn": 92800,
+          "gpu": "Tesla T4",
+          "gpu_total_memory_bytes": 15637086208,
+          "huggingface-hub": "1.33.0",
+          "numpy": "2.4.6",
+          "nvidia_driver": "580.82.07",
+          "python": "3.13.16",
+          "safetensors": "0.8.0",
+          "tokenizers": "0.23.3",
+          "torch": "2.14.1+cu130",
+          "transformers": "5.22.1"
+        }
+      }
+    ],
+    "cache_session_audit_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/inputs/text_e14ef6fd5200cb4d/cache_session_audit_e311363bb4de9907.json",
+    "cache_session_audit_sha256": "e311363bb4de99070a44ebb54d2fa26c59cbea699fd02a423f93f52955f9648b",
+    "package_setup": "Exact existing library versions reused",
+    "text_package_sha256": "fe3b827e8ad6367c661a5846711eef84eb31dea472484bec4dd3d0e717da463b",
+    "elapsed_seconds": 85.012,
+    "environment": {
+      "python": "3.13.18",
+      "transformers": "5.22.1",
+      "huggingface-hub": "1.33.0",
+      "tokenizers": "0.23.3",
+      "safetensors": "0.8.0",
+      "Pillow": "11.3.0",
+      "numpy": "2.4.6",
+      "torch": "2.14.1+cpu"
+    },
+    "gpu_used": false,
+    "full_Qwen_weights_loaded": false,
+    "calibration_computed": false,
+    "training_started": false
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-text-controller-v1",
+    "attempt": "20261108_060312_aba976a3",
+    "text_package_sha256": "fe3b827e8ad6367c661a5846711eef84eb31dea472484bec4dd3d0e717da463b",
+    "worker_exit_code": 0,
+    "controller_traceback": null,
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_12_console_20261108_060312_aba976a3_7f3ef5e8b62f938c.log",
+      "sha256": "7f3ef5e8b62f938c9c1e70fd0b6904951140467e71eb1f0598a3bbfd93ce76a7",
+      "bytes": 6706
+    },
+    "console_save_error": null,
+    "gpu_used": false
+  },
+  "evidence_scope": "Full user-supplied CPU result, including creation-session measurements retrieved from saved GPU logs. No full Qwen weights, RMS calibration or production training executed."
+}

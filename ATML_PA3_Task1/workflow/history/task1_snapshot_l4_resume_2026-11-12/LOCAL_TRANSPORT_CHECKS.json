@@ -1,0 +1,11 @@
+{
+  "all_16538_cached_answer_reads_avoid_per_record_Drive_checks": true,
+  "snapshot_members_individually_hash_verified_on_local_restore": true,
+  "missing_or_changed_indexed_local_answer_rejected": true,
+  "new_answers_use_original_Drive_save_and_readback": true,
+  "original_worker_receipt_and_completion_handshake_preserved": true,
+  "transport_receipt_saved_before_worker_completion": true,
+  "changed_archive_rejected": true,
+  "isolated_worker_argument_routing_checked": true,
+  "scope": "CPU synthetic storage/control fixtures only; no original-model inference"
+}

@@ -1,0 +1,229 @@
+{
+  "scope": "Receipt-derived aggregate scores, not a fresh per-example rescore.",
+  "conditions": [
+    {
+      "condition": "original",
+      "label": "Original",
+      "trained_update": 0,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_snapshot_baseline_adbf22d941054189984a7f17503275b2_b482e9f5d4d6.json",
+      "run_id": "task1_snapshot_baseline_adbf22d941054189984a7f17503275b2",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.37562238597888864,
+          "acc_norm,none": 0.47301334395538736
+        },
+        "boolq": {
+          "acc,none": 0.6437308868501529
+        },
+        "arc_easy": {
+          "acc,none": 0.6077441077441077,
+          "acc_norm,none": 0.5597643097643098
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.43214556482183475,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "full_mid",
+      "label": "Full FT midpoint",
+      "trained_update": 625,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_mid_eval_b75eeffb271a4ca597cc1b2b9538ea02_1de4704f5001.json",
+      "run_id": "task1_full_mid_eval_b75eeffb271a4ca597cc1b2b9538ea02",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.37044413463453496,
+          "acc_norm,none": 0.45807608046205933
+        },
+        "boolq": {
+          "acc,none": 0.6125382262996942
+        },
+        "arc_easy": {
+          "acc,none": 0.6607744107744108,
+          "acc_norm,none": 0.6233164983164983
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.5754359363153905,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "full_final",
+      "label": "Full FT final",
+      "trained_update": 1250,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_final_eval_7eb01cb00b454faf9f5a755644a35941_0e382b012b4b.json",
+      "run_id": "task1_full_final_eval_7eb01cb00b454faf9f5a755644a35941",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.3741286596295559,
+          "acc_norm,none": 0.46176060545708025
+        },
+        "boolq": {
+          "acc,none": 0.6085626911314985
+        },
+        "arc_easy": {
+          "acc,none": 0.6641414141414141,
+          "acc_norm,none": 0.6334175084175084
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.6557998483699773,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "l2sp_final",
+      "label": "Full FT + L2-SP",
+      "trained_update": 1250,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_final_eval_06ef1d28e8114cf28504b213b1b3a25f_5c620cd409bb.json",
+      "run_id": "task1_l2sp_final_eval_06ef1d28e8114cf28504b213b1b3a25f",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.374726150169289,
+          "acc_norm,none": 0.4660426209918343
+        },
+        "boolq": {
+          "acc,none": 0.6706422018348623
+        },
+        "arc_easy": {
+          "acc,none": 0.6531986531986532,
+          "acc_norm,none": 0.6212121212121212
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.6429112964366944,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "lora4_final",
+      "label": "LoRA-4",
+      "trained_update": 1250,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_final_eval_8077b55deb664f64927ebfae3ba5a351_a54b950209e3.json",
+      "run_id": "task1_lora4_final_eval_8077b55deb664f64927ebfae3ba5a351",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.37562238597888864,
+          "acc_norm,none": 0.47410874327823144
+        },
+        "boolq": {
+          "acc,none": 0.6743119266055045
+        },
+        "arc_easy": {
+          "acc,none": 0.6544612794612794,
+          "acc_norm,none": 0.6300505050505051
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.5951478392721758,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "lora16_final",
+      "label": "LoRA-16",
+      "trained_update": 1250,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora16_final_eval_e1bed1f92f954e50baef4a94f5e244e5_5fc48523ffbd.json",
+      "run_id": "task1_lora16_final_eval_e1bed1f92f954e50baef4a94f5e244e5",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.3791077474606652,
+          "acc_norm,none": 0.4736108344951205
+        },
+        "boolq": {
+          "acc,none": 0.7262996941896025
+        },
+        "arc_easy": {
+          "acc,none": 0.6637205387205387,
+          "acc_norm,none": 0.6384680134680135
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.6186504927975739,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    },
+    {
+      "condition": "oplora_final",
+      "label": "OPLoRA-16",
+      "trained_update": 1250,
+      "receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_final_eval_e921fcbc369148b7936d80bcfd548bc0_e07ad756ef61.json",
+      "run_id": "task1_oplora_final_eval_e921fcbc369148b7936d80bcfd548bc0",
+      "metrics": {
+        "hellaswag": {
+          "acc,none": 0.37801234813782114,
+          "acc_norm,none": 0.47410874327823144
+        },
+        "boolq": {
+          "acc,none": 0.7299694189602447
+        },
+        "arc_easy": {
+          "acc,none": 0.67003367003367,
+          "acc_norm,none": 0.6338383838383839
+        },
+        "gsm8k_cot": {
+          "exact_match,flexible-extract": 0.621683093252464,
+          "exact_match,strict-match": 0.0
+        }
+      },
+      "counts": {
+        "gsm8k_cot": 1319,
+        "hellaswag": 10042,
+        "boolq": 3270,
+        "arc_easy": 2376
+      },
+      "qualitative_count": 24,
+      "evidence_level": "User-returned completion receipt; underlying per-example files not included here."
+    }
+  ]
+}

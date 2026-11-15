@@ -1,0 +1,1704 @@
+[
+  {
+    "source": "task1/archive_io.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/archive_io.py",
+    "sha256": "d5d059306f34a09eee8b4469d3f47597b07ec182f797d40e4a4958d2a1bf8f57",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_asset_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_asset_checks.py",
+    "sha256": "a7d71de469581674fff5690f80ba167492f741566f8395760fac101d65cfa46d",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_completion_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_completion_checks.py",
+    "sha256": "727be589f4133d65eebc3c3e1f9aee8d84f5f666bd961cc41742a5a3e8e24977",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_completion_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_completion_cpu.py",
+    "sha256": "d3c10d66a873a1331d1194b0c51fc71e6d650c8bd1a9bf35d8d9fe4372d84d4e",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_hflm.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_hflm.py",
+    "sha256": "e071af2da812a49a71720671a29d41ff1744fb7e032e71d6f9a84b11a0a0a899",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_launch_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_launch_checks.py",
+    "sha256": "5334f7f3baf7952428c5d4230ef12d886e9677f1188832170f0355cd175decf6",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_runtime.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_runtime.py",
+    "sha256": "a2c420ed090689c1849d65d7de4717707a713937b1060bb9c65b6adf44a8723a",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_v2_control_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_v2_control_checks.py",
+    "sha256": "86d2c7718f162a169ac586fcbcd7f66365d61571c688feb4fd70e32d50f53e26",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_v2_engine_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_v2_engine_checks.py",
+    "sha256": "5c0514b307b752228d13bd0d3fb449508038c911a276622448bbcb8452e651e5",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_v2_protocol.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_v2_protocol.py",
+    "sha256": "3ac78bc667f4ef0ab1a4724ad04fbc9f5e1964c76c813d92acab4de094683413",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_v2_worker.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_v2_worker.py",
+    "sha256": "44d8ca63264df69f909be126ca965f2204ad944369c1696b7d095511e25f9392",
+    "unchanged": true
+  },
+  {
+    "source": "task1/baseline_worker.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/baseline_worker.py",
+    "sha256": "ee6c40ca922b6d2996ae56b4ab0c9d6845143a8d449a3ece3c15f76de77a7f1c",
+    "unchanged": true
+  },
+  {
+    "source": "task1/batch8_cpu_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/batch8_cpu_checks.py",
+    "sha256": "ff5bfe4acc12b2e8ef0809f98c0d0b2d624f3e821567c32b06042043d1cdb905",
+    "unchanged": true
+  },
+  {
+    "source": "task1/batch8_hflm.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/batch8_hflm.py",
+    "sha256": "1b8b3810028123d6f6623398e028628cc3d9fc72070aad359d92fdc52023969e",
+    "unchanged": true
+  },
+  {
+    "source": "task1/batch8_pilot.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/batch8_pilot.py",
+    "sha256": "76171f667464327df7c3235cf7f9209dd18efaca8ff56b715c9493af8e156ec9",
+    "unchanged": true
+  },
+  {
+    "source": "task1/batch8_pilot_entry.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/batch8_pilot_entry.py",
+    "sha256": "fead5e0d664b3ddbc02c63b2458d02ec7c818fe624f29da87f6a9c61d96f069f",
+    "unchanged": true
+  },
+  {
+    "source": "task1/batch8_records.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/batch8_records.py",
+    "sha256": "6738fcd2146a4057e54c7728129411700524e5f78a6efdfeccfd120f2589c4aa",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_01_cpu_setup.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_01_cpu_setup.py",
+    "sha256": "a9d6dc366b1df236f4069edf11c772b1da1bcc0734c1b63b59ff51dc36e16693",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_02_cpu_python.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_02_cpu_python.py",
+    "sha256": "d2ffb89a47d4b3602d89259bde589cfeb1553d13346ef3c2815381a2ebeb6356",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_03_cpu_environment.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_03_cpu_environment.py",
+    "sha256": "be7c44593e03fca8a32d56e41fbe4027021a0ca298278e759de6af95f30fc3cc",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_04_R1_cpu_data_loader.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_04_R1_cpu_data_loader.py",
+    "sha256": "7144a7f8ca7774e4f22b50dccfa86d3cf5c48973d9b663d647ae8c5e5b363136",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_04_cpu_data_loader.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_04_cpu_data_loader.py",
+    "sha256": "f72c39eb0f5549bb9f0391fc0d5e34ec14f92e1778df0554d5799b74030a4d34",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_05_cpu_assets_loader.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_05_cpu_assets_loader.py",
+    "sha256": "7715df3ac4287fb268039b2c9512cb3d5b7b5a9afede07cbe1c92615fcf57bb3",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_06_cpu_runtime_loader.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_06_cpu_runtime_loader.py",
+    "sha256": "e36baab106ac9e68884beb6b135cdc679d8386732c1132f91a90d62e1da4645b",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_07_cpu_preflight_loader.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_07_cpu_preflight_loader.py",
+    "sha256": "eea8e42f8c255b567ddfe985de18664efabd1554f6cdf4a43ebbc4480a8e3e4f",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_08_l4_preflight.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_08_l4_preflight.py",
+    "sha256": "5761169fab3b6fc082d76eb36ffab83199c8376add1cf109826ec371723be613",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_09_cpu_review_R2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_09_cpu_review_R2.py",
+    "sha256": "bc7157bdfb03fdd462693596683d6989ab8cf6a4fd5bdbdae5f793f41f5808a5",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_10_R1_cpu_baseline_kit.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_10_R1_cpu_baseline_kit.py",
+    "sha256": "ccc8230792be83fe584aec953c9df47ecc0afb622bff336b3ee0d76be2664252",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_10_cpu_baseline_kit.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_10_cpu_baseline_kit.py",
+    "sha256": "6247b55865a0ae730b1ba3458d3f1e111b73b7a7a5af6b80ba7c647b4c4d3cc8",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_11_l4_baseline.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_11_l4_baseline.py",
+    "sha256": "180d10f0cc18a8a39f298a261d3d412a7d9d9d9b420606a7d6c5ac5040c3acfa",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_12_cpu_recovery.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_12_cpu_recovery.py",
+    "sha256": "90b0e31bb455b344936575f195b64cdb20ad89644291e1380b3e4b1c0e0eb2a3",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_13_R1_cpu_batch8_repair.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_13_R1_cpu_batch8_repair.py",
+    "sha256": "2f46e94e93f9c435a212d1622bf819a4bb278e03eb0949ce9633527aef3a1735",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_13_cpu_batch8.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_13_cpu_batch8.py",
+    "sha256": "c2e4aca8eb385d6e1e9d875e03ba3b8b7325567fa0771f4a414acf8c0df31da0",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_14_l4_batch8_pilot.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_14_l4_batch8_pilot.py",
+    "sha256": "125e8c7a8fdcb13a43f1d76bd3b303ed2cc2825acb3dc74a59aeb7d5cc9976e6",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_15_l4_baseline_v2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_15_l4_baseline_v2.py",
+    "sha256": "7c5f42948ccd29205daba280cc6e5ccc76e3b7849f2e990fe506a4c8c2272377",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_16_cpu_resume_audit.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_16_cpu_resume_audit.py",
+    "sha256": "0107e065ca82fc13dd70cb18393021c365f18067e48b323da8aec6bc2c0f1b85",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_17_l4_snapshot_resume.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_17_l4_snapshot_resume.py",
+    "sha256": "ee59e8fe56e94480d4e264006636916538511f13ceedcea27e46269316b1aa5a",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_18_cpu_baseline_completion.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_18_cpu_baseline_completion.py",
+    "sha256": "da1c08dac0feafb9f24ea2b9638cf7aab45f8c90a8affdfcbabe90a9b6eccc24",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_19_cpu_training_kit.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_19_cpu_training_kit.py",
+    "sha256": "30b3d6ec5fd2e7dfa983cb0095d4260022064014ec30f99c488602d487e8d099",
+    "unchanged": true
+  },
+  {
+    "source": "task1/colab_block_20_l4_full_ft.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/colab_block_20_l4_full_ft.py",
+    "sha256": "cc29fe6ebbdcd543c0b3b5d597bd5f3b2632a40528854a163810a82a5b799b89",
+    "unchanged": true
+  },
+  {
+    "source": "task1/evaluation_engine.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/evaluation_engine.py",
+    "sha256": "a36dc871b323a4a5c45d63674e28795a931dffd29ce58c3d7d7d750ee677c9b5",
+    "unchanged": true
+  },
+  {
+    "source": "task1/evaluation_records.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/evaluation_records.py",
+    "sha256": "841fe3750ba33fb63d1a7e56a3ebd5248c013f3eada114e3690c4b5a8250c607",
+    "unchanged": true
+  },
+  {
+    "source": "task1/evaluation_v2_engine.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/evaluation_v2_engine.py",
+    "sha256": "3a6307302cee3e8b97f39f33c1571ad79f8d23b577199846505241cc9a16ec19",
+    "unchanged": true
+  },
+  {
+    "source": "task1/evaluation_v2_hflm.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/evaluation_v2_hflm.py",
+    "sha256": "31cb7a1c82064df84f7672043d35d2404b4cd0a76aaa575963065c2a3695a441",
+    "unchanged": true
+  },
+  {
+    "source": "task1/full_training_worker.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/full_training_worker.py",
+    "sha256": "5e2e73783dd09b220631c15ae69d1a266b1698e940172c5818bac1e7766724c5",
+    "unchanged": true
+  },
+  {
+    "source": "task1/gpu_guardian.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/gpu_guardian.py",
+    "sha256": "0de74d1150c7ffedf43edfc0994cd00330e4beaba29b17b4b4ac4d57a02039be",
+    "unchanged": true
+  },
+  {
+    "source": "task1/gpu_guardian_R2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/gpu_guardian_R2.py",
+    "sha256": "68f0baa5e7ae0eefbd3f5f4fc5e63505e008c64aefed14c471aa1cfe2c731257",
+    "unchanged": true
+  },
+  {
+    "source": "task1/gpu_guardian_R3.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/gpu_guardian_R3.py",
+    "sha256": "12c7dfa4637bea83e7aacd821743ebdcb626c291ff8b14d1374befa37fd2a06d",
+    "unchanged": true
+  },
+  {
+    "source": "task1/guardian_lifecycle_tests.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/guardian_lifecycle_tests.py",
+    "sha256": "87509ab95e9947d875a4c7451d1482433d905c1858aceb7b74fbfaf55d4219c7",
+    "unchanged": true
+  },
+  {
+    "source": "task1/guardian_selftest.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/guardian_selftest.py",
+    "sha256": "861987baeecb0a16ab60799f4b143f40d8680c967eaadb73951c9ad11dc07907",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_baseline.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_baseline.py",
+    "sha256": "e69a0ebbb48752a343490bfa0b38e94fec10ffe9d33b3205bde4dccf00aa0f95",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_baseline_v2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_baseline_v2.py",
+    "sha256": "d38dab7e09c47fb36f635e7a1585fea1b7156bcbe1feb7e36b4a58f1e298e494",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_batch8_pilot.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_batch8_pilot.py",
+    "sha256": "c952aab3d630d37dcbaefe97bb394edbe2d412f816d7f3251f63f43dabb9ac06",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_preflight.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_preflight.py",
+    "sha256": "e98325a41a6e5143d045dd7ed38ae67f877634cf6d2a5e93ff5a8f3214f9ecda",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_snapshot_resume.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_snapshot_resume.py",
+    "sha256": "867948b60f979f0ee6397b25175d180cadac08502a840bd3fb1b1c617b041f1c",
+    "unchanged": true
+  },
+  {
+    "source": "task1/launch_training_full.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/launch_training_full.py",
+    "sha256": "fc6dcf4a4aab5e162ad2524b61e423f2144e7084afeef65010f46c1723043d82",
+    "unchanged": true
+  },
+  {
+    "source": "task1/official_training.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/official_training.py",
+    "sha256": "0f58f129cee271c53716809be468486cc51dfbf1473e7f3b647e4cdc77c98d6c",
+    "unchanged": true
+  },
+  {
+    "source": "task1/pilot_launch_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/pilot_launch_checks.py",
+    "sha256": "d16b080d6658bd5ad96740e513f646e747d1b9001215691b143407991b6fb2db",
+    "unchanged": true
+  },
+  {
+    "source": "task1/preflight_worker.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/preflight_worker.py",
+    "sha256": "68d5443a4658875e3c018120d8c1958b1f77047301748f6c9af384f1d6c6619d",
+    "unchanged": true
+  },
+  {
+    "source": "task1/preflight_worker_R2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/preflight_worker_R2.py",
+    "sha256": "4f023e958305292ddb22d88d9f398638dcaffbf0f86971fb36b9b019b3c9b147",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_assets.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_assets.py",
+    "sha256": "1ef1cb1611971db0d08d31765c50c2958cc0e64eec87064bffab697558b01abc",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_baseline_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_baseline_cpu.py",
+    "sha256": "454e587ef05ee4d716fd0a5f941c5a4b0c1bcbd5a209e63eec210fc85f09944b",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_batch8_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_batch8_cpu.py",
+    "sha256": "69a00eb778cdcb31a50e3908c87ce619aa34b3ca5e8407260e1b55cc5aeabcf9",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_data.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_data.py",
+    "sha256": "d24ae80def585cb35666e87895042d0d655757612fe46436969a096945675082",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_execution.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_execution.py",
+    "sha256": "4fcefec67e251e286f0beab640b4d29293112c8c054a562c516e6880181af691",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_preflight.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_preflight.py",
+    "sha256": "047c1795bbad47138d1b7277fa27154c10a7753772fc808fd201a93c02d27df8",
+    "unchanged": true
+  },
+  {
+    "source": "task1/prepare_training_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/prepare_training_cpu.py",
+    "sha256": "95c17bb3d26e2fac1d50090dfdcacb7c5488d8d1fc1cbb0d2af51629a90f700f",
+    "unchanged": true
+  },
+  {
+    "source": "task1/qualitative_source.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/qualitative_source.py",
+    "sha256": "b9b6ce5fafb7fe4be7c91afd876fb0d620177de7fd2c5cfa3917344caf01b2a0",
+    "unchanged": true
+  },
+  {
+    "source": "task1/release_coordination.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/release_coordination.py",
+    "sha256": "614b5bab4cf1d5482b6b672fb79047709944167382414e4cdafc1f5cec20642b",
+    "unchanged": true
+  },
+  {
+    "source": "task1/restore_baseline_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/restore_baseline_cpu.py",
+    "sha256": "f0e2d61a261c5ee8bd8b3ebc10250dd56defe9906ff139d21ef9ccb2745c7106",
+    "unchanged": true
+  },
+  {
+    "source": "task1/restore_batch8_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/restore_batch8_cpu.py",
+    "sha256": "32ebce8ea449913d28c8a6681bed8773b222c88babb07cbc09189d30207d8f53",
+    "unchanged": true
+  },
+  {
+    "source": "task1/restore_training_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/restore_training_cpu.py",
+    "sha256": "cef2e7ed36bf1bad97c0142b1a18c7f85c7fadd853947936f3bab1f36e779348",
+    "unchanged": true
+  },
+  {
+    "source": "task1/resume_snapshot_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/resume_snapshot_checks.py",
+    "sha256": "43a68e648f4b9baf5e4e489f9da28100fa5711c84be2af70a9e78a8fac875324",
+    "unchanged": true
+  },
+  {
+    "source": "task1/resume_snapshot_cpu.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/resume_snapshot_cpu.py",
+    "sha256": "09b5c77c5ad0a87c22362b730bab750dc587bcf42def26a04a17b19d44927217",
+    "unchanged": true
+  },
+  {
+    "source": "task1/review_preflight_R2.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/review_preflight_R2.py",
+    "sha256": "31430bf1d62d9d703b40e86b11951c6ea4e381e782867ec026860a1bd373f20e",
+    "unchanged": true
+  },
+  {
+    "source": "task1/snapshot_transport.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/snapshot_transport.py",
+    "sha256": "c41e56c632f1d53365f2207ada41f00a761b3a8ace0e185149f47d0254852472",
+    "unchanged": true
+  },
+  {
+    "source": "task1/snapshot_transport_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/snapshot_transport_checks.py",
+    "sha256": "144b9b7ff115b00a82cf2746456c30f4a66e8bfda86d9b0fe67b1aeb657596cb",
+    "unchanged": true
+  },
+  {
+    "source": "task1/snapshot_worker_entry.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/snapshot_worker_entry.py",
+    "sha256": "49a14478ec5d7d19e7eae4ca1d46391000349141a15a6fb5101d5d739abf010f",
+    "unchanged": true
+  },
+  {
+    "source": "task1/stock_evaluation.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/stock_evaluation.py",
+    "sha256": "9d6229054c031fb82887842cb5704f2cc9d4be17ba76e1d28e9a491bd00fc830",
+    "unchanged": true
+  },
+  {
+    "source": "task1/strict_backward_gate.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/strict_backward_gate.py",
+    "sha256": "8d7bf8272ceebadeccd270efe7d962c0774edb825a64b4d7c060fb1738638e95",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_checkpoints.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_checkpoints.py",
+    "sha256": "35c839cb3297720f1bd2321e85a588552b38ec427b75f3e2fb3b5b476145a010",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_core.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_core.py",
+    "sha256": "368eb518e31629e37d6e646522e5009f9ac48e207be16ab8a58d3bc22679b939",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_launch_support.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_launch_support.py",
+    "sha256": "30fb7075bc476d0d51876ee7c65e4309ff71df5aa97da2eaeaf844c3580051d3",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_loop.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_loop.py",
+    "sha256": "841baad5783eca6af47ea5e1aa421f84bfb96b3f2c2fcd7b547cd1b627b5bd43",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_loop_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_loop_checks.py",
+    "sha256": "6b3ed669c36d238e7aa883299d2d190e65710fccb4c5c9ebf58bec946c2700fc",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_ops.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_ops.py",
+    "sha256": "c7b9c3b848e2908842894164e85fbe385922a060f124833cb0bbeda7c7e1978c",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_parent_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_parent_checks.py",
+    "sha256": "c17646a4bb4da4a67aa95f4707fd7301709822e14721b7575e5d5d8e4f92ea56",
+    "unchanged": true
+  },
+  {
+    "source": "task1/training_runtime_checks.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/training_runtime_checks.py",
+    "sha256": "d0202a55eb0f64b1e50f2ae6fd86dbd9669daf16939dda410ed7e492fbdb0660",
+    "unchanged": true
+  },
+  {
+    "source": "task1/watchdog_evidence.py",
+    "package": "ATML_PA3_Task1/src_historical/task1/watchdog_evidence.py",
+    "sha256": "30688a268a2f2441c5dbe0adeabd78afad2a5d76af5c5e0747e31ed30de3618e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_assets_2026-11-12/BLOCK_05_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_assets_2026-11-12/BLOCK_05_OBSERVED_RESULT.json",
+    "sha256": "6cd657cdd86af67e806d69843368fadf1f190f7575f4aa585cb5a2174ef6a9ad",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_assets_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_assets_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "94a3bd1e74f823cc0079a08e6710cd1bd775a451115f53bf354ec62ca5407555",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_assets_2026-11-12/Task_1_Block_05_CPU_Assets.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_assets_2026-11-12/Task_1_Block_05_CPU_Assets.zip",
+    "sha256": "7a9aeb1313f2dd5330bfa2c2cc817aaf84fa366c4e54438442e5ba55d10287d3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/BLOCK_18_OBSERVED_NATIVE_REPLAY.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/BLOCK_18_OBSERVED_NATIVE_REPLAY.json",
+    "sha256": "d710064421182f8d38dbadf532f0bb99e0527f6d06302d47f4d42703029f7a4e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/CELL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/CELL_CHECKS.json",
+    "sha256": "729de5610dd292acc9345087f9b3ec22cf6156e6a97c86e55a75ec43a65b9054",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/COPY_PASTE_BLOCK_18_CPU_BASELINE_COMPLETION.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/COPY_PASTE_BLOCK_18_CPU_BASELINE_COMPLETION.py",
+    "sha256": "da1c08dac0feafb9f24ea2b9638cf7aab45f8c90a8affdfcbabe90a9b6eccc24",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/LOCAL_COMPLETION_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/LOCAL_COMPLETION_CHECKS.json",
+    "sha256": "da717c20f5e978b4d7b545f063cfad13f6eecf0314768709efd740675518fcf0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/SOURCE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/SOURCE_RECEIPT.json",
+    "sha256": "7cbc951100fcec8bd6ec827a181a65a3adec9f3495b0a37e98f0b7b37314ecdf",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_completion_2026-11-13/Task_1_Block_18_Audit_Result.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_completion_2026-11-13/Task_1_Block_18_Audit_Result.json",
+    "sha256": "2b80b29c77d8507fda1a373964e81f1bcb179e47e490d8b5f5aea1e23d1c3d5d",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_2026-11-12/BLOCK_10_OBSERVED_FAILURE.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_2026-11-12/BLOCK_10_OBSERVED_FAILURE.json",
+    "sha256": "672e9c94305ec4e4e913eb85a5cdd9f4a68d0950b43d1145d17f8e49d9d42b45",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_2026-11-12/COPY_PASTE_BLOCK_10.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_2026-11-12/COPY_PASTE_BLOCK_10.py",
+    "sha256": "6247b55865a0ae730b1ba3458d3f1e111b73b7a7a5af6b80ba7c647b4c4d3cc8",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "e94b72de95f37e4ef0a8d35661dad06e617d6e6028776d92ac294b4d71663f38",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_2026-11-12/Task_1_Block_10_CPU_Baseline_Kit.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_2026-11-12/Task_1_Block_10_CPU_Baseline_Kit.zip",
+    "sha256": "6d7449380fb29b78d57f14f229cd19c7b0dd4ce94651d837c7206f5beb204d17",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_R1_2026-11-12/BLOCK_10_R1_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_R1_2026-11-12/BLOCK_10_R1_OBSERVED_RESULT.json",
+    "sha256": "2a8978808b1eb5344caf7aaf061fe8368c73dc92ce83ef76713b711f128d97b9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_R1_2026-11-12/COPY_PASTE_BLOCK_10_R1.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_R1_2026-11-12/COPY_PASTE_BLOCK_10_R1.py",
+    "sha256": "ccc8230792be83fe584aec953c9df47ecc0afb622bff336b3ee0d76be2664252",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_R1_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_R1_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "ca04c9ab61b5a77f658c84f335bca6e777ada441651af8b0f68003cdf8b81615",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_kit_R1_2026-11-12/Task_1_Block_10_R1_CPU_Baseline_Kit.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_kit_R1_2026-11-12/Task_1_Block_10_R1_CPU_Baseline_Kit.zip",
+    "sha256": "6dc115538a96eb6e0b45afc81c67aef026a329e6434a6ef479032da5fbcfbfb5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_l4_2026-11-12/COPY_PASTE_BLOCK_11.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_l4_2026-11-12/COPY_PASTE_BLOCK_11.py",
+    "sha256": "180d10f0cc18a8a39f298a261d3d412a7d9d9d9b420606a7d6c5ac5040c3acfa",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_l4_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_l4_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "fb83f21f386b4787adb4f2d433aec75cb84920600dcc677a3f8ab036d0fe526e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_l4_2026-11-12/Task_1_Block_11_L4_Baseline.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_l4_2026-11-12/Task_1_Block_11_L4_Baseline.zip",
+    "sha256": "bc5087eb5d028627726fd8673829ac9e84c98a67f360c6edd21d287e443b0a0a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_recovery_2026-11-12/BLOCK_11_OBSERVATION.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_recovery_2026-11-12/BLOCK_11_OBSERVATION.json",
+    "sha256": "807d772b4b556ae9c42d13d798aa4154b69c2ff66aef433b7e338e1fa05137b0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_recovery_2026-11-12/COPY_PASTE_BLOCK_12_CPU.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_recovery_2026-11-12/COPY_PASTE_BLOCK_12_CPU.py",
+    "sha256": "90b0e31bb455b344936575f195b64cdb20ad89644291e1380b3e4b1c0e0eb2a3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_baseline_recovery_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_baseline_recovery_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "3742ed822b33a2be68bdc16519cf43e72abaa356610dae847458d5c2f25b5b97",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_01_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_01_OBSERVED_RESULT.json",
+    "sha256": "4cd2b8296177cffdfa7315419766a64d931eed11833786e90cf4bddee07688a3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_01_REVIEW.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_01_REVIEW.json",
+    "sha256": "6eeac4f5f12958b868f06d244326d0b000fabdacbf1f99432c7697e42b32b6b5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_02_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_02_OBSERVED_RESULT.json",
+    "sha256": "975137910849f6ef140ed88dfd10a0dbbb0545f65f8ce3f84bed55995ce7a061",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_02_REVIEW.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/BLOCK_15_SESSION_02_REVIEW.json",
+    "sha256": "976c6aeab44a1ececf6b9fd67c44d0965a1edddc931fbfbe97a76e9aa94d789c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/COPY_PASTE_BLOCK_15_L4_BASELINE_V2.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/COPY_PASTE_BLOCK_15_L4_BASELINE_V2.py",
+    "sha256": "7c5f42948ccd29205daba280cc6e5ccc76e3b7849f2e990fe506a4c8c2272377",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/FINAL_PACKAGE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/FINAL_PACKAGE_CHECKS.json",
+    "sha256": "b6b439a0aa5df76cb2d313f78cb40048b21dabd73c0eff4f117972894960e977",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/LOCAL_CONTROL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/LOCAL_CONTROL_CHECKS.json",
+    "sha256": "dbaf50ea9c43dd0d4ed78f9032a00475bdc46f275a4e999b5c13c779ec8bba93",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/LOCAL_ENGINE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/LOCAL_ENGINE_CHECKS.json",
+    "sha256": "50da4d7ae438529c3a394feddb39ef536328d6a9ebac05bfb72c018d07abe37c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_baseline_V2_2026-11-12/Task_1_Block_15_L4_Baseline_V2.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_baseline_V2_2026-11-12/Task_1_Block_15_L4_Baseline_V2.zip",
+    "sha256": "6d8eccdc52be15542ec96277ff15380353a774fc77e2c0be896f42e95011ae75",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_2026-11-12/BLOCK_13_OBSERVED_FAILURE.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_2026-11-12/BLOCK_13_OBSERVED_FAILURE.json",
+    "sha256": "0cc184285110e80a1c71aae8fce28d59193ffae5343677151054dcdc91198aa9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_2026-11-12/COPY_PASTE_BLOCK_13_CPU.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_2026-11-12/COPY_PASTE_BLOCK_13_CPU.py",
+    "sha256": "c2e4aca8eb385d6e1e9d875e03ba3b8b7325567fa0771f4a414acf8c0df31da0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "9952313490bdb204996ae9cf9eee2186bcb1e25128bdf8974c18b5f4c003fdce",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_2026-11-12/Task_1_Block_13_CPU_Batch8_Checks.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_2026-11-12/Task_1_Block_13_CPU_Batch8_Checks.zip",
+    "sha256": "47f22423b6487e98e46908db691b3aeba72b2f8f8e40e868b1804990dbfbf027",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_R1_2026-11-12/BLOCK_13_R1_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_R1_2026-11-12/BLOCK_13_R1_OBSERVED_RESULT.json",
+    "sha256": "c50055a7d294d5a21a77ead06719284b9614bd750b71cf05930cbff9ecce27e5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_R1_2026-11-12/COPY_PASTE_BLOCK_13_R1_CPU_REPAIR.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_R1_2026-11-12/COPY_PASTE_BLOCK_13_R1_CPU_REPAIR.py",
+    "sha256": "2f46e94e93f9c435a212d1622bf819a4bb278e03eb0949ce9633527aef3a1735",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_R1_2026-11-12/LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_R1_2026-11-12/LOCAL_CHECKS.json",
+    "sha256": "b1528c404703310b5af4a592e7903e1cc259758749bf40f792a6862c35d41f19",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_cpu_R1_2026-11-12/REPAIR_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_cpu_R1_2026-11-12/REPAIR_RECEIPT.json",
+    "sha256": "2ebf6488af958bc6184cb51704e5c3e47fa872d7f2abeb0a85dce67b5b3a0b36",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/BLOCK_14_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_l4_pilot_2026-11-12/BLOCK_14_OBSERVED_RESULT.json",
+    "sha256": "6816676fefa9b7e626bd49133707fc2ef21233053e259926af3dd96735cf4166",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/COPY_PASTE_BLOCK_14_L4_PILOT.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_l4_pilot_2026-11-12/COPY_PASTE_BLOCK_14_L4_PILOT.py",
+    "sha256": "125e8c7a8fdcb13a43f1d76bd3b303ed2cc2825acb3dc74a59aeb7d5cc9976e6",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/FINAL_DELIVERY_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_l4_pilot_2026-11-12/FINAL_DELIVERY_CHECKS.json",
+    "sha256": "e39413cb8b7a8bcc38c261c8d2ab7c3ece30e7c4c2874311f52aed6650e89d94",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/LOCAL_CONTROLLER_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_l4_pilot_2026-11-12/LOCAL_CONTROLLER_CHECKS.json",
+    "sha256": "c5178fee71a26c5fcd7a911989953414bd794b094d24571b04293b1943453557",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batch8_l4_pilot_2026-11-12/Task_1_Block_14_L4_Batch8_Pilot.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batch8_l4_pilot_2026-11-12/Task_1_Block_14_L4_Batch8_Pilot.zip",
+    "sha256": "88d72627383233ff8b58c197645b905a09ea97c8796e9f9f22f9ac7e889ff58a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batching_decision_2026-11-12/APPROVAL_T1_A003.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batching_decision_2026-11-12/APPROVAL_T1_A003.json",
+    "sha256": "a4498249b3036bb5a6b25f1d3cb7b7ea44f5b2873c5d555a21361464ec3a8b56",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batching_decision_2026-11-12/CPU_READ_LAST_WORKER_LOG.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batching_decision_2026-11-12/CPU_READ_LAST_WORKER_LOG.py",
+    "sha256": "b8421c3775244bdb8ace3278ae91813ad6c73ac7841d579b26d54692f2ea20e3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batching_decision_2026-11-12/DECISION_STATE.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batching_decision_2026-11-12/DECISION_STATE.json",
+    "sha256": "6ddcb53bad2203e4c1ec4196cca3c82bd600230a3f7974da04414fb552d21d53",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_batching_decision_2026-11-12/USER_REPORTED_RECOVERY_SUMMARY.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_batching_decision_2026-11-12/USER_REPORTED_RECOVERY_SUMMARY.json",
+    "sha256": "236094ec6438dbf4f4f32072be0c378425aee8a47d1613573d7ce0f713cea1be",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_data_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_data_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "4a4373abddecd673a30dc1a26ea19d872c59152984c58ba3be4d0a785aceca30",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/BLOCK_04_R1_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_data_repair_R1_2026-11-12/BLOCK_04_R1_OBSERVED_RESULT.json",
+    "sha256": "67936da662cb306caab0e2ff1373519dc55c6cc73f7530bd388e8297c71174b9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_data_repair_R1_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "adeb2e1e4176812746cdd332e02aa4b9c57cb0bf0a765a094af6fcd8bbace90e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/REPAIR_DECISION.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_data_repair_R1_2026-11-12/REPAIR_DECISION.json",
+    "sha256": "0e4d189174c349fd077a3e322aa4db4ce0370c149af58c42281fdfcc447d5b96",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_environment_2026-11-12/BLOCK_02_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_environment_2026-11-12/BLOCK_02_LOCAL_CHECKS.json",
+    "sha256": "531cc23de261bbd03bab8afd98c657f8b26d871e69bc7552247706264f4ee8a3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_environment_2026-11-12/BLOCK_02_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_environment_2026-11-12/BLOCK_02_OBSERVED_RESULT.json",
+    "sha256": "0e1053f0c222ab6b30dc4c45e5b49164bf87991a705fd31d2278f656b87485ae",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_environment_2026-11-12/BLOCK_03_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_environment_2026-11-12/BLOCK_03_LOCAL_CHECKS.json",
+    "sha256": "b10f94c573973ebe846ca6ce5ffeb806c3785d289979aaf40fcd6ee2446acc39",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_environment_2026-11-12/BLOCK_03_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_environment_2026-11-12/BLOCK_03_OBSERVED_RESULT.json",
+    "sha256": "696f8511c548fcef69d5d5c9d101eb4b8fa2b88932b3bd07e80569971ca4e68a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_execution_prep_2026-11-12/BLOCK_06_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_execution_prep_2026-11-12/BLOCK_06_OBSERVED_RESULT.json",
+    "sha256": "f1f3c0573ac9ecad7de5bdcac9f4f756298bb61c83a187f9bff5f3845d0a82dd",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_execution_prep_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_execution_prep_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "38ae1436f4e81c1d4dffc7afd59818bba3e2a22232dd7dc06b6dfd039addaf71",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_execution_prep_2026-11-12/Task_1_Block_06_CPU_Portable_Runtime.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_execution_prep_2026-11-12/Task_1_Block_06_CPU_Portable_Runtime.zip",
+    "sha256": "f80f5a67679543a0c386ae38d6b91c25ab96efe9a7ea4111b2b23bc62558e016",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Block_25_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Block_25_Cell.py",
+    "sha256": "473b5304bb9a70b499a31dc08886dbfa85c384bf6c04000b87d4740786d8e208",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Block_25_result.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Block_25_result.json",
+    "sha256": "1f4f58a000ee892368a39e76896081469dffbf2d485f9b95d4b30a7fa67940c1",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Block_26_CPU_final_weights.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Block_26_CPU_final_weights.py",
+    "sha256": "27a22347139d3a99129f830748fad3cd1a3cff096969a091f69e1f21468cb2d8",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Block_27_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Block_27_Cell.py",
+    "sha256": "5d8dc19f955069a4d1c940150795006460172902aff07a47a36fed366954adad",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Task_1_Block_25_L4_Full_FT.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Task_1_Block_25_L4_Full_FT.zip",
+    "sha256": "d88cb8ff03b4a57f10fe65bbc3a631a43623caa755f8c939c1083472a9cc50ba",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_final/Task_1_Block_27_L4_Final_Eval.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_final/Task_1_Block_27_L4_Final_Eval.zip",
+    "sha256": "d67527a42dabbd3fa4594f53114348a366e831d6e715024cff5d1bf9d667a860",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/COPY_PASTE_BLOCK_20_L4_FULL_FT.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_l4_launch_2026-11-13/COPY_PASTE_BLOCK_20_L4_FULL_FT.py",
+    "sha256": "cc29fe6ebbdcd543c0b3b5d597bd5f3b2632a40528854a163810a82a5b799b89",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/FINAL_PACKAGE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_l4_launch_2026-11-13/FINAL_PACKAGE_CHECKS.json",
+    "sha256": "1424e16adb299cdbe55a732cfbfad8d1adc30aa6e0f30c2158316edda14397a9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/LOCAL_PARENT_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_l4_launch_2026-11-13/LOCAL_PARENT_CHECKS.json",
+    "sha256": "ebe9ce089573c9f8240c42a500aa3d106bfc661a24cad96afaa3fb3c11fe5e6a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/Task_1_Block_20_L4_Full_FT.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_l4_launch_2026-11-13/Task_1_Block_20_L4_Full_FT.zip",
+    "sha256": "aeec852dfbf27465d8258307c528e1cbb43ac2dfc908d37957d40b1850cab2a2",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_l4_launch_2026-11-13/USER_STORAGE_REPORT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_l4_launch_2026-11-13/USER_STORAGE_REPORT.json",
+    "sha256": "dcd98fc3401fc6824148185064ece84ef221440f9c2d6dcee5c3c86cc17fad2f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_midpoint/Block_21_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_midpoint/Block_21_Cell.py",
+    "sha256": "070f348014c7f54d39d9f7dfea754302c40f9a2cad16ff3a19c029a4d528622e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_midpoint/Block_21_R1_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_midpoint/Block_21_R1_Cell.py",
+    "sha256": "f54af19548685cfbdefff7dd2289b82daf7abb7d4e08207e0c53ae06e6552beb",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_midpoint/Task_1_Block_21_L4_Full_FT.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_midpoint/Task_1_Block_21_L4_Full_FT.zip",
+    "sha256": "1def51a0f22e6e8467de8495e50fd6e2013321be321fbc79c0207fcf1e3806ee",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_midpoint/Task_1_Block_21_R1_L4_Full_FT.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_midpoint/Task_1_Block_21_R1_L4_Full_FT.zip",
+    "sha256": "7cc79b170ac885651757240861ac8f84d46fdc7ee7ad9a1caeee03663a8c615f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_quarter3/Block_24_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_quarter3/Block_24_Cell.py",
+    "sha256": "854f09d458632dfa59cde7245e294977c6afb7de7bd8174bc01dea30b002ebcc",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_full_ft_quarter3/Task_1_Block_24_L4_Full_FT.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_full_ft_quarter3/Task_1_Block_24_L4_Full_FT.zip",
+    "sha256": "ed363e0b15f31f1f52c9995380eebedcc7b71a8b7e0c18b0b9fdba8bf175e3e8",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_31_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_final/Block_31_A100.zip",
+    "sha256": "5e69093aac8ae954a262d4a5e0158b0e5c4e3a666476dff50c93bf8ed0e4a128",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_31_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_final/Block_31_L4.zip",
+    "sha256": "e801ea007c5939ab6ddf16857b576c754bbc26427145c0626cc42458e605b83f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_31_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_final/Block_31_L4_Cell.py",
+    "sha256": "d8aea60501b8b24967fa6e0b1880a9e76962bb033af3fed8aa5939cf1ac0bc73",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_33_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_final/Block_33_L4_Cell.py",
+    "sha256": "18a99ba60b56902fdd92080f9795776da5cb41844c4a78d49f954b05d4aa6b63",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_final/Block_33_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_final/Block_33_L4_Evaluation.zip",
+    "sha256": "053c0eb1ae1d9bf18e001f896ccc256c64cff864eb21464b0ca741ad0d971055",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_first/Block_28_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_first/Block_28_A100.zip",
+    "sha256": "dd8926fd32bded2261ec7c0e78cc6d8da3ed7fb98edfaf0c494b9cdc8032b63e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_first/Block_28_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_first/Block_28_A100_Cell.py",
+    "sha256": "09b07cb2bdc08986942c1a16355bee5cc2da77c9fd8814aab45ca70d3c509b44",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_first/Block_28_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_first/Block_28_Cell.py",
+    "sha256": "a4e7e4f9ed5c9863b3999429f94e3cdee811850b8d1fc781568620896dfef7b4",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_first/Task_1_Block_28_L4_L2SP.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_first/Task_1_Block_28_L4_L2SP.zip",
+    "sha256": "26470d0c816085d550b7652f44c7cead1c56a0e26a0a63757ec51198aa6396bf",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_midpoint/Block_29_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_midpoint/Block_29_A100.zip",
+    "sha256": "86d9baa94fedf82cee75453223b8d1b6976cb9469b73f668006892089350600d",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_midpoint/Block_29_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_midpoint/Block_29_Cell.py",
+    "sha256": "12e7781060c593df1957548fcc5324fd59c851d21e918c3e27f660c9375781e2",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_quarter3/Block_30_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_quarter3/Block_30_A100.zip",
+    "sha256": "83e9edf7ee04ad427b4b263ad76c3fc9cba7e142c0e169ffbee9b9ef875fdf19",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_quarter3/Block_30_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_quarter3/Block_30_Cell.py",
+    "sha256": "45c2188b87f0f54763312f4e887665a477542bdd7d9f177ad1b877c4c81310ca",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_quarter3/Block_30_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_quarter3/Block_30_L4.zip",
+    "sha256": "d2933b2c731939511eb7fe60d7fff22d0a19e5653c91ad7fd9c1fd1a52adedd2",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l2sp_quarter3/Block_30_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l2sp_quarter3/Block_30_L4_Cell.py",
+    "sha256": "ba7841f9479a621ae325af489fb4a7c545fe0ea8e2a3f3f9c48417567c319de1",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/BLOCK_08_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/BLOCK_08_OBSERVED_RESULT.json",
+    "sha256": "ec18087f0cf96c66ed4c525e40551318072863bbf5a66d7be7c3e7677ddba86e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/BLOCK_08_REVIEW.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/BLOCK_08_REVIEW.json",
+    "sha256": "fe7c573f12920e80eeb5f58c059aeecbd43535c3f62ef05fbee390495147e794",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/BOOTSTRAP_FAILURE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/BOOTSTRAP_FAILURE_CHECKS.json",
+    "sha256": "c1baaf0642354c8130003f520cb550e9170de57e81db8c8275aa5b0ea3081959",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/COLAB_BLOCK_08.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/COLAB_BLOCK_08.py",
+    "sha256": "5761169fab3b6fc082d76eb36ffab83199c8376add1cf109826ec371723be613",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "73b381e5ed01e87cebecf8cf26e377aab66e7b9163a5423162ae3ef1915220c2",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/RESTORE_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/RESTORE_LOCAL_CHECKS.json",
+    "sha256": "1627ec23cfb48be8ba4f37410840e05252c899c3b133364b4f1a5cde56525b35",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_l4_launch_2026-11-12/Task_1_Block_08_L4_Launch.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_l4_launch_2026-11-12/Task_1_Block_08_L4_Launch.zip",
+    "sha256": "646b584da81dd4d357a0b9e7f576ac93f77a7f90818bc57c4599c6cdcd79f019",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_long_run/Block_37_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_long_run/Block_37_A100.zip",
+    "sha256": "e461f44da84313b40c21f1878290937988afac6be920e2aeec4644f2490c636c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_long_run/Block_37_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_long_run/Block_37_A100_Cell.py",
+    "sha256": "1cb3ffd02b12d8be440d0094fdd9cc79b8ca9eb639cbaad410ffcbda838c7b68",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_evaluation/BLOCK_43_COMPLETE_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_evaluation/BLOCK_43_COMPLETE_OBSERVED_RESULT.json",
+    "sha256": "912a1b17a97a28445c4b8f8f97450c0118e8dc8a976a7972d6d4b4fd986e3275",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_evaluation/Block_42_CPU_Adapters.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_evaluation/Block_42_CPU_Adapters.py",
+    "sha256": "263a291fed8bb763f8c78b25eb0e3732efab4b7dfeda6ccc6c66a727d0970dde",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_evaluation/Block_43_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_evaluation/Block_43_L4_Cell.py",
+    "sha256": "435ebb8715d198ae1fec4f8121b7d0b15a38bc6a508d2324a6eae6d9b07998b0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_evaluation/Block_43_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_evaluation/Block_43_L4_Evaluation.zip",
+    "sha256": "f63d0c9e244863b3ee767fd2b7122e212f1f2477e1d6a1412be1f120ef652288",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_training/Block_40_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_training/Block_40_A100.zip",
+    "sha256": "b61106d1a21afdec4fa86f50ecf905be5a9080ac274f15ee1b4eaf3b4c3e96bf",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_training/Block_40_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_training/Block_40_A100_Cell.py",
+    "sha256": "513d5bc98caacadbafa3fbfb40ac45ea7853d1b97192b923a929e7681597f4e3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_training/Block_40_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_training/Block_40_L4.zip",
+    "sha256": "51b46cdbdd3313957ba83b6bcf453704bee051baf208df7ab7a66674752e3518",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora16_training/Block_40_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora16_training/Block_40_L4_Cell.py",
+    "sha256": "75840e2024fab017a5fae3723b071522eb2e75e09dd3b35d75902ca7b134ba21",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_evaluation/Block_38_CPU_Adapters.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_evaluation/Block_38_CPU_Adapters.py",
+    "sha256": "d7187982e6071a832fa428660547a567e7fcb9ae51e725f56f1deb5740aacdff",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_evaluation/Block_39_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_evaluation/Block_39_L4_Cell.py",
+    "sha256": "9a63ad333ccf92d298b71d1522022d8fa18586192802145adce5414fd779983d",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_evaluation/Block_39_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_evaluation/Block_39_L4_Evaluation.zip",
+    "sha256": "b243ee6de3589e11903ebc0e26bf2dc49d50340c262bc2e8b76f8b812800a9bd",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_evaluation/Block_39_R1_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_evaluation/Block_39_R1_L4_Cell.py",
+    "sha256": "a2e1467c9ac3a47f5169418d86c7cfc4c2c438c653313e542f1028e17aa85045",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_evaluation/Block_39_R1_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_evaluation/Block_39_R1_L4_Evaluation.zip",
+    "sha256": "4ad70928c2c483952d6ae902c6e05a3daf841c813724ea95a4f460728ea9766d",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_34_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_34_A100.zip",
+    "sha256": "f780a16db83cbc0413b0e117927d1d4e3ae3454c03f3a7347b87f55d69d8d18f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_34_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_34_A100_Cell.py",
+    "sha256": "86e6a392824aaa1732dcc3f9a44eec5b3d95f82b38006a0ed2e7e7d78bbbd69f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_34_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_34_L4.zip",
+    "sha256": "ca2494801e93e1f965e183a970a3a3b33ce53ba3f450f7321985784ca8894285",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_34_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_34_L4_Cell.py",
+    "sha256": "7c6ad1a47165a853b5a629faf915a300470b7c31827d7f0a40ca7cb6dccbcf19",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_A100.zip",
+    "sha256": "b7cad7b4d83c5144654a734701879903398d67b0840cbf2f006dd7754c845d5f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_A100_Cell.py",
+    "sha256": "62d722c22d8e1e1bfefc36d25bd25f311ee18c61ee1f85d89ccc1dff10737b5f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_L4.zip",
+    "sha256": "0ab1b86882ba674215c2ec9c0207acca5a4971e3f7056e817f20066ccc6ae8ca",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_L4_Cell.py",
+    "sha256": "bef165d596553276544a9be20ef035734a44415a6ce0fdcb52644424db3c2186",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R1_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R1_A100.zip",
+    "sha256": "caa412a69668642210e498270955f4ce884562515838d32238917c927b160896",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R1_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R1_A100_Cell.py",
+    "sha256": "16854830c80313fdb66ee908f8b72b1f3b44259bf755f76c050acb848c2049c3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R1_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R1_L4.zip",
+    "sha256": "7ff806f559fef19bd9f1a41ef9bcd9aecdd65cbd192dd865bbda3163927ee6a6",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R1_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R1_L4_Cell.py",
+    "sha256": "16fd17ba8e0c4d238126b59c4f89f46149257ba78ec71c085e14474ed6ddab2a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R2_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R2_A100.zip",
+    "sha256": "f62b5fb994cc23b81fa417100be3bf184da9c80c525587dbe5cfae231cb1763b",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_35_R2_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_35_R2_A100_Cell.py",
+    "sha256": "43b833140daa59281ad0a0570180df0d35771f2dc58fc7162e4485eeb2795459",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_36_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_36_A100.zip",
+    "sha256": "47a8cb3510cdb367354035d943dde0e4fb989d4cc16d709fa000101d8473b278",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_36_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_36_A100_Cell.py",
+    "sha256": "242339f3cbf2c7f7fe74a5cc60ee8c69601f99f50738e967038fe59b42a403fc",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_36_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_36_L4.zip",
+    "sha256": "64b8365f461230e37197adbcd33a66c2e033340a8f7fad1b169623a6a6713907",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_lora4_training/Block_36_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_lora4_training/Block_36_L4_Cell.py",
+    "sha256": "1f607a904729e52394951ebf4befef25299beb140efbd95be28f24881d23ee59",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_midpoint_evaluation/Block_22_CPU_midpoint_weights.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_midpoint_evaluation/Block_22_CPU_midpoint_weights.py",
+    "sha256": "a482e445eed078e1b7e2bf0643f8759408a4d7e065dcd2dc2fa1045d992f380e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_midpoint_evaluation/Block_23_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_midpoint_evaluation/Block_23_Cell.py",
+    "sha256": "e1c479043a927d2d52e0fcd3a3290ab0c01db9c595514526b142cc4ea8347a52",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_midpoint_evaluation/Task_1_Block_23_L4_Midpoint_Eval.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_midpoint_evaluation/Task_1_Block_23_L4_Midpoint_Eval.zip",
+    "sha256": "511bf86acbf4075ec7a2a7acc7ce6fac286b118361f32a5b9d3513a1691dae0f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_41_FINAL_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_41_FINAL_OBSERVED_RESULT.json",
+    "sha256": "1fac308b774c193211665996991efc0e88ba1f6368642e607c9518b37886ea09",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_44_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_44_OBSERVED_RESULT.json",
+    "sha256": "b47ad95036d56f45489faa1acec6cf8b9e3a5869853ff3dfa569c09131329b11",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_45_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_45_LOCAL_CHECKS.json",
+    "sha256": "0d0ab458f47464122f786dc92f41b2bf29b43ac46a283527d2830538c9d9acf6",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_45_R1_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_45_R1_LOCAL_CHECKS.json",
+    "sha256": "d83eb1f681436d4cf4ae9cc779903ee8ae646def49b91f797dde2a3160348236",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_45_R2_COMPLETE_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_45_R2_COMPLETE_OBSERVED_RESULT.json",
+    "sha256": "df030aa5e662a686109f8c937c00b2f05ee79f162fbf18b1781bf75f6162bf72",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/BLOCK_45_R2_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/BLOCK_45_R2_LOCAL_CHECKS.json",
+    "sha256": "bf04109b1999d48c08e51bd20a962edad10d06d2cb5d7a4c0ba49b6ee0ef74b1",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_44_CPU_Adapters.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_44_CPU_Adapters.py",
+    "sha256": "d52dbc7645cf4cda775473ee520a2eb6599e7085bcf676e2b3e555d038f8e93e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_L4_Cell.py",
+    "sha256": "e36799f484b7429b024dbcc73036ac48d1d4e474b5c91d54d652084aa3ad04d5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_L4_Evaluation.zip",
+    "sha256": "28c83df2d38637c1db57e7acf961c5c115badd51cd9d8a74bef6c65882f548c5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_R1_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_R1_L4_Cell.py",
+    "sha256": "3df121f124492492b45df34dc59c2af3fefd3eb7b508288d5f67bc73557fe489",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_R1_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_R1_L4_Evaluation.zip",
+    "sha256": "fe4601efea2bb1d8bf8a4e369038173ec9b976d477eeea76f585b54a43a848e3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_R2_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_R2_L4_Cell.py",
+    "sha256": "50f372e70595e74afec5e99ae2bb194f796ba99bb3eae0d273fa7db0426dd64c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_45_R2_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_45_R2_L4_Evaluation.zip",
+    "sha256": "b9987fdb67660fc856d331e697b35d10c82030cc4782bd058f7faeeaa0bf1a11",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/Block_46_CPU_Audit_Backup.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/Block_46_CPU_Audit_Backup.py",
+    "sha256": "b80e4acacbf13f69444859a1ea88ab3577f3923f46f28d7e1eec48bb19abc96b",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/R1_FIX_REVIEW.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/R1_FIX_REVIEW.json",
+    "sha256": "7f1270b1d7ecfce871810f42d85fad7f67ff6d82b56ee0e73d5982d70209cbd5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/oplora_evaluation.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/oplora_evaluation.py",
+    "sha256": "cfa330540c9b40a06dee5d1a9e5a292ece6691c7c939db39b914cc5e6a312c94",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/BLOCK_45_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/original_block45/BLOCK_45_LOCAL_CHECKS.json",
+    "sha256": "0d0ab458f47464122f786dc92f41b2bf29b43ac46a283527d2830538c9d9acf6",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/Block_45_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/original_block45/Block_45_L4_Cell.py",
+    "sha256": "e36799f484b7429b024dbcc73036ac48d1d4e474b5c91d54d652084aa3ad04d5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/Block_45_L4_Evaluation.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/original_block45/Block_45_L4_Evaluation.zip",
+    "sha256": "28c83df2d38637c1db57e7acf961c5c115badd51cd9d8a74bef6c65882f548c5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/oplora_evaluation.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/original_block45/oplora_evaluation.py",
+    "sha256": "3c665514b0f3fa5c0ed873973edbaca3ae64dd4cd8473e66c25b4227f8a5d1d3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/original_block45/test_45.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/original_block45/test_45.py",
+    "sha256": "859cff3eb4d6c0fa9dc5ecf113d8b5ad4565b35edb41e885d4dd94e673a4c520",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_evaluation/test_45.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_evaluation/test_45.py",
+    "sha256": "9b4f356fa7f350b83076427d655720eda262e14b18e87cdc5a8684761fc992b4",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_training/Block_41_A100.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_training/Block_41_A100.zip",
+    "sha256": "999c8573ea92ce2656b24759cf0c2c7772deb351d4fe11a0bc396e1320d33949",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_training/Block_41_A100_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_training/Block_41_A100_Cell.py",
+    "sha256": "330ba39a8bef74d3948342de1b24f2f0ab01d173791a905c4651e3530d993ed0",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_training/Block_41_L4.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_training/Block_41_L4.zip",
+    "sha256": "69687d2ea978d83d2ec048ee1710789ea4f3cd42ecc11a7e8ba71c2a4275a60c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_oplora_training/Block_41_L4_Cell.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_oplora_training/Block_41_L4_Cell.py",
+    "sha256": "1869f8898a52219499320595fd39db769a588f83b20185e1c32dfdc4fbf65445",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_kit_2026-11-12/BLOCK_07_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_kit_2026-11-12/BLOCK_07_OBSERVED_RESULT.json",
+    "sha256": "a348b5d97c68fcf85e7a5004d953eec6c8b4d370984510b6cf78e3d71cf7016c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_kit_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_kit_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "7613f4c88aefa8be3deda8f22229bf59f411de6919c17256990fd7d78bc8ec6e",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_kit_2026-11-12/RELEASE_RETRY_TESTS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_kit_2026-11-12/RELEASE_RETRY_TESTS.json",
+    "sha256": "41eb304f978641541161d607c687c75de8723f86b25bc10c9a1e5e50a93b675a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_kit_2026-11-12/Task_1_Block_07_CPU_Preflight_Kit.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_kit_2026-11-12/Task_1_Block_07_CPU_Preflight_Kit.zip",
+    "sha256": "d76d168d5079738718cf0c278db1491bd9b73e9e9ab911691302923e2ac41d55",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/BLOCK_09_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/BLOCK_09_OBSERVED_RESULT.json",
+    "sha256": "6fecdcd4b30fa56392af047e5b3db2328f20086fb5394e6791d75121f3967535",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/COLAB_BLOCK_09.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/COLAB_BLOCK_09.py",
+    "sha256": "bc7157bdfb03fdd462693596683d6989ab8cf6a4fd5bdbdae5f793f41f5808a5",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/OLD_RACE_REPRODUCED.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/OLD_RACE_REPRODUCED.json",
+    "sha256": "dc7289d44604575f9815ec5fdfb053e49b6fe293f7054be281bb3e80b4c1b7c7",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/PACKAGE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/PACKAGE_RECEIPT.json",
+    "sha256": "939a2146fcee57f97c516441caa1c51be16c603cf6091c1d0bc519ae83be7ac7",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/QUALITATIVE_SOURCE_APPROVAL.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/QUALITATIVE_SOURCE_APPROVAL.json",
+    "sha256": "8cfe175063f48383929001f2039afe62b2539b9fb6e643e0d9d7bd899d410680",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/RELEASE_COORDINATION_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/RELEASE_COORDINATION_CHECKS.json",
+    "sha256": "976238ead076ad9ecb26ec9ce2b28b5731b4452a31340a25f2ab24ebe699aad1",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_preflight_review_R2_2026-11-12/Task_1_Block_09_CPU_Review_R2.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_preflight_review_R2_2026-11-12/Task_1_Block_09_CPU_Review_R2.zip",
+    "sha256": "b761b5a1eca4d267dcce639bfada9799a741bd470f7ef22f914283455c0fa2a3",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_resume_cpu_audit_2026-11-12/BLOCK_16_USER_REPORTED_AUDIT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_resume_cpu_audit_2026-11-12/BLOCK_16_USER_REPORTED_AUDIT.json",
+    "sha256": "a49a09ad9226f00c427953fb6bccbd308f083b3bb95ea3426cde9b38475109f2",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_resume_cpu_audit_2026-11-12/CELL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_resume_cpu_audit_2026-11-12/CELL_CHECKS.json",
+    "sha256": "a6b29827635a2a427e9384396f47b42efb3b7c20ff37d98e4873ed7f2240ec77",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_resume_cpu_audit_2026-11-12/COPY_PASTE_BLOCK_16_CPU_RESUME_AUDIT.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_resume_cpu_audit_2026-11-12/COPY_PASTE_BLOCK_16_CPU_RESUME_AUDIT.py",
+    "sha256": "0107e065ca82fc13dd70cb18393021c365f18067e48b323da8aec6bc2c0f1b85",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_resume_cpu_audit_2026-11-12/LOCAL_SNAPSHOT_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_resume_cpu_audit_2026-11-12/LOCAL_SNAPSHOT_CHECKS.json",
+    "sha256": "168316818e1ad6e4f0c669f831da4dd2af6d8f0526602904b07b80842faad4b9",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_resume_cpu_audit_2026-11-12/SOURCE_RECEIPT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_resume_cpu_audit_2026-11-12/SOURCE_RECEIPT.json",
+    "sha256": "10d6374c4a0867138d52391088bf429252c231cda0f98f6ba3b49baf5b4d8587",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_setup_2026-11-12/APPROVED_PLAN.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_setup_2026-11-12/APPROVED_PLAN.json",
+    "sha256": "a5dbacd38d306e0c7ba8ddbb724d5a091b68349d664bd20618e0b2d0cec877ea",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_setup_2026-11-12/BLOCK_01_LOCAL_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_setup_2026-11-12/BLOCK_01_LOCAL_CHECKS.json",
+    "sha256": "6feb95e98cd9db76eaf2c9929cbdd18fa38cb7be95cf9fe0211a0737afd141eb",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_setup_2026-11-12/BLOCK_01_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_setup_2026-11-12/BLOCK_01_OBSERVED_RESULT.json",
+    "sha256": "eda77704bcc75adfb89dd8c6a72ec09b705cf72531b6661928c0a57b58f31fee",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/BLOCK_17_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_snapshot_l4_resume_2026-11-12/BLOCK_17_OBSERVED_RESULT.json",
+    "sha256": "1c2357b1c00838e4d97788ccce75830fa0728128697fb8687dbded66cc70595c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/COPY_PASTE_BLOCK_17_L4_SNAPSHOT_RESUME.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_snapshot_l4_resume_2026-11-12/COPY_PASTE_BLOCK_17_L4_SNAPSHOT_RESUME.py",
+    "sha256": "ee59e8fe56e94480d4e264006636916538511f13ceedcea27e46269316b1aa5a",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/FINAL_PACKAGE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_snapshot_l4_resume_2026-11-12/FINAL_PACKAGE_CHECKS.json",
+    "sha256": "ea26252d23157d5539f44bc4e8385431e03273bc26b0a47ad0966776d4348ee4",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/LOCAL_TRANSPORT_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_snapshot_l4_resume_2026-11-12/LOCAL_TRANSPORT_CHECKS.json",
+    "sha256": "295f7540d04640d11c66c51a4badf2748b050f9f3de8f439c9ef5818685af86b",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_snapshot_l4_resume_2026-11-12/Task_1_Block_17_L4_Snapshot_Resume.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_snapshot_l4_resume_2026-11-12/Task_1_Block_17_L4_Snapshot_Resume.zip",
+    "sha256": "39c6bcdaffaf61e89c66ae8a039a9f0efd112dc0ff2ca975287ebfa63a97cc98",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/BLOCK_19_OBSERVED_RESULT.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_training_cpu_2026-11-13/BLOCK_19_OBSERVED_RESULT.json",
+    "sha256": "4a9013a0000471cada4bcb38c9ba7103c7beafec6f460d064031802ad07bf9c4",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/COPY_PASTE_BLOCK_19_CPU_TRAINING_KIT.py",
+    "package": "ATML_PA3_Task1/workflow/history/task1_training_cpu_2026-11-13/COPY_PASTE_BLOCK_19_CPU_TRAINING_KIT.py",
+    "sha256": "30b3d6ec5fd2e7dfa983cb0095d4260022064014ec30f99c488602d487e8d099",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/LOCAL_TRAINING_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_training_cpu_2026-11-13/LOCAL_TRAINING_CHECKS.json",
+    "sha256": "dc006a7c462c04e707d60da054d4b6198fce27846b623e11e0060dcc490a0e4f",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/PACKAGE_CHECKS.json",
+    "package": "ATML_PA3_Task1/workflow/history/task1_training_cpu_2026-11-13/PACKAGE_CHECKS.json",
+    "sha256": "d65c6e7415bbab7841a368288107cacb41a759c459ef6f7ee382f8a0e50b7f6c",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_training_cpu_2026-11-13/Task_1_Block_19_CPU_Training_Kit.zip",
+    "package": "ATML_PA3_Task1/workflow/history/task1_training_cpu_2026-11-13/Task_1_Block_19_CPU_Training_Kit.zip",
+    "sha256": "6783caa2f1522412099d4b3f13c8643ec1ba0837d93a795316c5329591013b95",
+    "unchanged": true
+  },
+  {
+    "source": "outputs/task1_data_2026-11-12/Task_1_Block_04_CPU_Data.zip!prepare_data.py",
+    "package": "ATML_PA3_Task1/workflow/source_snapshots/task1_data_2026-11-12/prepare_data.py",
+    "sha256": "5b4ffc8d67c52fcd3fd749e1e3240a5663d17e2bd7a4088b9707cdede76fb5e0",
+    "unchanged": true,
+    "scope": "Exact member extracted from historical archive; source snapshot, not original executable upload ZIP."
+  },
+  {
+    "source": "outputs/task1_data_2026-11-12/Task_1_Block_04_CPU_Data.zip!APPROVED_PLAN.json",
+    "package": "ATML_PA3_Task1/workflow/source_snapshots/task1_data_2026-11-12/APPROVED_PLAN.json",
+    "sha256": "a5dbacd38d306e0c7ba8ddbb724d5a091b68349d664bd20618e0b2d0cec877ea",
+    "unchanged": true,
+    "scope": "Exact member extracted from historical archive; source snapshot, not original executable upload ZIP."
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/Task_1_Block_04_R1_CPU_Data.zip!prepare_data_R1.py",
+    "package": "ATML_PA3_Task1/workflow/source_snapshots/task1_data_repair_R1_2026-11-12/prepare_data_R1.py",
+    "sha256": "d24ae80def585cb35666e87895042d0d655757612fe46436969a096945675082",
+    "unchanged": true,
+    "scope": "Exact member extracted from historical archive; source snapshot, not original executable upload ZIP."
+  },
+  {
+    "source": "outputs/task1_data_repair_R1_2026-11-12/Task_1_Block_04_R1_CPU_Data.zip!APPROVED_PLAN.json",
+    "package": "ATML_PA3_Task1/workflow/source_snapshots/task1_data_repair_R1_2026-11-12/APPROVED_PLAN.json",
+    "sha256": "a5dbacd38d306e0c7ba8ddbb724d5a091b68349d664bd20618e0b2d0cec877ea",
+    "unchanged": true,
+    "scope": "Exact member extracted from historical archive; source snapshot, not original executable upload ZIP."
+  }
+]

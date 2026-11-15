@@ -1,0 +1,2 @@
+-r configs/task3_scorer_requirements.lock
+tokenizers==0.23.3

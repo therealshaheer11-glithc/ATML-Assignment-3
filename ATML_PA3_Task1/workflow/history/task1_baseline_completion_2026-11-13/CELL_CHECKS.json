@@ -1,0 +1,8 @@
+{
+  "cell_and_both_embedded_helpers_parse_and_match": true,
+  "all_27_numerical_and_3_transport_source_hashes_unchanged": true,
+  "actual_cell_encoding_and_completed_result_SHA_checked": true,
+  "synthetic_score_filter_corruption_and_full_coverage_checks_passed": true,
+  "export_member_hash_readback_checks_passed": true,
+  "actual_private_environment_stock_replay_pending_Colab_execution": true
+}

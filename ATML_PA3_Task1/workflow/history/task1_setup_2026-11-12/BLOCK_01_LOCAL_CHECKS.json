@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": {
+    "setup_and_safe_repeat": true,
+    "changed_approval_preserved_and_rejected": true,
+    "preexisting_workspace_preserved": true,
+    "cpu_without_accelerator_accepted": true,
+    "gpu_rejected_and_release_requested": true,
+    "tpu_rejected_and_release_requested": true,
+    "uncertain_gpu_probe_refused": true,
+    "source_proposal_and_approval_ids_match": true
+  },
+  "scope": "Local mocked CPU/filesystem checks only; no real Colab, Drive, GPU, or dependency validation.",
+  "block_sha256": "a9d6dc366b1df236f4069edf11c772b1da1bcc0734c1b63b59ff51dc36e16693"
+}

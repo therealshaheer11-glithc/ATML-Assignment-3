@@ -1,0 +1,2 @@
+# CPU saved-result checks only; Python 3.12. No training dependencies.
+numpy==2.4.6

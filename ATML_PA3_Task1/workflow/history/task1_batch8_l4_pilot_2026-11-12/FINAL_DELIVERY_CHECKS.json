@@ -1,0 +1,9 @@
+{
+  "21_file_ZIP_and_loader_hashes_agree": true,
+  "all_ten_Colab_CPU_checked_files_unchanged": true,
+  "R3_controller_evidence_and_release_tests_passed": true,
+  "actual_L4_numeric_pilot_pending": true,
+  "approval_id": "T1-A003",
+  "maximum_minutes_including_setup_release": 15,
+  "maximum_estimated_compute_units": 0.6
+}

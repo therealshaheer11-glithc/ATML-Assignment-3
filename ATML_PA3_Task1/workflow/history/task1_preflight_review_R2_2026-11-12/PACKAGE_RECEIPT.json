@@ -1,0 +1,24 @@
+{
+  "package_sha256": "b761b5a1eca4d267dcce639bfada9799a741bd470f7ef22f914283455c0fa2a3",
+  "files": {
+    "review_preflight_R2.py": "31430bf1d62d9d703b40e86b11951c6ea4e381e782867ec026860a1bd373f20e",
+    "gpu_guardian_R2.py": "68f0baa5e7ae0eefbd3f5f4fc5e63505e008c64aefed14c471aa1cfe2c731257",
+    "guardian_lifecycle_tests.py": "87509ab95e9947d875a4c7451d1482433d905c1858aceb7b74fbfaf55d4219c7",
+    "guardian_selftest.py": "861987baeecb0a16ab60799f4b143f40d8680c967eaadb73951c9ad11dc07907",
+    "preflight_worker_R2.py": "4f023e958305292ddb22d88d9f398638dcaffbf0f86971fb36b9b019b3c9b147",
+    "qualitative_source.py": "b9b6ce5fafb7fe4be7c91afd876fb0d620177de7fd2c5cfa3917344caf01b2a0",
+    "release_coordination.py": "614b5bab4cf1d5482b6b672fb79047709944167382414e4cdafc1f5cec20642b"
+  },
+  "original_race_reproduced": true,
+  "four_new_lifecycle_tests_passed": true,
+  "six_prior_safety_tests_passed_against_R2": true,
+  "four_release_coordination_tests_passed": {
+    "primary_success_avoids_duplicate_release": true,
+    "primary_failure_uses_fallback": true,
+    "release_error_preserves_numerical_completion": true,
+    "stuck_fallback_is_bounded": true
+  },
+  "strict_deterministic_GPU_check_pending": true,
+  "source_policy": "T1-A002 user approved pinned unchanged original public qualitative file",
+  "limits": "Physical release remains unverified. No new GPU work. Saved Drive evidence, real data lengths and question-file acquisition await CPU stage."
+}

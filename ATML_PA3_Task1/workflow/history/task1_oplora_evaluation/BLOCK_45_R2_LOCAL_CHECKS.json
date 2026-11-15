@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "change": "Recognize oplora_final in the existing mixed-precision adapter guard",
+  "actual_constructor_fixture_passed": [
+    "OPLoRA mixed precision accepted",
+    "LoRA16 mixed precision accepted",
+    "FP16 adapters rejected",
+    "FP32 backbone rejected",
+    "unknown condition rejected"
+  ],
+  "parent_HFLM_stubbed": true,
+  "no_GPU_used": true,
+  "local_torch": "2.13.0",
+  "only_changed_package_file": "batch8_hflm.py",
+  "real_Colab_evaluation_pending": true,
+  "sha256": "b9987fdb67660fc856d331e697b35d10c82030cc4782bd058f7faeeaa0bf1a11"
+}

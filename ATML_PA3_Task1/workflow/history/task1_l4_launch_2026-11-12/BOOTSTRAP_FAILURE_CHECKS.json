@@ -1,0 +1,6 @@
+{
+  "invalid_rate_stops_before_restore_or_worker": true,
+  "parent_release_requested_with_mock_colab": true,
+  "independent_guardian_detects_failure": true,
+  "no_real_colab_service_or_gpu_accessed": true
+}

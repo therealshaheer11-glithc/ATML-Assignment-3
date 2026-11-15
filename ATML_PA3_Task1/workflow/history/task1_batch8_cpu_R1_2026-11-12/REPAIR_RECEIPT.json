@@ -1,0 +1,11 @@
+{
+  "repair_cell_sha256": "2f46e94e93f9c435a212d1622bf819a4bb278e03eb0949ce9633527aef3a1735",
+  "original_zip_sha256": "47f22423b6487e98e46908db691b3aeba72b2f8f8e40e868b1804990dbfbf027",
+  "old_prepare_sha256": "586497508764595e8fc7598c900c6e61e7f8e6ff03481137478bc8868b46cb2d",
+  "fixed_prepare_sha256": "69a00eb778cdcb31a50e3908c87ce619aa34b3ca5e8407260e1b55cc5aeabcf9",
+  "only_one_line_changed": true,
+  "ZIP_upload_required": false,
+  "software_archive_restoration_required": false,
+  "CPU_native_checks_reexecuted_by_cell": true,
+  "GPU_pilot_run": false
+}

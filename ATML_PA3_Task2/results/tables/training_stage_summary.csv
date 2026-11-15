@@ -1,0 +1,4 @@
+stage,updates,examples,training_update_wall_seconds,mean_loss,realized_example_counts
+1,2250,36000,3363.495102,2.524602928161621,"{""caption"": 36000}"
+2,1500,24000,2842.329451,0.7797781859142706,"{""presence"": 12094, ""counting"": 6006, ""caption"": 5900}"
+3,750,12000,1390.854896,0.7196586630567908,"{""caption"": 1142, ""counting"": 1196, ""natural"": 8494, ""presence"": 1168}"

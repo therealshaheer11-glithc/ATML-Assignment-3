@@ -1,0 +1,24 @@
+{
+  "package_sha256": "d76d168d5079738718cf0c278db1491bd9b73e9e9ab911691302923e2ac41d55",
+  "files": {
+    "prepare_preflight.py": "047c1795bbad47138d1b7277fa27154c10a7753772fc808fd201a93c02d27df8",
+    "gpu_guardian.py": "0de74d1150c7ffedf43edfc0994cd00330e4beaba29b17b4b4ac4d57a02039be",
+    "guardian_selftest.py": "861987baeecb0a16ab60799f4b143f40d8680c967eaadb73951c9ad11dc07907",
+    "preflight_worker.py": "68d5443a4658875e3c018120d8c1958b1f77047301748f6c9af384f1d6c6619d",
+    "training_ops.py": "c7b9c3b848e2908842894164e85fbe385922a060f124833cb0bbeda7c7e1978c",
+    "training_core.py": "368eb518e31629e37d6e646522e5009f9ac48e207be16ab8a58d3bc22679b939"
+  },
+  "static_syntax_passed": true,
+  "real_cpu_subprocess_safety_tests": {
+    "completed": true,
+    "worker_error": true,
+    "deadline": true,
+    "stalled": true,
+    "corrupt_state": true,
+    "event_save_failure": true
+  },
+  "physical_runtime_release_tested": false,
+  "chunked_torch_loss_check": "Implemented; awaits CPU execution in Colab (torch unavailable locally).",
+  "official_training_started": false,
+  "gpu_work_run": false
+}

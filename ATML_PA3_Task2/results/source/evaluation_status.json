@@ -1,0 +1,6 @@
+{
+  "code": "COMPLETE",
+  "reason": "All 1280 final generations and original-reference NLL records saved and verified. Switch to CPU for statistics and plots.",
+  "total_answers": 1280,
+  "verified_answers": 1280
+}

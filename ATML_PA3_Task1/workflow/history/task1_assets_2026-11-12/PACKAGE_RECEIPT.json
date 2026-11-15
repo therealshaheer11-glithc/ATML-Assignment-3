@@ -1,0 +1,14 @@
+{
+  "package_sha256": "7a9aeb1313f2dd5330bfa2c2cc817aaf84fa366c4e54438442e5ba55d10287d3",
+  "files": {
+    "prepare_assets.py": "1ef1cb1611971db0d08d31765c50c2958cc0e64eec87064bffab697558b01abc",
+    "training_core.py": "368eb518e31629e37d6e646522e5009f9ac48e207be16ab8a58d3bc22679b939"
+  },
+  "checks": {
+    "source_syntax": true,
+    "verified_copy_and_safe_repeat": true,
+    "changed_source_preserved_and_rejected": true,
+    "frozen_metadata_preserved_and_rejected": true
+  },
+  "limits": "Local torch unavailable: mathematical and SVD checks are implemented but execute in Colab before final readiness; no local numerical success claim."
+}

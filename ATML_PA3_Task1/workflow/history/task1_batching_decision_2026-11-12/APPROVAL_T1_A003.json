@@ -1,0 +1,10 @@
+{
+  "approval_id": "T1-A003",
+  "amendment": "D10B",
+  "user_answer": "Approve pilot and conditional adoption (Recommended)",
+  "scope": "L4 GSM8K batch-eight pilot <=15 minutes or <=0.6 estimated compute units including setup/release; conditional adoption for all seven conditions only after all fixed non-benchmark token/numeric/speed/headroom checks pass; all PA settings and 55-unit cap preserved; failure stops for review",
+  "proposal_sha256": "aa251f073c0d994ad1f5364978bb4b65c6c67f8ecf8377d73a3e8f91470ed8b6",
+  "pilot_GPU_executed": false,
+  "full_adoption_gate_passed": false,
+  "shutdown_trace_review_still_required_before_GPU": true
+}

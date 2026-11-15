@@ -1,0 +1,52 @@
+{
+  "status": "TASK1_BLOCK16_CPU_RESUME_AUDIT_OK",
+  "snapshot_identity": "3f3902149ce3cfb9c84ae62814e26bc366a5b7f7588826fc44268a8876225411",
+  "readiness_path": "configs/BASELINE_V2_RESUME_READY_3f3902149ce3cfb9c84ae62814e26bc366a5b7f7588826fc44268a8876225411.json",
+  "readiness_sha256": "f31bf79e4fb265b405f03d57576ac9de138231df7560dddb26dba447e3cae5c5",
+  "actual_scored_counts": {
+    "gsm8k_cot": 850,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "required_counts": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "remaining_GSM_scored_answers": 469,
+  "complete_split_metrics_from_saved_scores": {
+    "hellaswag": {
+      "acc,none": 0.37562238597888864,
+      "acc_norm,none": 0.47301334395538736
+    },
+    "boolq": {
+      "acc,none": 0.6437308868501529
+    },
+    "arc_easy": {
+      "acc,none": 0.6077441077441077,
+      "acc_norm,none": 0.5597643097643098
+    }
+  },
+  "raw_generation_batches_validated": 138,
+  "raw_likelihood_chunks_validated": 158,
+  "record_read_and_check_seconds": {
+    "gsm8k_cot": 18.96781863399997,
+    "hellaswag": 307.60412897099997,
+    "boolq": 87.68958274399995,
+    "arc_easy": 62.91837586099996
+  },
+  "qualitative_responses_reverified": 24,
+  "FP32_probe_file_hashes_reverified": 64,
+  "both_worker_results_and_final_receipts_verified": true,
+  "packed_archive_bytes": 17328785,
+  "old_results_modified": false,
+  "new_model_inference_run": false,
+  "GPU_work_run": false,
+  "score_recomputation": "No stock per-answer rescore; complete means independently reaggregated from saved scalar scores",
+  "prior_slow_resume_cause": "Code traverses old answers with per-file Drive exists/read calls; current packed transport avoids that in the next GPU run. Exact prior wall-time attribution is unmeasured.",
+  "physical_GPU_deallocation_independently_verified": false,
+  "elapsed_seconds": 604.8588795840001,
+  "next": "Return this JSON with GPU off; use the forthcoming snapshot-aware resume cell, not old Block 15."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "TASK1_LORA4_FINAL_FAILED",
+  "run_id": "task1_lora4_final_eval_7850bd0a442747c69aaadb6140175251",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 0,
+    "hellaswag": 0,
+    "boolq": 0,
+    "arc_easy": 0
+  },
+  "qualitative_completed": 0,
+  "FP32_probe_files_reused": 64,
+  "error_type": "AssertionError",
+  "error": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/content/task1_lora4_final_eval_7850bd0a442747c69aaadb6140175251/code/baseline_v2_worker.py\", line 162, in main\n    run(config, result); result['status'] = 'TASK1_LORA4_FINAL_COMPLETE_SAVED'\n    ^^^^^^^^^^^^^^^^^^^\n  File \"/content/task1_lora4_final_eval_7850bd0a442747c69aaadb6140175251/code/baseline_v2_worker.py\", line 81, in run\n    lm = EvaluationHFLM(pretrained=model, tokenizer=tokenizer, dtype='float16', batch_size=8,\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/content/task1_lora4_final_eval_7850bd0a442747c69aaadb6140175251/code/batch8_hflm.py\", line 43, in __init__\n    assert all(p.dtype == torch.float16 for p in self.model.parameters())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "elapsed_worker_seconds": 21.331461278000006,
+  "GPU_memory": {
+    "peak_allocated_bytes": 1202207232,
+    "peak_reserved_bytes": 1224736768,
+    "total_gpu_bytes": 23659151360
+  }
+}

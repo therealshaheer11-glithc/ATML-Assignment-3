@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "implementation_id": "task3_live_generation_A002",
+  "approval": "A001 experiment; A002 exact verified CUDA initializer exception only",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "CPU_preflight_sha256": "4779284f44c2373db281883db534af5601c034d22ce4e588ef61fd73ce9cac60",
+  "live_inputs_sha256": "6a01498bf05d468fb575182b31deb6086ba5ed137f3a34de662297bcea813c5d",
+  "code_sha256": {
+    "gpu_driver.py": "8835e3e43d4da136459594ef40f375a17f46e6df9bc286b28a529e3f8ce42f5e",
+    "gpu_worker.py": "ca0e7a2800b24a84033841f1cd2fc39c8dc935dc2ae2df78c3ed50f17d4b02d9",
+    "worker_entry.py": "cc707b44ab5be35b4b61a19282a08d4634d8ecc1ccd2e7187a234f2968412a36",
+    "gpu_engine.py": "8af4da239f9ec548524fe6108800fe68bc58e1fb54e1b5b4db71e03e91be8092",
+    "live_store.py": "c596dc58be83cc4e50300382236009bbc282ed79030e879e54554c0de543fcc0",
+    "bootstrap_guard.py": "9096f2c0532fa447637b8a96689f9d8751e3c6d6fd4bcf53e54090385da925a3",
+    "watchdog.py": "b502664001dd2207a5fd4056844ed5f24313c8b87c8b87c5d26bfb08e46e03e1",
+    "live_protocol.py": "5e6397af1610201a655f32675ffe030e7fb0b2a3762a57db8fee9cdb9c070aa1",
+    "cpu_preflight.py": "690e35048e72377367db04804519c25f1db7536f9355328f75def3e5b3b9881b",
+    "gpu_integrity.py": "4e9a744f713d9f55ea1a9121a7a8908659138f084181b46c541bae1a010deec7"
+  },
+  "static_input_sha256": {
+    "PREFLIGHT_REFERENCE.json": "ece1e718c270dea6889f9b24dcd5e3a7c2407708c3010ef889e88ed82f4c2201",
+    "MODEL_ASSET_MANIFEST.json": "76dd82934e432e8e0349e34a005bb599b858ffa588c8796c7dc4f3b39d3f0990",
+    "EXISTING_INPUTS.json": "b175b88041722bdf7fe153d408166f6d443bbd2acb622b17ccb3a5b8695e6ebf",
+    "TORCH_INTEGRITY_POLICY_A002.json": "efc61c91300916dda0fdf0b6a574f8d643f8b8b83cb8eeed337044b7727740f8",
+    "APPROVAL_A002.json": "81e9949f0a8b76bb837c376ae89e36b4afa12d513fb3170a2f5b147acc93eb2a"
+  },
+  "execution": {
+    "GPU": "T4",
+    "dtype": "float16",
+    "batch_size": 1,
+    "quantization": false,
+    "attention": "sdpa",
+    "cache": "dynamic",
+    "compile": false,
+    "no_new_calls_after_seconds": 1800,
+    "max_call_seconds": 600,
+    "absolute_session_seconds": 2700,
+    "no_automatic_retries": true
+  },
+  "time_scope": "Synchronized native template/tokenization, input placement, prefill, sampling, output transfer and decoded response; excludes model loading, saving and grading",
+  "output_accounting": "All generated IDs including final EOS counted; retained nontermination count also saved. EOS exactly at cap is recorded at_output_cap=True and truncated_by_cap=False.",
+  "scoring": "Deferred CPU with already frozen scorer. No gold references read by GPU worker."
+}

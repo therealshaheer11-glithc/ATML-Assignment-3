@@ -1,0 +1,16 @@
+{
+  "gsm8k_cot": {
+    "partial_score_writes_recover_all_25_IDs": true,
+    "fixed_full_chunk_membership_preserved": true,
+    "no_new_physical_inference_after_cache_commit": true,
+    "complete_chunk_reused": true
+  },
+  "hellaswag": {
+    "partial_score_writes_recover_all_25_IDs": true,
+    "fixed_full_chunk_membership_preserved": true,
+    "no_new_physical_inference_after_cache_commit": true,
+    "complete_chunk_reused": true
+  },
+  "likelihood_chunk_corruption_rejected": true,
+  "scope": "CPU fixture control flow only; no original-model inference or metric fabrication"
+}

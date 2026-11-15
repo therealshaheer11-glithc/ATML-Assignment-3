@@ -1,0 +1,103 @@
+{
+  "checks": {
+    "checks": [
+      "Final data sizes, quotas, all 246 accepted positions, 110 exclusions, calibration and split isolation pass",
+      "All connector and LoRA schedule endpoints match the approved one-based convention",
+      "Stage one emits exactly the two saved caption passes and consumes no curriculum RNG",
+      "Complete-pair stochastic draws and exact JSON checkpoint/resume persist across stages two and three",
+      "Sampler rejects another dataset identity without changing its live state",
+      "VQAv2 uses ten leave-one-out references, with canonical pair accuracy and empty outputs handled separately",
+      "Paired bootstrap resamples complete matching pair IDs reproducibly at seed 6304",
+      "Independent COCO reconstruction preserves category absence and excludes any crowd-bearing image/category from counting",
+      "Checksum-locked official normalizer passes punctuation, article, numeric and contraction checks"
+    ],
+    "dataset": {
+      "audit_accepts": 246,
+      "cache_images": 9260,
+      "counting_categories": 78,
+      "evaluation_unique_images": 527,
+      "grounding_unique_images": {
+        "dev": 47,
+        "test": 128,
+        "training_audit": 313
+      },
+      "human_review_origins": {
+        "human_chat": 1,
+        "human_colab": 245
+      },
+      "presence_categories": 80,
+      "training_images": 8733
+    },
+    "gpu_used": false,
+    "official_normalizer_checked": true,
+    "status": "passed",
+    "training_started": false
+  },
+  "code_hashes": {
+    "__init__.py": "cbf8befff8a0ed861ec58a4c25a2075f70e95c728a17da40a87719e3c221aa2d",
+    "checks.py": "8048824c9765d6cebe955dc7c458e048400f7af5695fd546609158f1b74c9732",
+    "dataset.py": "d0cf8faffb3e49e192ac1c5368fa86ab84f13541fb5633a3b2743beff4b58b3a",
+    "protocol.py": "792ca991f2dd019abd85a800981b56693c414709b9a11b3b60fd8f0b3a0d1a15",
+    "sampler.py": "719d6522037a7d2f0e151cf593211146e5d78c3273e3b947b855403c294e1ca6",
+    "scoring.py": "c05768166e7909e4aa4feac2adc1c8f0bc7ebb3cdfdf5604140db8aa453fc995",
+    "sourcecheck.py": "dd4b8eaadd26804100aad280422a189bba9e920384375d2726fda023f06811bc"
+  },
+  "completed_at_utc": "2026-11-07T17:36:08.067511+00:00",
+  "content_token_maxima": {
+    "answer": 6,
+    "caption": 56,
+    "question": 16,
+    "user_text": 22
+  },
+  "dataset_frozen": true,
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "environment": {
+    "Pillow": "11.3.0",
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.22.1"
+  },
+  "feature_cache_created": false,
+  "gpu_used": false,
+  "human_audit_accepts": 246,
+  "image_jobs": 9260,
+  "image_jobs_sha256": "e7951338677eba406730dfeca165b5ee516d8ad7d39c45d23d2a65c8299a88c7",
+  "model_revisions": {
+    "qwen": {
+      "repo_id": "Qwen/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+    },
+    "siglip": {
+      "repo_id": "google/siglip-base-patch16-224",
+      "revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed"
+    }
+  },
+  "model_weights_loaded": false,
+  "native_chat_probe": "<|im_start|>user\nAnswer with a short phrase.\nHow many TVs can you see?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "preflight_package_sha256": "d5d2ad21658d452673d6a549f725e2f78949b97b3890ee9d93e170d6eb50ec95",
+  "schema": "atml-pa3-task2-dataset-freeze-v1",
+  "source_proof": {
+    "captions_train2014": {
+      "sha256": "dd8c9636dc11740f956e36728866ea0c4ebe4988dcbdc5e712b7c2267f152d12",
+      "verified_original_captions": 18000
+    },
+    "captions_val2014": {
+      "sha256": "7da4cc45cb76ee1642d163e846e1e0a33feffac2e841c9c426d585ea499165a4",
+      "verified_original_captions": 96
+    },
+    "instances_train2014": {
+      "grounding_pairs_verified": 158,
+      "sha256": "777ef504abfeba349930485bb32ecd5b6529129a3e010f7852e1437cb049b732",
+      "verified_cache_images": 8733
+    },
+    "instances_val2014": {
+      "grounding_pairs_verified": 88,
+      "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+      "verified_cache_images": 527
+    }
+  },
+  "status": "passed",
+  "training_started": false
+}

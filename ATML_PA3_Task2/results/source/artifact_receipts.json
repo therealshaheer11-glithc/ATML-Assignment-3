@@ -1,0 +1,1976 @@
+[
+  {
+    "bytes": 3384,
+    "export": "source/evaluation_recipe.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/recipe.json",
+    "readback_verified": true,
+    "sha256": "189cf39a6a32b244b350a9039c9d0b7c3276b1d96bc1e9481606a5afca2e7a73"
+  },
+  {
+    "bytes": 267160,
+    "export": "source/evaluation_plan.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/plan.json",
+    "readback_verified": true,
+    "sha256": "2e8cca2b6c7a597d67d1e124469e35f0c4c2a259bda8b625d38986124a8238c6"
+  },
+  {
+    "bytes": 59693,
+    "export": "source/evaluation_manifest.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/progress/answers_1280_5e12c5b55da7e44e.json",
+    "readback_verified": true,
+    "sha256": "5e12c5b55da7e44ea4a9e7361634716fa70424e7a7df1f270d1d9896512aa1be"
+  },
+  {
+    "bytes": 43353,
+    "export": "source/training_progress.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/progress/update_004500_b291d75f0f7c1a84.json",
+    "readback_verified": true,
+    "sha256": "b291d75f0f7c1a84ec2f54b0973f75fa987ef985e2a57f12d8ab7bfef1274028"
+  },
+  {
+    "bytes": 9375,
+    "export": "source/evaluation_batches/grounding_correct_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0000.json",
+    "readback_verified": true,
+    "sha256": "01053b762ea6d312daa2cce906eb1153eb715705068e5f9f446b2a5ae83cbf9f"
+  },
+  {
+    "bytes": 9158,
+    "export": "source/evaluation_batches/grounding_correct_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0008.json",
+    "readback_verified": true,
+    "sha256": "0f7f043a9145af2d548f0fbad36acb88cad24850104b3d377f7f5b1b4c97d042"
+  },
+  {
+    "bytes": 9140,
+    "export": "source/evaluation_batches/grounding_correct_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0016.json",
+    "readback_verified": true,
+    "sha256": "e47d0f046081b73c1e020be2fba297d2335cdf7e317bb3561bf308498f6a2081"
+  },
+  {
+    "bytes": 9209,
+    "export": "source/evaluation_batches/grounding_correct_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0024.json",
+    "readback_verified": true,
+    "sha256": "e565fd656798fe5338cf6d8dcdba624e1f3fbb772a1b234ce1c176fd5b411298"
+  },
+  {
+    "bytes": 9323,
+    "export": "source/evaluation_batches/grounding_correct_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0032.json",
+    "readback_verified": true,
+    "sha256": "8f40b33952ac3edbea0d2213db86b0fd6be8a29de3e0836cf5e5cecfb530a905"
+  },
+  {
+    "bytes": 9442,
+    "export": "source/evaluation_batches/grounding_correct_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0040.json",
+    "readback_verified": true,
+    "sha256": "8a3f98a9530e067179eed012bc41e3aff67954f96edcc0cf03ff214803dcb947"
+  },
+  {
+    "bytes": 9129,
+    "export": "source/evaluation_batches/grounding_correct_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0048.json",
+    "readback_verified": true,
+    "sha256": "75904318bf223107e6b6ac49ea54bcd8406d1c3094475454cf21d89e3bf14e1c"
+  },
+  {
+    "bytes": 9050,
+    "export": "source/evaluation_batches/grounding_correct_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0056.json",
+    "readback_verified": true,
+    "sha256": "d12229ad542f59b9e3f9b5dda593591db4336d76178b4a89f93f4f0530974024"
+  },
+  {
+    "bytes": 9139,
+    "export": "source/evaluation_batches/grounding_correct_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0064.json",
+    "readback_verified": true,
+    "sha256": "aa159c8e97e5ecc0864ce0f1f4d462f779e1188b298508a5a29d3ad006a36fed"
+  },
+  {
+    "bytes": 9158,
+    "export": "source/evaluation_batches/grounding_correct_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0072.json",
+    "readback_verified": true,
+    "sha256": "e5f5cc92da4bc98340a554a478bf496db5dc1789bd57c32c076501dd5da0cf3f"
+  },
+  {
+    "bytes": 9201,
+    "export": "source/evaluation_batches/grounding_correct_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0080.json",
+    "readback_verified": true,
+    "sha256": "8c816c74aab54ec593babe3aae1b08695ce54c12d0192f92e3b05c0a209173f3"
+  },
+  {
+    "bytes": 9241,
+    "export": "source/evaluation_batches/grounding_correct_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0088.json",
+    "readback_verified": true,
+    "sha256": "3add704c4d893a7bd935c331c553ba6fd9ee16443462b86ce9cc7c6cd1120c91"
+  },
+  {
+    "bytes": 9266,
+    "export": "source/evaluation_batches/grounding_correct_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0096.json",
+    "readback_verified": true,
+    "sha256": "ed62d0f2132488677ad1951250303d39e421f4060752befefff700c029be18d6"
+  },
+  {
+    "bytes": 9266,
+    "export": "source/evaluation_batches/grounding_correct_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0104.json",
+    "readback_verified": true,
+    "sha256": "724ccf1888926ff2641014d7193d92a1b948dd2c5ba98c0e677e09838eaa8e83"
+  },
+  {
+    "bytes": 9208,
+    "export": "source/evaluation_batches/grounding_correct_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0112.json",
+    "readback_verified": true,
+    "sha256": "c11e08f9c5b665f9ff5d63fd7ce2b4c095caae6c33cb205e266d6d107a2551f4"
+  },
+  {
+    "bytes": 9333,
+    "export": "source/evaluation_batches/grounding_correct_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0120.json",
+    "readback_verified": true,
+    "sha256": "19fc5f3b84413a48c73dce6547d6ba64b1ab3c08a051d03f249a0e20d81cc9cb"
+  },
+  {
+    "bytes": 9434,
+    "export": "source/evaluation_batches/grounding_complementary_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0000.json",
+    "readback_verified": true,
+    "sha256": "84f1b5e68974a2b395ba80e8349c7b49e5b48e3df95e3549b8fecab2f9dfb823"
+  },
+  {
+    "bytes": 9226,
+    "export": "source/evaluation_batches/grounding_complementary_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0008.json",
+    "readback_verified": true,
+    "sha256": "012efa082435732f61d7bd99ff8d71dafcbaf78abf22b3cf1cc8a7eb0643c160"
+  },
+  {
+    "bytes": 9193,
+    "export": "source/evaluation_batches/grounding_complementary_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0016.json",
+    "readback_verified": true,
+    "sha256": "66a2e1b49caea50cf62302cfc2d26d3e5a6caa720e8cf8503131a40f44e6f5da"
+  },
+  {
+    "bytes": 9270,
+    "export": "source/evaluation_batches/grounding_complementary_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0024.json",
+    "readback_verified": true,
+    "sha256": "8cc463cbaaffb8865a847000fffeefdf8dc0d6cab635e3994dc8e79999d727d4"
+  },
+  {
+    "bytes": 9389,
+    "export": "source/evaluation_batches/grounding_complementary_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0032.json",
+    "readback_verified": true,
+    "sha256": "8fa5a73dfd5cac5e909497660602025f7dbfc539ac824f67aad6f709c64dfe73"
+  },
+  {
+    "bytes": 9509,
+    "export": "source/evaluation_batches/grounding_complementary_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0040.json",
+    "readback_verified": true,
+    "sha256": "4dd9d1e60b9fc3c29af21423283580222a3c52231c5420345750e64b81c6e2e4"
+  },
+  {
+    "bytes": 9188,
+    "export": "source/evaluation_batches/grounding_complementary_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0048.json",
+    "readback_verified": true,
+    "sha256": "06031247fc79dce7a8217fe4a2b84434937aa4603a9ac80685e31b1200e7e43a"
+  },
+  {
+    "bytes": 9120,
+    "export": "source/evaluation_batches/grounding_complementary_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0056.json",
+    "readback_verified": true,
+    "sha256": "7c54f029b88cb8695556dbeafe3d298cfb09bebf8faa855d15955b94c3a83aea"
+  },
+  {
+    "bytes": 9194,
+    "export": "source/evaluation_batches/grounding_complementary_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0064.json",
+    "readback_verified": true,
+    "sha256": "06445b1f041c214965c78dc1b7d86502045e5df1ddf232f1f55ac7ca4958b48c"
+  },
+  {
+    "bytes": 9200,
+    "export": "source/evaluation_batches/grounding_complementary_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0072.json",
+    "readback_verified": true,
+    "sha256": "231f2c3f88a0c177984925a0d03b92745d4dac38d159b30142294425640b203f"
+  },
+  {
+    "bytes": 9246,
+    "export": "source/evaluation_batches/grounding_complementary_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0080.json",
+    "readback_verified": true,
+    "sha256": "bf744cb55f5538d83e817ff73052f8edda7b0c1ef4ad002a2ebbfa2a4a42a73f"
+  },
+  {
+    "bytes": 9274,
+    "export": "source/evaluation_batches/grounding_complementary_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0088.json",
+    "readback_verified": true,
+    "sha256": "45aa1ff8cb3f7c072a4b35919d657c7d5621c8ead8f535a787ab3cc700134d41"
+  },
+  {
+    "bytes": 9305,
+    "export": "source/evaluation_batches/grounding_complementary_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0096.json",
+    "readback_verified": true,
+    "sha256": "21927de49012c62cafe57c614386df0f00c14adbd963bf4755970715db12a437"
+  },
+  {
+    "bytes": 9319,
+    "export": "source/evaluation_batches/grounding_complementary_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0104.json",
+    "readback_verified": true,
+    "sha256": "1efb57edc356f1434e3aa20764df1177423adae248ca1dfaaee9e5c8813ddfc7"
+  },
+  {
+    "bytes": 9262,
+    "export": "source/evaluation_batches/grounding_complementary_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0112.json",
+    "readback_verified": true,
+    "sha256": "19236d46edb222459ab8040b7b5a8fcc49a1af58b8a89f5526d7d0749b62ce34"
+  },
+  {
+    "bytes": 9366,
+    "export": "source/evaluation_batches/grounding_complementary_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0120.json",
+    "readback_verified": true,
+    "sha256": "8976cfe653a784aef38400e0aed39329e00debe64d3d78a5017a6cf42f469dbe"
+  },
+  {
+    "bytes": 9399,
+    "export": "source/evaluation_batches/grounding_mismatched_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0000.json",
+    "readback_verified": true,
+    "sha256": "eaa37e22641d7ac93ef81a8ef5cf0f10b1ac93739a8aa648f5b407d79dc9ce7f"
+  },
+  {
+    "bytes": 9195,
+    "export": "source/evaluation_batches/grounding_mismatched_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0008.json",
+    "readback_verified": true,
+    "sha256": "481273ff8b330d11e3de9bfc0b7d81e287bc647cce831cd4296d8bff84efa4d0"
+  },
+  {
+    "bytes": 9171,
+    "export": "source/evaluation_batches/grounding_mismatched_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0016.json",
+    "readback_verified": true,
+    "sha256": "4a9e794a305334032af65d0c686c91cfa30874761d405d711762db72fdb93e32"
+  },
+  {
+    "bytes": 9248,
+    "export": "source/evaluation_batches/grounding_mismatched_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0024.json",
+    "readback_verified": true,
+    "sha256": "5e8744efbeeb58df5483a92dc59272668893fd7ba31c81d73fc78152f0f2e355"
+  },
+  {
+    "bytes": 9345,
+    "export": "source/evaluation_batches/grounding_mismatched_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0032.json",
+    "readback_verified": true,
+    "sha256": "166565592a3776e665378bc7e028c3f6e24fdfd61b80041612c1829a366bec49"
+  },
+  {
+    "bytes": 9464,
+    "export": "source/evaluation_batches/grounding_mismatched_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0040.json",
+    "readback_verified": true,
+    "sha256": "01f3142ccaf4db55bf495893b34288d23d4aebf380785131934a6cffe220d504"
+  },
+  {
+    "bytes": 9162,
+    "export": "source/evaluation_batches/grounding_mismatched_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0048.json",
+    "readback_verified": true,
+    "sha256": "23eb7377211a90ff9a9a33ae657eeadd3b16efdd4f8d17167e4e17229fdeca7d"
+  },
+  {
+    "bytes": 9079,
+    "export": "source/evaluation_batches/grounding_mismatched_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0056.json",
+    "readback_verified": true,
+    "sha256": "ffdbae18ec67995bc0a7277fa74611771f82c12111dcf67ca1c3721d809d1934"
+  },
+  {
+    "bytes": 9168,
+    "export": "source/evaluation_batches/grounding_mismatched_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0064.json",
+    "readback_verified": true,
+    "sha256": "543eef26758f7531405faf0d55e0636cbb8005bd23bcf6c4f0a2786968de79b4"
+  },
+  {
+    "bytes": 9178,
+    "export": "source/evaluation_batches/grounding_mismatched_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0072.json",
+    "readback_verified": true,
+    "sha256": "258b8c755ad5657523d516fce5c34a5b850f0b24989c84910ab2e1ef4659de6b"
+  },
+  {
+    "bytes": 9225,
+    "export": "source/evaluation_batches/grounding_mismatched_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0080.json",
+    "readback_verified": true,
+    "sha256": "dd5801cccd768fdfcfe97a1d00e1dd0f58d7681bbab69ca33e0769f7eb16bbb5"
+  },
+  {
+    "bytes": 9240,
+    "export": "source/evaluation_batches/grounding_mismatched_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0088.json",
+    "readback_verified": true,
+    "sha256": "a61da306bc414f6e89d76a93a7d8319216a6d0c86ab849c06812ba403e1e55e4"
+  },
+  {
+    "bytes": 9280,
+    "export": "source/evaluation_batches/grounding_mismatched_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0096.json",
+    "readback_verified": true,
+    "sha256": "53c3c02c34d6bbe4795bec07eac91b1ecd3eb1dfef42bbe679f68b0c2376449c"
+  },
+  {
+    "bytes": 9286,
+    "export": "source/evaluation_batches/grounding_mismatched_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0104.json",
+    "readback_verified": true,
+    "sha256": "ec5100e30524223a0814f242386f3da4d4304cf28a50a1bb1d587830603492d3"
+  },
+  {
+    "bytes": 9223,
+    "export": "source/evaluation_batches/grounding_mismatched_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0112.json",
+    "readback_verified": true,
+    "sha256": "7ed0f4c935e187b503dc032234cc5290a9b6b665dffcd610245d4437e851bc1e"
+  },
+  {
+    "bytes": 9346,
+    "export": "source/evaluation_batches/grounding_mismatched_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0120.json",
+    "readback_verified": true,
+    "sha256": "d00764a778b726013955800d14f261de1a937acf99ef13a1fc243fd2454d36c6"
+  },
+  {
+    "bytes": 9369,
+    "export": "source/evaluation_batches/grounding_no_image_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0000.json",
+    "readback_verified": true,
+    "sha256": "96a47f1083b9cdd767b98a7ee48d58b5b39cab705ba4def653186a91f7c418e4"
+  },
+  {
+    "bytes": 9156,
+    "export": "source/evaluation_batches/grounding_no_image_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0008.json",
+    "readback_verified": true,
+    "sha256": "5ef1c4eabeba529f31515e57836f065c7df6012ab07bc4f55d6ba37cc57089f1"
+  },
+  {
+    "bytes": 9141,
+    "export": "source/evaluation_batches/grounding_no_image_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0016.json",
+    "readback_verified": true,
+    "sha256": "01e5cbfe7ab80ffcef3c3548fcfd076103a62c8577ca5d1b50879d4fad90097a"
+  },
+  {
+    "bytes": 9223,
+    "export": "source/evaluation_batches/grounding_no_image_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0024.json",
+    "readback_verified": true,
+    "sha256": "9aa47ce2e2cebed4e0ef2a937925caf01685a52fcbc19987208cd883cebe551c"
+  },
+  {
+    "bytes": 9321,
+    "export": "source/evaluation_batches/grounding_no_image_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0032.json",
+    "readback_verified": true,
+    "sha256": "09165076f1488903448128dcb61dece8f65288b94f463c8bbe94eb57b118be62"
+  },
+  {
+    "bytes": 9436,
+    "export": "source/evaluation_batches/grounding_no_image_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0040.json",
+    "readback_verified": true,
+    "sha256": "ad5ff13c4ed48b325cad6df1616c8dea60add5478fb25050208d2582e72baf8a"
+  },
+  {
+    "bytes": 9128,
+    "export": "source/evaluation_batches/grounding_no_image_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0048.json",
+    "readback_verified": true,
+    "sha256": "8524b8796763648a559b6d04c2a847d77177d27bdd59f8aa5482d8462bfe41a0"
+  },
+  {
+    "bytes": 9057,
+    "export": "source/evaluation_batches/grounding_no_image_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0056.json",
+    "readback_verified": true,
+    "sha256": "c1aebd3c085b0bccaa2145d0c81a381d555419e36d10fe2add6554b1f7b9ca27"
+  },
+  {
+    "bytes": 9141,
+    "export": "source/evaluation_batches/grounding_no_image_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0064.json",
+    "readback_verified": true,
+    "sha256": "63c2e675db4f27b21dd61a09a685efb4d8ac34efb225eeb6c2d03289ab982432"
+  },
+  {
+    "bytes": 9146,
+    "export": "source/evaluation_batches/grounding_no_image_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0072.json",
+    "readback_verified": true,
+    "sha256": "c0a95e2cb14d526dd84b82be6fde401890aecd804abe8d686ebcb408c692b344"
+  },
+  {
+    "bytes": 9204,
+    "export": "source/evaluation_batches/grounding_no_image_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0080.json",
+    "readback_verified": true,
+    "sha256": "ab5e321ce335d0309494c1b8a14486eb3b5c6c841d3b4ab13b4fefe830f0eba5"
+  },
+  {
+    "bytes": 9208,
+    "export": "source/evaluation_batches/grounding_no_image_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0088.json",
+    "readback_verified": true,
+    "sha256": "1a87f6c02fb271dadc19a956c42d4104cde3756c3fa0c7a733304ea6c8e99c44"
+  },
+  {
+    "bytes": 9258,
+    "export": "source/evaluation_batches/grounding_no_image_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0096.json",
+    "readback_verified": true,
+    "sha256": "b98460f400ab9480f95b91cb77c420fc7c859cc00ccd65f28ca04f65ec406f7c"
+  },
+  {
+    "bytes": 9270,
+    "export": "source/evaluation_batches/grounding_no_image_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0104.json",
+    "readback_verified": true,
+    "sha256": "55dd1e92b8339cd7b9e0498f9f134a3110d7a63bbab2efa2794f9d4a63758f56"
+  },
+  {
+    "bytes": 9201,
+    "export": "source/evaluation_batches/grounding_no_image_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0112.json",
+    "readback_verified": true,
+    "sha256": "ae18fff545a1c07dbdca1fbf7270b5a484920cf3fbfc911b11e305796a0b9d2f"
+  },
+  {
+    "bytes": 9331,
+    "export": "source/evaluation_batches/grounding_no_image_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0120.json",
+    "readback_verified": true,
+    "sha256": "c7bb939c68072b9ae8a93be5a9e7896a0885df1564f4c75dce9d0da88708b160"
+  },
+  {
+    "bytes": 11590,
+    "export": "source/evaluation_batches/natural_correct_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0000.json",
+    "readback_verified": true,
+    "sha256": "973da4d6c151b87a9a4e45f28274bbb9e7dec5ca01dfb949c76b03bb1752faea"
+  },
+  {
+    "bytes": 11890,
+    "export": "source/evaluation_batches/natural_correct_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0008.json",
+    "readback_verified": true,
+    "sha256": "f884063d233046f9f7273b1ff18fbfa580d574f5c9511f677f75a6774a57fbb6"
+  },
+  {
+    "bytes": 11771,
+    "export": "source/evaluation_batches/natural_correct_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0016.json",
+    "readback_verified": true,
+    "sha256": "8585124ed378d598eb9e286e6258bf612f9d12bf583333b5ed84a46d86f5c19d"
+  },
+  {
+    "bytes": 11806,
+    "export": "source/evaluation_batches/natural_correct_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0024.json",
+    "readback_verified": true,
+    "sha256": "0d6eed73e5e33385acd6b1ea76d15a89bf141de2e6b3750e2be4081044480b63"
+  },
+  {
+    "bytes": 11789,
+    "export": "source/evaluation_batches/natural_correct_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0032.json",
+    "readback_verified": true,
+    "sha256": "d2485310ca8960174b6fa106725305c0a797198103c3b1fede281e3794d52620"
+  },
+  {
+    "bytes": 11753,
+    "export": "source/evaluation_batches/natural_correct_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0040.json",
+    "readback_verified": true,
+    "sha256": "87a8fda06479a2c85b1e0aab7ec8d1dbc92cfb112313dece31a0ae9219020fab"
+  },
+  {
+    "bytes": 11990,
+    "export": "source/evaluation_batches/natural_correct_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0048.json",
+    "readback_verified": true,
+    "sha256": "22525e1d28ffe1ba0f830959733baa53464b5ba50e636713e07d3e1e5072b6a7"
+  },
+  {
+    "bytes": 12025,
+    "export": "source/evaluation_batches/natural_correct_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0056.json",
+    "readback_verified": true,
+    "sha256": "b486359001c4215a0b743df9e07ecae537ef93752759ddd9427f3663e0de8b95"
+  },
+  {
+    "bytes": 11563,
+    "export": "source/evaluation_batches/natural_correct_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0064.json",
+    "readback_verified": true,
+    "sha256": "2eb6a51dfe27959d4d9395e9f0e68cbc23e9fd3f76d61977548e6f14520f66f1"
+  },
+  {
+    "bytes": 11445,
+    "export": "source/evaluation_batches/natural_correct_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0072.json",
+    "readback_verified": true,
+    "sha256": "fd1bb52d14ddedec3a202279cd4c5b5da36c0de038283ba02e4b5505eac63403"
+  },
+  {
+    "bytes": 11439,
+    "export": "source/evaluation_batches/natural_correct_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0080.json",
+    "readback_verified": true,
+    "sha256": "eed0db577ffde6aebbca37a6f948cda65bd0033f379ce299deab996d1c9e2470"
+  },
+  {
+    "bytes": 11367,
+    "export": "source/evaluation_batches/natural_correct_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0088.json",
+    "readback_verified": true,
+    "sha256": "2c3f27fd0a08c5b81a19210baf9c0c87e110e944245e6224cfff7df8b420b315"
+  },
+  {
+    "bytes": 11583,
+    "export": "source/evaluation_batches/natural_correct_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0096.json",
+    "readback_verified": true,
+    "sha256": "17dd3f74b3138dd2d7f53c9711a064c00fd618ae4d45465d6cf0bd079b5dd8cf"
+  },
+  {
+    "bytes": 12062,
+    "export": "source/evaluation_batches/natural_correct_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0104.json",
+    "readback_verified": true,
+    "sha256": "99b1f8a028565963ec0e96f18232e208411aeca3cdc42b6968e907a39067c3c5"
+  },
+  {
+    "bytes": 11925,
+    "export": "source/evaluation_batches/natural_correct_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0112.json",
+    "readback_verified": true,
+    "sha256": "6f1ff4e0e83dd6564d2e0e10f996f92b311705db4c47fa09cc414a2c5001363b"
+  },
+  {
+    "bytes": 11513,
+    "export": "source/evaluation_batches/natural_correct_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0120.json",
+    "readback_verified": true,
+    "sha256": "83002b9a45e06d325570fcfd81611ec52928bd5170fb743c9c390bc4069cf409"
+  },
+  {
+    "bytes": 11534,
+    "export": "source/evaluation_batches/natural_correct_0128.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0128.json",
+    "readback_verified": true,
+    "sha256": "906354d5df8499863d50d6aaee65f16633402b54a7ea9245eae1b262e1c28136"
+  },
+  {
+    "bytes": 12002,
+    "export": "source/evaluation_batches/natural_correct_0136.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0136.json",
+    "readback_verified": true,
+    "sha256": "e529ae5889184d0896eaab232a538bb5fca967ad684646f2a04052610018ac6e"
+  },
+  {
+    "bytes": 11680,
+    "export": "source/evaluation_batches/natural_correct_0144.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0144.json",
+    "readback_verified": true,
+    "sha256": "9b2583e197ba75f6329cfbd31d99a0becb696a51f08e2c42f92614e09025375a"
+  },
+  {
+    "bytes": 11785,
+    "export": "source/evaluation_batches/natural_correct_0152.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0152.json",
+    "readback_verified": true,
+    "sha256": "e65f2ac06e9d8940d5a09f3830bd8010536f300efee9dd5b8729fbc794b5054b"
+  },
+  {
+    "bytes": 11695,
+    "export": "source/evaluation_batches/natural_correct_0160.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0160.json",
+    "readback_verified": true,
+    "sha256": "625c22280d09ec1bf7762f9973b744fc56ebbdfa2e711bb5035c7099fda568c4"
+  },
+  {
+    "bytes": 11710,
+    "export": "source/evaluation_batches/natural_correct_0168.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0168.json",
+    "readback_verified": true,
+    "sha256": "483301920a4fa2e9c5f0b1f81c34c65c8621bbe16312632f875b1a3d42b50880"
+  },
+  {
+    "bytes": 11430,
+    "export": "source/evaluation_batches/natural_correct_0176.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0176.json",
+    "readback_verified": true,
+    "sha256": "ca48b16697b184f0edf48e26940777e9aad0332892adf43c4d1282bc301b7945"
+  },
+  {
+    "bytes": 11971,
+    "export": "source/evaluation_batches/natural_correct_0184.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0184.json",
+    "readback_verified": true,
+    "sha256": "fbf4cf355db95a360112cf3141e374e031661ffcd9c7ad5e4b7d1d393060972d"
+  },
+  {
+    "bytes": 11656,
+    "export": "source/evaluation_batches/natural_complementary_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0000.json",
+    "readback_verified": true,
+    "sha256": "2cd622b6cf29ac285bf752ed937734ae8ba492897e1a16671a7f8739bce61d14"
+  },
+  {
+    "bytes": 11959,
+    "export": "source/evaluation_batches/natural_complementary_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0008.json",
+    "readback_verified": true,
+    "sha256": "69fdb579e3afd3bc2fe08804d99564a7f005339c8b60a484e77200c0549841b2"
+  },
+  {
+    "bytes": 11838,
+    "export": "source/evaluation_batches/natural_complementary_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0016.json",
+    "readback_verified": true,
+    "sha256": "a4b4be09ed56e7fcac33bb6bc5a7b1f76a4a213bbc8ae5b2fb456a238e67107b"
+  },
+  {
+    "bytes": 11867,
+    "export": "source/evaluation_batches/natural_complementary_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0024.json",
+    "readback_verified": true,
+    "sha256": "6b635d6a65858420cc3d2ac6efc08fee17100443b28bfe305b91ef106d1c0347"
+  },
+  {
+    "bytes": 11846,
+    "export": "source/evaluation_batches/natural_complementary_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0032.json",
+    "readback_verified": true,
+    "sha256": "7f21fcc646aeaf9cd5c13360710f0281a53f9c8fbd8e93a1aa6530b726d51266"
+  },
+  {
+    "bytes": 11808,
+    "export": "source/evaluation_batches/natural_complementary_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0040.json",
+    "readback_verified": true,
+    "sha256": "0e00e55fceec48c15aadf0e4009b3966d2ede958bb70c2814bd498e256637476"
+  },
+  {
+    "bytes": 12042,
+    "export": "source/evaluation_batches/natural_complementary_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0048.json",
+    "readback_verified": true,
+    "sha256": "a3e342abc50940959d21ade4e3772a355bae8e48562abbbb72e39f487df4d385"
+  },
+  {
+    "bytes": 12079,
+    "export": "source/evaluation_batches/natural_complementary_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0056.json",
+    "readback_verified": true,
+    "sha256": "f41aee827b94a636f9c6ef6e5fe648d3d567fc1a4565fbc27d7f77ee53eb58af"
+  },
+  {
+    "bytes": 11630,
+    "export": "source/evaluation_batches/natural_complementary_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0064.json",
+    "readback_verified": true,
+    "sha256": "205e55661b5b27c47b958f2f1fb57fdf7e77c82ea858c5506fb73cce2f1d8864"
+  },
+  {
+    "bytes": 11497,
+    "export": "source/evaluation_batches/natural_complementary_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0072.json",
+    "readback_verified": true,
+    "sha256": "2f71b96e5cc42005231cdcb4a009af346775c2ac17ee0397292845a9cbc1d20e"
+  },
+  {
+    "bytes": 11493,
+    "export": "source/evaluation_batches/natural_complementary_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0080.json",
+    "readback_verified": true,
+    "sha256": "270f2c7681aa10b2bcbb383b232151ca78c0788737f4838842c44157f9dca11c"
+  },
+  {
+    "bytes": 11428,
+    "export": "source/evaluation_batches/natural_complementary_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0088.json",
+    "readback_verified": true,
+    "sha256": "ee52848774d7172b7650d06fdb53bc09a8ae203555eb270de1a488f2c05aeffb"
+  },
+  {
+    "bytes": 11633,
+    "export": "source/evaluation_batches/natural_complementary_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0096.json",
+    "readback_verified": true,
+    "sha256": "ad794509c1ae6806629e794b9e246b746311e76bcd7e35717e28d93abfc70a6b"
+  },
+  {
+    "bytes": 12114,
+    "export": "source/evaluation_batches/natural_complementary_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0104.json",
+    "readback_verified": true,
+    "sha256": "2a9b414ee765184a3b6ce65e50ab7b7cacb02d22b4a719c0c99e27f50a21a9f6"
+  },
+  {
+    "bytes": 11979,
+    "export": "source/evaluation_batches/natural_complementary_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0112.json",
+    "readback_verified": true,
+    "sha256": "b388015fe84365083ed660020ecf32db035b318cabb46af5c90236f4098bd999"
+  },
+  {
+    "bytes": 11560,
+    "export": "source/evaluation_batches/natural_complementary_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0120.json",
+    "readback_verified": true,
+    "sha256": "434aa03136680b75f3dc5786a0938274ed3398e44f1ff38d5b8e65cc7f6a77cc"
+  },
+  {
+    "bytes": 11590,
+    "export": "source/evaluation_batches/natural_complementary_0128.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0128.json",
+    "readback_verified": true,
+    "sha256": "10b7976f9c1ed60676db0e5e201e7499664b0a25209e978ac78b22e66da8e981"
+  },
+  {
+    "bytes": 12058,
+    "export": "source/evaluation_batches/natural_complementary_0136.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0136.json",
+    "readback_verified": true,
+    "sha256": "5ce0872c4697e470b3a63581f529a262dfee787489e50f8b03fea8373b6e6388"
+  },
+  {
+    "bytes": 11746,
+    "export": "source/evaluation_batches/natural_complementary_0144.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0144.json",
+    "readback_verified": true,
+    "sha256": "f230d32baaddc838c4fbb153bda0270a43eb2486df5b41de5506c5ae1972906e"
+  },
+  {
+    "bytes": 11824,
+    "export": "source/evaluation_batches/natural_complementary_0152.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0152.json",
+    "readback_verified": true,
+    "sha256": "72be19c66319a1828429f1e6da2da1f2c1661068d5b349cb0d7822f24dd16c9a"
+  },
+  {
+    "bytes": 11743,
+    "export": "source/evaluation_batches/natural_complementary_0160.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0160.json",
+    "readback_verified": true,
+    "sha256": "5fde97aa6175697c60f99fb35c29803846af12859c4e267a60cd18784c476f9d"
+  },
+  {
+    "bytes": 11770,
+    "export": "source/evaluation_batches/natural_complementary_0168.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0168.json",
+    "readback_verified": true,
+    "sha256": "b42968eae118defdc29922a74597d74b58e8bab7bc63a0bb062b8292b859cf98"
+  },
+  {
+    "bytes": 11493,
+    "export": "source/evaluation_batches/natural_complementary_0176.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0176.json",
+    "readback_verified": true,
+    "sha256": "924499524a1ff1043a77b8cbee621cce8a5d8dedc22526a577bf4289ecdf8a94"
+  },
+  {
+    "bytes": 12029,
+    "export": "source/evaluation_batches/natural_complementary_0184.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0184.json",
+    "readback_verified": true,
+    "sha256": "d183d2fcc498378d5dc3093d5e5e3bbcf4072505278a07a570466779d2cc8428"
+  },
+  {
+    "bytes": 11622,
+    "export": "source/evaluation_batches/natural_mismatched_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0000.json",
+    "readback_verified": true,
+    "sha256": "0bf544d6abab15fb3952920fc07a4643f98dab41208b6dcf8105a82a20b70fb8"
+  },
+  {
+    "bytes": 11906,
+    "export": "source/evaluation_batches/natural_mismatched_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0008.json",
+    "readback_verified": true,
+    "sha256": "bf6fd7cfedcb6e01a8032936cda23811baf69186e8532ef32a5d1c7dcf1cca7f"
+  },
+  {
+    "bytes": 11795,
+    "export": "source/evaluation_batches/natural_mismatched_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0016.json",
+    "readback_verified": true,
+    "sha256": "617a3975ad90b87e2d6e88e782dd2cd101f868503b1f5064c5091e7319d9b9a9"
+  },
+  {
+    "bytes": 11869,
+    "export": "source/evaluation_batches/natural_mismatched_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0024.json",
+    "readback_verified": true,
+    "sha256": "9d99fb03571b569160596d7af6d6584dd520c90fa4df26d953a4df03dab0cd49"
+  },
+  {
+    "bytes": 11767,
+    "export": "source/evaluation_batches/natural_mismatched_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0032.json",
+    "readback_verified": true,
+    "sha256": "cf2410efbb11310647cef836cf50e5431051e979c2fc73116a4413296377f7f9"
+  },
+  {
+    "bytes": 11776,
+    "export": "source/evaluation_batches/natural_mismatched_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0040.json",
+    "readback_verified": true,
+    "sha256": "204cfffbc0986395e370f0577a8dc46008fb35fac9d4b71e8fc1cd8a77ab4da5"
+  },
+  {
+    "bytes": 12040,
+    "export": "source/evaluation_batches/natural_mismatched_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0048.json",
+    "readback_verified": true,
+    "sha256": "eeccd910b0a9c2309c37d2acd5c5d96a20cc2840502bcf84161fc670958a25e9"
+  },
+  {
+    "bytes": 12133,
+    "export": "source/evaluation_batches/natural_mismatched_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0056.json",
+    "readback_verified": true,
+    "sha256": "03e8951757e905019321d32bdfe4e0e9760cae1ea7996c77659e16b7b32fe11b"
+  },
+  {
+    "bytes": 11624,
+    "export": "source/evaluation_batches/natural_mismatched_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0064.json",
+    "readback_verified": true,
+    "sha256": "da9da4f8804f7a56111d4b2e2cc52d5106ecbf53450f73fa986605169211e75f"
+  },
+  {
+    "bytes": 11456,
+    "export": "source/evaluation_batches/natural_mismatched_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0072.json",
+    "readback_verified": true,
+    "sha256": "88524a728f33bc98aa5720a81fc1d2cee95958b4c3b79e1dc728121ee989fc18"
+  },
+  {
+    "bytes": 11458,
+    "export": "source/evaluation_batches/natural_mismatched_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0080.json",
+    "readback_verified": true,
+    "sha256": "05e64e8eedcea0673e98d6e2e93a7421156604d90a5672d965539a0465f1d547"
+  },
+  {
+    "bytes": 11396,
+    "export": "source/evaluation_batches/natural_mismatched_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0088.json",
+    "readback_verified": true,
+    "sha256": "920860a8838f774bc3776007dd943bc9271e0f92ecde074183030f5f88ecf83c"
+  },
+  {
+    "bytes": 11665,
+    "export": "source/evaluation_batches/natural_mismatched_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0096.json",
+    "readback_verified": true,
+    "sha256": "09140e0b3dd31cb6a182dc557510a34a4cfdb13252aaa1552911ecec145047aa"
+  },
+  {
+    "bytes": 12073,
+    "export": "source/evaluation_batches/natural_mismatched_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0104.json",
+    "readback_verified": true,
+    "sha256": "69f05c7725837096b2e1b5c50b96227242157842603174494553b82dcb43e393"
+  },
+  {
+    "bytes": 11951,
+    "export": "source/evaluation_batches/natural_mismatched_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0112.json",
+    "readback_verified": true,
+    "sha256": "059e0bff850171e20ea45c620b89b5d5e6a4ba7c499e6548dd6637a063e1eaf0"
+  },
+  {
+    "bytes": 11545,
+    "export": "source/evaluation_batches/natural_mismatched_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0120.json",
+    "readback_verified": true,
+    "sha256": "a238d4831d605e95f19fcaf574b6dab74c36cd0451799717e75f7edb448b875f"
+  },
+  {
+    "bytes": 11565,
+    "export": "source/evaluation_batches/natural_mismatched_0128.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0128.json",
+    "readback_verified": true,
+    "sha256": "02d5e5a167e0113445d3d38ee350d835a3db13e5c0380f4fa05d8c9be1f561f8"
+  },
+  {
+    "bytes": 12045,
+    "export": "source/evaluation_batches/natural_mismatched_0136.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0136.json",
+    "readback_verified": true,
+    "sha256": "e479a5722b74b1d8cce610a4fa4d08a44610967dc10b500facefe7c3bb485d40"
+  },
+  {
+    "bytes": 11720,
+    "export": "source/evaluation_batches/natural_mismatched_0144.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0144.json",
+    "readback_verified": true,
+    "sha256": "f240b162b680a2e392cbeec4b5a1325bdb70e9dfb3c5f40b2586fb9ab4624000"
+  },
+  {
+    "bytes": 11833,
+    "export": "source/evaluation_batches/natural_mismatched_0152.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0152.json",
+    "readback_verified": true,
+    "sha256": "438b09758234d7618cd6c547c84f8b62d012ecb3905cc36cc3de049372a8fdb3"
+  },
+  {
+    "bytes": 11683,
+    "export": "source/evaluation_batches/natural_mismatched_0160.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0160.json",
+    "readback_verified": true,
+    "sha256": "dbf1a1e6c208ca04f8ed71d6b1fb9a5f00207b739f6cb73a7183f58415e92b94"
+  },
+  {
+    "bytes": 11732,
+    "export": "source/evaluation_batches/natural_mismatched_0168.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0168.json",
+    "readback_verified": true,
+    "sha256": "e1778888d13a15d7f5aa408850c61e5e069e6d3de2f656e96e1d6ade700a0110"
+  },
+  {
+    "bytes": 11448,
+    "export": "source/evaluation_batches/natural_mismatched_0176.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0176.json",
+    "readback_verified": true,
+    "sha256": "3b23a22a29acebb0c86f660a0473f511861e869722b986de7530531c21f88802"
+  },
+  {
+    "bytes": 11997,
+    "export": "source/evaluation_batches/natural_mismatched_0184.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0184.json",
+    "readback_verified": true,
+    "sha256": "5d5f442c0edd2581bd472820baaa2654c654ca073922c5da2d3fffc5c7912b29"
+  },
+  {
+    "bytes": 11589,
+    "export": "source/evaluation_batches/natural_no_image_0000.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0000.json",
+    "readback_verified": true,
+    "sha256": "f36a1d2c5250be2f293b5f3b85b64ff749a33524a4b741b766eda35f8c2f568b"
+  },
+  {
+    "bytes": 11868,
+    "export": "source/evaluation_batches/natural_no_image_0008.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0008.json",
+    "readback_verified": true,
+    "sha256": "194e89f3c7541e76373ffb34881e239633abe8ba3084045af64db2eb66a8a105"
+  },
+  {
+    "bytes": 11770,
+    "export": "source/evaluation_batches/natural_no_image_0016.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0016.json",
+    "readback_verified": true,
+    "sha256": "da7efe3beb905c41f5d0bdd7986340d82ca0e78063ca81476013e783c8322f20"
+  },
+  {
+    "bytes": 11844,
+    "export": "source/evaluation_batches/natural_no_image_0024.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0024.json",
+    "readback_verified": true,
+    "sha256": "38afb9974f21241355e55e149f39b32e58fff2bc62c9a1993bd879b17b14b2a7"
+  },
+  {
+    "bytes": 11756,
+    "export": "source/evaluation_batches/natural_no_image_0032.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0032.json",
+    "readback_verified": true,
+    "sha256": "af50bee29bd158c4ebdd5b9191cbda0eef81a0188dcb52233f3e679ff6e130b2"
+  },
+  {
+    "bytes": 11727,
+    "export": "source/evaluation_batches/natural_no_image_0040.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0040.json",
+    "readback_verified": true,
+    "sha256": "8077d016f33980d0bbbc0fe35ac6db50b662e8078e90b6a6901d703d409bd0f7"
+  },
+  {
+    "bytes": 12306,
+    "export": "source/evaluation_batches/natural_no_image_0048.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0048.json",
+    "readback_verified": true,
+    "sha256": "1b86e450fb296e6675ee7b5cd7abe8f7bc388350a58537daf4b316f359011ec8"
+  },
+  {
+    "bytes": 12099,
+    "export": "source/evaluation_batches/natural_no_image_0056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0056.json",
+    "readback_verified": true,
+    "sha256": "9318a6d55840f793463f8b85991e82d1368e13531fc0a8b6c35fe5f11e4cd3e9"
+  },
+  {
+    "bytes": 11531,
+    "export": "source/evaluation_batches/natural_no_image_0064.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0064.json",
+    "readback_verified": true,
+    "sha256": "985318366a176097a9b38d36b0e02b398b6a23fd81fdfd3544a4d4ea925345e3"
+  },
+  {
+    "bytes": 11431,
+    "export": "source/evaluation_batches/natural_no_image_0072.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0072.json",
+    "readback_verified": true,
+    "sha256": "0b1ebdd6171852c112f6af59bca768e8418daff367334e024a6f96f4da94177d"
+  },
+  {
+    "bytes": 11421,
+    "export": "source/evaluation_batches/natural_no_image_0080.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0080.json",
+    "readback_verified": true,
+    "sha256": "d8c015f7ea8be5bdba8b2813967ed52dec8f02170ba8e84154d06ea6d06b1378"
+  },
+  {
+    "bytes": 11373,
+    "export": "source/evaluation_batches/natural_no_image_0088.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0088.json",
+    "readback_verified": true,
+    "sha256": "e858c6e7b939c4d6a5274386188a26a0cc30dc0d52d9722cbce3e5193ca83022"
+  },
+  {
+    "bytes": 11564,
+    "export": "source/evaluation_batches/natural_no_image_0096.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0096.json",
+    "readback_verified": true,
+    "sha256": "0776973d1a75638415e4d31ac36f5dcf2281ad76fcef93f1ba2dcbbb314d6508"
+  },
+  {
+    "bytes": 12102,
+    "export": "source/evaluation_batches/natural_no_image_0104.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0104.json",
+    "readback_verified": true,
+    "sha256": "4db731c313d1229bc36df50ff269d5a7325e0cb881095c21bdc7ddf2f2796c84"
+  },
+  {
+    "bytes": 11922,
+    "export": "source/evaluation_batches/natural_no_image_0112.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0112.json",
+    "readback_verified": true,
+    "sha256": "3da46c13ecb7c4607cb4ca86211778c66f2cc8bb9619ea3965a2db947cedfb88"
+  },
+  {
+    "bytes": 11515,
+    "export": "source/evaluation_batches/natural_no_image_0120.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0120.json",
+    "readback_verified": true,
+    "sha256": "ae0befd852b4d2ebb750cbebf6cf0c8485b2b2b98f00a5b94f81725f3d17df9e"
+  },
+  {
+    "bytes": 11526,
+    "export": "source/evaluation_batches/natural_no_image_0128.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0128.json",
+    "readback_verified": true,
+    "sha256": "7e09686347a0c6112aab5ba9799a13614606a07552163867a29b50fb11ddace8"
+  },
+  {
+    "bytes": 11926,
+    "export": "source/evaluation_batches/natural_no_image_0136.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0136.json",
+    "readback_verified": true,
+    "sha256": "c8996dd7153bcc406d62d229886adc9e740d9a603b3a3c39ff4aca1933d2213e"
+  },
+  {
+    "bytes": 11614,
+    "export": "source/evaluation_batches/natural_no_image_0144.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0144.json",
+    "readback_verified": true,
+    "sha256": "c572c2abb8f6eeb3442b9cc87c1f9c6e98793f2f244b097e896ad5f6457d8b44"
+  },
+  {
+    "bytes": 11757,
+    "export": "source/evaluation_batches/natural_no_image_0152.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0152.json",
+    "readback_verified": true,
+    "sha256": "b1cb473955e1e77dd01a61347f5a834822a86c43db8a798433c36bea45fa7a2e"
+  },
+  {
+    "bytes": 11657,
+    "export": "source/evaluation_batches/natural_no_image_0160.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0160.json",
+    "readback_verified": true,
+    "sha256": "03d557a14d14d25dc07707e388bdf69dd298ab3cbafba484519e1b00c5463528"
+  },
+  {
+    "bytes": 11711,
+    "export": "source/evaluation_batches/natural_no_image_0168.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0168.json",
+    "readback_verified": true,
+    "sha256": "faf6eb18457ce9678f31fdf8cb8614b273bff15db2760c5a0f8057269ff07378"
+  },
+  {
+    "bytes": 11421,
+    "export": "source/evaluation_batches/natural_no_image_0176.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0176.json",
+    "readback_verified": true,
+    "sha256": "606e6adba9f60b51d401e65e784cc2f610e55082588dcbc697bbc30cebb81983"
+  },
+  {
+    "bytes": 11922,
+    "export": "source/evaluation_batches/natural_no_image_0184.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0184.json",
+    "readback_verified": true,
+    "sha256": "65198250531c57039c6ede25c8d1c73d3aa5650625beaf40ccb80aa043bbc8f4"
+  },
+  {
+    "bytes": 256712,
+    "export": "source/training_logs/updates_000001_000050_e084cf0d72f9a9fa.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000001_000050_e084cf0d72f9a9fa.json",
+    "readback_verified": true,
+    "sha256": "e084cf0d72f9a9fa38ebcc2480a5eb4d8e1509b6b22e1088b72b0a42a897c51f"
+  },
+  {
+    "bytes": 256039,
+    "export": "source/training_logs/updates_000051_000100_e26da5c66f707fb8.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000051_000100_e26da5c66f707fb8.json",
+    "readback_verified": true,
+    "sha256": "e26da5c66f707fb857a3ede3e9fd0f2fd54acd409db057c3ecb9da69e46f6f3f"
+  },
+  {
+    "bytes": 255453,
+    "export": "source/training_logs/updates_000101_000150_dd026d74e3edee68.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000101_000150_dd026d74e3edee68.json",
+    "readback_verified": true,
+    "sha256": "dd026d74e3edee688ebd5e84db70affc9e465c71a8c1b4d1aa60a4e7efdad873"
+  },
+  {
+    "bytes": 255801,
+    "export": "source/training_logs/updates_000151_000200_da1c3128dcd74bde.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000151_000200_da1c3128dcd74bde.json",
+    "readback_verified": true,
+    "sha256": "da1c3128dcd74bde29a11820f5fe1d23f6fe3a366523f873e24ec893ca279a03"
+  },
+  {
+    "bytes": 255940,
+    "export": "source/training_logs/updates_000201_000250_bd56117486304a2f.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000201_000250_bd56117486304a2f.json",
+    "readback_verified": true,
+    "sha256": "bd56117486304a2ff1b95bae5a071bb4861b29d303ab63c9aea4fad55f4ddb4c"
+  },
+  {
+    "bytes": 256748,
+    "export": "source/training_logs/updates_000251_000300_4e61af5809e17208.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000251_000300_4e61af5809e17208.json",
+    "readback_verified": true,
+    "sha256": "4e61af5809e17208b9ed9e80c8eb408593efeed1b2ff6bc293ac4ce13aff931c"
+  },
+  {
+    "bytes": 256281,
+    "export": "source/training_logs/updates_000301_000350_778a7934f29ca956.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000301_000350_778a7934f29ca956.json",
+    "readback_verified": true,
+    "sha256": "778a7934f29ca956dadcd0b90bf6c9dc96073af07f8eea74a1c70ca0c2b6b914"
+  },
+  {
+    "bytes": 256042,
+    "export": "source/training_logs/updates_000351_000400_93de6ba759d3caf6.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000351_000400_93de6ba759d3caf6.json",
+    "readback_verified": true,
+    "sha256": "93de6ba759d3caf6e334b22dc8db57aaa2ad8a3bf63076084c4a1f0b6d18ae4d"
+  },
+  {
+    "bytes": 256414,
+    "export": "source/training_logs/updates_000401_000450_4a41f232f01add4b.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000401_000450_4a41f232f01add4b.json",
+    "readback_verified": true,
+    "sha256": "4a41f232f01add4b66e60a8e89e5dd7a7d5ca5b60530dadc9f9a854691079330"
+  },
+  {
+    "bytes": 256018,
+    "export": "source/training_logs/updates_000451_000500_0ef8a5c1c1c46086.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000451_000500_0ef8a5c1c1c46086.json",
+    "readback_verified": true,
+    "sha256": "0ef8a5c1c1c46086b19b1c43ddf29ba6584e1aad867d61b06f7ce03f2d92a815"
+  },
+  {
+    "bytes": 255828,
+    "export": "source/training_logs/updates_000501_000550_cdb9eff9b01d39a0.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000501_000550_cdb9eff9b01d39a0.json",
+    "readback_verified": true,
+    "sha256": "cdb9eff9b01d39a080e00c09466c53db5a95acec996e83d7001226145d3c5526"
+  },
+  {
+    "bytes": 256064,
+    "export": "source/training_logs/updates_000551_000600_48451d1597c39eb7.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000551_000600_48451d1597c39eb7.json",
+    "readback_verified": true,
+    "sha256": "48451d1597c39eb715de85e7b971af717f4d01c4800a7bf557c0e441dcd1ea51"
+  },
+  {
+    "bytes": 256255,
+    "export": "source/training_logs/updates_000601_000650_b4bf9ece0a87668f.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000601_000650_b4bf9ece0a87668f.json",
+    "readback_verified": true,
+    "sha256": "b4bf9ece0a87668f0b2ed72028543e1e6f7f0c6513927450b7fb6b940ba2ed86"
+  },
+  {
+    "bytes": 256415,
+    "export": "source/training_logs/updates_000651_000700_b0def7a293d84778.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000651_000700_b0def7a293d84778.json",
+    "readback_verified": true,
+    "sha256": "b0def7a293d847788cfb58179b126fc4a585dae9e32c7d69e0a89b070dac28ed"
+  },
+  {
+    "bytes": 256916,
+    "export": "source/training_logs/updates_000701_000750_df0e68ada6ad710e.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000701_000750_df0e68ada6ad710e.json",
+    "readback_verified": true,
+    "sha256": "df0e68ada6ad710e9e748093175365c73c52d5fb7e90df3bc2b72c6604b097d6"
+  },
+  {
+    "bytes": 255956,
+    "export": "source/training_logs/updates_000751_000800_912e405ba82be634.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000751_000800_912e405ba82be634.json",
+    "readback_verified": true,
+    "sha256": "912e405ba82be63464dc8934362db2e9fc35c5f70c829d17e179d46d39414529"
+  },
+  {
+    "bytes": 256493,
+    "export": "source/training_logs/updates_000801_000850_2e47e0437b9dcf33.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000801_000850_2e47e0437b9dcf33.json",
+    "readback_verified": true,
+    "sha256": "2e47e0437b9dcf33af32f0fc1e4aed541a73df8b5de3873d8160d2e95a13979a"
+  },
+  {
+    "bytes": 256356,
+    "export": "source/training_logs/updates_000851_000900_df34c111087c083c.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000851_000900_df34c111087c083c.json",
+    "readback_verified": true,
+    "sha256": "df34c111087c083c820314400172715308bcdc6396192fa00df740e917c532be"
+  },
+  {
+    "bytes": 255714,
+    "export": "source/training_logs/updates_000901_000950_85ce34659b2b14bd.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000901_000950_85ce34659b2b14bd.json",
+    "readback_verified": true,
+    "sha256": "85ce34659b2b14bdf41345aed46e636e40e44606c2d894c347aa0f24c74f13c9"
+  },
+  {
+    "bytes": 256767,
+    "export": "source/training_logs/updates_000951_001000_41d56db597d22f79.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_000951_001000_41d56db597d22f79.json",
+    "readback_verified": true,
+    "sha256": "41d56db597d22f79d825bb9d2abfdac8f0a6972435811431e74ba51f2a8f1413"
+  },
+  {
+    "bytes": 256249,
+    "export": "source/training_logs/updates_001001_001050_e1e9a0f54fdb6c4e.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001001_001050_e1e9a0f54fdb6c4e.json",
+    "readback_verified": true,
+    "sha256": "e1e9a0f54fdb6c4ecef5fee6d2f59e99221ee31f8bd22bb7bf3c990dacde8835"
+  },
+  {
+    "bytes": 256478,
+    "export": "source/training_logs/updates_001051_001100_37a358d71c44b524.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001051_001100_37a358d71c44b524.json",
+    "readback_verified": true,
+    "sha256": "37a358d71c44b524bf0877fad7544d2ea7a21bb6b781472a1af0ccfeb6d7760c"
+  },
+  {
+    "bytes": 220683,
+    "export": "source/training_logs/updates_001101_001143_4ee66281431f4119.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001101_001143_4ee66281431f4119.json",
+    "readback_verified": true,
+    "sha256": "4ee66281431f41196cce2c7748787593d91ac146e536c343c4c7bace24b59b46"
+  },
+  {
+    "bytes": 36068,
+    "export": "source/training_logs/updates_001144_001150_2e160d93709df319.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001144_001150_2e160d93709df319.json",
+    "readback_verified": true,
+    "sha256": "2e160d93709df319ec753fc985af2968723ad335098ce652944939f5b2f39f78"
+  },
+  {
+    "bytes": 256447,
+    "export": "source/training_logs/updates_001151_001200_77a065468bb6ac72.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001151_001200_77a065468bb6ac72.json",
+    "readback_verified": true,
+    "sha256": "77a065468bb6ac7259394729d74d8aa5c10d286557ccc1ddab59fd3c19bc8d22"
+  },
+  {
+    "bytes": 256292,
+    "export": "source/training_logs/updates_001201_001250_3ab8538717efb2e8.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001201_001250_3ab8538717efb2e8.json",
+    "readback_verified": true,
+    "sha256": "3ab8538717efb2e819e4d8f73e09871c4a2ea29b1052bc828a09a0671b9619c4"
+  },
+  {
+    "bytes": 256802,
+    "export": "source/training_logs/updates_001251_001300_b22aa38ee3ae7434.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001251_001300_b22aa38ee3ae7434.json",
+    "readback_verified": true,
+    "sha256": "b22aa38ee3ae743429ae4e4c01ae228d7f4e30e2b860aa200268e94df8b979b4"
+  },
+  {
+    "bytes": 256311,
+    "export": "source/training_logs/updates_001301_001350_cd3f13f8e003eea3.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001301_001350_cd3f13f8e003eea3.json",
+    "readback_verified": true,
+    "sha256": "cd3f13f8e003eea30d389006e5f414e306359b78e5d714caf920b0e8c4fb7f13"
+  },
+  {
+    "bytes": 220131,
+    "export": "source/training_logs/updates_001351_001393_93ee26fe9128908e.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001351_001393_93ee26fe9128908e.json",
+    "readback_verified": true,
+    "sha256": "93ee26fe9128908e58bb1a6b8d24e8b86bdbba6b7b0d600ce7e2bafef55f8a03"
+  },
+  {
+    "bytes": 36008,
+    "export": "source/training_logs/updates_001394_001400_055598d44c36f50a.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001394_001400_055598d44c36f50a.json",
+    "readback_verified": true,
+    "sha256": "055598d44c36f50aed36603d40627d643b4c1e0576619834064ffec6d19065a2"
+  },
+  {
+    "bytes": 256880,
+    "export": "source/training_logs/updates_001401_001450_aca893d93b4e82dc.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001401_001450_aca893d93b4e82dc.json",
+    "readback_verified": true,
+    "sha256": "aca893d93b4e82dc4ea87f2db4e705a897500402293197a4d4eeeb0f45e0a0a6"
+  },
+  {
+    "bytes": 256648,
+    "export": "source/training_logs/updates_001451_001500_38ed8e76572cdfaf.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001451_001500_38ed8e76572cdfaf.json",
+    "readback_verified": true,
+    "sha256": "38ed8e76572cdfaf3c9bc6119f46afe5ba8296a95730e91b700917fedbc141b5"
+  },
+  {
+    "bytes": 256448,
+    "export": "source/training_logs/updates_001501_001550_0ded4bda313693e1.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001501_001550_0ded4bda313693e1.json",
+    "readback_verified": true,
+    "sha256": "0ded4bda313693e184006436b14b19f64772b5352f115301eb19ad88b95993ea"
+  },
+  {
+    "bytes": 256191,
+    "export": "source/training_logs/updates_001551_001600_46bd74d7a400e061.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001551_001600_46bd74d7a400e061.json",
+    "readback_verified": true,
+    "sha256": "46bd74d7a400e06162731415fec71b928c51d673e87a0c000ef6fe3b46508b96"
+  },
+  {
+    "bytes": 220613,
+    "export": "source/training_logs/updates_001601_001643_0534b388a15a5a5d.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001601_001643_0534b388a15a5a5d.json",
+    "readback_verified": true,
+    "sha256": "0534b388a15a5a5d312a4941b21ff30f982b0f10b2db7aa5b9ea3e4770aa837e"
+  },
+  {
+    "bytes": 35698,
+    "export": "source/training_logs/updates_001644_001650_6810cd008ba87374.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001644_001650_6810cd008ba87374.json",
+    "readback_verified": true,
+    "sha256": "6810cd008ba87374b7d56586a28c32c0c1d94b207deefbcb593f14e13947ee18"
+  },
+  {
+    "bytes": 256667,
+    "export": "source/training_logs/updates_001651_001700_b8dda7e8fc3354c1.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001651_001700_b8dda7e8fc3354c1.json",
+    "readback_verified": true,
+    "sha256": "b8dda7e8fc3354c19652fccce4df25bd7556e8ab919c8b5fcbcca719762dd7c9"
+  },
+  {
+    "bytes": 256426,
+    "export": "source/training_logs/updates_001701_001750_390f6aea04e04c78.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001701_001750_390f6aea04e04c78.json",
+    "readback_verified": true,
+    "sha256": "390f6aea04e04c786dbaa49d80059a7a02faeafdd38f405456327be7bb5bd94b"
+  },
+  {
+    "bytes": 256494,
+    "export": "source/training_logs/updates_001751_001800_110e641c934057eb.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001751_001800_110e641c934057eb.json",
+    "readback_verified": true,
+    "sha256": "110e641c934057eb8ed0f1241b8d580a3302592ad25efaba679e0f94c18a2fea"
+  },
+  {
+    "bytes": 256527,
+    "export": "source/training_logs/updates_001801_001850_ec4efe2abd045be4.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001801_001850_ec4efe2abd045be4.json",
+    "readback_verified": true,
+    "sha256": "ec4efe2abd045be4434a18ecaf8993043e42a1148dad2cb0ea779afe2260b2b8"
+  },
+  {
+    "bytes": 219814,
+    "export": "source/training_logs/updates_001851_001893_4c319f01a59d4593.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001851_001893_4c319f01a59d4593.json",
+    "readback_verified": true,
+    "sha256": "4c319f01a59d45936ebf9a79b7995c8f8aaa45c549f7c32b359affb708d854d3"
+  },
+  {
+    "bytes": 35626,
+    "export": "source/training_logs/updates_001894_001900_fe4b81bc03a2cd67.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001894_001900_fe4b81bc03a2cd67.json",
+    "readback_verified": true,
+    "sha256": "fe4b81bc03a2cd6787964562f90463f1e625a62e4c4feb322ff7a89ff283914c"
+  },
+  {
+    "bytes": 255795,
+    "export": "source/training_logs/updates_001901_001950_b4136232775a7772.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001901_001950_b4136232775a7772.json",
+    "readback_verified": true,
+    "sha256": "b4136232775a77722b562416d591cde7becc785d7828f5b3846270220fc2728d"
+  },
+  {
+    "bytes": 256514,
+    "export": "source/training_logs/updates_001951_002000_79e0fc23af762879.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_001951_002000_79e0fc23af762879.json",
+    "readback_verified": true,
+    "sha256": "79e0fc23af762879f3e941486f65d9f7debd4d39170197b93d325da3f6359d85"
+  },
+  {
+    "bytes": 257051,
+    "export": "source/training_logs/updates_002001_002050_43dead345ecd6570.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002001_002050_43dead345ecd6570.json",
+    "readback_verified": true,
+    "sha256": "43dead345ecd6570799ae98279c11ee4807e20ee9fbd0caf6062240a2ef0f180"
+  },
+  {
+    "bytes": 256177,
+    "export": "source/training_logs/updates_002051_002100_60bdfb50faca819c.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002051_002100_60bdfb50faca819c.json",
+    "readback_verified": true,
+    "sha256": "60bdfb50faca819cdf982e3db1c33defac71de467dc22a9d17e992b11c644c62"
+  },
+  {
+    "bytes": 219975,
+    "export": "source/training_logs/updates_002101_002143_630271ab013c1f5b.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002101_002143_630271ab013c1f5b.json",
+    "readback_verified": true,
+    "sha256": "630271ab013c1f5be03833bd0fd33c73e3af110fa240017cfdb11e7159d012e0"
+  },
+  {
+    "bytes": 35935,
+    "export": "source/training_logs/updates_002144_002150_35c4d6fa6ed44dbb.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002144_002150_35c4d6fa6ed44dbb.json",
+    "readback_verified": true,
+    "sha256": "35c4d6fa6ed44dbbf59e0b81968a9c93282efd540fa73e4ef0f054214e443d92"
+  },
+  {
+    "bytes": 256544,
+    "export": "source/training_logs/updates_002151_002200_45b75f9e4d8cebe8.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002151_002200_45b75f9e4d8cebe8.json",
+    "readback_verified": true,
+    "sha256": "45b75f9e4d8cebe8a74d6dc0dee54d675cf9ce71add275c32a4c012e41cd4c88"
+  },
+  {
+    "bytes": 256174,
+    "export": "source/training_logs/updates_002201_002250_9bcff9a1a8144094.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002201_002250_9bcff9a1a8144094.json",
+    "readback_verified": true,
+    "sha256": "9bcff9a1a81440943b5ef1aff9ba466077886f96301d23f65a2541bb10088714"
+  },
+  {
+    "bytes": 266879,
+    "export": "source/training_logs/updates_002251_002300_a247fb4a00d9fb18.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002251_002300_a247fb4a00d9fb18.json",
+    "readback_verified": true,
+    "sha256": "a247fb4a00d9fb183b056ab5f286be080c4d264091a745db8aeeb8c1cad33238"
+  },
+  {
+    "bytes": 267365,
+    "export": "source/training_logs/updates_002301_002350_e826ba28a8f069dc.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002301_002350_e826ba28a8f069dc.json",
+    "readback_verified": true,
+    "sha256": "e826ba28a8f069dceec1e62f5718932bce48918c18461d43617ed7f6dcf67196"
+  },
+  {
+    "bytes": 213682,
+    "export": "source/training_logs/updates_002351_002390_5011a05d87f77bb3.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002351_002390_5011a05d87f77bb3.json",
+    "readback_verified": true,
+    "sha256": "5011a05d87f77bb3233fa456614d9cfd4a1ac7d9d90f9d1a1c11623c1db9a39a"
+  },
+  {
+    "bytes": 53194,
+    "export": "source/training_logs/updates_002391_002400_01585d48a48988bf.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002391_002400_01585d48a48988bf.json",
+    "readback_verified": true,
+    "sha256": "01585d48a48988bf00842de80aa2dde4bdb6aac3aacdac588fa683a705cd09e4"
+  },
+  {
+    "bytes": 266784,
+    "export": "source/training_logs/updates_002401_002450_3b57b4cfbb045a97.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002401_002450_3b57b4cfbb045a97.json",
+    "readback_verified": true,
+    "sha256": "3b57b4cfbb045a975bca4e73532eb1b0f3078e86876aea272624e3b3561a5472"
+  },
+  {
+    "bytes": 261343,
+    "export": "source/training_logs/updates_002451_002499_c144851e0b6c3ef9.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002451_002499_c144851e0b6c3ef9.json",
+    "readback_verified": true,
+    "sha256": "c144851e0b6c3ef9e1aa84b110ddb3c5c3b8b1d815b3011a3abf02350272cbee"
+  },
+  {
+    "bytes": 5359,
+    "export": "source/training_logs/updates_002500_002500_e42388636dad0077.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002500_002500_e42388636dad0077.json",
+    "readback_verified": true,
+    "sha256": "e42388636dad00779e56d19a27a74dd45fe558d5535d1702c48826c060d18bd8"
+  },
+  {
+    "bytes": 266979,
+    "export": "source/training_logs/updates_002501_002550_b3f8148e8a73803c.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002501_002550_b3f8148e8a73803c.json",
+    "readback_verified": true,
+    "sha256": "b3f8148e8a73803cf32ad17dbb8ed48b75463e21cd502dc6bc3a3f4a9a9d696d"
+  },
+  {
+    "bytes": 267396,
+    "export": "source/training_logs/updates_002551_002600_eb3e2676f0723711.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002551_002600_eb3e2676f0723711.json",
+    "readback_verified": true,
+    "sha256": "eb3e2676f07237116133da29f4f8d18ab2d3e9b210dd02e970688035be6b03c1"
+  },
+  {
+    "bytes": 266991,
+    "export": "source/training_logs/updates_002601_002650_2ca288133022ff09.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002601_002650_2ca288133022ff09.json",
+    "readback_verified": true,
+    "sha256": "2ca288133022ff0979ef372375e454e46e42eeccfcc834e4b87e37bbfdf04782"
+  },
+  {
+    "bytes": 256029,
+    "export": "source/training_logs/updates_002651_002698_855b9d94acb25203.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002651_002698_855b9d94acb25203.json",
+    "readback_verified": true,
+    "sha256": "855b9d94acb25203d1a6c0876758dfcce0fb81f9d55f1aabf1cd0abceeb606bb"
+  },
+  {
+    "bytes": 10650,
+    "export": "source/training_logs/updates_002699_002700_5f3d3de555bcbde8.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002699_002700_5f3d3de555bcbde8.json",
+    "readback_verified": true,
+    "sha256": "5f3d3de555bcbde8d75e3da0b5fae8679da41a5891d1dfb26941e0c940fbc175"
+  },
+  {
+    "bytes": 267592,
+    "export": "source/training_logs/updates_002701_002750_cd0b4c681c47137d.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002701_002750_cd0b4c681c47137d.json",
+    "readback_verified": true,
+    "sha256": "cd0b4c681c47137d3de33c1faea7ff132e34b7d4643bb023ee677e97b900ad18"
+  },
+  {
+    "bytes": 267423,
+    "export": "source/training_logs/updates_002751_002800_77b74882aa218ab1.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002751_002800_77b74882aa218ab1.json",
+    "readback_verified": true,
+    "sha256": "77b74882aa218ab1a63db0ed2fc8f0248ab5707e2303a4f2b3580b1a878fff16"
+  },
+  {
+    "bytes": 267377,
+    "export": "source/training_logs/updates_002801_002850_60be379a561bf521.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002801_002850_60be379a561bf521.json",
+    "readback_verified": true,
+    "sha256": "60be379a561bf521d3ca25fa566ac0d75a25dbf09ce9443531de6423e20cd9a6"
+  },
+  {
+    "bytes": 267047,
+    "export": "source/training_logs/updates_002851_002900_a00956fc91038525.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002851_002900_a00956fc91038525.json",
+    "readback_verified": true,
+    "sha256": "a00956fc910385256c487a6894b2d7c077c21a25b44d632426148387d9a7fb30"
+  },
+  {
+    "bytes": 144322,
+    "export": "source/training_logs/updates_002901_002927_e6dfe046eeff827b.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002901_002927_e6dfe046eeff827b.json",
+    "readback_verified": true,
+    "sha256": "e6dfe046eeff827bbdf23ed527c5f7ca3946f89dea691ff212ba953377fd11ba"
+  },
+  {
+    "bytes": 122979,
+    "export": "source/training_logs/updates_002928_002950_a570ff6303a7ebe3.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002928_002950_a570ff6303a7ebe3.json",
+    "readback_verified": true,
+    "sha256": "a570ff6303a7ebe3d2cd40440bb827c65a3c71f791fe072c1c229cda35ae96ce"
+  },
+  {
+    "bytes": 267366,
+    "export": "source/training_logs/updates_002951_003000_24c231933dbaebf0.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_002951_003000_24c231933dbaebf0.json",
+    "readback_verified": true,
+    "sha256": "24c231933dbaebf06358093a8b62f9d618156d0d1309a114e291351c3a64c31e"
+  },
+  {
+    "bytes": 267590,
+    "export": "source/training_logs/updates_003001_003050_72ae92d40f4e75e5.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003001_003050_72ae92d40f4e75e5.json",
+    "readback_verified": true,
+    "sha256": "72ae92d40f4e75e53bdcc5c9fbb09bce376d1b3b5bea68d45b481f5c4e1d78a9"
+  },
+  {
+    "bytes": 267384,
+    "export": "source/training_logs/updates_003051_003100_75f67a35e36cfee4.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003051_003100_75f67a35e36cfee4.json",
+    "readback_verified": true,
+    "sha256": "75f67a35e36cfee4f41807a787dda183bfb1b12acba29174353c7d802c1908d5"
+  },
+  {
+    "bytes": 203156,
+    "export": "source/training_logs/updates_003101_003138_1553169c8a03661d.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003101_003138_1553169c8a03661d.json",
+    "readback_verified": true,
+    "sha256": "1553169c8a03661dbf847ca92aa2be0b27d39e7a22a33a9397475fc615a1d773"
+  },
+  {
+    "bytes": 64018,
+    "export": "source/training_logs/updates_003139_003150_92bcdfa281988289.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003139_003150_92bcdfa281988289.json",
+    "readback_verified": true,
+    "sha256": "92bcdfa281988289eaaf10b84acf1ad7116f818dd4ee31fc5d6c04e0b0c55a38"
+  },
+  {
+    "bytes": 266392,
+    "export": "source/training_logs/updates_003151_003200_76ea003f73a64397.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003151_003200_76ea003f73a64397.json",
+    "readback_verified": true,
+    "sha256": "76ea003f73a6439783a3133c2bbfec076f847efd8df9b06402731aa87a8f6499"
+  },
+  {
+    "bytes": 266977,
+    "export": "source/training_logs/updates_003201_003250_cbc5c9d813f6d1ff.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003201_003250_cbc5c9d813f6d1ff.json",
+    "readback_verified": true,
+    "sha256": "cbc5c9d813f6d1ffb74ffb726c9dceb67eb453d1a4c39c625551f3f2a4b14629"
+  },
+  {
+    "bytes": 267576,
+    "export": "source/training_logs/updates_003251_003300_20c74443ee0e8c57.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003251_003300_20c74443ee0e8c57.json",
+    "readback_verified": true,
+    "sha256": "20c74443ee0e8c5751e652878cea50f41f6d8b73c8f51ac53a848f05e5a89a8e"
+  },
+  {
+    "bytes": 266878,
+    "export": "source/training_logs/updates_003301_003350_4f6cbbdd58832625.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003301_003350_4f6cbbdd58832625.json",
+    "readback_verified": true,
+    "sha256": "4f6cbbdd588326250fdab6a335feabcbc90c6d6fc694021b33c964a4e280e512"
+  },
+  {
+    "bytes": 176347,
+    "export": "source/training_logs/updates_003351_003383_a261ae70c61bda01.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003351_003383_a261ae70c61bda01.json",
+    "readback_verified": true,
+    "sha256": "a261ae70c61bda019becd0df71d197a14380e5ef73e3c2d22fe307f5303184ee"
+  },
+  {
+    "bytes": 91294,
+    "export": "source/training_logs/updates_003384_003400_2b0e76d6f2886056.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003384_003400_2b0e76d6f2886056.json",
+    "readback_verified": true,
+    "sha256": "2b0e76d6f28860566dc81e0af6fd20552852d2e8a6b91f12d33d208c254207f2"
+  },
+  {
+    "bytes": 266949,
+    "export": "source/training_logs/updates_003401_003450_dc3a0d562760a011.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003401_003450_dc3a0d562760a011.json",
+    "readback_verified": true,
+    "sha256": "dc3a0d562760a011431ff120bf12e69c02d05a1661738a736d3e47638987acdd"
+  },
+  {
+    "bytes": 267654,
+    "export": "source/training_logs/updates_003451_003500_001be668fa256034.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003451_003500_001be668fa256034.json",
+    "readback_verified": true,
+    "sha256": "001be668fa2560348dfbaa7ca17fe29f4c5055a4e9ed36ae8bfbc732e6a0f3c6"
+  },
+  {
+    "bytes": 267122,
+    "export": "source/training_logs/updates_003501_003550_bf328e975579cc5d.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003501_003550_bf328e975579cc5d.json",
+    "readback_verified": true,
+    "sha256": "bf328e975579cc5d23c72e6417577ebc17b88bdfe312410eb6505de80de812f9"
+  },
+  {
+    "bytes": 267564,
+    "export": "source/training_logs/updates_003551_003600_9dbd63dbacfb7c4a.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003551_003600_9dbd63dbacfb7c4a.json",
+    "readback_verified": true,
+    "sha256": "9dbd63dbacfb7c4a5bd48cb5a1ec2b5887adf90a767508ba0a63c5cc3df41b12"
+  },
+  {
+    "bytes": 53497,
+    "export": "source/training_logs/updates_003601_003610_06c12722b73a88e3.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003601_003610_06c12722b73a88e3.json",
+    "readback_verified": true,
+    "sha256": "06c12722b73a88e370d2360866612ff52909be2537e29040b9ffd3dc1781b3fd"
+  },
+  {
+    "bytes": 213838,
+    "export": "source/training_logs/updates_003611_003650_0fb29149e38badf4.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003611_003650_0fb29149e38badf4.json",
+    "readback_verified": true,
+    "sha256": "0fb29149e38badf4e466206ea0a806c20542b28c389e671bf4421fd2339c4e44"
+  },
+  {
+    "bytes": 266916,
+    "export": "source/training_logs/updates_003651_003700_11f2086768af4253.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003651_003700_11f2086768af4253.json",
+    "readback_verified": true,
+    "sha256": "11f2086768af4253d1ce3a91139dbbed04c3647ac9696256610890df12f4bcdb"
+  },
+  {
+    "bytes": 267058,
+    "export": "source/training_logs/updates_003701_003750_58ed04f7d010c3e4.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003701_003750_58ed04f7d010c3e4.json",
+    "readback_verified": true,
+    "sha256": "58ed04f7d010c3e4e04618a356c1bb0b81a75ca20855d08983db79ec91e2cfc3"
+  },
+  {
+    "bytes": 538078,
+    "export": "source/training_logs/updates_003751_003800_331f242c47c5f22f.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003751_003800_331f242c47c5f22f.json",
+    "readback_verified": true,
+    "sha256": "331f242c47c5f22f82c35fc92056c4343841f8d332c1408ba134572b2c182719"
+  },
+  {
+    "bytes": 87010,
+    "export": "source/training_logs/updates_003801_003808_b29bb0731637b1a9.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003801_003808_b29bb0731637b1a9.json",
+    "readback_verified": true,
+    "sha256": "b29bb0731637b1a99c4014eefff007992f51ef6e1366f345bd643a5a805fdf74"
+  },
+  {
+    "bytes": 462033,
+    "export": "source/training_logs/updates_003809_003850_a351ef837eaf8821.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003809_003850_a351ef837eaf8821.json",
+    "readback_verified": true,
+    "sha256": "a351ef837eaf88213e2e237d83d2f8c2f9ad82e2aeba24fc2931a84f82238cdc"
+  },
+  {
+    "bytes": 529334,
+    "export": "source/training_logs/updates_003851_003900_291826fc503ea174.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003851_003900_291826fc503ea174.json",
+    "readback_verified": true,
+    "sha256": "291826fc503ea1744efa21e84e8dd652c5c0b427acf1c92fff84ba885068b047"
+  },
+  {
+    "bytes": 542396,
+    "export": "source/training_logs/updates_003901_003950_c0aac7dd133b4fa6.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003901_003950_c0aac7dd133b4fa6.json",
+    "readback_verified": true,
+    "sha256": "c0aac7dd133b4fa69a1f91a5ea775110f3b72cc9e6619a4ca93529b98b5d60bd"
+  },
+  {
+    "bytes": 230710,
+    "export": "source/training_logs/updates_003951_003972_a226af8f700a9e59.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003951_003972_a226af8f700a9e59.json",
+    "readback_verified": true,
+    "sha256": "a226af8f700a9e590cf7e8e58bf79e5e76ff447a06af0d383206915dd073fce7"
+  },
+  {
+    "bytes": 302741,
+    "export": "source/training_logs/updates_003973_004000_2bcf03c99a8fdc8b.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_003973_004000_2bcf03c99a8fdc8b.json",
+    "readback_verified": true,
+    "sha256": "2bcf03c99a8fdc8bccf999737ea8eea90ce75ce85cfb4c8bd6aaf225d157e707"
+  },
+  {
+    "bytes": 548865,
+    "export": "source/training_logs/updates_004001_004050_82e591306f6c9daf.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004001_004050_82e591306f6c9daf.json",
+    "readback_verified": true,
+    "sha256": "82e591306f6c9dafafc2b19f299d8b01806124de51165ea600eb630ddb3c67bf"
+  },
+  {
+    "bytes": 535501,
+    "export": "source/training_logs/updates_004051_004100_9e539d5391227f85.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004051_004100_9e539d5391227f85.json",
+    "readback_verified": true,
+    "sha256": "9e539d5391227f8556a1fcb5a87593fbefedcb1820c4c19190d131ba90b0cd92"
+  },
+  {
+    "bytes": 547029,
+    "export": "source/training_logs/updates_004101_004150_8a4eace17902aa55.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004101_004150_8a4eace17902aa55.json",
+    "readback_verified": true,
+    "sha256": "8a4eace17902aa559a6870bcebc540384510326994a6178e9316f174a0979b2e"
+  },
+  {
+    "bytes": 535636,
+    "export": "source/training_logs/updates_004151_004200_7548464cf2277839.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004151_004200_7548464cf2277839.json",
+    "readback_verified": true,
+    "sha256": "7548464cf22778391d8cb0ae23fb5f971a21b2d09fb1122b1e5abfe9a998ea7e"
+  },
+  {
+    "bytes": 241414,
+    "export": "source/training_logs/updates_004201_004222_65fa014a5d5a92cc.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004201_004222_65fa014a5d5a92cc.json",
+    "readback_verified": true,
+    "sha256": "65fa014a5d5a92cc967e789665e2efa1724a5764f8f6f4ad168ff3fc19e9065d"
+  },
+  {
+    "bytes": 291253,
+    "export": "source/training_logs/updates_004223_004250_bdb7819a19de56d8.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004223_004250_bdb7819a19de56d8.json",
+    "readback_verified": true,
+    "sha256": "bdb7819a19de56d8ccff8a6764e12a6cae253677839c92bf51f6d9e0fa390e0d"
+  },
+  {
+    "bytes": 543607,
+    "export": "source/training_logs/updates_004251_004300_9088652fc103c2be.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004251_004300_9088652fc103c2be.json",
+    "readback_verified": true,
+    "sha256": "9088652fc103c2be4fef4310765094796386abffe4d05356af558e89a7369ada"
+  },
+  {
+    "bytes": 538521,
+    "export": "source/training_logs/updates_004301_004350_e4def495800473c5.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004301_004350_e4def495800473c5.json",
+    "readback_verified": true,
+    "sha256": "e4def495800473c578fbd748f4a563fb1f32acf2f84de8eafa854ae2031ac4fe"
+  },
+  {
+    "bytes": 535514,
+    "export": "source/training_logs/updates_004351_004400_ac4538f8e471e0c4.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004351_004400_ac4538f8e471e0c4.json",
+    "readback_verified": true,
+    "sha256": "ac4538f8e471e0c4cf977715a53cf6a64abe56cab5fa6e6ff0a318de1447cf87"
+  },
+  {
+    "bytes": 520593,
+    "export": "source/training_logs/updates_004401_004450_ac85a4af92cfd18e.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004401_004450_ac85a4af92cfd18e.json",
+    "readback_verified": true,
+    "sha256": "ac85a4af92cfd18eedb6855304ca2e9d166139c5bae11a40d42d01e0aaa88a66"
+  },
+  {
+    "bytes": 225367,
+    "export": "source/training_logs/updates_004451_004472_9f32015f7bfc6526.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004451_004472_9f32015f7bfc6526.json",
+    "readback_verified": true,
+    "sha256": "9f32015f7bfc652640c09f4a0b6a7de79a58a031367122dd94954b40e5b26036"
+  },
+  {
+    "bytes": 285307,
+    "export": "source/training_logs/updates_004473_004500_35b91684937f66ca.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/training_logs/updates_004473_004500_35b91684937f66ca.json",
+    "readback_verified": true,
+    "sha256": "35b91684937f66ca02a040a21eed027efb2042bc885d64dfb007a5c54e02d047"
+  },
+  {
+    "bytes": 291570,
+    "export": "source/development/update_000000_ce8dd89cfafd6eb7.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_000000_ce8dd89cfafd6eb7.json",
+    "readback_verified": true,
+    "sha256": "ce8dd89cfafd6eb7bfd2deb28c6e154c0335561c327e0388b5d64c6b6bbd55b9"
+  },
+  {
+    "bytes": 291595,
+    "export": "source/development/update_001000_fc321554fee32285.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_001000_fc321554fee32285.json",
+    "readback_verified": true,
+    "sha256": "fc321554fee32285ab9d4098e53802c2e25dd97c1243729eb758a92fd4fab256"
+  },
+  {
+    "bytes": 291571,
+    "export": "source/development/update_001500_24d7a609f0c12356.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_001500_24d7a609f0c12356.json",
+    "readback_verified": true,
+    "sha256": "24d7a609f0c123565bac144ad4408f7f820f481db4fcdb57e5d49d3ee560c29c"
+  },
+  {
+    "bytes": 291584,
+    "export": "source/development/update_002000_b61c4e6cc86fbc0a.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002000_b61c4e6cc86fbc0a.json",
+    "readback_verified": true,
+    "sha256": "b61c4e6cc86fbc0a9b70e6a1c98557abf21df3a4c980fc3bad97f97763bc5315"
+  },
+  {
+    "bytes": 291580,
+    "export": "source/development/update_002250_6286c6971ddda17c.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002250_6286c6971ddda17c.json",
+    "readback_verified": true,
+    "sha256": "6286c6971ddda17c535e17d140c906745005411032d1f9d12f4d37755d98c02b"
+  },
+  {
+    "bytes": 291798,
+    "export": "source/development/update_002500_2dafb0d5f58c2da1.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_002500_2dafb0d5f58c2da1.json",
+    "readback_verified": true,
+    "sha256": "2dafb0d5f58c2da18d14fb96e0a5e0b7a0d93ec5566bd23b057db7f9254532cd"
+  },
+  {
+    "bytes": 291803,
+    "export": "source/development/update_003000_e65ecd7161f31049.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_003000_e65ecd7161f31049.json",
+    "readback_verified": true,
+    "sha256": "e65ecd7161f31049480895f84737838800f0ad13d0ece3ff3990efaefc972dbd"
+  },
+  {
+    "bytes": 291812,
+    "export": "source/development/update_003500_4d3642a1b46df9a0.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_003500_4d3642a1b46df9a0.json",
+    "readback_verified": true,
+    "sha256": "4d3642a1b46df9a0dc809d1904e139f5eaa891e0ad6a124a3f1e72e76ced204b"
+  },
+  {
+    "bytes": 291818,
+    "export": "source/development/update_003750_bda23261dfcdd24d.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_003750_bda23261dfcdd24d.json",
+    "readback_verified": true,
+    "sha256": "bda23261dfcdd24d34eb6954f246227b51762c47331a73ed499fa1df48899e57"
+  },
+  {
+    "bytes": 291810,
+    "export": "source/development/update_004000_cf57ef75f40a23ba.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_004000_cf57ef75f40a23ba.json",
+    "readback_verified": true,
+    "sha256": "cf57ef75f40a23ba89d319add91c51e50cc470deea5075c83e35ec5570442d10"
+  },
+  {
+    "bytes": 291832,
+    "export": "source/development/update_004500_86f1c960c89fef2a.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_004500_86f1c960c89fef2a.json",
+    "readback_verified": true,
+    "sha256": "86f1c960c89fef2aab976861a2fb7c40ff8744d6ac12c21723d6dfe20b74d91b"
+  },
+  {
+    "bytes": 291545,
+    "export": "source/development/update_000500_eda269076999eb10.json",
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/development/update_000500_eda269076999eb10.json",
+    "readback_verified": true,
+    "sha256": "eda269076999eb1013c8ea8e455802ecf044c2a5daf3e086669632243c2fc4fc"
+  }
+]

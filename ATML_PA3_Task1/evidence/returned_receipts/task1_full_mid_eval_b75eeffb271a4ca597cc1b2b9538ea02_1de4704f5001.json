@@ -1,0 +1,57 @@
+{
+  "status": "TASK1_FULL_MID_COMPLETE_SAVED",
+  "run_id": "task1_full_mid_eval_b75eeffb271a4ca597cc1b2b9538ea02",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "qualitative_completed": 24,
+  "FP32_probe_files_reused": 64,
+  "baseline_summary": {
+    "status": "TASK1_FULL_MID_EVALUATION_COMPLETE",
+    "audit": {
+      "condition": "full_mid",
+      "model_identity": "79802b6664ea10c8e78bc31f47e6521545b4b8a75a639c11482271e7f50c9652",
+      "protocol_identity": "b0cdaa6bab77b1221a581c5f14f02acdd754b2208035d42b9fd5abda8825acf3",
+      "gpu_implementation_identity": "2a477a09979d47292696c5666a521ae5b9d5b30516cb7baeec05fa4f8240f485"
+    },
+    "benchmark_counts": {
+      "gsm8k_cot": 1319,
+      "hellaswag": 10042,
+      "boolq": 3270,
+      "arc_easy": 2376
+    },
+    "metrics": {
+      "hellaswag": {
+        "acc,none": 0.37044413463453496,
+        "acc_norm,none": 0.45807608046205933
+      },
+      "boolq": {
+        "acc,none": 0.6125382262996942
+      },
+      "arc_easy": {
+        "acc,none": 0.6607744107744108,
+        "acc_norm,none": 0.6233164983164983
+      },
+      "gsm8k_cot": {
+        "exact_match,flexible-extract": 0.5754359363153905,
+        "exact_match,strict-match": 0.0
+      }
+    },
+    "original_probe_manifest": "results/original/ACTIVATION_PROBES_COMPLETE.json",
+    "qualitative_responses": 24,
+    "FP32_activation_probes": 64,
+    "human_qualitative_annotation_pending": true,
+    "official_training_updates": 0,
+    "preliminary_batch_one_GSM_outputs_used_in_main_metrics": false
+  },
+  "elapsed_worker_seconds": 749.472313216,
+  "GPU_memory": {
+    "peak_allocated_bytes": 2369209344,
+    "peak_reserved_bytes": 3328180224,
+    "total_gpu_bytes": 23659151360
+  }
+}

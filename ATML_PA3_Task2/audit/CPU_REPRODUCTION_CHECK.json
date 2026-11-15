@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "training_updates": 4500,
+  "replayed_training_examples": 72000,
+  "development_points": 12,
+  "answers": 1280,
+  "statistics_match": true,
+  "training_evaluation_overlap": 0,
+  "implementation_checks": 9,
+  "official_normalizer_checked": true,
+  "tables_match_byte_for_byte": 10,
+  "resource_measurements_match": true,
+  "figure_files": 20,
+  "scope": "CPU replay/rescoring/plotting and optional original-image gallery; no second GPU run"
+}

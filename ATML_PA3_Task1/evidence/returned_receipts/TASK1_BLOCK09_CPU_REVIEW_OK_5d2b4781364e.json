@@ -1,0 +1,51 @@
+{
+  "status": "TASK1_BLOCK09_CPU_REVIEW_OK",
+  "saved_GPU_result_validated": true,
+  "supervisor_tests_passed": 10,
+  "release_coordination_checks": {
+    "primary_success_avoids_duplicate_release": true,
+    "primary_failure_uses_fallback": true,
+    "release_error_preserves_numerical_completion": true,
+    "stuck_fallback_is_bounded": true
+  },
+  "scratch_summary": {
+    "full": {
+      "peak_reserved_GiB": 11.979,
+      "headroom_percent": 45.64,
+      "mean_scratch_update_seconds": 27.11864528800004
+    },
+    "l2sp": {
+      "peak_reserved_GiB": 16.0,
+      "headroom_percent": 27.39,
+      "mean_scratch_update_seconds": 27.31984948249999
+    },
+    "oplora": {
+      "peak_reserved_GiB": 2.297,
+      "headroom_percent": 89.58,
+      "mean_scratch_update_seconds": 20.93900908450007
+    }
+  },
+  "fixed_order_length_statistics": {
+    "examples": 40000,
+    "updates": 1250,
+    "microbatch": 2,
+    "accumulation": 16,
+    "no_reordering_or_bucketing": true,
+    "total_unpadded_input_tokens": 9908423,
+    "total_dynamic_microbatch_padded_input_tokens": 12341498,
+    "total_supervised_tokens": 7100056,
+    "median_padded_tokens_per_update": 9767.0,
+    "min_padded_tokens_per_update": 6934,
+    "max_padded_tokens_per_update": 13604,
+    "maximum_length_scratch_budget_tokens": 81920000,
+    "caution": "Token count is a cost proxy, not a linear wall-time forecast; evaluation and saves add cost."
+  },
+  "supervisor_R2_path": "/content/drive/MyDrive/ATML-PA-3/Task1/execution/safety_R2_47c39a2705219548567384b1ddb155eac9518c5e79abf97f7cc6023f267fc2c1",
+  "strict_deterministic_gpu_check_pending": true,
+  "physical_release_confirmation": "not observable from this CPU audit",
+  "qualitative_prompts_frozen": 24,
+  "qualitative_source_sha256": "215abde5b02811e922b6ac563ff33c490e0dff9ab58439df840f3135e9387173",
+  "gpu_work_run_in_this_stage": false,
+  "official_training_started": false,
+  "elapsed_seconds": 21.2
+}

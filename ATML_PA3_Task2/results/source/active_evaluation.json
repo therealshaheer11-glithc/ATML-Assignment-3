@@ -1,0 +1,26 @@
+{
+  "checkpoint_sha256": "0aaafc7b02763e239590356320367fbe6ca7f5f4fae981c1d9d0feaedb5f2f19",
+  "complete": true,
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "manifest": {
+    "bytes": 59693,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/progress/answers_1280_5e12c5b55da7e44e.json",
+    "readback_verified": true,
+    "sha256": "5e12c5b55da7e44ea4a9e7361634716fa70424e7a7df1f270d1d9896512aa1be"
+  },
+  "plan": {
+    "bytes": 267160,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/plan.json",
+    "readback_verified": true,
+    "sha256": "2e8cca2b6c7a597d67d1e124469e35f0c4c2a259bda8b625d38986124a8238c6"
+  },
+  "recipe": {
+    "bytes": 3384,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/recipe.json",
+    "readback_verified": true,
+    "sha256": "189cf39a6a32b244b350a9039c9d0b7c3276b1d96bc1e9481606a5afca2e7a73"
+  },
+  "recipe_sha256": "189cf39a6a32b244b350a9039c9d0b7c3276b1d96bc1e9481606a5afca2e7a73",
+  "schema": "atml-pa3-task2-active-final-evaluation-v1",
+  "verified_answers": 1280
+}

@@ -1,0 +1,16 @@
+{
+  "real_child_parent_guardian_cases": {
+    "partial": true,
+    "mandatory": true,
+    "false_boundary": true,
+    "wrong_count": true,
+    "marker_changed": true,
+    "save_error": true,
+    "missing": true,
+    "worker_error": true
+  },
+  "latest_complete_checkpoint_selection_ignores_unfinished_states": true,
+  "escaping_checkpoint_path_rejected": true,
+  "no_torch_import_required_by_parent": true,
+  "scope": "CPU synthetic controller/metadata tests; no GPU allocation or numerical training execution"
+}

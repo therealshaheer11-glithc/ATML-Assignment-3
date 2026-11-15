@@ -1,0 +1,40 @@
+{
+  "evidence_writer": {
+    "snapshot_preserves_actual_worker_progress_time": true,
+    "release_intent_written_before_release": true,
+    "blocked_evidence_write_is_bounded": true,
+    "unmounted_Drive_path_is_not_created": true
+  },
+  "pilot_parent_cases": {
+    "passed": true,
+    "rejected": true,
+    "incomplete": true,
+    "missing": true,
+    "worker_error": true,
+    "false_pass": true
+  },
+  "parent_death_releases_and_saves_reason": true,
+  "prior_guardian_cases": {
+    "completed": true,
+    "worker_error": true,
+    "deadline": true,
+    "stalled": true,
+    "corrupt_state": true,
+    "event_save_failure": true
+  },
+  "completion_lifecycle_cases": {
+    "parent_ack": true,
+    "parent_missing": true,
+    "hung_after_result": true,
+    "hard_deadline": true
+  },
+  "syntax_files": [
+    "launch_batch8_pilot.py",
+    "gpu_guardian_R3.py",
+    "watchdog_evidence.py",
+    "pilot_launch_checks.py",
+    "batch8_pilot_entry.py"
+  ],
+  "GPU_numerical_pilot_executed_locally": false,
+  "worker_signal_failure_still_requests_release": true
+}

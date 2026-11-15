@@ -1,0 +1,969 @@
+{
+  "batches": {
+    "grounding_complementary_0000": {
+      "bytes": 9434,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0000.json",
+      "readback_verified": true,
+      "sha256": "84f1b5e68974a2b395ba80e8349c7b49e5b48e3df95e3549b8fecab2f9dfb823"
+    },
+    "grounding_complementary_0008": {
+      "bytes": 9226,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0008.json",
+      "readback_verified": true,
+      "sha256": "012efa082435732f61d7bd99ff8d71dafcbaf78abf22b3cf1cc8a7eb0643c160"
+    },
+    "grounding_complementary_0016": {
+      "bytes": 9193,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0016.json",
+      "readback_verified": true,
+      "sha256": "66a2e1b49caea50cf62302cfc2d26d3e5a6caa720e8cf8503131a40f44e6f5da"
+    },
+    "grounding_complementary_0024": {
+      "bytes": 9270,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0024.json",
+      "readback_verified": true,
+      "sha256": "8cc463cbaaffb8865a847000fffeefdf8dc0d6cab635e3994dc8e79999d727d4"
+    },
+    "grounding_complementary_0032": {
+      "bytes": 9389,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0032.json",
+      "readback_verified": true,
+      "sha256": "8fa5a73dfd5cac5e909497660602025f7dbfc539ac824f67aad6f709c64dfe73"
+    },
+    "grounding_complementary_0040": {
+      "bytes": 9509,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0040.json",
+      "readback_verified": true,
+      "sha256": "4dd9d1e60b9fc3c29af21423283580222a3c52231c5420345750e64b81c6e2e4"
+    },
+    "grounding_complementary_0048": {
+      "bytes": 9188,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0048.json",
+      "readback_verified": true,
+      "sha256": "06031247fc79dce7a8217fe4a2b84434937aa4603a9ac80685e31b1200e7e43a"
+    },
+    "grounding_complementary_0056": {
+      "bytes": 9120,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0056.json",
+      "readback_verified": true,
+      "sha256": "7c54f029b88cb8695556dbeafe3d298cfb09bebf8faa855d15955b94c3a83aea"
+    },
+    "grounding_complementary_0064": {
+      "bytes": 9194,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0064.json",
+      "readback_verified": true,
+      "sha256": "06445b1f041c214965c78dc1b7d86502045e5df1ddf232f1f55ac7ca4958b48c"
+    },
+    "grounding_complementary_0072": {
+      "bytes": 9200,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0072.json",
+      "readback_verified": true,
+      "sha256": "231f2c3f88a0c177984925a0d03b92745d4dac38d159b30142294425640b203f"
+    },
+    "grounding_complementary_0080": {
+      "bytes": 9246,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0080.json",
+      "readback_verified": true,
+      "sha256": "bf744cb55f5538d83e817ff73052f8edda7b0c1ef4ad002a2ebbfa2a4a42a73f"
+    },
+    "grounding_complementary_0088": {
+      "bytes": 9274,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0088.json",
+      "readback_verified": true,
+      "sha256": "45aa1ff8cb3f7c072a4b35919d657c7d5621c8ead8f535a787ab3cc700134d41"
+    },
+    "grounding_complementary_0096": {
+      "bytes": 9305,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0096.json",
+      "readback_verified": true,
+      "sha256": "21927de49012c62cafe57c614386df0f00c14adbd963bf4755970715db12a437"
+    },
+    "grounding_complementary_0104": {
+      "bytes": 9319,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0104.json",
+      "readback_verified": true,
+      "sha256": "1efb57edc356f1434e3aa20764df1177423adae248ca1dfaaee9e5c8813ddfc7"
+    },
+    "grounding_complementary_0112": {
+      "bytes": 9262,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0112.json",
+      "readback_verified": true,
+      "sha256": "19236d46edb222459ab8040b7b5a8fcc49a1af58b8a89f5526d7d0749b62ce34"
+    },
+    "grounding_complementary_0120": {
+      "bytes": 9366,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_complementary_0120.json",
+      "readback_verified": true,
+      "sha256": "8976cfe653a784aef38400e0aed39329e00debe64d3d78a5017a6cf42f469dbe"
+    },
+    "grounding_correct_0000": {
+      "bytes": 9375,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0000.json",
+      "readback_verified": true,
+      "sha256": "01053b762ea6d312daa2cce906eb1153eb715705068e5f9f446b2a5ae83cbf9f"
+    },
+    "grounding_correct_0008": {
+      "bytes": 9158,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0008.json",
+      "readback_verified": true,
+      "sha256": "0f7f043a9145af2d548f0fbad36acb88cad24850104b3d377f7f5b1b4c97d042"
+    },
+    "grounding_correct_0016": {
+      "bytes": 9140,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0016.json",
+      "readback_verified": true,
+      "sha256": "e47d0f046081b73c1e020be2fba297d2335cdf7e317bb3561bf308498f6a2081"
+    },
+    "grounding_correct_0024": {
+      "bytes": 9209,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0024.json",
+      "readback_verified": true,
+      "sha256": "e565fd656798fe5338cf6d8dcdba624e1f3fbb772a1b234ce1c176fd5b411298"
+    },
+    "grounding_correct_0032": {
+      "bytes": 9323,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0032.json",
+      "readback_verified": true,
+      "sha256": "8f40b33952ac3edbea0d2213db86b0fd6be8a29de3e0836cf5e5cecfb530a905"
+    },
+    "grounding_correct_0040": {
+      "bytes": 9442,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0040.json",
+      "readback_verified": true,
+      "sha256": "8a3f98a9530e067179eed012bc41e3aff67954f96edcc0cf03ff214803dcb947"
+    },
+    "grounding_correct_0048": {
+      "bytes": 9129,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0048.json",
+      "readback_verified": true,
+      "sha256": "75904318bf223107e6b6ac49ea54bcd8406d1c3094475454cf21d89e3bf14e1c"
+    },
+    "grounding_correct_0056": {
+      "bytes": 9050,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0056.json",
+      "readback_verified": true,
+      "sha256": "d12229ad542f59b9e3f9b5dda593591db4336d76178b4a89f93f4f0530974024"
+    },
+    "grounding_correct_0064": {
+      "bytes": 9139,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0064.json",
+      "readback_verified": true,
+      "sha256": "aa159c8e97e5ecc0864ce0f1f4d462f779e1188b298508a5a29d3ad006a36fed"
+    },
+    "grounding_correct_0072": {
+      "bytes": 9158,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0072.json",
+      "readback_verified": true,
+      "sha256": "e5f5cc92da4bc98340a554a478bf496db5dc1789bd57c32c076501dd5da0cf3f"
+    },
+    "grounding_correct_0080": {
+      "bytes": 9201,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0080.json",
+      "readback_verified": true,
+      "sha256": "8c816c74aab54ec593babe3aae1b08695ce54c12d0192f92e3b05c0a209173f3"
+    },
+    "grounding_correct_0088": {
+      "bytes": 9241,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0088.json",
+      "readback_verified": true,
+      "sha256": "3add704c4d893a7bd935c331c553ba6fd9ee16443462b86ce9cc7c6cd1120c91"
+    },
+    "grounding_correct_0096": {
+      "bytes": 9266,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0096.json",
+      "readback_verified": true,
+      "sha256": "ed62d0f2132488677ad1951250303d39e421f4060752befefff700c029be18d6"
+    },
+    "grounding_correct_0104": {
+      "bytes": 9266,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0104.json",
+      "readback_verified": true,
+      "sha256": "724ccf1888926ff2641014d7193d92a1b948dd2c5ba98c0e677e09838eaa8e83"
+    },
+    "grounding_correct_0112": {
+      "bytes": 9208,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0112.json",
+      "readback_verified": true,
+      "sha256": "c11e08f9c5b665f9ff5d63fd7ce2b4c095caae6c33cb205e266d6d107a2551f4"
+    },
+    "grounding_correct_0120": {
+      "bytes": 9333,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_correct_0120.json",
+      "readback_verified": true,
+      "sha256": "19fc5f3b84413a48c73dce6547d6ba64b1ab3c08a051d03f249a0e20d81cc9cb"
+    },
+    "grounding_mismatched_0000": {
+      "bytes": 9399,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0000.json",
+      "readback_verified": true,
+      "sha256": "eaa37e22641d7ac93ef81a8ef5cf0f10b1ac93739a8aa648f5b407d79dc9ce7f"
+    },
+    "grounding_mismatched_0008": {
+      "bytes": 9195,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0008.json",
+      "readback_verified": true,
+      "sha256": "481273ff8b330d11e3de9bfc0b7d81e287bc647cce831cd4296d8bff84efa4d0"
+    },
+    "grounding_mismatched_0016": {
+      "bytes": 9171,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0016.json",
+      "readback_verified": true,
+      "sha256": "4a9e794a305334032af65d0c686c91cfa30874761d405d711762db72fdb93e32"
+    },
+    "grounding_mismatched_0024": {
+      "bytes": 9248,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0024.json",
+      "readback_verified": true,
+      "sha256": "5e8744efbeeb58df5483a92dc59272668893fd7ba31c81d73fc78152f0f2e355"
+    },
+    "grounding_mismatched_0032": {
+      "bytes": 9345,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0032.json",
+      "readback_verified": true,
+      "sha256": "166565592a3776e665378bc7e028c3f6e24fdfd61b80041612c1829a366bec49"
+    },
+    "grounding_mismatched_0040": {
+      "bytes": 9464,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0040.json",
+      "readback_verified": true,
+      "sha256": "01f3142ccaf4db55bf495893b34288d23d4aebf380785131934a6cffe220d504"
+    },
+    "grounding_mismatched_0048": {
+      "bytes": 9162,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0048.json",
+      "readback_verified": true,
+      "sha256": "23eb7377211a90ff9a9a33ae657eeadd3b16efdd4f8d17167e4e17229fdeca7d"
+    },
+    "grounding_mismatched_0056": {
+      "bytes": 9079,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0056.json",
+      "readback_verified": true,
+      "sha256": "ffdbae18ec67995bc0a7277fa74611771f82c12111dcf67ca1c3721d809d1934"
+    },
+    "grounding_mismatched_0064": {
+      "bytes": 9168,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0064.json",
+      "readback_verified": true,
+      "sha256": "543eef26758f7531405faf0d55e0636cbb8005bd23bcf6c4f0a2786968de79b4"
+    },
+    "grounding_mismatched_0072": {
+      "bytes": 9178,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0072.json",
+      "readback_verified": true,
+      "sha256": "258b8c755ad5657523d516fce5c34a5b850f0b24989c84910ab2e1ef4659de6b"
+    },
+    "grounding_mismatched_0080": {
+      "bytes": 9225,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0080.json",
+      "readback_verified": true,
+      "sha256": "dd5801cccd768fdfcfe97a1d00e1dd0f58d7681bbab69ca33e0769f7eb16bbb5"
+    },
+    "grounding_mismatched_0088": {
+      "bytes": 9240,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0088.json",
+      "readback_verified": true,
+      "sha256": "a61da306bc414f6e89d76a93a7d8319216a6d0c86ab849c06812ba403e1e55e4"
+    },
+    "grounding_mismatched_0096": {
+      "bytes": 9280,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0096.json",
+      "readback_verified": true,
+      "sha256": "53c3c02c34d6bbe4795bec07eac91b1ecd3eb1dfef42bbe679f68b0c2376449c"
+    },
+    "grounding_mismatched_0104": {
+      "bytes": 9286,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0104.json",
+      "readback_verified": true,
+      "sha256": "ec5100e30524223a0814f242386f3da4d4304cf28a50a1bb1d587830603492d3"
+    },
+    "grounding_mismatched_0112": {
+      "bytes": 9223,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0112.json",
+      "readback_verified": true,
+      "sha256": "7ed0f4c935e187b503dc032234cc5290a9b6b665dffcd610245d4437e851bc1e"
+    },
+    "grounding_mismatched_0120": {
+      "bytes": 9346,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_mismatched_0120.json",
+      "readback_verified": true,
+      "sha256": "d00764a778b726013955800d14f261de1a937acf99ef13a1fc243fd2454d36c6"
+    },
+    "grounding_no_image_0000": {
+      "bytes": 9369,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0000.json",
+      "readback_verified": true,
+      "sha256": "96a47f1083b9cdd767b98a7ee48d58b5b39cab705ba4def653186a91f7c418e4"
+    },
+    "grounding_no_image_0008": {
+      "bytes": 9156,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0008.json",
+      "readback_verified": true,
+      "sha256": "5ef1c4eabeba529f31515e57836f065c7df6012ab07bc4f55d6ba37cc57089f1"
+    },
+    "grounding_no_image_0016": {
+      "bytes": 9141,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0016.json",
+      "readback_verified": true,
+      "sha256": "01e5cbfe7ab80ffcef3c3548fcfd076103a62c8577ca5d1b50879d4fad90097a"
+    },
+    "grounding_no_image_0024": {
+      "bytes": 9223,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0024.json",
+      "readback_verified": true,
+      "sha256": "9aa47ce2e2cebed4e0ef2a937925caf01685a52fcbc19987208cd883cebe551c"
+    },
+    "grounding_no_image_0032": {
+      "bytes": 9321,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0032.json",
+      "readback_verified": true,
+      "sha256": "09165076f1488903448128dcb61dece8f65288b94f463c8bbe94eb57b118be62"
+    },
+    "grounding_no_image_0040": {
+      "bytes": 9436,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0040.json",
+      "readback_verified": true,
+      "sha256": "ad5ff13c4ed48b325cad6df1616c8dea60add5478fb25050208d2582e72baf8a"
+    },
+    "grounding_no_image_0048": {
+      "bytes": 9128,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0048.json",
+      "readback_verified": true,
+      "sha256": "8524b8796763648a559b6d04c2a847d77177d27bdd59f8aa5482d8462bfe41a0"
+    },
+    "grounding_no_image_0056": {
+      "bytes": 9057,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0056.json",
+      "readback_verified": true,
+      "sha256": "c1aebd3c085b0bccaa2145d0c81a381d555419e36d10fe2add6554b1f7b9ca27"
+    },
+    "grounding_no_image_0064": {
+      "bytes": 9141,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0064.json",
+      "readback_verified": true,
+      "sha256": "63c2e675db4f27b21dd61a09a685efb4d8ac34efb225eeb6c2d03289ab982432"
+    },
+    "grounding_no_image_0072": {
+      "bytes": 9146,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0072.json",
+      "readback_verified": true,
+      "sha256": "c0a95e2cb14d526dd84b82be6fde401890aecd804abe8d686ebcb408c692b344"
+    },
+    "grounding_no_image_0080": {
+      "bytes": 9204,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0080.json",
+      "readback_verified": true,
+      "sha256": "ab5e321ce335d0309494c1b8a14486eb3b5c6c841d3b4ab13b4fefe830f0eba5"
+    },
+    "grounding_no_image_0088": {
+      "bytes": 9208,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0088.json",
+      "readback_verified": true,
+      "sha256": "1a87f6c02fb271dadc19a956c42d4104cde3756c3fa0c7a733304ea6c8e99c44"
+    },
+    "grounding_no_image_0096": {
+      "bytes": 9258,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0096.json",
+      "readback_verified": true,
+      "sha256": "b98460f400ab9480f95b91cb77c420fc7c859cc00ccd65f28ca04f65ec406f7c"
+    },
+    "grounding_no_image_0104": {
+      "bytes": 9270,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0104.json",
+      "readback_verified": true,
+      "sha256": "55dd1e92b8339cd7b9e0498f9f134a3110d7a63bbab2efa2794f9d4a63758f56"
+    },
+    "grounding_no_image_0112": {
+      "bytes": 9201,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0112.json",
+      "readback_verified": true,
+      "sha256": "ae18fff545a1c07dbdca1fbf7270b5a484920cf3fbfc911b11e305796a0b9d2f"
+    },
+    "grounding_no_image_0120": {
+      "bytes": 9331,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/grounding_no_image_0120.json",
+      "readback_verified": true,
+      "sha256": "c7bb939c68072b9ae8a93be5a9e7896a0885df1564f4c75dce9d0da88708b160"
+    },
+    "natural_complementary_0000": {
+      "bytes": 11656,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0000.json",
+      "readback_verified": true,
+      "sha256": "2cd622b6cf29ac285bf752ed937734ae8ba492897e1a16671a7f8739bce61d14"
+    },
+    "natural_complementary_0008": {
+      "bytes": 11959,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0008.json",
+      "readback_verified": true,
+      "sha256": "69fdb579e3afd3bc2fe08804d99564a7f005339c8b60a484e77200c0549841b2"
+    },
+    "natural_complementary_0016": {
+      "bytes": 11838,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0016.json",
+      "readback_verified": true,
+      "sha256": "a4b4be09ed56e7fcac33bb6bc5a7b1f76a4a213bbc8ae5b2fb456a238e67107b"
+    },
+    "natural_complementary_0024": {
+      "bytes": 11867,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0024.json",
+      "readback_verified": true,
+      "sha256": "6b635d6a65858420cc3d2ac6efc08fee17100443b28bfe305b91ef106d1c0347"
+    },
+    "natural_complementary_0032": {
+      "bytes": 11846,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0032.json",
+      "readback_verified": true,
+      "sha256": "7f21fcc646aeaf9cd5c13360710f0281a53f9c8fbd8e93a1aa6530b726d51266"
+    },
+    "natural_complementary_0040": {
+      "bytes": 11808,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0040.json",
+      "readback_verified": true,
+      "sha256": "0e00e55fceec48c15aadf0e4009b3966d2ede958bb70c2814bd498e256637476"
+    },
+    "natural_complementary_0048": {
+      "bytes": 12042,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0048.json",
+      "readback_verified": true,
+      "sha256": "a3e342abc50940959d21ade4e3772a355bae8e48562abbbb72e39f487df4d385"
+    },
+    "natural_complementary_0056": {
+      "bytes": 12079,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0056.json",
+      "readback_verified": true,
+      "sha256": "f41aee827b94a636f9c6ef6e5fe648d3d567fc1a4565fbc27d7f77ee53eb58af"
+    },
+    "natural_complementary_0064": {
+      "bytes": 11630,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0064.json",
+      "readback_verified": true,
+      "sha256": "205e55661b5b27c47b958f2f1fb57fdf7e77c82ea858c5506fb73cce2f1d8864"
+    },
+    "natural_complementary_0072": {
+      "bytes": 11497,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0072.json",
+      "readback_verified": true,
+      "sha256": "2f71b96e5cc42005231cdcb4a009af346775c2ac17ee0397292845a9cbc1d20e"
+    },
+    "natural_complementary_0080": {
+      "bytes": 11493,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0080.json",
+      "readback_verified": true,
+      "sha256": "270f2c7681aa10b2bcbb383b232151ca78c0788737f4838842c44157f9dca11c"
+    },
+    "natural_complementary_0088": {
+      "bytes": 11428,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0088.json",
+      "readback_verified": true,
+      "sha256": "ee52848774d7172b7650d06fdb53bc09a8ae203555eb270de1a488f2c05aeffb"
+    },
+    "natural_complementary_0096": {
+      "bytes": 11633,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0096.json",
+      "readback_verified": true,
+      "sha256": "ad794509c1ae6806629e794b9e246b746311e76bcd7e35717e28d93abfc70a6b"
+    },
+    "natural_complementary_0104": {
+      "bytes": 12114,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0104.json",
+      "readback_verified": true,
+      "sha256": "2a9b414ee765184a3b6ce65e50ab7b7cacb02d22b4a719c0c99e27f50a21a9f6"
+    },
+    "natural_complementary_0112": {
+      "bytes": 11979,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0112.json",
+      "readback_verified": true,
+      "sha256": "b388015fe84365083ed660020ecf32db035b318cabb46af5c90236f4098bd999"
+    },
+    "natural_complementary_0120": {
+      "bytes": 11560,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0120.json",
+      "readback_verified": true,
+      "sha256": "434aa03136680b75f3dc5786a0938274ed3398e44f1ff38d5b8e65cc7f6a77cc"
+    },
+    "natural_complementary_0128": {
+      "bytes": 11590,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0128.json",
+      "readback_verified": true,
+      "sha256": "10b7976f9c1ed60676db0e5e201e7499664b0a25209e978ac78b22e66da8e981"
+    },
+    "natural_complementary_0136": {
+      "bytes": 12058,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0136.json",
+      "readback_verified": true,
+      "sha256": "5ce0872c4697e470b3a63581f529a262dfee787489e50f8b03fea8373b6e6388"
+    },
+    "natural_complementary_0144": {
+      "bytes": 11746,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0144.json",
+      "readback_verified": true,
+      "sha256": "f230d32baaddc838c4fbb153bda0270a43eb2486df5b41de5506c5ae1972906e"
+    },
+    "natural_complementary_0152": {
+      "bytes": 11824,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0152.json",
+      "readback_verified": true,
+      "sha256": "72be19c66319a1828429f1e6da2da1f2c1661068d5b349cb0d7822f24dd16c9a"
+    },
+    "natural_complementary_0160": {
+      "bytes": 11743,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0160.json",
+      "readback_verified": true,
+      "sha256": "5fde97aa6175697c60f99fb35c29803846af12859c4e267a60cd18784c476f9d"
+    },
+    "natural_complementary_0168": {
+      "bytes": 11770,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0168.json",
+      "readback_verified": true,
+      "sha256": "b42968eae118defdc29922a74597d74b58e8bab7bc63a0bb062b8292b859cf98"
+    },
+    "natural_complementary_0176": {
+      "bytes": 11493,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0176.json",
+      "readback_verified": true,
+      "sha256": "924499524a1ff1043a77b8cbee621cce8a5d8dedc22526a577bf4289ecdf8a94"
+    },
+    "natural_complementary_0184": {
+      "bytes": 12029,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_complementary_0184.json",
+      "readback_verified": true,
+      "sha256": "d183d2fcc498378d5dc3093d5e5e3bbcf4072505278a07a570466779d2cc8428"
+    },
+    "natural_correct_0000": {
+      "bytes": 11590,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0000.json",
+      "readback_verified": true,
+      "sha256": "973da4d6c151b87a9a4e45f28274bbb9e7dec5ca01dfb949c76b03bb1752faea"
+    },
+    "natural_correct_0008": {
+      "bytes": 11890,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0008.json",
+      "readback_verified": true,
+      "sha256": "f884063d233046f9f7273b1ff18fbfa580d574f5c9511f677f75a6774a57fbb6"
+    },
+    "natural_correct_0016": {
+      "bytes": 11771,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0016.json",
+      "readback_verified": true,
+      "sha256": "8585124ed378d598eb9e286e6258bf612f9d12bf583333b5ed84a46d86f5c19d"
+    },
+    "natural_correct_0024": {
+      "bytes": 11806,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0024.json",
+      "readback_verified": true,
+      "sha256": "0d6eed73e5e33385acd6b1ea76d15a89bf141de2e6b3750e2be4081044480b63"
+    },
+    "natural_correct_0032": {
+      "bytes": 11789,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0032.json",
+      "readback_verified": true,
+      "sha256": "d2485310ca8960174b6fa106725305c0a797198103c3b1fede281e3794d52620"
+    },
+    "natural_correct_0040": {
+      "bytes": 11753,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0040.json",
+      "readback_verified": true,
+      "sha256": "87a8fda06479a2c85b1e0aab7ec8d1dbc92cfb112313dece31a0ae9219020fab"
+    },
+    "natural_correct_0048": {
+      "bytes": 11990,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0048.json",
+      "readback_verified": true,
+      "sha256": "22525e1d28ffe1ba0f830959733baa53464b5ba50e636713e07d3e1e5072b6a7"
+    },
+    "natural_correct_0056": {
+      "bytes": 12025,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0056.json",
+      "readback_verified": true,
+      "sha256": "b486359001c4215a0b743df9e07ecae537ef93752759ddd9427f3663e0de8b95"
+    },
+    "natural_correct_0064": {
+      "bytes": 11563,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0064.json",
+      "readback_verified": true,
+      "sha256": "2eb6a51dfe27959d4d9395e9f0e68cbc23e9fd3f76d61977548e6f14520f66f1"
+    },
+    "natural_correct_0072": {
+      "bytes": 11445,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0072.json",
+      "readback_verified": true,
+      "sha256": "fd1bb52d14ddedec3a202279cd4c5b5da36c0de038283ba02e4b5505eac63403"
+    },
+    "natural_correct_0080": {
+      "bytes": 11439,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0080.json",
+      "readback_verified": true,
+      "sha256": "eed0db577ffde6aebbca37a6f948cda65bd0033f379ce299deab996d1c9e2470"
+    },
+    "natural_correct_0088": {
+      "bytes": 11367,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0088.json",
+      "readback_verified": true,
+      "sha256": "2c3f27fd0a08c5b81a19210baf9c0c87e110e944245e6224cfff7df8b420b315"
+    },
+    "natural_correct_0096": {
+      "bytes": 11583,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0096.json",
+      "readback_verified": true,
+      "sha256": "17dd3f74b3138dd2d7f53c9711a064c00fd618ae4d45465d6cf0bd079b5dd8cf"
+    },
+    "natural_correct_0104": {
+      "bytes": 12062,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0104.json",
+      "readback_verified": true,
+      "sha256": "99b1f8a028565963ec0e96f18232e208411aeca3cdc42b6968e907a39067c3c5"
+    },
+    "natural_correct_0112": {
+      "bytes": 11925,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0112.json",
+      "readback_verified": true,
+      "sha256": "6f1ff4e0e83dd6564d2e0e10f996f92b311705db4c47fa09cc414a2c5001363b"
+    },
+    "natural_correct_0120": {
+      "bytes": 11513,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0120.json",
+      "readback_verified": true,
+      "sha256": "83002b9a45e06d325570fcfd81611ec52928bd5170fb743c9c390bc4069cf409"
+    },
+    "natural_correct_0128": {
+      "bytes": 11534,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0128.json",
+      "readback_verified": true,
+      "sha256": "906354d5df8499863d50d6aaee65f16633402b54a7ea9245eae1b262e1c28136"
+    },
+    "natural_correct_0136": {
+      "bytes": 12002,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0136.json",
+      "readback_verified": true,
+      "sha256": "e529ae5889184d0896eaab232a538bb5fca967ad684646f2a04052610018ac6e"
+    },
+    "natural_correct_0144": {
+      "bytes": 11680,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0144.json",
+      "readback_verified": true,
+      "sha256": "9b2583e197ba75f6329cfbd31d99a0becb696a51f08e2c42f92614e09025375a"
+    },
+    "natural_correct_0152": {
+      "bytes": 11785,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0152.json",
+      "readback_verified": true,
+      "sha256": "e65f2ac06e9d8940d5a09f3830bd8010536f300efee9dd5b8729fbc794b5054b"
+    },
+    "natural_correct_0160": {
+      "bytes": 11695,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0160.json",
+      "readback_verified": true,
+      "sha256": "625c22280d09ec1bf7762f9973b744fc56ebbdfa2e711bb5035c7099fda568c4"
+    },
+    "natural_correct_0168": {
+      "bytes": 11710,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0168.json",
+      "readback_verified": true,
+      "sha256": "483301920a4fa2e9c5f0b1f81c34c65c8621bbe16312632f875b1a3d42b50880"
+    },
+    "natural_correct_0176": {
+      "bytes": 11430,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0176.json",
+      "readback_verified": true,
+      "sha256": "ca48b16697b184f0edf48e26940777e9aad0332892adf43c4d1282bc301b7945"
+    },
+    "natural_correct_0184": {
+      "bytes": 11971,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_correct_0184.json",
+      "readback_verified": true,
+      "sha256": "fbf4cf355db95a360112cf3141e374e031661ffcd9c7ad5e4b7d1d393060972d"
+    },
+    "natural_mismatched_0000": {
+      "bytes": 11622,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0000.json",
+      "readback_verified": true,
+      "sha256": "0bf544d6abab15fb3952920fc07a4643f98dab41208b6dcf8105a82a20b70fb8"
+    },
+    "natural_mismatched_0008": {
+      "bytes": 11906,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0008.json",
+      "readback_verified": true,
+      "sha256": "bf6fd7cfedcb6e01a8032936cda23811baf69186e8532ef32a5d1c7dcf1cca7f"
+    },
+    "natural_mismatched_0016": {
+      "bytes": 11795,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0016.json",
+      "readback_verified": true,
+      "sha256": "617a3975ad90b87e2d6e88e782dd2cd101f868503b1f5064c5091e7319d9b9a9"
+    },
+    "natural_mismatched_0024": {
+      "bytes": 11869,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0024.json",
+      "readback_verified": true,
+      "sha256": "9d99fb03571b569160596d7af6d6584dd520c90fa4df26d953a4df03dab0cd49"
+    },
+    "natural_mismatched_0032": {
+      "bytes": 11767,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0032.json",
+      "readback_verified": true,
+      "sha256": "cf2410efbb11310647cef836cf50e5431051e979c2fc73116a4413296377f7f9"
+    },
+    "natural_mismatched_0040": {
+      "bytes": 11776,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0040.json",
+      "readback_verified": true,
+      "sha256": "204cfffbc0986395e370f0577a8dc46008fb35fac9d4b71e8fc1cd8a77ab4da5"
+    },
+    "natural_mismatched_0048": {
+      "bytes": 12040,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0048.json",
+      "readback_verified": true,
+      "sha256": "eeccd910b0a9c2309c37d2acd5c5d96a20cc2840502bcf84161fc670958a25e9"
+    },
+    "natural_mismatched_0056": {
+      "bytes": 12133,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0056.json",
+      "readback_verified": true,
+      "sha256": "03e8951757e905019321d32bdfe4e0e9760cae1ea7996c77659e16b7b32fe11b"
+    },
+    "natural_mismatched_0064": {
+      "bytes": 11624,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0064.json",
+      "readback_verified": true,
+      "sha256": "da9da4f8804f7a56111d4b2e2cc52d5106ecbf53450f73fa986605169211e75f"
+    },
+    "natural_mismatched_0072": {
+      "bytes": 11456,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0072.json",
+      "readback_verified": true,
+      "sha256": "88524a728f33bc98aa5720a81fc1d2cee95958b4c3b79e1dc728121ee989fc18"
+    },
+    "natural_mismatched_0080": {
+      "bytes": 11458,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0080.json",
+      "readback_verified": true,
+      "sha256": "05e64e8eedcea0673e98d6e2e93a7421156604d90a5672d965539a0465f1d547"
+    },
+    "natural_mismatched_0088": {
+      "bytes": 11396,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0088.json",
+      "readback_verified": true,
+      "sha256": "920860a8838f774bc3776007dd943bc9271e0f92ecde074183030f5f88ecf83c"
+    },
+    "natural_mismatched_0096": {
+      "bytes": 11665,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0096.json",
+      "readback_verified": true,
+      "sha256": "09140e0b3dd31cb6a182dc557510a34a4cfdb13252aaa1552911ecec145047aa"
+    },
+    "natural_mismatched_0104": {
+      "bytes": 12073,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0104.json",
+      "readback_verified": true,
+      "sha256": "69f05c7725837096b2e1b5c50b96227242157842603174494553b82dcb43e393"
+    },
+    "natural_mismatched_0112": {
+      "bytes": 11951,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0112.json",
+      "readback_verified": true,
+      "sha256": "059e0bff850171e20ea45c620b89b5d5e6a4ba7c499e6548dd6637a063e1eaf0"
+    },
+    "natural_mismatched_0120": {
+      "bytes": 11545,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0120.json",
+      "readback_verified": true,
+      "sha256": "a238d4831d605e95f19fcaf574b6dab74c36cd0451799717e75f7edb448b875f"
+    },
+    "natural_mismatched_0128": {
+      "bytes": 11565,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0128.json",
+      "readback_verified": true,
+      "sha256": "02d5e5a167e0113445d3d38ee350d835a3db13e5c0380f4fa05d8c9be1f561f8"
+    },
+    "natural_mismatched_0136": {
+      "bytes": 12045,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0136.json",
+      "readback_verified": true,
+      "sha256": "e479a5722b74b1d8cce610a4fa4d08a44610967dc10b500facefe7c3bb485d40"
+    },
+    "natural_mismatched_0144": {
+      "bytes": 11720,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0144.json",
+      "readback_verified": true,
+      "sha256": "f240b162b680a2e392cbeec4b5a1325bdb70e9dfb3c5f40b2586fb9ab4624000"
+    },
+    "natural_mismatched_0152": {
+      "bytes": 11833,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0152.json",
+      "readback_verified": true,
+      "sha256": "438b09758234d7618cd6c547c84f8b62d012ecb3905cc36cc3de049372a8fdb3"
+    },
+    "natural_mismatched_0160": {
+      "bytes": 11683,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0160.json",
+      "readback_verified": true,
+      "sha256": "dbf1a1e6c208ca04f8ed71d6b1fb9a5f00207b739f6cb73a7183f58415e92b94"
+    },
+    "natural_mismatched_0168": {
+      "bytes": 11732,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0168.json",
+      "readback_verified": true,
+      "sha256": "e1778888d13a15d7f5aa408850c61e5e069e6d3de2f656e96e1d6ade700a0110"
+    },
+    "natural_mismatched_0176": {
+      "bytes": 11448,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0176.json",
+      "readback_verified": true,
+      "sha256": "3b23a22a29acebb0c86f660a0473f511861e869722b986de7530531c21f88802"
+    },
+    "natural_mismatched_0184": {
+      "bytes": 11997,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_mismatched_0184.json",
+      "readback_verified": true,
+      "sha256": "5d5f442c0edd2581bd472820baaa2654c654ca073922c5da2d3fffc5c7912b29"
+    },
+    "natural_no_image_0000": {
+      "bytes": 11589,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0000.json",
+      "readback_verified": true,
+      "sha256": "f36a1d2c5250be2f293b5f3b85b64ff749a33524a4b741b766eda35f8c2f568b"
+    },
+    "natural_no_image_0008": {
+      "bytes": 11868,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0008.json",
+      "readback_verified": true,
+      "sha256": "194e89f3c7541e76373ffb34881e239633abe8ba3084045af64db2eb66a8a105"
+    },
+    "natural_no_image_0016": {
+      "bytes": 11770,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0016.json",
+      "readback_verified": true,
+      "sha256": "da7efe3beb905c41f5d0bdd7986340d82ca0e78063ca81476013e783c8322f20"
+    },
+    "natural_no_image_0024": {
+      "bytes": 11844,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0024.json",
+      "readback_verified": true,
+      "sha256": "38afb9974f21241355e55e149f39b32e58fff2bc62c9a1993bd879b17b14b2a7"
+    },
+    "natural_no_image_0032": {
+      "bytes": 11756,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0032.json",
+      "readback_verified": true,
+      "sha256": "af50bee29bd158c4ebdd5b9191cbda0eef81a0188dcb52233f3e679ff6e130b2"
+    },
+    "natural_no_image_0040": {
+      "bytes": 11727,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0040.json",
+      "readback_verified": true,
+      "sha256": "8077d016f33980d0bbbc0fe35ac6db50b662e8078e90b6a6901d703d409bd0f7"
+    },
+    "natural_no_image_0048": {
+      "bytes": 12306,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0048.json",
+      "readback_verified": true,
+      "sha256": "1b86e450fb296e6675ee7b5cd7abe8f7bc388350a58537daf4b316f359011ec8"
+    },
+    "natural_no_image_0056": {
+      "bytes": 12099,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0056.json",
+      "readback_verified": true,
+      "sha256": "9318a6d55840f793463f8b85991e82d1368e13531fc0a8b6c35fe5f11e4cd3e9"
+    },
+    "natural_no_image_0064": {
+      "bytes": 11531,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0064.json",
+      "readback_verified": true,
+      "sha256": "985318366a176097a9b38d36b0e02b398b6a23fd81fdfd3544a4d4ea925345e3"
+    },
+    "natural_no_image_0072": {
+      "bytes": 11431,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0072.json",
+      "readback_verified": true,
+      "sha256": "0b1ebdd6171852c112f6af59bca768e8418daff367334e024a6f96f4da94177d"
+    },
+    "natural_no_image_0080": {
+      "bytes": 11421,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0080.json",
+      "readback_verified": true,
+      "sha256": "d8c015f7ea8be5bdba8b2813967ed52dec8f02170ba8e84154d06ea6d06b1378"
+    },
+    "natural_no_image_0088": {
+      "bytes": 11373,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0088.json",
+      "readback_verified": true,
+      "sha256": "e858c6e7b939c4d6a5274386188a26a0cc30dc0d52d9722cbce3e5193ca83022"
+    },
+    "natural_no_image_0096": {
+      "bytes": 11564,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0096.json",
+      "readback_verified": true,
+      "sha256": "0776973d1a75638415e4d31ac36f5dcf2281ad76fcef93f1ba2dcbbb314d6508"
+    },
+    "natural_no_image_0104": {
+      "bytes": 12102,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0104.json",
+      "readback_verified": true,
+      "sha256": "4db731c313d1229bc36df50ff269d5a7325e0cb881095c21bdc7ddf2f2796c84"
+    },
+    "natural_no_image_0112": {
+      "bytes": 11922,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0112.json",
+      "readback_verified": true,
+      "sha256": "3da46c13ecb7c4607cb4ca86211778c66f2cc8bb9619ea3965a2db947cedfb88"
+    },
+    "natural_no_image_0120": {
+      "bytes": 11515,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0120.json",
+      "readback_verified": true,
+      "sha256": "ae0befd852b4d2ebb750cbebf6cf0c8485b2b2b98f00a5b94f81725f3d17df9e"
+    },
+    "natural_no_image_0128": {
+      "bytes": 11526,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0128.json",
+      "readback_verified": true,
+      "sha256": "7e09686347a0c6112aab5ba9799a13614606a07552163867a29b50fb11ddace8"
+    },
+    "natural_no_image_0136": {
+      "bytes": 11926,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0136.json",
+      "readback_verified": true,
+      "sha256": "c8996dd7153bcc406d62d229886adc9e740d9a603b3a3c39ff4aca1933d2213e"
+    },
+    "natural_no_image_0144": {
+      "bytes": 11614,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0144.json",
+      "readback_verified": true,
+      "sha256": "c572c2abb8f6eeb3442b9cc87c1f9c6e98793f2f244b097e896ad5f6457d8b44"
+    },
+    "natural_no_image_0152": {
+      "bytes": 11757,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0152.json",
+      "readback_verified": true,
+      "sha256": "b1cb473955e1e77dd01a61347f5a834822a86c43db8a798433c36bea45fa7a2e"
+    },
+    "natural_no_image_0160": {
+      "bytes": 11657,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0160.json",
+      "readback_verified": true,
+      "sha256": "03d557a14d14d25dc07707e388bdf69dd298ab3cbafba484519e1b00c5463528"
+    },
+    "natural_no_image_0168": {
+      "bytes": 11711,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0168.json",
+      "readback_verified": true,
+      "sha256": "faf6eb18457ce9678f31fdf8cb8614b273bff15db2760c5a0f8057269ff07378"
+    },
+    "natural_no_image_0176": {
+      "bytes": 11421,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0176.json",
+      "readback_verified": true,
+      "sha256": "606e6adba9f60b51d401e65e784cc2f610e55082588dcbc697bbc30cebb81983"
+    },
+    "natural_no_image_0184": {
+      "bytes": 11922,
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/evaluation/stage3_189cf39a6a32b244/batches/natural_no_image_0184.json",
+      "readback_verified": true,
+      "sha256": "65198250531c57039c6ede25c8d1c73d3aa5650625beaf40ccb80aa043bbc8f4"
+    }
+  },
+  "complete": true,
+  "plan_sha256": "2e8cca2b6c7a597d67d1e124469e35f0c4c2a259bda8b625d38986124a8238c6",
+  "recipe_sha256": "189cf39a6a32b244b350a9039c9d0b7c3276b1d96bc1e9481606a5afca2e7a73",
+  "schema": "atml-pa3-task2-final-evaluation-progress-v1",
+  "verified_answers": 1280
+}

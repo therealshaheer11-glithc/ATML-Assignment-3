@@ -1,0 +1,408 @@
+{
+  "status": "LIVE CPU ANALYSIS COMPLETE",
+  "questions": 50,
+  "unique_calls": 250,
+  "scorer_id": "task3_answers_v1",
+  "scorer_module_sha256": "437651bcd06f4892469eea1aa6b2ddc0c8abdc3f8323f7693b59d0f9918bb0d1",
+  "versions": {
+    "math-verify": "0.9.0",
+    "latex2sympy2-extended": "1.11.0",
+    "antlr4-python3-runtime": "4.13.2",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "bootstrap": {
+    "draws": 1000,
+    "unit": "question",
+    "stream": "SeedSequence([6304,3,2])",
+    "seed": 6304,
+    "paired": true,
+    "confidence": 0.95,
+    "method": "pointwise percentile with linear interpolation",
+    "indices_saved": true
+  },
+  "metrics": [
+    {
+      "method": "long",
+      "questions": 50,
+      "correct": 33,
+      "accuracy_percent": {
+        "mean": 66.0,
+        "low": 52.0,
+        "high": 78.0
+      },
+      "final_extraction_missing_count": 0,
+      "any_component_missing_questions": 0,
+      "any_component_capped_questions": 0,
+      "component_call_count": 50,
+      "component_missing_calls": 0,
+      "component_capped_calls": 0,
+      "input_tokens": {
+        "mean": 108.38,
+        "low": 92.998,
+        "high": 127.103,
+        "total": 5419
+      },
+      "output_tokens": {
+        "mean": 640.04,
+        "low": 552.776,
+        "high": 734.6669999999999,
+        "total": 32002
+      },
+      "retained_nontermination_tokens": {
+        "mean": 639.04,
+        "low": 551.776,
+        "high": 733.6669999999999,
+        "total": 31952
+      },
+      "inference_seconds": {
+        "mean": 27.40052262329998,
+        "low": 23.70511073109747,
+        "high": 31.443881852204466,
+        "total": 1370.0261311649988
+      },
+      "call_wall_seconds": {
+        "mean": 27.40214939962,
+        "low": 23.70691192353402,
+        "high": 31.445421660919017,
+        "total": 1370.1074699810001
+      },
+      "peak_allocated_bytes": {
+        "mean": 6215995842.56,
+        "low": 6212526134.272,
+        "high": 6219516047.104,
+        "maximum": 6242612224
+      },
+      "peak_reserved_bytes": {
+        "mean": 6385450352.64,
+        "low": 6375379828.736,
+        "high": 6395268169.728,
+        "maximum": 6410993664
+      }
+    },
+    {
+      "method": "parallel",
+      "questions": 50,
+      "correct": 30,
+      "accuracy_percent": {
+        "mean": 60.0,
+        "low": 46.0,
+        "high": 74.0
+      },
+      "final_extraction_missing_count": 7,
+      "any_component_missing_questions": 13,
+      "any_component_capped_questions": 13,
+      "component_call_count": 150,
+      "component_missing_calls": 23,
+      "component_capped_calls": 24,
+      "input_tokens": {
+        "mean": 325.14,
+        "low": 278.994,
+        "high": 381.309,
+        "total": 16257
+      },
+      "output_tokens": {
+        "mean": 1849.96,
+        "low": 1639.3755,
+        "high": 2056.8435,
+        "total": 92498
+      },
+      "retained_nontermination_tokens": {
+        "mean": 1847.44,
+        "low": 1636.576,
+        "high": 2054.3610000000003,
+        "total": 92372
+      },
+      "inference_seconds": {
+        "mean": 78.8884844942,
+        "low": 69.98023385155152,
+        "high": 87.7051848076795,
+        "total": 3944.4242247099996
+      },
+      "call_wall_seconds": {
+        "mean": 78.89298660132,
+        "low": 69.98489768517602,
+        "high": 87.70970835176152,
+        "total": 3944.6493300660004
+      },
+      "peak_allocated_bytes": {
+        "mean": 6217182935.04,
+        "low": 6214317416.96,
+        "high": 6220067496.448,
+        "maximum": 6231954944
+      },
+      "peak_reserved_bytes": {
+        "mean": 6380417187.84,
+        "low": 6370182037.504,
+        "high": 6391534190.592,
+        "maximum": 6410993664
+      }
+    },
+    {
+      "method": "refinement",
+      "questions": 50,
+      "correct": 31,
+      "accuracy_percent": {
+        "mean": 62.0,
+        "low": 48.0,
+        "high": 76.0
+      },
+      "final_extraction_missing_count": 0,
+      "any_component_missing_questions": 6,
+      "any_component_capped_questions": 6,
+      "component_call_count": 100,
+      "component_missing_calls": 6,
+      "component_capped_calls": 6,
+      "input_tokens": {
+        "mean": 858.06,
+        "low": 776.9145000000001,
+        "high": 941.9264999999999,
+        "total": 42903
+      },
+      "output_tokens": {
+        "mean": 1157.92,
+        "low": 1007.295,
+        "high": 1303.6039999999998,
+        "total": 57896
+      },
+      "retained_nontermination_tokens": {
+        "mean": 1156.04,
+        "low": 1005.394,
+        "high": 1301.7464999999997,
+        "total": 57802
+      },
+      "inference_seconds": {
+        "mean": 49.67377188076001,
+        "low": 43.30303427728151,
+        "high": 56.15441251224453,
+        "total": 2483.6885940380002
+      },
+      "call_wall_seconds": {
+        "mean": 49.676509774359985,
+        "low": 43.305764674509994,
+        "high": 56.15707549571799,
+        "total": 2483.825488717999
+      },
+      "peak_allocated_bytes": {
+        "mean": 6270401710.08,
+        "low": 6261429748.992001,
+        "high": 6279329101.568,
+        "maximum": 6327890944
+      },
+      "peak_reserved_bytes": {
+        "mean": 6390189916.16,
+        "low": 6380537774.08,
+        "high": 6398579572.736,
+        "maximum": 6410993664
+      }
+    }
+  ],
+  "paired_differences": [
+    {
+      "A": "parallel",
+      "B": "long",
+      "measure": "accuracy_pp",
+      "mean": -6.0,
+      "low": -18.0,
+      "high": 6.0
+    },
+    {
+      "A": "parallel",
+      "B": "long",
+      "measure": "input_tokens",
+      "mean": 216.76,
+      "low": 185.996,
+      "high": 254.206
+    },
+    {
+      "A": "parallel",
+      "B": "long",
+      "measure": "output_tokens",
+      "mean": 1209.92,
+      "low": 1068.115,
+      "high": 1356.12
+    },
+    {
+      "A": "parallel",
+      "B": "long",
+      "measure": "inference_seconds",
+      "mean": 51.48796187090001,
+      "low": 45.63155316467296,
+      "high": 57.84633451601702
+    },
+    {
+      "A": "refinement",
+      "B": "long",
+      "measure": "accuracy_pp",
+      "mean": -4.0,
+      "low": -16.0,
+      "high": 8.0
+    },
+    {
+      "A": "refinement",
+      "B": "long",
+      "measure": "input_tokens",
+      "mean": 749.68,
+      "low": 675.3475,
+      "high": 824.1129999999999
+    },
+    {
+      "A": "refinement",
+      "B": "long",
+      "measure": "output_tokens",
+      "mean": 517.88,
+      "low": 424.337,
+      "high": 611.1674999999999
+    },
+    {
+      "A": "refinement",
+      "B": "long",
+      "measure": "inference_seconds",
+      "mean": 22.273249257460023,
+      "low": 18.23943847840856,
+      "high": 26.389322123513054
+    },
+    {
+      "A": "refinement",
+      "B": "parallel",
+      "measure": "accuracy_pp",
+      "mean": 2.0,
+      "low": 0.0,
+      "high": 6.0
+    },
+    {
+      "A": "refinement",
+      "B": "parallel",
+      "measure": "input_tokens",
+      "mean": 532.92,
+      "low": 459.428,
+      "high": 601.54
+    },
+    {
+      "A": "refinement",
+      "B": "parallel",
+      "measure": "output_tokens",
+      "mean": -692.04,
+      "low": -783.4680000000001,
+      "high": -600.773
+    },
+    {
+      "A": "refinement",
+      "B": "parallel",
+      "measure": "inference_seconds",
+      "mean": -29.214712613439993,
+      "low": -32.99001622830146,
+      "high": -25.416610383228512
+    }
+  ],
+  "revision_transitions": {
+    "correct_to_correct": 30,
+    "wrong_to_correct": 1,
+    "wrong_to_wrong": 19,
+    "correct_to_wrong": 0
+  },
+  "initial_correct": 30,
+  "revision_minus_initial_accuracy_pp": {
+    "mean": 2.0,
+    "low": 0.0,
+    "high": 6.0
+  },
+  "beneficial_revision_initial_missing": 1,
+  "beneficial_revision_initial_capped": 1,
+  "parallel_oracle_correct": 35,
+  "examples": {
+    "beneficial_revision": [
+      "test:2688"
+    ],
+    "harmful_revision": []
+  },
+  "example_rule": "First two distinct lexicographic question IDs per beneficial/harmful revision category; fewer if absent.",
+  "scoring_warning_count": 0,
+  "parse_kind_counts": {
+    "math_parsed": 227,
+    "missing": 23
+  },
+  "unique_generated_tokens": 152187,
+  "strategy_charged_output_tokens": 182396,
+  "shared_initial_output_tokens_charged_to_both": 30209,
+  "unique_inference_seconds": 6509.085959504999,
+  "successful_session_elapsed_seconds": 7976.322936563,
+  "session_results": [
+    {
+      "status": "GPU SESSION SAVED",
+      "session_id": "gpu_20261110_162744_3b309900",
+      "reason": "soft_limit",
+      "new_calls": 52,
+      "verified_calls": 52,
+      "total_calls": 250,
+      "finished_timestamp": "2026-11-10T16:57:55.033293+00:00",
+      "elapsed_seconds": 1810.524140687,
+      "no_automatic_retry": true,
+      "scoring_executed": false,
+      "physical_runtime_deallocation_verified": false
+    },
+    {
+      "status": "GPU SESSION SAVED",
+      "session_id": "gpu_20261111_025315_82957a3a",
+      "reason": "soft_limit",
+      "new_calls": 58,
+      "verified_calls": 110,
+      "total_calls": 250,
+      "finished_timestamp": "2026-11-11T03:23:28.359920+00:00",
+      "elapsed_seconds": 1813.1862780830002,
+      "no_automatic_retry": true,
+      "scoring_executed": false,
+      "physical_runtime_deallocation_verified": false
+    },
+    {
+      "status": "GPU SESSION SAVED",
+      "session_id": "gpu_20261111_035857_5e504079",
+      "reason": "soft_limit",
+      "new_calls": 63,
+      "verified_calls": 173,
+      "total_calls": 250,
+      "finished_timestamp": "2026-11-11T04:29:13.172127+00:00",
+      "elapsed_seconds": 1815.4692306119998,
+      "no_automatic_retry": true,
+      "scoring_executed": false,
+      "physical_runtime_deallocation_verified": false
+    },
+    {
+      "status": "GPU SESSION SAVED",
+      "session_id": "gpu_20261111_043026_7754d5c3",
+      "reason": "soft_limit",
+      "new_calls": 59,
+      "verified_calls": 232,
+      "total_calls": 250,
+      "finished_timestamp": "2026-11-11T05:00:37.556293+00:00",
+      "elapsed_seconds": 1810.9412797560003,
+      "no_automatic_retry": true,
+      "scoring_executed": false,
+      "physical_runtime_deallocation_verified": false
+    },
+    {
+      "status": "GPU SESSION SAVED",
+      "session_id": "gpu_20261111_050307_17df413a",
+      "reason": "all_calls_complete",
+      "new_calls": 18,
+      "verified_calls": 250,
+      "total_calls": 250,
+      "finished_timestamp": "2026-11-11T05:15:13.326880+00:00",
+      "elapsed_seconds": 726.2020074249999,
+      "no_automatic_retry": true,
+      "scoring_executed": false,
+      "physical_runtime_deallocation_verified": false
+    }
+  ],
+  "limits": [
+    "Only 50 fixed questions and one set of independently seeded calls; pointwise intervals are broad and not corrected for multiple comparisons.",
+    "Parallel denotes independent candidates generated serially at batch size 1. Runtime is summed measured inference, not concurrent serving latency.",
+    "Shared initial input/output tokens and runtime charged to both parallel and refinement; revision input includes the complete initial answer and review instruction.",
+    "Peak memory per strategy/question is the maximum of participating calls, not their sum; global maximum is also recorded.",
+    "Inference includes synchronized prompt/tokenization, prefill, generation, transfer and decoding; excludes model loading, Drive saving and CPU grading.",
+    "Session elapsed totals cover five successful generation sessions, including setup/staging/saving. Earlier failed integrity check and diagnostic allocations are preserved separately; total billed GPU time is not independently available.",
+    "All missing and capped responses retained; final revision returned unconditionally. No gold-based choice between initial and revised answers."
+  ],
+  "GPU_used_for_analysis": false,
+  "new_generations": 0
+}

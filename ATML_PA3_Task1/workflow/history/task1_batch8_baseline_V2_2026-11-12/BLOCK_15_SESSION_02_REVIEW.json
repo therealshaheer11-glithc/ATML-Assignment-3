@@ -1,0 +1,25 @@
+{
+  "run_id": "task1_baseline_batch8_V2_fcfbcfdb65b04d5f8b4ddaf780197501",
+  "reported_status": "TASK1_BASELINE_V2_PARTIAL_SAVED",
+  "session_visited_counts": {
+    "hellaswag": 8500,
+    "boolq": 0,
+    "arc_easy": 0,
+    "gsm8k_cot": 0
+  },
+  "counts_are_session_traversal_not_total_Drive_inventory": true,
+  "worker_elapsed_seconds": 4984.578142656001,
+  "earlier_session_reported": {
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376,
+    "gsm8k_cot": 850
+  },
+  "exact_old_GPU_time_attribution_not_measured": true,
+  "repeated_inference_not_established": true,
+  "prior_results_lost_not_established": true,
+  "next": "CPU-only actual inventory validation and packed transport; do not rerun old Block15",
+  "release_request_accepted_in_console": true,
+  "physical_release_independently_verified": false,
+  "official_training_updates": 0
+}

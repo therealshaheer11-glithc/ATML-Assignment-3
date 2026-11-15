@@ -1,0 +1,10 @@
+{
+  "archive_SHA_and_all_29_members_verified": true,
+  "loader_matches_package_and_embedded_guardian_hashes": true,
+  "all_21_previous_pilot_package_files_unchanged": true,
+  "all_task_local_import_dependencies_included": true,
+  "all_packaged_Python_parses": true,
+  "normal_90_110_minute_budget_policy_restored": true,
+  "extracted_package_engine_and_controller_checks_passed": true,
+  "new_original_model_GPU_run_performed_locally": false
+}

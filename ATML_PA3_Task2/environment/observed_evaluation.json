@@ -1,0 +1,29 @@
+{
+  "Pillow": "11.3.0",
+  "accelerate": "1.15.0",
+  "capability": [
+    7,
+    5
+  ],
+  "cuda": "13.0",
+  "cudnn": 92800,
+  "gpu": "Tesla T4",
+  "gpu_total_memory_bytes": 15637086208,
+  "huggingface-hub": "1.33.0",
+  "numpy": "2.4.6",
+  "nvidia_driver": "580.82.07",
+  "optional_backend_policy": {
+    "backend": "torchao",
+    "installed_version": "0.10.0",
+    "originally_discoverable": true,
+    "quantized_weights_permitted": false,
+    "scope": "Isolated worker only; no package uninstall, upgrade or library-function patch",
+    "worker_import_disabled": true
+  },
+  "peft": "0.21.2",
+  "python": "3.13.16",
+  "safetensors": "0.8.0",
+  "tokenizers": "0.23.3",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+}

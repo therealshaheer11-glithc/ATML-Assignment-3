@@ -1,0 +1,59 @@
+{
+  "status": "TASK1_OPLORA_FINAL_COMPLETE_SAVED",
+  "run_id": "task1_oplora_final_eval_e921fcbc369148b7936d80bcfd548bc0",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "qualitative_completed": 24,
+  "FP32_probe_files_reused": 64,
+  "baseline_summary": {
+    "status": "TASK1_OPLORA_FINAL_EVALUATION_COMPLETE",
+    "audit": {
+      "condition": "oplora_final",
+      "model_identity": "b39053eb70727fa6ad0b9b50a824f186e33249d5f0c281b4d46bcaeac23d31b9",
+      "protocol_identity": "b0cdaa6bab77b1221a581c5f14f02acdd754b2208035d42b9fd5abda8825acf3",
+      "gpu_implementation_identity": "71eb451000f2e66f149b146f0c4ffb2398481e42fb6051b4f1273207d2ac73d2",
+      "OPLoRA_assets_sha256": "bce4edc6a4f68d3307506661ff41e8d78b326d6e8b6087dabf4627aabb5120b4",
+      "trained_checkpoint_update": 1250
+    },
+    "benchmark_counts": {
+      "gsm8k_cot": 1319,
+      "hellaswag": 10042,
+      "boolq": 3270,
+      "arc_easy": 2376
+    },
+    "metrics": {
+      "hellaswag": {
+        "acc,none": 0.37801234813782114,
+        "acc_norm,none": 0.47410874327823144
+      },
+      "boolq": {
+        "acc,none": 0.7299694189602447
+      },
+      "arc_easy": {
+        "acc,none": 0.67003367003367,
+        "acc_norm,none": 0.6338383838383839
+      },
+      "gsm8k_cot": {
+        "exact_match,flexible-extract": 0.621683093252464,
+        "exact_match,strict-match": 0.0
+      }
+    },
+    "original_probe_manifest": "results/original/ACTIVATION_PROBES_COMPLETE.json",
+    "qualitative_responses": 24,
+    "FP32_activation_probes": 64,
+    "human_qualitative_annotation_pending": true,
+    "official_training_updates": 0,
+    "preliminary_batch_one_GSM_outputs_used_in_main_metrics": false
+  },
+  "elapsed_worker_seconds": 15361.376136617,
+  "GPU_memory": {
+    "peak_allocated_bytes": 3158407168,
+    "peak_reserved_bytes": 5758779392,
+    "total_gpu_bytes": 23659151360
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "annotated_count_in_verified_pool": 2,
+  "bytes": 118882,
+  "decoded_size": [
+    640,
+    427
+  ],
+  "file_name": "COCO_train2014_000000153620.jpg",
+  "image_id": 153620,
+  "sha256": "27a62e8a78196e041d935f592b8c6aff9b577ff99fd9316dca51b49bc49d286a",
+  "source_split": "train2014",
+  "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000153620.jpg",
+  "visual_approval": "pending human review"
+}

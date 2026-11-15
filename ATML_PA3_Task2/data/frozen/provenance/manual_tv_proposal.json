@@ -1,0 +1,179 @@
+{
+  "accepted_audit_positions_preserved": 245,
+  "accepted_replacement_pairs_preserved": 85,
+  "additional_quarantine": [
+    {
+      "affected_side": "B",
+      "applied": false,
+      "category_id": 72,
+      "category_name": "tv",
+      "image_id": 96497,
+      "label_status": "annotation_error",
+      "original_review_index": 143,
+      "pair_id": "grounding:proposed_continuation04:train_audit:counting:72:96497:572443",
+      "reason": "Desktops not Tvs in image B",
+      "review_source_sha256": "d4a51750d84ac9c14449cb8467d9067550ad2bfed95d95652c10942c44d0fd6f",
+      "scope": "Proposed grounding image/category exclusion across all grounding roles only"
+    }
+  ],
+  "candidate_pairs": [
+    {
+      "approval_id": "PENDING_MANUAL_SELECTION_APPROVAL",
+      "audit_only": true,
+      "candidate_only": true,
+      "category_id": 72,
+      "category_name": "tv",
+      "changed_sides": [
+        "B"
+      ],
+      "count_combination_fallback": true,
+      "examples": [
+        {
+          "annotated_count": 1,
+          "canonical": "1",
+          "image_id": 572443,
+          "question_id": "grounding:proposed_manual05:train_audit:counting:72:153620:572443:0",
+          "target": "1"
+        },
+        {
+          "annotated_count": 2,
+          "canonical": "2",
+          "image_id": 153620,
+          "question_id": "grounding:proposed_manual05:train_audit:counting:72:153620:572443:1",
+          "target": "2"
+        }
+      ],
+      "experiment_split": "train_audit",
+      "original_review_index": 143,
+      "pair_id": "grounding:proposed_manual05:train_audit:counting:72:153620:572443",
+      "previous_candidate_pair_id": "grounding:proposed_continuation04:train_audit:counting:72:96497:572443",
+      "question": "How many TVs can you see?",
+      "question_content_tokens": 7,
+      "question_rendered": true,
+      "question_type": "counting",
+      "replacement_of_pair_id": "grounding:train_audit:counting:72:181828:341696",
+      "retained_original_sides": [
+        true,
+        false
+      ],
+      "retained_previous_sides": [
+        true,
+        false
+      ],
+      "source_split": "train2014",
+      "user_content_tokens": 13,
+      "user_text": "Answer with a short phrase.\nHow many TVs can you see?",
+      "visual_review_complete": false
+    }
+  ],
+  "candidate_rng_states_preserved": {
+    "train2014": {
+      "bit_generator": "PCG64",
+      "has_uint32": 1,
+      "state": {
+        "inc": 205529926880238417571143523633444438781,
+        "state": 339288630786912804319329192909779987985
+      },
+      "uinteger": 2987767295
+    },
+    "val2014": {
+      "bit_generator": "PCG64",
+      "has_uint32": 0,
+      "state": {
+        "inc": 205529926880238417571143523633444438781,
+        "state": 296760916710863024133686811127477622894
+      },
+      "uinteger": 1716981581
+    }
+  },
+  "checks": {
+    "audit_positions": 246,
+    "counting_categories": 78,
+    "dev_pairs": 24,
+    "new_image_sides": 1,
+    "original_annotated_count": 2,
+    "presence_categories": 80,
+    "retained_partner_sides": 1,
+    "test_pairs": 64,
+    "training_images": 8733,
+    "training_universe_and_eval_isolation": true
+  },
+  "data_changes_applied": false,
+  "dataset_frozen": false,
+  "inspected_image_ids": [
+    11849,
+    13273,
+    47667,
+    67297,
+    68576,
+    81259,
+    87363,
+    115270,
+    124709,
+    146638,
+    153270,
+    153620,
+    155496,
+    163829,
+    181028,
+    184396,
+    205025,
+    207090
+  ],
+  "parent_plan_sha256": "445b9f5fd918ddb73631149daacbe547c8fd2b6e1eedad9e0dd4616d02a6b4b7",
+  "parent_review_sha256": "d4a51750d84ac9c14449cb8467d9067550ad2bfed95d95652c10942c44d0fd6f",
+  "previous_human_judgment": {
+    "affected_sides": "B",
+    "ai_assisted": true,
+    "label_status": "annotation_error",
+    "notes": "Desktops not Tvs in image B",
+    "pair_id": "grounding:proposed_continuation04:train_audit:counting:72:96497:572443",
+    "review_origin": "human_colab",
+    "reviewed_at": "2026-11-07T17:09:46.095351+00:00",
+    "reviewer": "Shaheer Ahmad Masood"
+  },
+  "rng_transitions": [
+    {
+      "original_review_index": 143,
+      "rng_consumed": false,
+      "rng_state_after": {
+        "bit_generator": "PCG64",
+        "has_uint32": 1,
+        "state": {
+          "inc": 205529926880238417571143523633444438781,
+          "state": 339288630786912804319329192909779987985
+        },
+        "uinteger": 2987767295
+      },
+      "rng_state_before": {
+        "bit_generator": "PCG64",
+        "has_uint32": 1,
+        "state": {
+          "inc": 205529926880238417571143523633444438781,
+          "state": 339288630786912804319329192909779987985
+        },
+        "uinteger": 2987767295
+      },
+      "source_split": "train2014"
+    }
+  ],
+  "selection_method": "Assistant visually screened 18 eligible training images in ascending ID order, then proposed image 153620 for two clearly identifiable television sets. Explicit manual selection replaces random selection for this one B side.",
+  "selection_rng_consumed": false,
+  "source_image_receipt": {
+    "annotated_count_in_verified_pool": 2,
+    "bytes": 118882,
+    "decoded_size": [
+      640,
+      427
+    ],
+    "file_name": "COCO_train2014_000000153620.jpg",
+    "image_id": 153620,
+    "sha256": "27a62e8a78196e041d935f592b8c6aff9b577ff99fd9316dca51b49bc49d286a",
+    "source_split": "train2014",
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/train2014/COCO_train2014_000000153620.jpg",
+    "visual_approval": "pending human review"
+  },
+  "status": "pending_exact_manual_selection_approval",
+  "total_proposed_quarantine_entries": 110,
+  "visual_selection_disclosure": "Selection depends on image appearance before model training or evaluation. It changes the sampling procedure for one training audit replacement and requires approval. Human acceptance remains pending."
+}

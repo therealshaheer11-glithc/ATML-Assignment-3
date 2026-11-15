@@ -1,0 +1,7 @@
+{
+  "status": "Split/order/seed plans fixed",
+  "scorer_frozen": false,
+  "adaptive_thresholds_frozen": false,
+  "held_out_results_inspected": false,
+  "next": "CPU official question metadata acquisition and scorer verification; development selection before held-out analysis"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "TASK1_FULL_FT_BOUNDARY_SAVED",
+  "run_id": "task1_full_ft_28e6c841efa74bc1870e1e5c1267f5a1",
+  "method": "full",
+  "training_contract_identity": "6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b",
+  "numerical_implementation_identity": "654543e33f45ac0ef7eaa46f5d51ffc87bbd773d5174730b815f103a9ef89e26",
+  "job_target_update": 937,
+  "start_update": 625,
+  "model_load_and_resume_seconds": 103.53722953500005,
+  "training_outcome": {
+    "status": "TRAINING_MANDATORY_SAVED",
+    "successful_updates": 937,
+    "checkpoint": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000937_54d34c25df51",
+    "timings": {
+      "training_seconds": 2335.2311131280003,
+      "checkpoint_seconds": 1071.0055053519995
+    },
+    "FullFT_midpoint_evaluation_due": false
+  },
+  "official_training_updates": 937,
+  "examples_seen": 29984,
+  "updates_this_job": 312,
+  "checkpoint": {
+    "path": "checkpoints/full/6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b/mandatory_000937_54d34c25df51",
+    "marker_sha256": "e9864fc0ce175666ec73e6722abf452b9fa3b0d507000d2bd6677a4533540862",
+    "manifest_identity": "5095cb40684e4a1833bc37121d0f103918dfc06e4c6fe5d5af4e93a47689f503",
+    "archive_sha256": "6df78e05bbbdf44b6d783823f533f963f9cd085e0a4731f512d99ea2186dbd69",
+    "archive_bytes": 7153889280,
+    "successful_updates": 937,
+    "examples_seen": 29984,
+    "kind": "mandatory",
+    "created_wall": 1794571561.4087255,
+    "worker_verified_tensor_readback": true
+  },
+  "GPU_memory": {
+    "peak_allocated_bytes": 11458722304,
+    "peak_reserved_bytes": 12406751232,
+    "total_gpu_bytes": 23659151360
+  },
+  "elapsed_worker_seconds": 3528.9738899530003
+}

@@ -1,0 +1,26 @@
+{
+  "seed": 6304,
+  "numpy": "2.4.6",
+  "bit_generator": "PCG64",
+  "split": "Fresh default_rng(6304) per dataset; permute lexically sorted string IDs",
+  "dataset_indices": {
+    "MATH": 0,
+    "MathVista": 1
+  },
+  "orders": "default_rng(SeedSequence([6304,1,dataset_index,sorted_question_index,order_index])).permutation(32), order_index=0..9",
+  "live_seeds": "SeedSequence([6304,2,live_question_index,call_slot]).generate_state(1,uint32); slots parallel1,parallel2,parallel3,long,revision",
+  "bootstrap_reserved_streams": {
+    "offline": "default_rng(SeedSequence([6304,3,dataset_index]))",
+    "live": "default_rng(SeedSequence([6304,4]))"
+  },
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "prefix_rule": "Consume nested prefixes of the same stored order for every selector/controller",
+  "outcome_independent": true
+}

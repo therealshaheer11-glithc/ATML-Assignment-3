@@ -1,0 +1,16 @@
+{
+  "package_sha256": "e9c790754c2cf0141c6e8f4b8e0077247fc795365a0c80502f7a791f834312e5",
+  "files": {
+    "prepare_data_R1.py": "d24ae80def585cb35666e87895042d0d655757612fe46436969a096945675082",
+    "APPROVED_PLAN.json": "a5dbacd38d306e0c7ba8ddbb724d5a091b68349d664bd20618e0b2d0cec877ea",
+    "proposal.md": "d13f6172406705a258d7319d20c38ebed78309a997c87ed065e84388fe0bf0a4"
+  },
+  "checks": {
+    "reproduced_original_BPE_failure_and_repaired_without_dropping_row": true,
+    "whitespace_unicode_and_literal_tokens_preserved": true,
+    "2048_inclusive_2049_excluded_without_truncation": true,
+    "manual_exclusion_rules_preserved": true,
+    "roundtrip_corruption_refused": true
+  },
+  "scope": "Synthetic tokenizer regression checks passed. Frozen real tokenizer and source-row checks run inside Colab before the full selection; not locally executed."
+}

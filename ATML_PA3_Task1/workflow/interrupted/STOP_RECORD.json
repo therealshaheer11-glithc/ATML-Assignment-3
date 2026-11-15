@@ -1,0 +1,14 @@
+{
+  "source_attachment_sha256": "b80e4acacbf13f69444859a1ea88ab3577f3923f46f28d7e1eec48bb19abc96b",
+  "user_report": "Stopped this cell in the middle; no terminal output supplied.",
+  "actual_operation": "CPU structural audit and combined backup of completed LoRA16 and OPLoRA evaluations, not adapter export, training, or evaluation.",
+  "misleading_header": "Block 44 — OPLoRA final adapter export",
+  "expected_final_status": "TASK1_BLOCK46_STRUCTURAL_AUDIT_BACKUP_OK",
+  "completion_confirmed": false,
+  "output_pattern": "exports/Task1_LoRA16_OPLoRA_Evaluations_<hash-prefix>.zip",
+  "input_mutation": "Code reads source results; it does not overwrite/delete original checkpoints or evaluation records.",
+  "possible_partial_artifacts": "Temporary /content ZIP or Drive .pending_<uuid> copy may exist; not inspected and not a verified backup.",
+  "fresh_stock_scorer_replay": false,
+  "diagnostics_completed_by_this_cell": false,
+  "user_direction": "Stop Task 1 experimental work and continue packaging/report from existing evidence. Do not automatically resume this or GPU jobs."
+}

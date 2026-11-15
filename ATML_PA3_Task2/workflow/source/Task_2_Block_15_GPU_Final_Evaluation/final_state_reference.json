@@ -1,0 +1,18 @@
+{
+  "checkpoint": {
+    "bytes": 77397849,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/checkpoints/update_004500_0aaafc7b02763e23.pt",
+    "readback_verified": true,
+    "sha256": "0aaafc7b02763e239590356320367fbe6ca7f5f4fae981c1d9d0feaedb5f2f19"
+  },
+  "completion_attempt": "20261108_184710_4cf0ab50",
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "execution_recipe_sha256": "3c691fd16ed3828f97a3a413f8c2fc1ecfb160645e47a9d98523f087ab1d5012",
+  "initial_manifest_sha256": "c84707b6ba6db67653d10c9d71801ceb4c19e37cb010c2376a306c699d6981eb",
+  "progress": {
+    "bytes": 43353,
+    "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/training/5014ffeb68f754bb/progress/update_004500_b291d75f0f7c1a84.json",
+    "readback_verified": true,
+    "sha256": "b291d75f0f7c1a84ec2f54b0973f75fa987ef985e2a57f12d8ab7bfef1274028"
+  }
+}

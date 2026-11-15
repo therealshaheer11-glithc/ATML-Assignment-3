@@ -1,0 +1,8 @@
+{
+  "approval_id": "T1-A002",
+  "date": "2026-11-12",
+  "timezone": "Asia/Karachi",
+  "user_answer": "Use the public original (Recommended)",
+  "approved_source": "https://github.com/emergent-misalignment/emergent-misalignment/blob/main/evaluation/first_plot_questions.yaml",
+  "scope": "Use a pinned unchanged original public file for the 24 qualitative prompts; keep PA generation/annotation rules rather than paper sampling/judge defaults."
+}

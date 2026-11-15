@@ -1,0 +1,44 @@
+{
+  "status": "TASK1_BLOCK18_BASELINE_AUDIT_EXPORT_OK",
+  "export_identity": "2062ae3a93f76b5f15651e8ea04c62c7555e626a78321d6949bd67b8d6a877ae",
+  "export_path": "exports/Task_1_Original_Baseline_V2_2062ae3a93f76b5f.zip",
+  "export_sha256": "51802b3cb2d6ce20306b68cccb61fa8c452c07354073de8528204e5c085024a2",
+  "export_bytes": 35263727,
+  "export_members": 17632,
+  "benchmark_counts": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "metrics": {
+    "arc_easy": {
+      "acc,none": 0.6077441077441077,
+      "acc_norm,none": 0.5597643097643098
+    },
+    "boolq": {
+      "acc,none": 0.6437308868501529
+    },
+    "gsm8k_cot": {
+      "exact_match,flexible-extract": 0.43214556482183475,
+      "exact_match,strict-match": 0.0
+    },
+    "hellaswag": {
+      "acc,none": 0.37562238597888864,
+      "acc_norm,none": 0.47301334395538736
+    }
+  },
+  "all_17007_stock_scores_and_filtered_responses_replayed": true,
+  "raw_generation_batches_validated": 211,
+  "raw_likelihood_chunks_validated": 158,
+  "qualitative_responses_verified": 24,
+  "FP32_probe_file_hashes_verified": 64,
+  "human_qualitative_annotation_pending": true,
+  "official_training_updates": 0,
+  "GPU_work_run": false,
+  "new_model_inference_run": false,
+  "prior_results_modified": false,
+  "elapsed_seconds": 925.042377532,
+  "physical_GPU_deallocation_independently_verified": false,
+  "next": "Return this complete JSON with GPU off. Next work is approved training-loop and recovery implementation; do not rerun baseline."
+}

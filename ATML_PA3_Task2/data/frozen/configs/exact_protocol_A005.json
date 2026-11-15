@@ -1,0 +1,390 @@
+{
+  "status": "approved",
+  "date": "2026-10-31",
+  "scope": "Exact values previously left unspecified; extends approved directions without replacing earlier approvals",
+  "wording": {
+    "caption_user_text": "Describe this image.",
+    "vqa_user_text": "Answer with a short phrase.\n{original_question}",
+    "system_message": null,
+    "thinking_enabled": false,
+    "presence_question": "Does this image contain {presence_phrase}?",
+    "counting_question": "How many {counting_phrase} can you see?",
+    "same_vqa_text_for_all_image_conditions": true,
+    "preserve_natural_questions_and_original_targets": true,
+    "cap_check": "Check original question and complete rendered VQA user text each <=80 tokens. Stop without truncation or reselection if any chosen example fails."
+  },
+  "audit": {
+    "seed": 6304,
+    "evaluation_grounding_pairs": 88,
+    "training_presence_pairs": 80,
+    "training_counting_pairs": 78,
+    "total_pairs": 246,
+    "training_sample_rule": "One complete pair for every eligible category/task, using an independent default_rng(6304); uniform eligible count combination and images",
+    "review": "Full images plus category boxes; review annotation absence, omitted objects, count/group ambiguity, occlusion and crowd handling independently of model predictions",
+    "dispositions": [
+      "accept",
+      "ambiguous",
+      "annotation_error"
+    ],
+    "automatic_replacement_or_relabeling": false,
+    "training_budget_affected": false
+  },
+  "calibration": {
+    "seed": 6304,
+    "training_images": 256,
+    "training_caption_examples": 256,
+    "selection": "Sorted IDs, independent default_rng(6304), without replacement; image sample from 8733-image training union; captions from selected 18000",
+    "numerator": "Global RMS of frozen Qwen embeddings of all content tokens in sampled original captions; exclude chat, termination and padding tokens",
+    "denominator": "Global RMS of initial seeded connector outputs for all 196 patches of sampled cached training images",
+    "arithmetic": "FP32 streaming sum of squares and element counts",
+    "scale": "numerator / denominator; error if either RMS is zero or nonfinite",
+    "placement": "One fixed non-trainable scalar after connector MLP, before conversion to Qwen FP16 input embeddings; retain throughout all stages",
+    "saved_evidence": [
+      "sample IDs",
+      "both RMS values",
+      "scale",
+      "initial connector state and hash"
+    ],
+    "evaluation_inputs_used": false,
+    "additional_normalization_or_clamping": false
+  },
+  "learning_rate_endpoints": {
+    "warmup_updates": [
+      113,
+      75,
+      38
+    ],
+    "update_index": "One-based successful optimizer update u=1..U within stage",
+    "warmup": "LR(u)=peak*u/w for 1<=u<=w",
+    "decay": "LR(u)=peak*(0.1+0.9*(1+cos(pi*(u-w)/(U-w)))/2) for w<u<=U",
+    "first": "peak/w",
+    "warmup_end": "peak",
+    "stage_end": "0.1*peak",
+    "applied": "Set the LR for update u before its optimizer step; only completed updates advance state"
+  },
+  "decision_id": "A005",
+  "approval_date": "2026-10-31",
+  "user_approval": "approved and document and let's continue",
+  "noun_forms": {
+    "person": {
+      "presence_phrase": "a person",
+      "counting_phrase": "people"
+    },
+    "bicycle": {
+      "presence_phrase": "a bicycle",
+      "counting_phrase": "bicycles"
+    },
+    "car": {
+      "presence_phrase": "a car",
+      "counting_phrase": "cars"
+    },
+    "motorcycle": {
+      "presence_phrase": "a motorcycle",
+      "counting_phrase": "motorcycles"
+    },
+    "airplane": {
+      "presence_phrase": "an airplane",
+      "counting_phrase": "airplanes"
+    },
+    "bus": {
+      "presence_phrase": "a bus",
+      "counting_phrase": "buses"
+    },
+    "train": {
+      "presence_phrase": "a train",
+      "counting_phrase": "trains"
+    },
+    "truck": {
+      "presence_phrase": "a truck",
+      "counting_phrase": "trucks"
+    },
+    "boat": {
+      "presence_phrase": "a boat",
+      "counting_phrase": "boats"
+    },
+    "traffic light": {
+      "presence_phrase": "a traffic light",
+      "counting_phrase": "traffic lights"
+    },
+    "fire hydrant": {
+      "presence_phrase": "a fire hydrant",
+      "counting_phrase": "fire hydrants"
+    },
+    "stop sign": {
+      "presence_phrase": "a stop sign",
+      "counting_phrase": "stop signs"
+    },
+    "parking meter": {
+      "presence_phrase": "a parking meter",
+      "counting_phrase": "parking meters"
+    },
+    "bench": {
+      "presence_phrase": "a bench",
+      "counting_phrase": "benches"
+    },
+    "bird": {
+      "presence_phrase": "a bird",
+      "counting_phrase": "birds"
+    },
+    "cat": {
+      "presence_phrase": "a cat",
+      "counting_phrase": "cats"
+    },
+    "dog": {
+      "presence_phrase": "a dog",
+      "counting_phrase": "dogs"
+    },
+    "horse": {
+      "presence_phrase": "a horse",
+      "counting_phrase": "horses"
+    },
+    "sheep": {
+      "presence_phrase": "a sheep",
+      "counting_phrase": "sheep"
+    },
+    "cow": {
+      "presence_phrase": "a cow",
+      "counting_phrase": "cows"
+    },
+    "elephant": {
+      "presence_phrase": "an elephant",
+      "counting_phrase": "elephants"
+    },
+    "bear": {
+      "presence_phrase": "a bear",
+      "counting_phrase": "bears"
+    },
+    "zebra": {
+      "presence_phrase": "a zebra",
+      "counting_phrase": "zebras"
+    },
+    "giraffe": {
+      "presence_phrase": "a giraffe",
+      "counting_phrase": "giraffes"
+    },
+    "backpack": {
+      "presence_phrase": "a backpack",
+      "counting_phrase": "backpacks"
+    },
+    "umbrella": {
+      "presence_phrase": "an umbrella",
+      "counting_phrase": "umbrellas"
+    },
+    "handbag": {
+      "presence_phrase": "a handbag",
+      "counting_phrase": "handbags"
+    },
+    "tie": {
+      "presence_phrase": "a tie",
+      "counting_phrase": "ties"
+    },
+    "suitcase": {
+      "presence_phrase": "a suitcase",
+      "counting_phrase": "suitcases"
+    },
+    "frisbee": {
+      "presence_phrase": "a frisbee",
+      "counting_phrase": "frisbees"
+    },
+    "skis": {
+      "presence_phrase": "skis",
+      "counting_phrase": "skis"
+    },
+    "snowboard": {
+      "presence_phrase": "a snowboard",
+      "counting_phrase": "snowboards"
+    },
+    "sports ball": {
+      "presence_phrase": "a sports ball",
+      "counting_phrase": "sports balls"
+    },
+    "kite": {
+      "presence_phrase": "a kite",
+      "counting_phrase": "kites"
+    },
+    "baseball bat": {
+      "presence_phrase": "a baseball bat",
+      "counting_phrase": "baseball bats"
+    },
+    "baseball glove": {
+      "presence_phrase": "a baseball glove",
+      "counting_phrase": "baseball gloves"
+    },
+    "skateboard": {
+      "presence_phrase": "a skateboard",
+      "counting_phrase": "skateboards"
+    },
+    "surfboard": {
+      "presence_phrase": "a surfboard",
+      "counting_phrase": "surfboards"
+    },
+    "tennis racket": {
+      "presence_phrase": "a tennis racket",
+      "counting_phrase": "tennis rackets"
+    },
+    "bottle": {
+      "presence_phrase": "a bottle",
+      "counting_phrase": "bottles"
+    },
+    "wine glass": {
+      "presence_phrase": "a wine glass",
+      "counting_phrase": "wine glasses"
+    },
+    "cup": {
+      "presence_phrase": "a cup",
+      "counting_phrase": "cups"
+    },
+    "fork": {
+      "presence_phrase": "a fork",
+      "counting_phrase": "forks"
+    },
+    "knife": {
+      "presence_phrase": "a knife",
+      "counting_phrase": "knives"
+    },
+    "spoon": {
+      "presence_phrase": "a spoon",
+      "counting_phrase": "spoons"
+    },
+    "bowl": {
+      "presence_phrase": "a bowl",
+      "counting_phrase": "bowls"
+    },
+    "banana": {
+      "presence_phrase": "a banana",
+      "counting_phrase": "bananas"
+    },
+    "apple": {
+      "presence_phrase": "an apple",
+      "counting_phrase": "apples"
+    },
+    "sandwich": {
+      "presence_phrase": "a sandwich",
+      "counting_phrase": "sandwiches"
+    },
+    "orange": {
+      "presence_phrase": "an orange",
+      "counting_phrase": "oranges"
+    },
+    "broccoli": {
+      "presence_phrase": "broccoli",
+      "counting_phrase": "broccoli"
+    },
+    "carrot": {
+      "presence_phrase": "a carrot",
+      "counting_phrase": "carrots"
+    },
+    "hot dog": {
+      "presence_phrase": "a hot dog",
+      "counting_phrase": "hot dogs"
+    },
+    "pizza": {
+      "presence_phrase": "pizza",
+      "counting_phrase": "pizzas"
+    },
+    "donut": {
+      "presence_phrase": "a donut",
+      "counting_phrase": "donuts"
+    },
+    "cake": {
+      "presence_phrase": "cake",
+      "counting_phrase": "cakes"
+    },
+    "chair": {
+      "presence_phrase": "a chair",
+      "counting_phrase": "chairs"
+    },
+    "couch": {
+      "presence_phrase": "a couch",
+      "counting_phrase": "couches"
+    },
+    "potted plant": {
+      "presence_phrase": "a potted plant",
+      "counting_phrase": "potted plants"
+    },
+    "bed": {
+      "presence_phrase": "a bed",
+      "counting_phrase": "beds"
+    },
+    "dining table": {
+      "presence_phrase": "a dining table",
+      "counting_phrase": "dining tables"
+    },
+    "toilet": {
+      "presence_phrase": "a toilet",
+      "counting_phrase": "toilets"
+    },
+    "tv": {
+      "presence_phrase": "a TV",
+      "counting_phrase": "TVs"
+    },
+    "laptop": {
+      "presence_phrase": "a laptop",
+      "counting_phrase": "laptops"
+    },
+    "mouse": {
+      "presence_phrase": "a mouse",
+      "counting_phrase": "mice"
+    },
+    "remote": {
+      "presence_phrase": "a remote",
+      "counting_phrase": "remotes"
+    },
+    "keyboard": {
+      "presence_phrase": "a keyboard",
+      "counting_phrase": "keyboards"
+    },
+    "cell phone": {
+      "presence_phrase": "a cell phone",
+      "counting_phrase": "cell phones"
+    },
+    "microwave": {
+      "presence_phrase": "a microwave",
+      "counting_phrase": "microwaves"
+    },
+    "oven": {
+      "presence_phrase": "an oven",
+      "counting_phrase": "ovens"
+    },
+    "toaster": {
+      "presence_phrase": "a toaster",
+      "counting_phrase": "toasters"
+    },
+    "sink": {
+      "presence_phrase": "a sink",
+      "counting_phrase": "sinks"
+    },
+    "refrigerator": {
+      "presence_phrase": "a refrigerator",
+      "counting_phrase": "refrigerators"
+    },
+    "book": {
+      "presence_phrase": "a book",
+      "counting_phrase": "books"
+    },
+    "clock": {
+      "presence_phrase": "a clock",
+      "counting_phrase": "clocks"
+    },
+    "vase": {
+      "presence_phrase": "a vase",
+      "counting_phrase": "vases"
+    },
+    "scissors": {
+      "presence_phrase": "scissors",
+      "counting_phrase": "scissors"
+    },
+    "teddy bear": {
+      "presence_phrase": "a teddy bear",
+      "counting_phrase": "teddy bears"
+    },
+    "hair drier": {
+      "presence_phrase": "a hair drier",
+      "counting_phrase": "hair driers"
+    },
+    "toothbrush": {
+      "presence_phrase": "a toothbrush",
+      "counting_phrase": "toothbrushes"
+    }
+  }
+}

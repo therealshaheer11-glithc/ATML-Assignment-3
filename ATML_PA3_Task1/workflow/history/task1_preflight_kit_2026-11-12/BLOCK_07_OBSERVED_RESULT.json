@@ -1,0 +1,24 @@
+{
+  "status": "TASK1_BLOCK07_OK",
+  "kit_id": "20e10b447813341eed5b79026e35a28a1508e48bb1980b09b815e1298cbd97cd",
+  "numerical_checks": {
+    "chunked_response_loss_matches_dense": true,
+    "all_parameter_gradients_match_dense": true,
+    "chunk_tokens": 128
+  },
+  "supervisor_cpu_tests": {
+    "completed": true,
+    "worker_error": true,
+    "deadline": true,
+    "stalled": true,
+    "corrupt_state": true,
+    "event_save_failure": true
+  },
+  "fixed_input_archive_GiB": 1.78,
+  "input_files": 459,
+  "elapsed_seconds": 130.3,
+  "gpu_work_run": false,
+  "official_training_started": false,
+  "next": "Return output before selecting L4; the GPU launch block must start its independent guardian first.",
+  "evidence_source": "User-supplied Colab output"
+}

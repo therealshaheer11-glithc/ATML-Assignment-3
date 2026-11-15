@@ -1,0 +1,41 @@
+{
+  "runtime": {
+    "token_loss_and_projection_checks": {
+      "token_weighted_gradient": true,
+      "l2_sp_unique_parameters_and_biases": true,
+      "double_projection_and_leakage": true,
+      "factor_dense_and_merge_equivalence": true,
+      "frozen_backbone_and_adapter_gradients": true,
+      "learning_rate_endpoints": true
+    },
+    "chunked_head_gradient_checks": {
+      "chunked_response_loss_matches_dense": true,
+      "all_parameter_gradients_match_dense": true,
+      "chunk_tokens": 128
+    },
+    "sharded_tensor_and_optimizer_values_reload_exactly": true,
+    "Python_NumPy_torch_RNG_and_scaler_reload_exactly": true,
+    "actual_next_update_CPU_continuation_matches": true,
+    "tied_embedding_and_head_preserved_on_reload": true,
+    "L2_SP_once_per_effective_batch_and_frozen_reference_checked": true,
+    "LoRA_and_OPLoRA_freeze_backbone_and_preserve_protected_bases": true,
+    "last_update_zero_LR_still_executes_exactly_one_Adam_step": true,
+    "single_overflow_retries_same_batch_and_RNG_without_extra_update": true,
+    "persistent_overflow_stops_after_8_retries_plus_initial_attempt": true,
+    "forward_error_stops_immediately_and_restores_boundary": true,
+    "partially_executed_optimizer_is_not_coherent": true,
+    "rolling_retention_preserves_mandatory_unrelated_and_incomplete_data": true,
+    "changed_checkpoint_archive_rejected": true,
+    "fixture_torch_version": "2.13.0",
+    "GPU_work_run": false,
+    "official_training_updates": 0
+  },
+  "loop": {
+    "312_actual_toy_updates_stop_at_first_mandatory_boundary": true,
+    "all_9984_source_order_fixture_IDs_preserved": true,
+    "mandatory_checkpoint_reloads_at_312": true,
+    "soft_limit_stops_at_complete_update_313": true,
+    "checkpoint_failure_after_commit_keeps_post_update_RNG": true,
+    "scope": "CPU fixtures only; no original-model or official training updates"
+  }
+}

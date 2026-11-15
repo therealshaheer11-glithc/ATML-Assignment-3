@@ -1,0 +1,1 @@
+All percentages average ten orders within each of 800 questions. Categories partition consumed-candidate outcomes. First answer consumes only one, so its available-correct fraction equals its accuracy. Other methods consume all32. Labels use the frozen bounded scorer, including the reported MATH timeout case.

@@ -1,0 +1,82 @@
+{
+  "scope": "Derived from returned terminal receipts with continuous nonoverlapping 0\u20131250 update coverage. Training/checkpoint time are sums of reported segments, not full billed compute; initialization, preprocessing, failed attempts and some profiling/transfer costs are excluded. Hardware differs across some runs; peak is the largest reported allocation across segments. Full per-update and cost audit remains unfinished.",
+  "methods": [
+    {
+      "method": "full",
+      "trainable_parameters": 596049920,
+      "covered_updates": 1250,
+      "observed_segments": 4,
+      "reported_training_seconds": 9384.301802905999,
+      "reported_checkpoint_seconds": 4321.130140240997,
+      "max_reported_peak_allocated_bytes": 11473340416,
+      "max_reported_peak_reserved_bytes": 12742295552,
+      "final_checkpoint_archive_bytes": 7154073600,
+      "final_checkpoint_receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_full_ft_d9f8fd53300440febab1b2eab9073480_e82f6d9ca1a1.json",
+      "observed_gpu_total_memory_bytes": [
+        23659151360
+      ]
+    },
+    {
+      "method": "l2sp",
+      "trainable_parameters": 596049920,
+      "covered_updates": 1250,
+      "observed_segments": 4,
+      "reported_training_seconds": 8663.606710847997,
+      "reported_checkpoint_seconds": 2891.3607533650006,
+      "max_reported_peak_allocated_bytes": 16765853184,
+      "max_reported_peak_reserved_bytes": 17251172352,
+      "final_checkpoint_archive_bytes": 7154094080,
+      "final_checkpoint_receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_l2sp_eead790bbf1c4f80940868d916cb0fce_6ac9682423d5.json",
+      "observed_gpu_total_memory_bytes": [
+        23659151360,
+        42405855232
+      ]
+    },
+    {
+      "method": "lora4",
+      "trainable_parameters": 2523136,
+      "covered_updates": 1250,
+      "observed_segments": 3,
+      "reported_training_seconds": 14169.462972569992,
+      "reported_checkpoint_seconds": 22.059892864000403,
+      "max_reported_peak_allocated_bytes": 1945991168,
+      "max_reported_peak_reserved_bytes": 2126512128,
+      "final_checkpoint_archive_bytes": 31815680,
+      "final_checkpoint_receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora4_01fc3a71d0d24ba88dbda80b60780a9b_05a6e6a9af66.json",
+      "observed_gpu_total_memory_bytes": [
+        23659151360,
+        42405855232
+      ]
+    },
+    {
+      "method": "lora16",
+      "trainable_parameters": 10092544,
+      "covered_updates": 1250,
+      "observed_segments": 1,
+      "reported_training_seconds": 13834.631246022991,
+      "reported_checkpoint_seconds": 52.299360669998805,
+      "max_reported_peak_allocated_bytes": 2068294656,
+      "max_reported_peak_reserved_bytes": 2195718144,
+      "final_checkpoint_archive_bytes": 122654720,
+      "final_checkpoint_receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_lora16_32425c2a96c447a692fbc4204e4cd4f6_7dcce47dac7d.json",
+      "observed_gpu_total_memory_bytes": [
+        23659151360
+      ]
+    },
+    {
+      "method": "oplora",
+      "trainable_parameters": 10092544,
+      "covered_updates": 1250,
+      "observed_segments": 2,
+      "reported_training_seconds": 20815.325213126078,
+      "reported_checkpoint_seconds": 52.930026230000294,
+      "max_reported_peak_allocated_bytes": 2418196480,
+      "max_reported_peak_reserved_bytes": 2529165312,
+      "final_checkpoint_archive_bytes": 122654720,
+      "final_checkpoint_receipt": "ATML_PA3_Task1/evidence/returned_receipts/task1_oplora_e583a37bba8a4c7084e0afb910abe0a7_d6fd8be52ac1.json",
+      "observed_gpu_total_memory_bytes": [
+        23659151360
+      ]
+    }
+  ]
+}

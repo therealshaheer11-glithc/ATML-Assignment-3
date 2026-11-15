@@ -1,0 +1,12 @@
+{
+  "all_16538_synthetic_records_checked_and_packed": true,
+  "all_source_answer_bytes_preserved": true,
+  "three_complete_means_reaggregated": true,
+  "partial_GSM_not_declared_complete": true,
+  "unfinished_chunk_raw_batch_retained": true,
+  "raw_likelihood_checksum_and_group_checked": true,
+  "request_change_rejected": true,
+  "nonfinite_score_rejected": true,
+  "ZIP_all_members_hash_readback_passed": true,
+  "scope": "Synthetic CPU transport tests only; no actual Drive audit or original-model inference"
+}

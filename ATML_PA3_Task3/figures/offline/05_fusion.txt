@@ -1,0 +1,1 @@
+VisConf = mean(c) × mean(v); token fusion = mean(c × v); their difference is population covariance(c,v). Confidence c uses Q05/Q95 from the current revealed candidate prefix only and is recalibrated for every N/order. See paired_accuracy_differences.csv for paired fusion contrasts with pointwise95% intervals. All results800 held-out MathVista questions, ten orders each.

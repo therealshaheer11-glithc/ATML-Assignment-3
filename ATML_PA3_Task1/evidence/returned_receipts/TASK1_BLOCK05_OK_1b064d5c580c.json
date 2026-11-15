@@ -1,0 +1,24 @@
+{
+  "status": "TASK1_BLOCK05_OK",
+  "original_unique_parameters": 596049920,
+  "svd_matrices": 196,
+  "protection_rank": 128,
+  "adapter_parameter_counts": {
+    "4": 2523136,
+    "16": 10092544
+  },
+  "basis_storage_MiB": 308.13,
+  "svd_preprocessing_seconds": 239.3,
+  "elapsed_seconds": 346.9,
+  "cpu_math_checks": {
+    "token_weighted_gradient": true,
+    "l2_sp_unique_parameters_and_biases": true,
+    "double_projection_and_leakage": true,
+    "factor_dense_and_merge_equivalence": true,
+    "frozen_backbone_and_adapter_gradients": true,
+    "learning_rate_endpoints": true
+  },
+  "gpu_work_run": false,
+  "official_training_started": false,
+  "qualitative_yaml_present": false
+}

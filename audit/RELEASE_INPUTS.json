@@ -1,0 +1,17 @@
+{
+  "release_date": "2026-11-15",
+  "source_archive": {
+    "filename": "ATML_PA3_All_Tasks_GitHub_and_Report_Handoff.zip",
+    "bytes": 20192301,
+    "sha256": "710045f462cf003e9dad3fa1e84ff99e5c662ce28c41d5bf887a66dff161126e"
+  },
+  "final_report": {
+    "path": "report/PA3_Report_Shaheer_Ahmad_Masood.pdf",
+    "bytes": 1078170,
+    "sha256": "01ab3684352e1b8136c150a73dcf9a17be0d7bfeaabd4bf0c84ac64153ffb6ad",
+    "modified": false
+  },
+  "repository_address_from_report": "https://github.com/therealshaheer11-glithc/ATML-Assignment-3",
+  "remote_checked": false,
+  "published": false
+}

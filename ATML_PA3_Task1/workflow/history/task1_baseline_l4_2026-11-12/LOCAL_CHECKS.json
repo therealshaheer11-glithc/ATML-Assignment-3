@@ -1,0 +1,27 @@
+{
+  "raw_generation_checks": {
+    "capped_answer_retained_and_flagged": true,
+    "EOS_at_cap_is_normal_termination": true,
+    "stock_stop_at_cap_is_normal_termination": true,
+    "raw_tokens_reused": true,
+    "raw_model_identity_checked": true,
+    "edited_raw_tokens_rejected": true
+  },
+  "parent_integration_checks": {
+    "complete": true,
+    "partial": true,
+    "worker_error": true,
+    "missing_result": true,
+    "final_save_error": true,
+    "false_complete": true
+  },
+  "syntax_files": [
+    "baseline_runtime.py",
+    "strict_backward_gate.py",
+    "baseline_hflm.py",
+    "baseline_worker.py",
+    "launch_baseline.py",
+    "baseline_launch_checks.py"
+  ],
+  "GPU_numerical_execution_locally": false
+}

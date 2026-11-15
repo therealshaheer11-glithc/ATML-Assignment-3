@@ -1,0 +1,1171 @@
+[
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 597561,
+        "image_id": 475370,
+        "question_id": "caption:597561",
+        "source_split": "train2014",
+        "target": "a boat is going down a large river",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 69817,
+        "image_id": 42010,
+        "question_id": "caption:69817",
+        "source_split": "train2014",
+        "target": "A large blue bird standing next to a painting of flowers.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 370965,
+        "image_id": 140044,
+        "question_id": "caption:370965",
+        "source_split": "train2014",
+        "target": "A cow and two zebras all walking the same direction .",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 14566,
+        "image_id": 105026,
+        "question_id": "caption:14566",
+        "source_split": "train2014",
+        "target": "Two couples, dressed up, smile for a photograph.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 760234,
+        "image_id": 435224,
+        "question_id": "caption:760234",
+        "source_split": "train2014",
+        "target": "a park bench that is sitting next to the ocean",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 826057,
+        "image_id": 570768,
+        "question_id": "caption:826057",
+        "source_split": "train2014",
+        "target": "A man swinging a tennis racquet on a court.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 335755,
+        "image_id": 338258,
+        "question_id": "caption:335755",
+        "source_split": "train2014",
+        "target": "Some people stand on the beach and others go in the water.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 170516,
+        "image_id": 12612,
+        "question_id": "caption:170516",
+        "source_split": "train2014",
+        "target": "A meal of cooked fish with condiments and bread.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 34881,
+        "image_id": 74103,
+        "question_id": "caption:34881",
+        "source_split": "train2014",
+        "target": "A man in the air mid trick while snowboarding.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 447787,
+        "image_id": 40072,
+        "question_id": "caption:447787",
+        "source_split": "train2014",
+        "target": "Man in grassy open field preparing to throw flying disc.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 98143,
+        "image_id": 83271,
+        "question_id": "caption:98143",
+        "source_split": "train2014",
+        "target": "A brown dog on a leash sitting on top of a wooden bench.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 526989,
+        "image_id": 68344,
+        "question_id": "caption:526989",
+        "source_split": "train2014",
+        "target": "A place setting with a cup of coffee and a cake decorated for Halloween with a ghost on top of the chocolate frosting",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 399480,
+        "image_id": 492731,
+        "question_id": "caption:399480",
+        "source_split": "train2014",
+        "target": "a plate of vegetables and other food items on it ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 423107,
+        "image_id": 137838,
+        "question_id": "caption:423107",
+        "source_split": "train2014",
+        "target": "A man that is in the ocean with a surfboard.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 563452,
+        "image_id": 338168,
+        "question_id": "caption:563452",
+        "source_split": "train2014",
+        "target": "Several baskets of fruit sitting on display on  a sidewalk.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 170693,
+        "image_id": 445443,
+        "question_id": "caption:170693",
+        "source_split": "train2014",
+        "target": "A child and a man are getting ready to fly a kite. ",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1144,
+    "learning_rates": [
+      0.0005747952863522204,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.24830424785614,
+    "micro_losses": [
+      2.204937219619751,
+      2.2916712760925293
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1144,
+    "unclipped_gradient_norm": 0.671305239200592,
+    "wall_seconds": 2.51723
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 79323,
+        "image_id": 81701,
+        "question_id": "caption:79323",
+        "source_split": "train2014",
+        "target": "a man with his shirt off about to serve a tennis ball",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 415133,
+        "image_id": 6451,
+        "question_id": "caption:415133",
+        "source_split": "train2014",
+        "target": "A building with a clock at the top of it. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 124991,
+        "image_id": 111447,
+        "question_id": "caption:124991",
+        "source_split": "train2014",
+        "target": "A man is playfully sitting on a toilet in a room being renovated,",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 716954,
+        "image_id": 172310,
+        "question_id": "caption:716954",
+        "source_split": "train2014",
+        "target": "there is a bulldog that is riding a skateboard",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 396826,
+        "image_id": 384994,
+        "question_id": "caption:396826",
+        "source_split": "train2014",
+        "target": "A beautiful duck standing in front of a pond thinking about taking a swim.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 249581,
+        "image_id": 275102,
+        "question_id": "caption:249581",
+        "source_split": "train2014",
+        "target": "A clock on a tower as seen from a roof.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 402594,
+        "image_id": 225393,
+        "question_id": "caption:402594",
+        "source_split": "train2014",
+        "target": "A standing toilet sitting inside of a bathroom.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 127585,
+        "image_id": 578232,
+        "question_id": "caption:127585",
+        "source_split": "train2014",
+        "target": "A FedEx plane takes off from a runway.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 103257,
+        "image_id": 47619,
+        "question_id": "caption:103257",
+        "source_split": "train2014",
+        "target": "A person standing on a surfboard riding a wave.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 752149,
+        "image_id": 160757,
+        "question_id": "caption:752149",
+        "source_split": "train2014",
+        "target": "some food items are sitting out on a counter",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 340286,
+        "image_id": 16414,
+        "question_id": "caption:340286",
+        "source_split": "train2014",
+        "target": "A business with the security gate down and a parking meter in front",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 112771,
+        "image_id": 59118,
+        "question_id": "caption:112771",
+        "source_split": "train2014",
+        "target": "The elephant wades through very deep, calm waters.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 808771,
+        "image_id": 579576,
+        "question_id": "caption:808771",
+        "source_split": "train2014",
+        "target": "A guy and girl sitting on a couch in a room",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 301978,
+        "image_id": 262335,
+        "question_id": "caption:301978",
+        "source_split": "train2014",
+        "target": "A man sets off from the top of a slope on his snow board",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 117126,
+        "image_id": 369735,
+        "question_id": "caption:117126",
+        "source_split": "train2014",
+        "target": "A lot of food that is on a table.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 138734,
+        "image_id": 301888,
+        "question_id": "caption:138734",
+        "source_split": "train2014",
+        "target": "A small bathroom with a yellow toilet, sink area and shower.",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1145,
+    "learning_rates": [
+      0.0005741347221344149,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.4084919691085815,
+    "micro_losses": [
+      2.3457648754119873,
+      2.471219062805176
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1145,
+    "unclipped_gradient_norm": 0.7171528339385986,
+    "wall_seconds": 1.359711
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 551612,
+        "image_id": 288964,
+        "question_id": "caption:551612",
+        "source_split": "train2014",
+        "target": "a man is sitting down outside in the snow",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 718888,
+        "image_id": 349695,
+        "question_id": "caption:718888",
+        "source_split": "train2014",
+        "target": "A kitchen with a lot of kitchen furniture and accessories in it",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 170922,
+        "image_id": 423046,
+        "question_id": "caption:170922",
+        "source_split": "train2014",
+        "target": "A man riding a skateboard while flying through the air.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 724126,
+        "image_id": 98394,
+        "question_id": "caption:724126",
+        "source_split": "train2014",
+        "target": "Several groups of elephants wandering through their natural habitat.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 71640,
+        "image_id": 184497,
+        "question_id": "caption:71640",
+        "source_split": "train2014",
+        "target": "A bathroom wall with a vanity mirror and sink.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 40976,
+        "image_id": 279871,
+        "question_id": "caption:40976",
+        "source_split": "train2014",
+        "target": "A dog stares eagerly while standing at the edge of a boat.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 465790,
+        "image_id": 417595,
+        "question_id": "caption:465790",
+        "source_split": "train2014",
+        "target": "A baseball batter is walking towards home plate.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 467030,
+        "image_id": 401594,
+        "question_id": "caption:467030",
+        "source_split": "train2014",
+        "target": "A picture of the amount of trash outside of a small town ball park.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 306287,
+        "image_id": 187738,
+        "question_id": "caption:306287",
+        "source_split": "train2014",
+        "target": "a child asleep in a swing with a stuffed animal",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 85038,
+        "image_id": 576457,
+        "question_id": "caption:85038",
+        "source_split": "train2014",
+        "target": "A man holding a drink in his hand in front of a microwave.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 12442,
+        "image_id": 105026,
+        "question_id": "caption:12442",
+        "source_split": "train2014",
+        "target": "Two men and two women pose for a picture. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 811625,
+        "image_id": 136026,
+        "question_id": "caption:811625",
+        "source_split": "train2014",
+        "target": "a man stands in front of a big truck ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 497254,
+        "image_id": 358625,
+        "question_id": "caption:497254",
+        "source_split": "train2014",
+        "target": "Several people seated in a living room near a fireplace.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 11156,
+        "image_id": 369202,
+        "question_id": "caption:11156",
+        "source_split": "train2014",
+        "target": "A man in a orange and yellow outfit juggling tennis rackets. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 643914,
+        "image_id": 121557,
+        "question_id": "caption:643914",
+        "source_split": "train2014",
+        "target": "some kids are standing outside with an umbrella",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 16168,
+        "image_id": 413874,
+        "question_id": "caption:16168",
+        "source_split": "train2014",
+        "target": "Two tennis players high five after playing a game. ",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1146,
+    "learning_rates": [
+      0.0005734741057571686,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.0205019116401672,
+    "micro_losses": [
+      2.184467077255249,
+      1.8565367460250854
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1146,
+    "unclipped_gradient_norm": 0.6541867256164551,
+    "wall_seconds": 1.322325
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 489015,
+        "image_id": 537910,
+        "question_id": "caption:489015",
+        "source_split": "train2014",
+        "target": "a number of small boats near a body of water",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 490930,
+        "image_id": 165433,
+        "question_id": "caption:490930",
+        "source_split": "train2014",
+        "target": "There is a bed and couch in the room.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 540328,
+        "image_id": 276871,
+        "question_id": "caption:540328",
+        "source_split": "train2014",
+        "target": "A dog snoozing on a bed in the daytime",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 756105,
+        "image_id": 394175,
+        "question_id": "caption:756105",
+        "source_split": "train2014",
+        "target": "a big bed sits in a room next to a lamp",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 423830,
+        "image_id": 182624,
+        "question_id": "caption:423830",
+        "source_split": "train2014",
+        "target": "A bird flying over a small city with small buildings.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 77166,
+        "image_id": 259028,
+        "question_id": "caption:77166",
+        "source_split": "train2014",
+        "target": "A cross country skier standing in the snow near the woods.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 818704,
+        "image_id": 286930,
+        "question_id": "caption:818704",
+        "source_split": "train2014",
+        "target": "Several baseball players standing on a field and talking.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 604424,
+        "image_id": 495233,
+        "question_id": "caption:604424",
+        "source_split": "train2014",
+        "target": "a couple of people are playing video games on a coach",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 421563,
+        "image_id": 435495,
+        "question_id": "caption:421563",
+        "source_split": "train2014",
+        "target": "Man showing another man something as he looks.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 36143,
+        "image_id": 400380,
+        "question_id": "caption:36143",
+        "source_split": "train2014",
+        "target": "A yellow taxicab stopped at a red traffic light on a city street with parked cars along the side of the street.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 667898,
+        "image_id": 58973,
+        "question_id": "caption:667898",
+        "source_split": "train2014",
+        "target": "A person who is flying a kite in a field.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 25308,
+        "image_id": 406867,
+        "question_id": "caption:25308",
+        "source_split": "train2014",
+        "target": "A foot about to go into a pond with a reflection of an umbrella.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 620123,
+        "image_id": 211913,
+        "question_id": "caption:620123",
+        "source_split": "train2014",
+        "target": "A beach with kites flying in the air.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 327255,
+        "image_id": 317365,
+        "question_id": "caption:327255",
+        "source_split": "train2014",
+        "target": "A notebook, wallet, camera, hat, child's toys, sip cup and numerous other items.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 440779,
+        "image_id": 237560,
+        "question_id": "caption:440779",
+        "source_split": "train2014",
+        "target": "Three people walk through a park each holding umbrellas.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 246917,
+        "image_id": 176342,
+        "question_id": "caption:246917",
+        "source_split": "train2014",
+        "target": "WEDDING COUPLE CUTTING INTO A HAT SHAPED CAKE",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1147,
+    "learning_rates": [
+      0.0005728134386481914,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.2906880378723145,
+    "micro_losses": [
+      2.079380512237549,
+      2.50199556350708
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1147,
+    "unclipped_gradient_norm": 0.6424617171287537,
+    "wall_seconds": 1.344176
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 294931,
+        "image_id": 423028,
+        "question_id": "caption:294931",
+        "source_split": "train2014",
+        "target": "A sign warning of snakes in the area stands on a pole.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 674915,
+        "image_id": 424161,
+        "question_id": "caption:674915",
+        "source_split": "train2014",
+        "target": "A room with a rocking chair and a fireplace. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 593951,
+        "image_id": 237667,
+        "question_id": "caption:593951",
+        "source_split": "train2014",
+        "target": "A dinner plate with a meat patty with gravy, steamed vegetables, baked potato and cranberry sauce.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 347403,
+        "image_id": 51198,
+        "question_id": "caption:347403",
+        "source_split": "train2014",
+        "target": "A green lamppost with the Houses of Parliament in the background.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 795945,
+        "image_id": 50913,
+        "question_id": "caption:795945",
+        "source_split": "train2014",
+        "target": "Many surf boards are lined up in a row at the beach.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 383793,
+        "image_id": 225153,
+        "question_id": "caption:383793",
+        "source_split": "train2014",
+        "target": "A woman takes a photo of her child at a train station.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 525502,
+        "image_id": 280484,
+        "question_id": "caption:525502",
+        "source_split": "train2014",
+        "target": "A very big trash truck by a big pile of branches.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 368767,
+        "image_id": 513191,
+        "question_id": "caption:368767",
+        "source_split": "train2014",
+        "target": "Two pieces of french toast with syrup on a plate.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 315160,
+        "image_id": 206420,
+        "question_id": "caption:315160",
+        "source_split": "train2014",
+        "target": "a person in a kitchen tossing dough into the air",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 390113,
+        "image_id": 315803,
+        "question_id": "caption:390113",
+        "source_split": "train2014",
+        "target": "A group of people on beach with horses next to a mountain.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 415924,
+        "image_id": 246081,
+        "question_id": "caption:415924",
+        "source_split": "train2014",
+        "target": "A man with a beard has his hand on his face and there is a foot beside him. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 773639,
+        "image_id": 536417,
+        "question_id": "caption:773639",
+        "source_split": "train2014",
+        "target": "A man is brushing his teeth near a laptop.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 723112,
+        "image_id": 98394,
+        "question_id": "caption:723112",
+        "source_split": "train2014",
+        "target": "many elephants moving together in a group in the field",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 670512,
+        "image_id": 302108,
+        "question_id": "caption:670512",
+        "source_split": "train2014",
+        "target": "A baseball player colliding with the other team's baseman as he slides into the base.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 730650,
+        "image_id": 268389,
+        "question_id": "caption:730650",
+        "source_split": "train2014",
+        "target": "A remote control that has a laser option.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 159877,
+        "image_id": 211410,
+        "question_id": "caption:159877",
+        "source_split": "train2014",
+        "target": "An industrial-designs fire hydrant is silver and black, and has a number 8 painted on the bottom.",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1148,
+    "learning_rates": [
+      0.0005721527222353027,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.2669135332107544,
+    "micro_losses": [
+      2.3021605014801025,
+      2.2316665649414062
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1148,
+    "unclipped_gradient_norm": 0.62566739320755,
+    "wall_seconds": 1.402703
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 273146,
+        "image_id": 82683,
+        "question_id": "caption:273146",
+        "source_split": "train2014",
+        "target": "A woman holds a hot dog in one hand. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 798122,
+        "image_id": 396165,
+        "question_id": "caption:798122",
+        "source_split": "train2014",
+        "target": "A grouping of Zebras grazing together in a grassy pasture.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 131927,
+        "image_id": 346581,
+        "question_id": "caption:131927",
+        "source_split": "train2014",
+        "target": "Stop sign with row houses across the street",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 722342,
+        "image_id": 430818,
+        "question_id": "caption:722342",
+        "source_split": "train2014",
+        "target": "A cat resting beside a hiking boot with one paw on the boot.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 819606,
+        "image_id": 553441,
+        "question_id": "caption:819606",
+        "source_split": "train2014",
+        "target": "Man receiving treatment in a chair at a hair salon.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 605094,
+        "image_id": 352980,
+        "question_id": "caption:605094",
+        "source_split": "train2014",
+        "target": "A couple of buses parked across the street from each other.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 199525,
+        "image_id": 132249,
+        "question_id": "caption:199525",
+        "source_split": "train2014",
+        "target": "An elephant walking through water towards the viewer.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 209474,
+        "image_id": 383029,
+        "question_id": "caption:209474",
+        "source_split": "train2014",
+        "target": "A man wearing a tie shakes hands with an older man while two other men look on.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 825668,
+        "image_id": 162965,
+        "question_id": "caption:825668",
+        "source_split": "train2014",
+        "target": "A boy looking out a window looking back at some train carts.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 392685,
+        "image_id": 453472,
+        "question_id": "caption:392685",
+        "source_split": "train2014",
+        "target": "a gray cat is looking around while laying down",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 439395,
+        "image_id": 316476,
+        "question_id": "caption:439395",
+        "source_split": "train2014",
+        "target": "A person laying on the beach next to his surfing equipment",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 322204,
+        "image_id": 31561,
+        "question_id": "caption:322204",
+        "source_split": "train2014",
+        "target": "A laptop taken apart and sitting on a desk next to some tools and a mouse.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 124917,
+        "image_id": 261485,
+        "question_id": "caption:124917",
+        "source_split": "train2014",
+        "target": "Young man riding skateboard in an urban area.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 445249,
+        "image_id": 148385,
+        "question_id": "caption:445249",
+        "source_split": "train2014",
+        "target": "Black and white photo of a person sitting on a bench reading.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 59638,
+        "image_id": 163267,
+        "question_id": "caption:59638",
+        "source_split": "train2014",
+        "target": "Three animals with horns sitting in a grassy field.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 570311,
+        "image_id": 146501,
+        "question_id": "caption:570311",
+        "source_split": "train2014",
+        "target": "a couple of cars that are parked in the middle of the street",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1149,
+    "learning_rates": [
+      0.0005714919579464291,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.3023067712783813,
+    "micro_losses": [
+      2.350395917892456,
+      2.2542176246643066
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1149,
+    "unclipped_gradient_norm": 0.7122706770896912,
+    "wall_seconds": 1.362827
+  },
+  {
+    "connector_gradient_nonzero": true,
+    "example_counts": {
+      "caption": 16
+    },
+    "examples": [
+      {
+        "caption_id": 670300,
+        "image_id": 314450,
+        "question_id": "caption:670300",
+        "source_split": "train2014",
+        "target": "A skier does a jump with her skis in the air.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 617223,
+        "image_id": 283240,
+        "question_id": "caption:617223",
+        "source_split": "train2014",
+        "target": "The female surfer is attempting to ride the wave.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 619026,
+        "image_id": 265715,
+        "question_id": "caption:619026",
+        "source_split": "train2014",
+        "target": "A plain bed next to a window with sunlight coming through",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 733415,
+        "image_id": 51067,
+        "question_id": "caption:733415",
+        "source_split": "train2014",
+        "target": "A man standing next to a  red stop sign on the side of a road.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 694233,
+        "image_id": 413400,
+        "question_id": "caption:694233",
+        "source_split": "train2014",
+        "target": "A person riding a snowboard down snowy slope.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 589806,
+        "image_id": 398434,
+        "question_id": "caption:589806",
+        "source_split": "train2014",
+        "target": "A cat laying on top of a paper plate.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 428214,
+        "image_id": 372592,
+        "question_id": "caption:428214",
+        "source_split": "train2014",
+        "target": "A giraffe is looking over its the bars of its corral.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 412737,
+        "image_id": 522886,
+        "question_id": "caption:412737",
+        "source_split": "train2014",
+        "target": "A banana that is hung up on a metal hanger in a kitchen",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 576644,
+        "image_id": 311370,
+        "question_id": "caption:576644",
+        "source_split": "train2014",
+        "target": "A large king sized bed in a hotel room.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 24523,
+        "image_id": 454867,
+        "question_id": "caption:24523",
+        "source_split": "train2014",
+        "target": "A blonde haired girl standing in front of a commuter train.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 167056,
+        "image_id": 313334,
+        "question_id": "caption:167056",
+        "source_split": "train2014",
+        "target": "A white bowl with sugar covered pastries inside.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 480210,
+        "image_id": 377160,
+        "question_id": "caption:480210",
+        "source_split": "train2014",
+        "target": "A young woman takes a picture of herself in a cars side view mirrors. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 315423,
+        "image_id": 530717,
+        "question_id": "caption:315423",
+        "source_split": "train2014",
+        "target": "A dozen sheep in a large grassy enclosure grazing.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 753441,
+        "image_id": 238196,
+        "question_id": "caption:753441",
+        "source_split": "train2014",
+        "target": "A bunch of sailboats are docked next to each other.",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 144255,
+        "image_id": 84128,
+        "question_id": "caption:144255",
+        "source_split": "train2014",
+        "target": "Four people engaging in a video game. ",
+        "user_text": "Describe this image."
+      },
+      {
+        "caption_id": 65223,
+        "image_id": 498138,
+        "question_id": "caption:65223",
+        "source_split": "train2014",
+        "target": "Parking lot of a Westmark Inn with mountains in the distance.",
+        "user_text": "Describe this image."
+      }
+    ],
+    "global_update": 1150,
+    "learning_rates": [
+      0.0005708311472095995,
+      0.0
+    ],
+    "lora_A_gradient_nonzero": false,
+    "lora_B_gradient_nonzero": false,
+    "loss": 2.1868032217025757,
+    "micro_losses": [
+      1.9226443767547607,
+      2.4509620666503906
+    ],
+    "pair_counts": {
+      "caption": 8
+    },
+    "pair_kinds": [
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption",
+      "caption"
+    ],
+    "scale_after": 128.0,
+    "scale_before": 128.0,
+    "stage": 1,
+    "stage_update": 1150,
+    "unclipped_gradient_norm": 0.6461188793182373,
+    "wall_seconds": 1.361936
+  }
+]

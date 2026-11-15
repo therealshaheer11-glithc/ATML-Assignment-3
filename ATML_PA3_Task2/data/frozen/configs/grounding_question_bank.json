@@ -1,0 +1,1602 @@
+[
+  {
+    "category_id": 1,
+    "category_name": "person",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a person?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a person?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 1,
+    "category_name": "person",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many people can you see?",
+    "user_text": "Answer with a short phrase.\nHow many people can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 2,
+    "category_name": "bicycle",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bicycle?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bicycle?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 2,
+    "category_name": "bicycle",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many bicycles can you see?",
+    "user_text": "Answer with a short phrase.\nHow many bicycles can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 3,
+    "category_name": "car",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a car?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a car?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 3,
+    "category_name": "car",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cars can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cars can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 4,
+    "category_name": "motorcycle",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a motorcycle?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a motorcycle?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 4,
+    "category_name": "motorcycle",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many motorcycles can you see?",
+    "user_text": "Answer with a short phrase.\nHow many motorcycles can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 5,
+    "category_name": "airplane",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an airplane?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an airplane?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 5,
+    "category_name": "airplane",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many airplanes can you see?",
+    "user_text": "Answer with a short phrase.\nHow many airplanes can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 6,
+    "category_name": "bus",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bus?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bus?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 6,
+    "category_name": "bus",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many buses can you see?",
+    "user_text": "Answer with a short phrase.\nHow many buses can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 7,
+    "category_name": "train",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a train?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a train?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 7,
+    "category_name": "train",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many trains can you see?",
+    "user_text": "Answer with a short phrase.\nHow many trains can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 8,
+    "category_name": "truck",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a truck?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a truck?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 8,
+    "category_name": "truck",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many trucks can you see?",
+    "user_text": "Answer with a short phrase.\nHow many trucks can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 9,
+    "category_name": "boat",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a boat?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a boat?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 9,
+    "category_name": "boat",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many boats can you see?",
+    "user_text": "Answer with a short phrase.\nHow many boats can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 10,
+    "category_name": "traffic light",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a traffic light?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a traffic light?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 10,
+    "category_name": "traffic light",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many traffic lights can you see?",
+    "user_text": "Answer with a short phrase.\nHow many traffic lights can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 11,
+    "category_name": "fire hydrant",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a fire hydrant?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a fire hydrant?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 11,
+    "category_name": "fire hydrant",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many fire hydrants can you see?",
+    "user_text": "Answer with a short phrase.\nHow many fire hydrants can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 13,
+    "category_name": "stop sign",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a stop sign?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a stop sign?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 13,
+    "category_name": "stop sign",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many stop signs can you see?",
+    "user_text": "Answer with a short phrase.\nHow many stop signs can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 14,
+    "category_name": "parking meter",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a parking meter?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a parking meter?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 14,
+    "category_name": "parking meter",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many parking meters can you see?",
+    "user_text": "Answer with a short phrase.\nHow many parking meters can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 15,
+    "category_name": "bench",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bench?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bench?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 15,
+    "category_name": "bench",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many benches can you see?",
+    "user_text": "Answer with a short phrase.\nHow many benches can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 16,
+    "category_name": "bird",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bird?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bird?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 16,
+    "category_name": "bird",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many birds can you see?",
+    "user_text": "Answer with a short phrase.\nHow many birds can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 17,
+    "category_name": "cat",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a cat?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a cat?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 17,
+    "category_name": "cat",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cats can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cats can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 18,
+    "category_name": "dog",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a dog?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a dog?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 18,
+    "category_name": "dog",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many dogs can you see?",
+    "user_text": "Answer with a short phrase.\nHow many dogs can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 19,
+    "category_name": "horse",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a horse?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a horse?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 19,
+    "category_name": "horse",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many horses can you see?",
+    "user_text": "Answer with a short phrase.\nHow many horses can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 20,
+    "category_name": "sheep",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a sheep?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a sheep?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 20,
+    "category_name": "sheep",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many sheep can you see?",
+    "user_text": "Answer with a short phrase.\nHow many sheep can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 21,
+    "category_name": "cow",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a cow?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a cow?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 21,
+    "category_name": "cow",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cows can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cows can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 22,
+    "category_name": "elephant",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an elephant?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an elephant?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 22,
+    "category_name": "elephant",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many elephants can you see?",
+    "user_text": "Answer with a short phrase.\nHow many elephants can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 23,
+    "category_name": "bear",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bear?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bear?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 23,
+    "category_name": "bear",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many bears can you see?",
+    "user_text": "Answer with a short phrase.\nHow many bears can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 24,
+    "category_name": "zebra",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a zebra?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a zebra?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 24,
+    "category_name": "zebra",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many zebras can you see?",
+    "user_text": "Answer with a short phrase.\nHow many zebras can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 25,
+    "category_name": "giraffe",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a giraffe?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a giraffe?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 25,
+    "category_name": "giraffe",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many giraffes can you see?",
+    "user_text": "Answer with a short phrase.\nHow many giraffes can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 27,
+    "category_name": "backpack",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a backpack?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a backpack?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 27,
+    "category_name": "backpack",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many backpacks can you see?",
+    "user_text": "Answer with a short phrase.\nHow many backpacks can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 28,
+    "category_name": "umbrella",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an umbrella?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an umbrella?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 28,
+    "category_name": "umbrella",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many umbrellas can you see?",
+    "user_text": "Answer with a short phrase.\nHow many umbrellas can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 31,
+    "category_name": "handbag",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a handbag?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a handbag?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 31,
+    "category_name": "handbag",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many handbags can you see?",
+    "user_text": "Answer with a short phrase.\nHow many handbags can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 32,
+    "category_name": "tie",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a tie?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a tie?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 32,
+    "category_name": "tie",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many ties can you see?",
+    "user_text": "Answer with a short phrase.\nHow many ties can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 33,
+    "category_name": "suitcase",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a suitcase?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a suitcase?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 33,
+    "category_name": "suitcase",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many suitcases can you see?",
+    "user_text": "Answer with a short phrase.\nHow many suitcases can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 34,
+    "category_name": "frisbee",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a frisbee?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a frisbee?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 34,
+    "category_name": "frisbee",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many frisbees can you see?",
+    "user_text": "Answer with a short phrase.\nHow many frisbees can you see?",
+    "question_content_tokens": 10,
+    "user_content_tokens": 16
+  },
+  {
+    "category_id": 35,
+    "category_name": "skis",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain skis?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain skis?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 35,
+    "category_name": "skis",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many skis can you see?",
+    "user_text": "Answer with a short phrase.\nHow many skis can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 36,
+    "category_name": "snowboard",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a snowboard?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a snowboard?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 36,
+    "category_name": "snowboard",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many snowboards can you see?",
+    "user_text": "Answer with a short phrase.\nHow many snowboards can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 37,
+    "category_name": "sports ball",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a sports ball?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a sports ball?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 37,
+    "category_name": "sports ball",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many sports balls can you see?",
+    "user_text": "Answer with a short phrase.\nHow many sports balls can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 38,
+    "category_name": "kite",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a kite?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a kite?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 38,
+    "category_name": "kite",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many kites can you see?",
+    "user_text": "Answer with a short phrase.\nHow many kites can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 39,
+    "category_name": "baseball bat",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a baseball bat?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a baseball bat?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 39,
+    "category_name": "baseball bat",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many baseball bats can you see?",
+    "user_text": "Answer with a short phrase.\nHow many baseball bats can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 40,
+    "category_name": "baseball glove",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a baseball glove?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a baseball glove?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 40,
+    "category_name": "baseball glove",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many baseball gloves can you see?",
+    "user_text": "Answer with a short phrase.\nHow many baseball gloves can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 41,
+    "category_name": "skateboard",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a skateboard?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a skateboard?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 41,
+    "category_name": "skateboard",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many skateboards can you see?",
+    "user_text": "Answer with a short phrase.\nHow many skateboards can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 42,
+    "category_name": "surfboard",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a surfboard?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a surfboard?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 42,
+    "category_name": "surfboard",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many surfboards can you see?",
+    "user_text": "Answer with a short phrase.\nHow many surfboards can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 43,
+    "category_name": "tennis racket",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a tennis racket?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a tennis racket?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 43,
+    "category_name": "tennis racket",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many tennis rackets can you see?",
+    "user_text": "Answer with a short phrase.\nHow many tennis rackets can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 44,
+    "category_name": "bottle",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bottle?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bottle?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 44,
+    "category_name": "bottle",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many bottles can you see?",
+    "user_text": "Answer with a short phrase.\nHow many bottles can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 46,
+    "category_name": "wine glass",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a wine glass?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a wine glass?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 46,
+    "category_name": "wine glass",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many wine glasses can you see?",
+    "user_text": "Answer with a short phrase.\nHow many wine glasses can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 47,
+    "category_name": "cup",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a cup?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a cup?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 47,
+    "category_name": "cup",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cups can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cups can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 48,
+    "category_name": "fork",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a fork?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a fork?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 48,
+    "category_name": "fork",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many forks can you see?",
+    "user_text": "Answer with a short phrase.\nHow many forks can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 49,
+    "category_name": "knife",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a knife?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a knife?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 49,
+    "category_name": "knife",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many knives can you see?",
+    "user_text": "Answer with a short phrase.\nHow many knives can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 50,
+    "category_name": "spoon",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a spoon?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a spoon?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 50,
+    "category_name": "spoon",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many spoons can you see?",
+    "user_text": "Answer with a short phrase.\nHow many spoons can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 51,
+    "category_name": "bowl",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bowl?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bowl?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 51,
+    "category_name": "bowl",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many bowls can you see?",
+    "user_text": "Answer with a short phrase.\nHow many bowls can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 52,
+    "category_name": "banana",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a banana?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a banana?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 52,
+    "category_name": "banana",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many bananas can you see?",
+    "user_text": "Answer with a short phrase.\nHow many bananas can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 53,
+    "category_name": "apple",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an apple?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an apple?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 53,
+    "category_name": "apple",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many apples can you see?",
+    "user_text": "Answer with a short phrase.\nHow many apples can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 54,
+    "category_name": "sandwich",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a sandwich?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a sandwich?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 54,
+    "category_name": "sandwich",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many sandwiches can you see?",
+    "user_text": "Answer with a short phrase.\nHow many sandwiches can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 55,
+    "category_name": "orange",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an orange?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an orange?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 55,
+    "category_name": "orange",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many oranges can you see?",
+    "user_text": "Answer with a short phrase.\nHow many oranges can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 56,
+    "category_name": "broccoli",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain broccoli?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain broccoli?",
+    "question_content_tokens": 6,
+    "user_content_tokens": 12
+  },
+  {
+    "category_id": 56,
+    "category_name": "broccoli",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many broccoli can you see?",
+    "user_text": "Answer with a short phrase.\nHow many broccoli can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 57,
+    "category_name": "carrot",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a carrot?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a carrot?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 57,
+    "category_name": "carrot",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many carrots can you see?",
+    "user_text": "Answer with a short phrase.\nHow many carrots can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 58,
+    "category_name": "hot dog",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a hot dog?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a hot dog?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 58,
+    "category_name": "hot dog",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many hot dogs can you see?",
+    "user_text": "Answer with a short phrase.\nHow many hot dogs can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 59,
+    "category_name": "pizza",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain pizza?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain pizza?",
+    "question_content_tokens": 6,
+    "user_content_tokens": 12
+  },
+  {
+    "category_id": 59,
+    "category_name": "pizza",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many pizzas can you see?",
+    "user_text": "Answer with a short phrase.\nHow many pizzas can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 60,
+    "category_name": "donut",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a donut?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a donut?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 60,
+    "category_name": "donut",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many donuts can you see?",
+    "user_text": "Answer with a short phrase.\nHow many donuts can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 61,
+    "category_name": "cake",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain cake?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain cake?",
+    "question_content_tokens": 6,
+    "user_content_tokens": 12
+  },
+  {
+    "category_id": 61,
+    "category_name": "cake",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cakes can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cakes can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 62,
+    "category_name": "chair",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a chair?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a chair?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 62,
+    "category_name": "chair",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many chairs can you see?",
+    "user_text": "Answer with a short phrase.\nHow many chairs can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 63,
+    "category_name": "couch",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a couch?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a couch?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 63,
+    "category_name": "couch",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many couches can you see?",
+    "user_text": "Answer with a short phrase.\nHow many couches can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 64,
+    "category_name": "potted plant",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a potted plant?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a potted plant?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 64,
+    "category_name": "potted plant",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many potted plants can you see?",
+    "user_text": "Answer with a short phrase.\nHow many potted plants can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 65,
+    "category_name": "bed",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a bed?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a bed?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 65,
+    "category_name": "bed",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many beds can you see?",
+    "user_text": "Answer with a short phrase.\nHow many beds can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 67,
+    "category_name": "dining table",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a dining table?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a dining table?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 67,
+    "category_name": "dining table",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many dining tables can you see?",
+    "user_text": "Answer with a short phrase.\nHow many dining tables can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 70,
+    "category_name": "toilet",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a toilet?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a toilet?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 70,
+    "category_name": "toilet",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many toilets can you see?",
+    "user_text": "Answer with a short phrase.\nHow many toilets can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 72,
+    "category_name": "tv",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a TV?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a TV?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 72,
+    "category_name": "tv",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many TVs can you see?",
+    "user_text": "Answer with a short phrase.\nHow many TVs can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 73,
+    "category_name": "laptop",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a laptop?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a laptop?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 73,
+    "category_name": "laptop",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many laptops can you see?",
+    "user_text": "Answer with a short phrase.\nHow many laptops can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 74,
+    "category_name": "mouse",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a mouse?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a mouse?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 74,
+    "category_name": "mouse",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many mice can you see?",
+    "user_text": "Answer with a short phrase.\nHow many mice can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 75,
+    "category_name": "remote",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a remote?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a remote?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 75,
+    "category_name": "remote",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many remotes can you see?",
+    "user_text": "Answer with a short phrase.\nHow many remotes can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 76,
+    "category_name": "keyboard",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a keyboard?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a keyboard?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 76,
+    "category_name": "keyboard",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many keyboards can you see?",
+    "user_text": "Answer with a short phrase.\nHow many keyboards can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 77,
+    "category_name": "cell phone",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a cell phone?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a cell phone?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 77,
+    "category_name": "cell phone",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many cell phones can you see?",
+    "user_text": "Answer with a short phrase.\nHow many cell phones can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 78,
+    "category_name": "microwave",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a microwave?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a microwave?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 78,
+    "category_name": "microwave",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many microwaves can you see?",
+    "user_text": "Answer with a short phrase.\nHow many microwaves can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 79,
+    "category_name": "oven",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain an oven?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain an oven?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 79,
+    "category_name": "oven",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many ovens can you see?",
+    "user_text": "Answer with a short phrase.\nHow many ovens can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 80,
+    "category_name": "toaster",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a toaster?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a toaster?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 80,
+    "category_name": "toaster",
+    "question_type": "counting",
+    "available_in_training_pool": false,
+    "question": "How many toasters can you see?",
+    "user_text": "Answer with a short phrase.\nHow many toasters can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 81,
+    "category_name": "sink",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a sink?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a sink?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 81,
+    "category_name": "sink",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many sinks can you see?",
+    "user_text": "Answer with a short phrase.\nHow many sinks can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 82,
+    "category_name": "refrigerator",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a refrigerator?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a refrigerator?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 82,
+    "category_name": "refrigerator",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many refrigerators can you see?",
+    "user_text": "Answer with a short phrase.\nHow many refrigerators can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 84,
+    "category_name": "book",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a book?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a book?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 84,
+    "category_name": "book",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many books can you see?",
+    "user_text": "Answer with a short phrase.\nHow many books can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 85,
+    "category_name": "clock",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a clock?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a clock?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 85,
+    "category_name": "clock",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many clocks can you see?",
+    "user_text": "Answer with a short phrase.\nHow many clocks can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 86,
+    "category_name": "vase",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a vase?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a vase?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 86,
+    "category_name": "vase",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many vases can you see?",
+    "user_text": "Answer with a short phrase.\nHow many vases can you see?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 87,
+    "category_name": "scissors",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain scissors?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain scissors?",
+    "question_content_tokens": 6,
+    "user_content_tokens": 12
+  },
+  {
+    "category_id": 87,
+    "category_name": "scissors",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many scissors can you see?",
+    "user_text": "Answer with a short phrase.\nHow many scissors can you see?",
+    "question_content_tokens": 7,
+    "user_content_tokens": 13
+  },
+  {
+    "category_id": 88,
+    "category_name": "teddy bear",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a teddy bear?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a teddy bear?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 88,
+    "category_name": "teddy bear",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many teddy bears can you see?",
+    "user_text": "Answer with a short phrase.\nHow many teddy bears can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 89,
+    "category_name": "hair drier",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a hair drier?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a hair drier?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 89,
+    "category_name": "hair drier",
+    "question_type": "counting",
+    "available_in_training_pool": false,
+    "question": "How many hair driers can you see?",
+    "user_text": "Answer with a short phrase.\nHow many hair driers can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  },
+  {
+    "category_id": 90,
+    "category_name": "toothbrush",
+    "question_type": "presence",
+    "available_in_training_pool": true,
+    "question": "Does this image contain a toothbrush?",
+    "user_text": "Answer with a short phrase.\nDoes this image contain a toothbrush?",
+    "question_content_tokens": 8,
+    "user_content_tokens": 14
+  },
+  {
+    "category_id": 90,
+    "category_name": "toothbrush",
+    "question_type": "counting",
+    "available_in_training_pool": true,
+    "question": "How many toothbrushes can you see?",
+    "user_text": "Answer with a short phrase.\nHow many toothbrushes can you see?",
+    "question_content_tokens": 9,
+    "user_content_tokens": 15
+  }
+]

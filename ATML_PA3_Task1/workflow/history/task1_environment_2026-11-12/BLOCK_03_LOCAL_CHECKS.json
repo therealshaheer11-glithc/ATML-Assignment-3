@@ -1,0 +1,8 @@
+{
+  "block_syntax": true,
+  "embedded_probe_syntax": true,
+  "approved_direct_pins_present": 11,
+  "no_benchmark_dataset_instantiation_in_probe": true,
+  "scope": "Static checks only; actual Linux resolution, installs and CPU imports await Colab output.",
+  "sha256": "be7c44593e03fca8a32d56e41fbe4027021a0ca298278e759de6af95f30fc3cc"
+}

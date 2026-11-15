@@ -1,0 +1,62 @@
+{
+  "schema": "atml-pa3-task2-block13-failed-observation-v1",
+  "source_attachment_sha256": "53b89f3d900ec3f7775daa4f87f28c4db91d0d1eacedf4df4d6ecfff0ad7e810",
+  "source_attachment_bytes": 15157,
+  "observed_failure": {
+    "block": "13",
+    "status": "failed",
+    "phase": "initializing the seeded FP32 connector and standard LoRA",
+    "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+    "initialization_package_sha256": "636cee5840e575871b4db51ae158c2eede4dc22f8f1b24637849d0911b9a7fb9",
+    "production_updates_committed": 0,
+    "temporary_validation_updates_completed": 0,
+    "traceback": "Traceback (most recent call last):\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/636cee5840e57587/initialization_worker.py\", line 154, in <module>\n    model=add_standard_lora(base)\n  File \"/content/atml_pa3_task2/run_20261031_150949_1cff148a/initialization_code/636cee5840e57587/task2/modeling.py\", line 38, in add_standard_lora\n    model=get_peft_model(base,config,autocast_adapter_dtype=True)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/mapping_func.py\", line 198, in get_peft_model\n    return MODEL_TYPE_TO_PEFT_MODEL_MAPPING[peft_config.task_type](\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        model,\n        ^^^^^^\n    ...<3 lines>...\n        low_cpu_mem_usage=low_cpu_mem_usage,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 2082, in __init__\n    super().__init__(model, peft_config, adapter_name, **kwargs)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 177, in __init__\n    self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)\n                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 344, in __init__\n    self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 978, in inject_adapter\n    self._create_and_replace(\n    ~~~~~~~~~~~~~~~~~~~~~~~~^\n        peft_config, adapter_name, target, target_name, parent, current_key=key\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 389, in _create_and_replace\n    new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 552, in _create_new_module\n    new_module = dispatcher(target, adapter_name, config=lora_config, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/torchao.py\", line 160, in dispatch_torchao\n    if not is_torchao_available():\n           ~~~~~~~~~~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/import_utils.py\", line 162, in is_torchao_available\n    raise ImportError(\n    ...<2 lines>...\n    )\nImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported\n",
+    "elapsed_seconds": 164.587,
+    "gpu_release_requested_by_controller_on_exit": true
+  },
+  "observed_controller": {
+    "schema": "atml-pa3-task2-initialization-controller-v1",
+    "attempt": "20261108_063543_3b5b6edc",
+    "initialization_package_sha256": "636cee5840e575871b4db51ae158c2eede4dc22f8f1b24637849d0911b9a7fb9",
+    "worker_exit_code": 1,
+    "controller_traceback": "Traceback (most recent call last):\n  File \"block_13.py\", line 95, in <module>\n    raise RuntimeError(f'Initialization worker exited with code {worker_code}. Its traceback is printed above and captured in the console log.')\nRuntimeError: Initialization worker exited with code 1. Its traceback is printed above and captured in the console log.\n",
+    "console": {
+      "path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/logs/block_13_console_20261108_063543_3b5b6edc_dedf6b89d2843b82.log",
+      "sha256": "dedf6b89d2843b8236a2525ce3a6439ae560ff64b19f3a1ebc39e722781628fd",
+      "bytes": 8060
+    },
+    "console_save_error": null,
+    "release_request_follows": true
+  },
+  "observed_environment": {
+    "Pillow": "11.3.0",
+    "accelerate": "1.15.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "peft": "0.21.2",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "interpretation": {
+    "full_original_Qwen_loaded": true,
+    "exact_loading_and_tied_embedding_checks_completed": true,
+    "calibration_computed": false,
+    "temporary_optimizer_updates": 0,
+    "production_updates": 0,
+    "root_cause": "Preinstalled torchao 0.10.0 is detected by the optional PEFT torchao dispatcher, which rejects versions below 0.16.0 even for ordinary unquantized Linear layers.",
+    "GPU_release_request_printed": true,
+    "actual_allocation_release_not_independently_measured": true
+  }
+}

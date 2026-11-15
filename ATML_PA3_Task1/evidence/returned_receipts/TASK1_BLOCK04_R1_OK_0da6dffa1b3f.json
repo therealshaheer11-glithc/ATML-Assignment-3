@@ -1,0 +1,24 @@
+{
+  "status": "TASK1_BLOCK04_R1_OK",
+  "selected_examples": 40000,
+  "training_shards": 40,
+  "scanned_source_rows": 40002,
+  "rejections": {
+    "overlength": 2
+  },
+  "maximum_formatted_length": 1941,
+  "total_supervised_tokens": 7100056,
+  "benchmarks": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "probe_questions": 64,
+  "full_saved_training_audit_passed": true,
+  "full_approval_plan_synchronized": true,
+  "qualitative_file_present_not_yet_validated": false,
+  "gpu_work_run": false,
+  "model_weights_downloaded": false,
+  "elapsed_seconds": 196.6
+}

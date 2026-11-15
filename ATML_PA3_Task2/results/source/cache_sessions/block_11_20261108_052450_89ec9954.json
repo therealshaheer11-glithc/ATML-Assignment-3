@@ -1,0 +1,72 @@
+{
+  "block": "11",
+  "cache_package_sha256": "fca343eded123a3003a63cfeca60dbb090e6ba29a0cba5a82a769f92529ef536",
+  "cache_peak_gpu_allocated_bytes": 227582464,
+  "compute_seconds_cuda_events": 0.0,
+  "computed_images_this_run": 0,
+  "dataset_identity": "82ad5006bd1d68ee54e639e50e7d835d8f6d97673537c38dab8d8eebdd8ac1b2",
+  "elapsed_seconds": 269.207,
+  "environment": {
+    "Pillow": "11.3.0",
+    "capability": [
+      7,
+      5
+    ],
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "Tesla T4",
+    "gpu_total_memory_bytes": 15637086208,
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "nvidia_driver": "580.82.07",
+    "python": "3.13.16",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+  },
+  "feature_bytes": 2787783296,
+  "feature_cache_complete": true,
+  "feature_manifest_path": "/content/drive/MyDrive/ATML_PA3/task2/run_20261031_150949_1cff148a/datasets/task2_A012_82ad5006bd1d68ee/features/siglip196_380f19811df42cc5/features_complete.json",
+  "feature_manifest_sha256": "1a015e4a07f2406937d63832dae1d648148a243a7931b39358d68e2a2ad8bea6",
+  "gpu_release_requested_by_controller_on_exit": true,
+  "gpu_used": true,
+  "images_verified": 9260,
+  "initialization_peak_gpu_allocated_bytes": 240979968,
+  "input_archive_staging_seconds": 0.0,
+  "package_setup": "Existing exact CPU-observed library versions reused",
+  "peak_gpu_allocated_bytes": 240979968,
+  "peak_gpu_reserved_bytes": 253755392,
+  "preprocessing_and_transfer_seconds": 0.0,
+  "probe": {
+    "all_encoder_parameters_frozen": true,
+    "dtype": "torch.float16",
+    "encoder_parameters": 92884224,
+    "encoder_repeat_exact": true,
+    "final_norm_calls_per_forward": 1,
+    "gray_training_image_checked": true,
+    "pixel_repeat_exact": true,
+    "probe_feature_sha256": "259c68cde82cf5f8516fdaeb14fceeab57fb8f4f79244a6d9011e4425417f5a9",
+    "returned_patches_equal_final_norm": true,
+    "row_major_position_order_checked": true,
+    "shape": [
+      2,
+      196,
+      768
+    ],
+    "status": "passed",
+    "training_image_ids": [
+      86,
+      113
+    ]
+  },
+  "qwen_loaded": false,
+  "recipe_sha256": "380f19811df42cc56d3dfc3ecdf6496bae3557d11c27f1b2f64fd4b2a33bc2c6",
+  "run_activities": {
+    "reused": 37
+  },
+  "save_and_verification_seconds": 0.0,
+  "shards_verified": 37,
+  "status": "passed",
+  "training_started": false
+}

@@ -1,0 +1,114 @@
+{
+  "status": "TASK1_BLOCK19_TRAINING_CPU_READY",
+  "kit_identity": "fe4fccd0592d4e5e634af6df831aa3c72cacf0c236f34e6cae2d9921e5419323",
+  "kit_path": "execution/training_cpu_fe4fccd0592d4e5e634af6df831aa3c72cacf0c236f34e6cae2d9921e5419323",
+  "files": {
+    "gpu_guardian_R3.py": "12c7dfa4637bea83e7aacd821743ebdcb626c291ff8b14d1374befa37fd2a06d",
+    "training_runtime_checks.py": "d0202a55eb0f64b1e50f2ae6fd86dbd9669daf16939dda410ed7e492fbdb0660",
+    "training_loop_checks.py": "6b3ed669c36d238e7aa883299d2d190e65710fccb4c5c9ebf58bec946c2700fc",
+    "training_core.py": "368eb518e31629e37d6e646522e5009f9ac48e207be16ab8a58d3bc22679b939",
+    "watchdog_evidence.py": "30688a268a2f2441c5dbe0adeabd78afad2a5d76af5c5e0747e31ed30de3618e",
+    "evaluation_records.py": "841fe3750ba33fb63d1a7e56a3ebd5248c013f3eada114e3690c4b5a8250c607",
+    "release_coordination.py": "614b5bab4cf1d5482b6b672fb79047709944167382414e4cdafc1f5cec20642b",
+    "training_ops.py": "c7b9c3b848e2908842894164e85fbe385922a060f124833cb0bbeda7c7e1978c",
+    "training_loop.py": "841baad5783eca6af47ea5e1aa421f84bfb96b3f2c2fcd7b547cd1b627b5bd43",
+    "baseline_runtime.py": "a2c420ed090689c1849d65d7de4717707a713937b1060bb9c65b6adf44a8723a",
+    "archive_io.py": "d5d059306f34a09eee8b4469d3f47597b07ec182f797d40e4a4958d2a1bf8f57",
+    "prepare_training_cpu.py": "95c17bb3d26e2fac1d50090dfdcacb7c5488d8d1fc1cbb0d2af51629a90f700f",
+    "restore_training_cpu.py": "cef2e7ed36bf1bad97c0142b1a18c7f85c7fadd853947936f3bab1f36e779348",
+    "official_training.py": "0f58f129cee271c53716809be468486cc51dfbf1473e7f3b647e4cdc77c98d6c",
+    "training_checkpoints.py": "35c839cb3297720f1bd2321e85a588552b38ec427b75f3e2fb3b5b476145a010",
+    "restore_baseline_cpu.py": "f0e2d61a261c5ee8bd8b3ebc10250dd56defe9906ff139d21ef9ccb2745c7106"
+  },
+  "numerical_implementation_identity": "654543e33f45ac0ef7eaa46f5d51ffc87bbd773d5174730b815f103a9ef89e26",
+  "protocol_identity": "8c4c86260d5102fb5545efacce1a10d48af801c41eeff376dd7e27e0d836102c",
+  "protocol_path": "configs/TRAINING_PROTOCOL_8c4c86260d5102fb5545efacce1a10d48af801c41eeff376dd7e27e0d836102c.json",
+  "methods": {
+    "full": {
+      "path": "configs/TRAINING_METHOD_full_6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b.json",
+      "identity": "6ed4a55411318958c5d853334b7069e0cdf752c628732b756b6b2c971ac0343b",
+      "trainable_parameters": 596049920
+    },
+    "l2sp": {
+      "path": "configs/TRAINING_METHOD_l2sp_77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba.json",
+      "identity": "77d2a491eb4f5117a18c87243730190095d7b6969afe12920440c103f601e2ba",
+      "trainable_parameters": 596049920
+    },
+    "lora4": {
+      "path": "configs/TRAINING_METHOD_lora4_fdaacf8e54893eb287db5d528f84472e0e5bb7c0df8cb3d76c6ad6bee81ce7ca.json",
+      "identity": "fdaacf8e54893eb287db5d528f84472e0e5bb7c0df8cb3d76c6ad6bee81ce7ca",
+      "trainable_parameters": 2523136
+    },
+    "lora16": {
+      "path": "configs/TRAINING_METHOD_lora16_29560c21ea0c399594367662e7a39feae6e38c50fc0d44c504298ec7dbf29dd1.json",
+      "identity": "29560c21ea0c399594367662e7a39feae6e38c50fc0d44c504298ec7dbf29dd1",
+      "trainable_parameters": 10092544
+    },
+    "oplora": {
+      "path": "configs/TRAINING_METHOD_oplora_5e8b0ae8d40766968c445173da98ff39e39661f5c82fa0ad7048feb30ef24a73.json",
+      "identity": "5e8b0ae8d40766968c445173da98ff39e39661f5c82fa0ad7048feb30ef24a73",
+      "trainable_parameters": 10092544
+    }
+  },
+  "all_40000_source_order_examples_checked": true,
+  "effective_batches": 1250,
+  "total_supervised_tokens": 7100056,
+  "runtime_checks": {
+    "token_loss_and_projection_checks": {
+      "token_weighted_gradient": true,
+      "l2_sp_unique_parameters_and_biases": true,
+      "double_projection_and_leakage": true,
+      "factor_dense_and_merge_equivalence": true,
+      "frozen_backbone_and_adapter_gradients": true,
+      "learning_rate_endpoints": true
+    },
+    "chunked_head_gradient_checks": {
+      "chunked_response_loss_matches_dense": true,
+      "all_parameter_gradients_match_dense": true,
+      "chunk_tokens": 128
+    },
+    "sharded_tensor_and_optimizer_values_reload_exactly": true,
+    "Python_NumPy_torch_RNG_and_scaler_reload_exactly": true,
+    "actual_next_update_CPU_continuation_matches": true,
+    "tied_embedding_and_head_preserved_on_reload": true,
+    "L2_SP_once_per_effective_batch_and_frozen_reference_checked": true,
+    "LoRA_and_OPLoRA_freeze_backbone_and_preserve_protected_bases": true,
+    "last_update_zero_LR_still_executes_exactly_one_Adam_step": true,
+    "single_overflow_retries_same_batch_and_RNG_without_extra_update": true,
+    "persistent_overflow_stops_after_8_retries_plus_initial_attempt": true,
+    "forward_error_stops_immediately_and_restores_boundary": true,
+    "partially_executed_optimizer_is_not_coherent": true,
+    "rolling_retention_preserves_mandatory_unrelated_and_incomplete_data": true,
+    "changed_checkpoint_archive_rejected": true,
+    "fixture_torch_version": "2.8.0+cu126",
+    "GPU_work_run": false,
+    "official_training_updates": 0
+  },
+  "bounded_loop_checks": {
+    "312_actual_toy_updates_stop_at_first_mandatory_boundary": true,
+    "all_9984_source_order_fixture_IDs_preserved": true,
+    "mandatory_checkpoint_reloads_at_312": true,
+    "soft_limit_stops_at_complete_update_313": true,
+    "checkpoint_failure_after_commit_keeps_post_update_RNG": true,
+    "scope": "CPU fixtures only; no original-model or official training updates"
+  },
+  "native_tiny_Qwen_checks": {
+    "actual_pinned_Qwen3_nonreentrant_checkpoint_backward_passed": true,
+    "real_32_example_16_microbatch_token_normalized_updates_passed": true,
+    "tiny_Qwen_tied_master_weights_and_Adam_states_reloaded": true,
+    "original_model_used_for_fixture": false,
+    "official_training_updates": 0
+  },
+  "full_checkpoint_tensor_payload_GiB": 6.661376953125,
+  "conservative_remaining_checkpoint_storage_GiB": 83.71931152325124,
+  "Drive_free_space_not_measured": true,
+  "Drive_free_space_must_be_recorded_before_GPU_launch": true,
+  "checkpoint_shard_tensor_payload_limit_bytes": 134217728,
+  "conservative_checkpoint_transient_CPU_bytes": 671088640,
+  "GPU_launch_wrapper_preparation_pending": true,
+  "GPU_work_run": false,
+  "original_model_training_started": false,
+  "official_training_updates": 0,
+  "elapsed_seconds": 128.8688407260015,
+  "next": "Keep GPU off and return the complete JSON. Next is bounded Full FT launch, after current units/rate and free Drive storage checks."
+}

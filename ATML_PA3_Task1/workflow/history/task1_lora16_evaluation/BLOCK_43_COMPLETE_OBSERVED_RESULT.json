@@ -1,0 +1,57 @@
+{
+  "status": "TASK1_LORA16_FINAL_COMPLETE_SAVED",
+  "run_id": "task1_lora16_final_eval_e1bed1f92f954e50baef4a94f5e244e5",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 1319,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "qualitative_completed": 24,
+  "FP32_probe_files_reused": 64,
+  "baseline_summary": {
+    "status": "TASK1_LORA16_FINAL_EVALUATION_COMPLETE",
+    "audit": {
+      "condition": "lora16_final",
+      "model_identity": "8f356e9f79687fdd71e1f8b2180f07f6399a5a4b534d155da1ce37985b42afc6",
+      "protocol_identity": "b0cdaa6bab77b1221a581c5f14f02acdd754b2208035d42b9fd5abda8825acf3",
+      "gpu_implementation_identity": "761d133850f217ac5314260af10867e42698cb12ed5cb4abd8936239ca819f4d"
+    },
+    "benchmark_counts": {
+      "gsm8k_cot": 1319,
+      "hellaswag": 10042,
+      "boolq": 3270,
+      "arc_easy": 2376
+    },
+    "metrics": {
+      "hellaswag": {
+        "acc,none": 0.3791077474606652,
+        "acc_norm,none": 0.4736108344951205
+      },
+      "boolq": {
+        "acc,none": 0.7262996941896025
+      },
+      "arc_easy": {
+        "acc,none": 0.6637205387205387,
+        "acc_norm,none": 0.6384680134680135
+      },
+      "gsm8k_cot": {
+        "exact_match,flexible-extract": 0.6186504927975739,
+        "exact_match,strict-match": 0.0
+      }
+    },
+    "original_probe_manifest": "results/original/ACTIVATION_PROBES_COMPLETE.json",
+    "qualitative_responses": 24,
+    "FP32_activation_probes": 64,
+    "human_qualitative_annotation_pending": true,
+    "official_training_updates": 0,
+    "preliminary_batch_one_GSM_outputs_used_in_main_metrics": false
+  },
+  "elapsed_worker_seconds": 9487.515474161999,
+  "GPU_memory": {
+    "peak_allocated_bytes": 2809755648,
+    "peak_reserved_bytes": 5421137920,
+    "total_gpu_bytes": 23659151360
+  }
+}

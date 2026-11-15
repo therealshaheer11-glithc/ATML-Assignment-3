@@ -1,0 +1,13 @@
+A,B,measure,mean,low,high
+parallel,long,accuracy_pp,-6.0,-18.0,6.0
+parallel,long,input_tokens,216.76,185.996,254.206
+parallel,long,output_tokens,1209.92,1068.115,1356.12
+parallel,long,inference_seconds,51.48796187090001,45.63155316467296,57.84633451601702
+refinement,long,accuracy_pp,-4.0,-16.0,8.0
+refinement,long,input_tokens,749.68,675.3475,824.1129999999999
+refinement,long,output_tokens,517.88,424.337,611.1674999999999
+refinement,long,inference_seconds,22.273249257460023,18.23943847840856,26.389322123513054
+refinement,parallel,accuracy_pp,2.0,0.0,6.0
+refinement,parallel,input_tokens,532.92,459.428,601.54
+refinement,parallel,output_tokens,-692.04,-783.4680000000001,-600.773
+refinement,parallel,inference_seconds,-29.214712613439993,-32.99001622830146,-25.416610383228512

@@ -1,0 +1,109 @@
+{
+  "scorer_frozen": true,
+  "scorer_id": "task3_answers_v1",
+  "specification": {
+    "schema_version": 1,
+    "scorer_id": "task3_answers_v1",
+    "dependencies": {
+      "math-verify": "0.9.0",
+      "latex2sympy2-extended": "1.11.0",
+      "antlr4-python3-runtime": "4.13.2",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "module_sha256": "437651bcd06f4892469eea1aa6b2ddc0c8abdc3f8323f7693b59d0f9918bb0d1",
+    "checks_module_sha256": "264d8032f1a3c97ba8b6b907077eeb3f4b5157f7e393685576ae7593be8ec58d",
+    "requirements_lock_sha256": "9dec5e44ea32cf4a150935f19355fec992e36a68b20784f0b3b42a2257d6da38",
+    "official_mathvista_sha256": "abcd0ff68ec3ed76c3f343be4d01d0f4b88238b660a64e6b998b5f15e3ef56d1",
+    "math": {
+      "parser": "math_verify.parse on one boxed wrapper around only the supplied extracted string",
+      "extraction": {
+        "try_extract_without_anchor": true,
+        "boxed_match_priority": 0,
+        "normalization_config": {
+          "basic_latex": true,
+          "units": true,
+          "malformed_operators": true,
+          "nits": true,
+          "boxed": "all",
+          "equations": false
+        }
+      },
+      "fallback_mode": "no_fallback",
+      "extraction_mode": "first_match",
+      "parse_timeout_seconds": 5,
+      "strict": true,
+      "float_rounding": 6,
+      "numeric_precision": 15,
+      "allow_set_relation_comp": false,
+      "comparison_timeout_seconds": 5,
+      "equivalence": "Exact trimmed nonempty string equality, else both verify directions on parsed expressions",
+      "parse_failure": "Retain nonempty raw string; identical trimmed raw answers may match; other comparisons unverifiable/incorrect",
+      "engine_errors": "Pinned library default handling; parse failure recorded as math_raw; no custom semantic engine patches"
+    },
+    "mathvista": {
+      "source": "Adaptation of pinned official normalize_extracted_answer, default ignore_empty_extractions=False, preceded by required None/empty guard",
+      "choice_output": "First option letter for normalized choice text; duplicates preserved and equivalent text shares first letter",
+      "reference_input": "Known reference choice text is matched exactly before option-letter syntax; never run prediction-label parsing on a known reference choice text",
+      "distance": "Unicode unit-cost Levenshtein; distance ties use original choice order",
+      "numeric": "Official int(float(...)) and round(float(...), precision)",
+      "lists": "Official string representation; no reordering",
+      "normalization_failure": "NO_ANSWER; preserve candidate/cost/accuracy accounting"
+    },
+    "missing": "None/empty extraction or failed MathVista normalization -> one NO_ANSWER group, always incorrect; never filtered out",
+    "grouping": "Revealed-order complete-link; join earliest group only if equivalent to every member; earliest supporting answer represents group; no unseen bridging",
+    "self_consistency_ties": "Earliest supporting rollout in current revealed order",
+    "input_separation": "Selectors receive question metadata without gold/reference fields; gold only supplied to grading/reference checks",
+    "library_edge_cases": [
+      {
+        "left": "\\{1,2\\}",
+        "right": "(1,2)",
+        "symmetric_math_verify_match": true,
+        "interpretation": "Recorded library convention, not independent proof of mathematical equivalence"
+      },
+      {
+        "left": "x=2",
+        "right": "2",
+        "symmetric_math_verify_match": true,
+        "interpretation": "Recorded library convention, not independent proof of mathematical equivalence"
+      }
+    ],
+    "limitations": "Math-Verify normalization/structural conventions are benchmark-scoring conventions, not proof of mathematical equivalence. Symmetric checking does not remove every ambiguity."
+  },
+  "installed_source_fingerprints": {
+    "math-verify": {
+      "version": "0.9.0",
+      "python_source_files": 8,
+      "source_sha256": "e81a0785e5cf4882447882722add2fef33cc7d8438c9a6ff2dc095363ebdb1de"
+    },
+    "latex2sympy2-extended": {
+      "version": "1.11.0",
+      "python_source_files": 18,
+      "source_sha256": "3c8ff22d3b73f220cf8f5113dc7f2ef1a557b91627c6867c307c4461fd6497bd"
+    },
+    "antlr4-python3-runtime": {
+      "version": "4.13.2",
+      "python_source_files": 58,
+      "source_sha256": "399ddfd75fb4262651270c206b094353a098437e8d722776f1f310f4aba0c0ba"
+    },
+    "sympy": {
+      "version": "1.14.0",
+      "python_source_files": 1533,
+      "source_sha256": "49045d47b14ab8d26e62a5b9abd90af348fd48288a01b18a16a7939fda8a5ec7"
+    },
+    "mpmath": {
+      "version": "1.3.0",
+      "python_source_files": 87,
+      "source_sha256": "89a2b3fbf5b27bd8928864af84bcd0e3dc6db1dfe2c2b6881f52a5512048ccc2"
+    }
+  },
+  "metadata_preparation_attempt": "metadata_20261110_104215_5476af80",
+  "reference_metadata_sha256": {
+    "metadata/task3_math_questions.json": "99cd08ea9c7f678d209d93a69cd9674170e28c2bfef83fff542448f4d20b1f94",
+    "metadata/task3_math_reference_answers.json": "2948d207dde3f70be41ba85c0d2a9ffc0c85adf4326eb437c99dc53e5ce155a2",
+    "metadata/task3_mathvista_questions.json": "049a5eb9e0117c7899b175ac84bdad541d177f7760bc29e70c8bd4d06d6d5d7a",
+    "metadata/task3_mathvista_reference_answers.json": "ec53c0835c0ebe99fd870e533e916c6510c6ec0ac3c3229a7131e80c8f9eecd1",
+    "manifests/task3_reference_alignment.json": "d1790d65b678feab3acd55710948b20f04d2e2e6b292962046887ba1221e2704"
+  },
+  "source_relative_path": "provenance/task3_answers_v1_437651bcd06f4892.py"
+}

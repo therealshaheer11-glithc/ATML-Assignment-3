@@ -1,0 +1,57 @@
+{
+  "status": "TASK1_BATCH8_PILOT_PASSED",
+  "checks": {
+    "finite_prefill_logits_within_approved_tolerances": true,
+    "all_prefill_next_tokens_agree": true,
+    "all_8_semantic_token_sequences_agree": true,
+    "all_8_native_postprocessed_outputs_agree": true,
+    "speedup_at_least_2": true,
+    "reserved_memory_headroom_at_least_10_percent": true
+  },
+  "approval_id": "T1-A003",
+  "official_training_updates": 0,
+  "official_benchmark_answers_generated": 0,
+  "model_inference_speedup": 3.0143419108346237,
+  "serial_time": {
+    "total_call_seconds": 44.08579780700006,
+    "model_inference_seconds_this_call": 43.72742786599974,
+    "physical_batches": 8,
+    "cache_hits": 0
+  },
+  "batch8_time": {
+    "total_call_seconds": 14.662586051999938,
+    "model_inference_seconds_this_call": 14.506459174000042,
+    "physical_batches": 1,
+    "cache_hits": 0
+  },
+  "max_absolute_logit_difference": 0.078125,
+  "relative_RMS_logit_difference": 0.0023590947967022657,
+  "token_agreement_by_prompt": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "postprocessed_text_agreement_by_prompt": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "peak_reserved_bytes": 5811208192,
+  "total_GPU_bytes": 23659151360,
+  "headroom_fraction": 0.7543779950693886,
+  "synthetic_memory_check_length": 1228,
+  "conditional_adoption_gate_passed": true,
+  "no_unseen_prompt_equality_guarantee": true,
+  "run_id": "task1_batch8_pilot_df8cf72da3c149b9ae6e99d5abf04942",
+  "elapsed_worker_seconds": 80.67933141499998
+}

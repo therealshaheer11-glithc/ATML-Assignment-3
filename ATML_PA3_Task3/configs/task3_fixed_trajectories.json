@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "mathvista",
+    "sample_id": "99",
+    "rollout_id": 0
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "99",
+    "rollout_id": 1
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "425",
+    "rollout_id": 0
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "425",
+    "rollout_id": 1
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "601",
+    "rollout_id": 0
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "601",
+    "rollout_id": 1
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "77",
+    "rollout_id": 0
+  },
+  {
+    "dataset": "mathvista",
+    "sample_id": "77",
+    "rollout_id": 1
+  }
+]

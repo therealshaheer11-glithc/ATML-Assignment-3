@@ -1,0 +1,22 @@
+{
+  "source": "User-returned console; no direct access to current Drive/runtime",
+  "run_id": "task1_baseline_batch8_V2_f6b8daf1b5a245bfb0eee562fecca690",
+  "reported_status": "TASK1_BASELINE_V2_PARTIAL_SAVED",
+  "normal_soft_boundary_stop_reported": true,
+  "reported_completed_counts": {
+    "gsm8k_cot": 850,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "total_reported_scored_answers": 16538,
+  "remaining_GSM_scored_answers": 469,
+  "cached_raw_batches_may_cover_some_remaining_answers": true,
+  "official_training_updates": 0,
+  "reuse_same_exact_Block15_package": true,
+  "package_sha256": "6d8eccdc52be15542ec96277ff15380353a774fc77e2c0be896f42e95011ae75",
+  "release_request_accepted_in_console": true,
+  "physical_deallocation_independently_verified": false,
+  "fresh_independent_full_Drive_result_audit_performed": false,
+  "scores_not_supplied_or_recomputed": true
+}

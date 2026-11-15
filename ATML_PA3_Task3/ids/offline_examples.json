@@ -1,0 +1,310 @@
+{
+  "MATH": {
+    "comparison": "SC versus K_RWC",
+    "rule": "First two distinct lexicographic question IDs per category; earliest qualifying saved order. Both success/failure directions; fewer if absent. Additional timeout cases are explicitly separate diagnostics.",
+    "categories": {
+      "SC_wrong_quality_correct": [
+        {
+          "sample_id": "test:1787",
+          "order": 0,
+          "selected_rollout_ids": [
+            5,
+            18
+          ]
+        },
+        {
+          "sample_id": "test:1903",
+          "order": 1,
+          "selected_rollout_ids": [
+            27,
+            16
+          ]
+        }
+      ],
+      "SC_correct_quality_wrong": [
+        {
+          "sample_id": "test:2198",
+          "order": 0,
+          "selected_rollout_ids": [
+            29,
+            5
+          ]
+        },
+        {
+          "sample_id": "test:3113",
+          "order": 0,
+          "selected_rollout_ids": [
+            16,
+            25
+          ]
+        }
+      ],
+      "no_correct_candidate": [
+        {
+          "sample_id": "test:1109",
+          "order": 0,
+          "selected_rollout_ids": [
+            10
+          ]
+        },
+        {
+          "sample_id": "test:1118",
+          "order": 0,
+          "selected_rollout_ids": [
+            15
+          ]
+        }
+      ],
+      "correct_candidate_SC_missed": [
+        {
+          "sample_id": "test:1230",
+          "order": 0,
+          "selected_rollout_ids": [
+            25
+          ]
+        },
+        {
+          "sample_id": "test:1263",
+          "order": 0,
+          "selected_rollout_ids": [
+            23
+          ]
+        }
+      ],
+      "agreement_early_success": [
+        {
+          "sample_id": "test:1000",
+          "order": 0,
+          "selected_rollout_ids": [
+            6,
+            6
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "test:1011",
+          "order": 0,
+          "selected_rollout_ids": [
+            25,
+            25
+          ],
+          "stopped_at": 4
+        }
+      ],
+      "agreement_fixed32_recoverable_early_error": [
+        {
+          "sample_id": "test:1228",
+          "order": 9,
+          "selected_rollout_ids": [
+            12,
+            23
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "test:1442",
+          "order": 1,
+          "selected_rollout_ids": [
+            12,
+            8
+          ],
+          "stopped_at": 4
+        }
+      ],
+      "quality_early_success": [
+        {
+          "sample_id": "test:1000",
+          "order": 0,
+          "selected_rollout_ids": [
+            6,
+            6
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "test:1011",
+          "order": 0,
+          "selected_rollout_ids": [
+            25,
+            25
+          ],
+          "stopped_at": 4
+        }
+      ],
+      "quality_fixed32_recoverable_early_error": [
+        {
+          "sample_id": "test:1153",
+          "order": 2,
+          "selected_rollout_ids": [
+            19,
+            8
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "test:1228",
+          "order": 9,
+          "selected_rollout_ids": [
+            12,
+            23
+          ],
+          "stopped_at": 4
+        }
+      ]
+    }
+  },
+  "MathVista": {
+    "comparison": "SC versus Z_RWC",
+    "rule": "First two distinct lexicographic question IDs per category; earliest qualifying saved order. Both success/failure directions; fewer if absent. Additional timeout cases are explicitly separate diagnostics.",
+    "categories": {
+      "SC_wrong_quality_correct": [
+        {
+          "sample_id": "10",
+          "order": 0,
+          "selected_rollout_ids": [
+            20,
+            18
+          ]
+        },
+        {
+          "sample_id": "1000",
+          "order": 0,
+          "selected_rollout_ids": [
+            16,
+            8
+          ]
+        }
+      ],
+      "SC_correct_quality_wrong": [
+        {
+          "sample_id": "14",
+          "order": 0,
+          "selected_rollout_ids": [
+            17,
+            26
+          ]
+        },
+        {
+          "sample_id": "332",
+          "order": 0,
+          "selected_rollout_ids": [
+            26,
+            12
+          ]
+        }
+      ],
+      "no_correct_candidate": [
+        {
+          "sample_id": "1",
+          "order": 0,
+          "selected_rollout_ids": [
+            10
+          ]
+        },
+        {
+          "sample_id": "102",
+          "order": 0,
+          "selected_rollout_ids": [
+            29
+          ]
+        }
+      ],
+      "correct_candidate_SC_missed": [
+        {
+          "sample_id": "10",
+          "order": 0,
+          "selected_rollout_ids": [
+            20
+          ]
+        },
+        {
+          "sample_id": "1000",
+          "order": 0,
+          "selected_rollout_ids": [
+            16
+          ]
+        }
+      ],
+      "agreement_early_success": [
+        {
+          "sample_id": "10",
+          "order": 4,
+          "selected_rollout_ids": [
+            18,
+            23
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "100",
+          "order": 0,
+          "selected_rollout_ids": [
+            30,
+            30
+          ],
+          "stopped_at": 4
+        }
+      ],
+      "agreement_fixed32_recoverable_early_error": [
+        {
+          "sample_id": "113",
+          "order": 9,
+          "selected_rollout_ids": [
+            10,
+            14
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "135",
+          "order": 0,
+          "selected_rollout_ids": [
+            22,
+            7
+          ],
+          "stopped_at": 8
+        }
+      ],
+      "quality_early_success": [
+        {
+          "sample_id": "10",
+          "order": 4,
+          "selected_rollout_ids": [
+            18,
+            23
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "100",
+          "order": 0,
+          "selected_rollout_ids": [
+            30,
+            30
+          ],
+          "stopped_at": 4
+        }
+      ],
+      "quality_fixed32_recoverable_early_error": [
+        {
+          "sample_id": "113",
+          "order": 9,
+          "selected_rollout_ids": [
+            10,
+            14
+          ],
+          "stopped_at": 4
+        },
+        {
+          "sample_id": "135",
+          "order": 0,
+          "selected_rollout_ids": [
+            22,
+            7
+          ],
+          "stopped_at": 8
+        }
+      ]
+    }
+  }
+}

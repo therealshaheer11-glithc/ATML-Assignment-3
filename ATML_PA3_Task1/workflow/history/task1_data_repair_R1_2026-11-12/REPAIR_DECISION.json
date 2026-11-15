@@ -1,0 +1,8 @@
+{
+  "status": "implementation_correction_under_approved_D04",
+  "observed_failure": "Joint BPE tokenization did not preserve prefix IDs at source row 91.",
+  "preserved": "Original sources, source order, supplied questions/answers, all manual filtering/budgets.",
+  "correction": "Encode prompt and response independently, append one end-of-turn ID, and assert exact decoded text for both components and concatenation. All response/EOT tokens remain supervised.",
+  "guard": "Refuse repair if any completed training selection or training shards already exist.",
+  "approval": "Existing user-approved fixes and validation gates; no new experimental decision or source-row exclusion."
+}

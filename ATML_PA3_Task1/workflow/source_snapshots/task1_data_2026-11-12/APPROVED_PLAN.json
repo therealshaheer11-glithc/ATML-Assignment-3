@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "assignment": "ATML PA3 Task 1",
+  "approval_id": "T1-A001",
+  "approval_date": "2026-11-12",
+  "timezone": "Asia/Karachi",
+  "status": "approved_with_validation_gates",
+  "user_authorization": "For all of these, if you think they are a faithful interpretation of the PA and are meaningful decisions and will not dupe the assignment in any way and/or hinder our results, then I approve",
+  "review_result": "D01-D22 are a faithful operational interpretation of the manual, with no material amendment. They preserve prescribed data selection, independent starts, five methods, budgets, precision, seven evaluation conditions, and required evidence. They do not authorize score manipulation, result-based filtering, silent deviations, or incomplete experiments represented as complete. Benchmark gains and sufficient compute are not promised; checks remain prospective.",
+  "scope": "Implement approved workflow; deliver and inspect one Colab block at a time. Publication/submission remain separate.",
+  "source_proposal_sha256": "d13f6172406705a258d7319d20c38ebed78309a997c87ed065e84388fe0bf0a4",
+  "manual_sha256": "ce74ac092dbdb83b44afe75c3f5a22e1ef3f2f2bb6048f8175e21d63e76659c9",
+  "choices": [
+    {
+      "id": "D01",
+      "subject": "Workflow",
+      "decision": "One numbered Colab copy-paste block at a time, explicitly labeled CPU or GPU. The user returns its output before receiving the next block. All preparation/data processing/plotting and local matrix diagnostics use CPU. A GPU job executes continuously to a defined boundary and releases its runtime before waiting for discussion. Use a separate Task 1 notebook and Drive directory, preserving other tasks."
+    },
+    {
+      "id": "D02",
+      "subject": "Sources and reproducibility",
+      "decision": "Use official `meta-math/MetaMathQA`, the original `MetaMathQA-395K.json` array order, original post-trained `Qwen/Qwen3-0.6B` model/tokenizer, and stock tasks from the approved harness release. Resolve each model/dataset revision once during initial CPU preparation, freeze its immutable commit and file hashes, and reuse those snapshots thereafter. This source-freezing procedure itself is the requested approval; routine discovery of the resulting hashes does not require another approval. No additional training-data filtering, deduplication, answer rewriting, or selection by model results."
+    },
+    {
+      "id": "D03",
+      "subject": "Decontamination",
+      "decision": "Apply Unicode NFKC, casefold, collapse Unicode whitespace to one ASCII space, and strip ends. Preserve punctuation, digits, and mathematical operators. Apply the same rule to MetaMath `query` and `original_question` and GSM8K test questions. Reject either-field matches. Save IDs/source positions, match hashes, and all rejection counts. This is normalized exact matching, not a semantic leakage guarantee."
+    },
+    {
+      "id": "D04",
+      "subject": "Formatting",
+      "decision": "No added system message or instructions. Render the native Qwen user-to-assistant non-thinking generation prefix; mask that entire prefix, including its empty thinking block. Append the supplied response verbatim plus exactly one supervised end-of-turn token. No supervised trailing newline. Define the 2,048-token eligibility limit using precisely this full training sequence. Dynamic right-padding, no packing, sorting, shuffling, or truncation. Use the native pad token with explicit masks. Generation uses the corresponding native non-thinking prefix; likelihood benchmarks retain stock completion formatting."
+    },
+    {
+      "id": "D05",
+      "subject": "Training implementation",
+      "decision": "Explicit PyTorch accumulation loop, Transformers loading, and small custom LoRA/OPLoRA modules sharing one implementation. Standard AdamW, `fused=False`, `foreach=False`, FP32 optimizer states, and required weight-decay exclusions. Native scaled-dot-product attention, non-reentrant gradient checkpointing with RNG preservation, no training KV cache, and no external attention build or compilation. Accumulate summed response-token losses divided by the effective batch's total supervised-token count. Check masks, causal label shifting, optimizer parameter groups, gradient scaling, and saved state explicitly. Attribute materially reused code. Do not use PEFT's training defaults; its installation is a harness dependency."
+    },
+    {
+      "id": "D06",
+      "subject": "LR and arithmetic",
+      "decision": "For successful update u=1..1250: LR=peak*u/38 for u<=38; otherwise LR=peak*0.5*(1+cos(pi*(u-38)/(1250-38))). Thus update 38 reaches peak and update 1250 uses zero LR; AdamW state/update accounting still executes. No LR floor. Record actual applied LRs. Disable TF32, enable deterministic operations where supported, record unavoidable nondeterminism, and use consistent settings across runs. Manual-mandated FP16 computation remains unchanged."
+    },
+    {
+      "id": "D07",
+      "subject": "Adapter initialization",
+      "decision": "Kaiming-uniform A with a=sqrt(5), B exactly zero. Save initial rank-16 factors and copy tensor-for-tensor into LoRA-16 and OPLoRA. Verify exact equality before training. Initialize rank 4 separately with the same algorithm/seed convention. Reseed training/dropout RNG to 6304 at a consistent point after model construction in every run. Preserve all RNG states at recovery boundaries."
+    },
+    {
+      "id": "D08",
+      "subject": "L2-SP reference",
+      "decision": "Keep fixed FP32 starting references on GPU if the L4 preflight passes. Sum the half-squared displacement over unique parameters, including normalization/bias parameters, once per effective batch; add lambda*Omega once. Keep the reference untrainable and log reference memory/transfer costs. Do not substitute AdamW decay for L2-SP. If this does not fit, stop and discuss the measured problem rather than silently offloading, quantizing, or weakening the penalty."
+    },
+    {
+      "id": "D09",
+      "subject": "Singular bases",
+      "decision": "Compute full reduced SVD in FP32 on CPU, one starting matrix at a time, then retain/cache only its first 128 left/right singular vectors. No randomized approximation or dense square projectors. Use the same original FP32 reference representation for all diagnostic starting weights and bases. Verify the conversion to the required FP16 frozen backbone and numerical projection residuals. Log CPU preprocessing time and basis storage."
+    },
+    {
+      "id": "D10",
+      "subject": "Evaluation execution",
+      "decision": "Fixed batch sizes: GSM8K 1, qualitative generation 1, candidate likelihood 2. GSM8K chunks of 25 questions; likelihood chunks of 100 questions; qualitative outputs saved individually to a journal. Preserve stable example IDs, per-example outputs, finish reasons/lengths, and exact task configuration. Persist completed chunks to Drive and reload only valid completed results. Resume missing IDs; reject duplicates/incomplete coverage before aggregation. All prescribed complete splits and seven conditions remain mandatory. Retain task stock stops/filters and explicitly set zero-shot. No result-based prompt changes or checkpoint selection."
+    },
+    {
+      "id": "D11",
+      "subject": "Activation probes",
+      "decision": "Use one NumPy default_rng(6304), sample 32 GSM8K test IDs without replacement from canonical source order, then 32 HellaSwag validation IDs without replacement using the same generator. Freeze before viewing model results. Use a separate original-model FP32 diagnostic forward with autocast disabled, capture the specified last prompt-token down_proj inputs in layers 0/13/27, and reuse exactly those cached inputs for all local updates. Local FP32 matrix diagnostics run on CPU. This separate diagnostic forward does not change FP16 benchmark evaluation."
+    },
+    {
+      "id": "D12",
+      "subject": "Diagnostic and statistical summaries",
+      "decision": "Keep original FP32 trained weights/effective factors for diagnostics. Report rho as undefined for zero DeltaW, eta as zero, and R(z) using the manual's denominator epsilon. Report math/non-math median and interquartile range per target layer/condition; preserve all individual values. Use the prescribed benchmark primary metrics and raw accuracy where available; baseline changes are percentage points. No extra training seeds, sweeps, optional methods, or additional benchmark confidence-interval computation. Record limits on causal interpretation."
+    },
+    {
+      "id": "D13",
+      "subject": "Drive and checkpoints",
+      "decision": "Use `/MyDrive/ATML-PA-3/Task1`. Preserve all four mandatory recovery checkpoints for every method, Full FT midpoint/final, and all final states needed for analysis. Add rolling recovery every 50 successful updates; keep the last two verified rolling checkpoints for the currently trained method. Save at orderly job/deadline exits too. After a mandatory checkpoint is verified, obsolete rolling checkpoints generated by this Task 1 workflow may be removed; never delete mandatory evidence or other existing data. Avoid duplicate exports when the preserved recovery state already contains the required tensors.\n\nWrite new checkpoint locations, save sharded states without making full extra host-RAM copies, verify hashes/structure/readability, and mark complete last. Preserve optimizer, scheduler/update index, scaler, RNG, data position, and configuration fingerprints. Check available storage before launch. Planning reservation: approximately 100 GB free durable Drive space and 30 GB free runtime disk, to be replaced by actual size accounting before a job starts. These are conservative planning allowances, not measured requirements. Do not start a job that fails the actual storage check. The latest screenshot shows 12.7 GB host RAM and 107.7 GB runtime disk; runtime disk is not Drive storage."
+    },
+    {
+      "id": "D14",
+      "subject": "GPU release and watchdog",
+      "decision": "Release the assigned Colab runtime after a job reaches its defined boundary and verifies durable outputs. On an exception or interrupt, log the failure and save only coherent completed-update state where possible; request release in final cleanup even if emergency saving fails. A supervisor separate from the training/generation worker also detects worker exit/stalls and requests release. Heartbeat every 30 seconds; no work-progress for 15 minutes during compute or 30 minutes during a marked save triggers termination/release. Idle review/discussion never holds an assigned GPU. Runtime release is best effort and can fail if Colab/backend fails; abrupt machine loss can prevent emergency saving. Prior verified Drive checkpoints are the fallback."
+    },
+    {
+      "id": "D15",
+      "subject": "AMP overflow recovery",
+      "decision": "Use dynamic GradScaler: initial scale 65536, growth factor 2, backoff 0.5, growth interval 2000 successful steps. On gradient overflow, let scaling back off and retry the SAME effective batch, restoring its pre-attempt RNG. Do not advance parameters, successful-update counter, scheduler, or data position on a skipped attempt. Up to 8 retries after the first attempt, then stop/save/release and report. Count/log skipped attempts and their compute separately. Non-finite forward losses, non-overflow errors, or inconsistent state fail immediately rather than being blindly retried. This replaces the earlier proposal to stop on the first routine overflow. No extra successful updates or additional data passes are authorized."
+    },
+    {
+      "id": "D16",
+      "subject": "Qualitative annotation",
+      "decision": "Use the supplied YAML unchanged, all 168 required responses, and the fixed 42-response annotation subset. Prepare a worksheet for the user's human review: format compliance; coherence/relevance; repetition; unnecessary math framing; inappropriate content; truncation. No AI-generated labels represented as human judgments. Use the fixed first/last question comparisons across formats/models as report examples; if more examples are needed, choose the earliest source-order example exhibiting the stated failure category and disclose that rule. Preserve excerpts and original outputs."
+    },
+    {
+      "id": "D17",
+      "subject": "GPU selection and preflight",
+      "decision": "L4 is the first GPU to request. Use a separate scratch preflight with artificial, non-benchmark data, the actual required batch/accumulation, maximum length, model, precision, optimizer, checkpointing, and method structures. Check Full FT, L2-SP, and OPLoRA; run up to two complete scratch optimizer updates for each. Discard scratch weights and restore the original checkpoint/RNG before any official run. Preflight limits: at most 20 minutes or 1 estimated compute unit, whichever comes first. Account for all parameter/basis/reference/optimizer tensors and preserve at least 10% GPU memory headroom under the tested maximum length. If it fails or L4 is unavailable, release and report; A100 or other hardware changes are not automatically approved."
+    },
+    {
+      "id": "D18",
+      "subject": "Software environment",
+      "decision": "Separate Python 3.12 environment for Task 1. Proposed direct pins: PyTorch 2.8.0 with official CUDA 12.6 wheel; Transformers 4.57.1; lm-eval 0.4.9.2; datasets 4.3.0; accelerate 1.11.0; tokenizers 0.22.1; safetensors 0.6.2; huggingface-hub 0.36.0; NumPy 2.2.6; PEFT 0.17.1; evaluate 0.4.6. Resolve compatible indirect dependencies on CPU and freeze exact versions/hashes; record Python patch version and driver. Do not upgrade direct pins silently or disturb Task 2/3 environments. These releases and declared upstream requirements were checked, but this exact combined environment has not yet been installed or tested. Resolver/import/model/task checks must pass before GPU work. A conflict is an exception to report, not permission to silently select different direct versions."
+    },
+    {
+      "id": "D19",
+      "subject": "Numerical acceptance checks",
+      "decision": "Before benchmarks, use fixed artificial fixtures and a fixed, non-benchmark prompt batch:\n\n- FP32 toy token-weighted accumulation, L2-SP gradient, and factor-versus-dense projection/merge checks: rtol=1e-4, atol=1e-5.\n- Basis orthonormality: maximum absolute entry error <=1e-5. FP32 normalized projection leakage on both sides <=1e-5 for nonzero corrections; separately check the effective A factor since initial B=0.\n- FP32 merge-versus-unmerged logits on scratch fixtures: rtol=1e-4, atol=1e-5.\n- Actual FP16 merged-versus-unmerged logits on the fixed prompt batch: max absolute difference <=0.1 and relative RMS difference <=0.005; report maximum/RMS errors and top-token agreement. These are engineering acceptance limits allowing FP16 rounding, not benchmark performance guarantees. Do not relax them after seeing results.\n- Checkpoint serialization must preserve saved tensors/counters/RNG/configuration exactly on reload; CPU scratch continuation check rtol=1e-5, atol=1e-6. Do not promise bitwise GPU continuation across different hardware/software sessions.\n\nFailed checks stop the dependent work. A tolerance or implementation change requires discussion rather than hiding the discrepancy."
+    },
+    {
+      "id": "D20",
+      "subject": "Job boundaries and time limits",
+      "decision": "Run one method per training job. Stop at the next mandatory checkpoint, completion, or a 90-minute soft limit, whichever comes first; at the soft limit save at the next complete optimizer update. Allow up to 20 minutes for completion/save/release, then supervisor requests termination at 110 minutes from job start. A benchmark job stops after its next completed saved chunk at the soft limit. Shorter credit limits override these deadlines. Normal checkpoint saves within a running job do not release the runtime. End of job, error, watchdog expiry, or credit cutoff does. Resume preserves the entire training budget rather than treating an interrupted job as a finished experiment."
+    },
+    {
+      "id": "D21",
+      "subject": "Compute allowance",
+      "decision": "User screenshot confirms 78.26 compute units and no active subscription. Proposed Task 1 allowance: at most 55 compute units, leaving 23.26 of the displayed balance aside. This is a spending limit, not a forecast that all experiments will fit. Include the 1-unit preflight in the 55, not in addition. Before each GPU session record its displayed units/hour and remaining balance; use elapsed allocation time and a 10% rate margin to conservatively bound the job. Include any Task 1 CPU charges in the ledger and reconcile with the displayed balance. Do not launch a job without a rate/balance or enough remaining allowance for its maximum duration. Save/release when reaching the allowance; do not skip experiments or alter the recipe to make results appear complete. Further compute requires a new decision only if this approved allowance is exhausted or insufficient."
+    },
+    {
+      "id": "D22",
+      "subject": "Order, logs, missing files, and scope",
+      "decision": "Order: CPU setup/data/source freeze/bases/checks; scratch L4 preflight; baseline metrics/qualitative outputs/FP32 probe capture; Full FT with required midpoint and final evaluation; L2-SP; LoRA-4; LoRA-16; OPLoRA, with each final evaluation and qualitative job. Methods remain independently initialized. Save per-update SFT/LR/penalty/scaler/skips/gradient norm/supervised-token counts; GPU model, time, peak allocated/reserved memory, trainable counts, checkpoint sizes, and preprocessing/export/reference overhead. Separate loading, training, saving, evaluation, and total allocation time.\n\nThe missing `first_plot_questions.yaml` must be supplied or located and validated as the specified 24-prompt resource; do not replace it with newly written prompts. Independent CPU preparation may proceed after approval, but do not run official model-result evaluation until the supplied qualitative prompts and fixed probe IDs are ready. Later repository packaging/report preparation is within scope; publishing to GitHub and LMS submission remain separate user actions/approvals."
+    }
+  ]
+}

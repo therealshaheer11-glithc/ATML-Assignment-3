@@ -1,0 +1,21 @@
+{
+  "status": "TASK1_FULL_MID_PARTIAL_SAVED",
+  "run_id": "task1_full_mid_eval_97a06c7def994cfaa08e45de1f91e23d",
+  "official_training_updates": 0,
+  "benchmark_completed": {
+    "gsm8k_cot": 1100,
+    "hellaswag": 10042,
+    "boolq": 3270,
+    "arc_easy": 2376
+  },
+  "qualitative_completed": 24,
+  "FP32_probe_files_reused": 64,
+  "stop_reason": "Saved-work boundary reached before native batched greedy generation",
+  "resume": "Use the exact same V2 package; saved physical groups and scored examples are reused.",
+  "elapsed_worker_seconds": 4941.045311758,
+  "GPU_memory": {
+    "peak_allocated_bytes": 2769385472,
+    "peak_reserved_bytes": 5381292032,
+    "total_gpu_bytes": 23659151360
+  }
+}
